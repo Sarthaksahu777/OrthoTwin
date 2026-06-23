@@ -1,0 +1,76 @@
+ORTHOTWIN PHASE 7 FORENSIC VALIDATION REPORT
+
+Audit scope: existing Phase 7 outputs only. No new simulation was generated.
+No diagnosis. No treatment recommendation. No clinical claim.
+
+1. Which anatomical structures changed?
+- implant: disc_6_206_207, implant_disc_6_206_207, vertebra_6, vertebra_7
+- fusion: disc_5_205, fusion_vertebra_5_vertebra_6, vertebra_5, vertebra_6
+- spacer: disc_5_205, spacer_disc_5_205, vertebra_5, vertebra_6
+- alignment_correction: alignment_correction_vertebra_6, vertebra_6
+
+2. Which measurements were recomputed?
+Rebuilt outputs recompute disc heights, relative spacing, alignment, slippage, curvature, and load distribution. The clinical_state container is regenerated, but several sections inside it are copied/unchanged.
+- implant: spacing=6, alignment=6, slippage=7, load=14, curvature_method=geometry_rebuild_centroid_angle_change
+- fusion: spacing=6, alignment=6, slippage=7, load=14, curvature_method=geometry_rebuild_centroid_angle_change
+- spacer: spacing=6, alignment=6, slippage=7, load=14, curvature_method=geometry_rebuild_centroid_angle_change
+- alignment_correction: spacing=6, alignment=6, slippage=7, load=14, curvature_method=geometry_rebuild_centroid_angle_change
+
+3. Which values changed because geometry changed?
+- implant:
+  * {'structure': 'disc_6_206_207', 'field': 'height', 'before': 10.998313555776669, 'after': 13.197976266932002, 'source': 'geometry_modification'}
+  * {'structure': 'vertebra_6', 'field': 'centroid', 'before': [157.58698952482163, 29.58903901624412, 8.757932290875967], 'after': [157.3608134064272, 30.665252309266037, 8.773369975376927], 'source': 'geometry_modification'}
+  * {'structure': 'vertebra_7', 'field': 'centroid', 'before': [162.2248881659211, 7.520536803578691, 8.441371831367764], 'after': [162.45106428431552, 6.44432351055677, 8.425934146866805], 'source': 'geometry_modification'}
+  * {'structure': 'disc_6_206_207', 'field': 'centroid', 'before': None, 'after': [159.90593884537137, 18.554787909911404, 8.599652061121866], 'source': 'geometry_modification'}
+  * {'structure': 'disc_6_206_207', 'field': 'clinical_state.disc_heights', 'changes': {'mean_height': {'before': 10.998313555776669, 'after': 13.197976266932002, 'delta': 2.1996627111553337}, 'maximum_height': {'before': 14.85612584289715, 'after': 17.82735101147658, 'delta': 2.97122516857943}, 'minimum_height': {'before': 5.3387597976003, 'after': 6.40651175712036, 'delta': 1.0677519595200602}, 'anterior_height': {'before': 5.3387597976003, 'after': 6.40651175712036, 'delta': 1.0677519595200602}, 'posterior_height': {'before': 6.56329804942068, 'after': 7.875957659304815, 'delta': 1.3126596098841352}, 'left_height': {'before': 13.590733886058043, 'after': 16.30888066326965, 'delta': 2.718146777211608}, 'right_height': {'before': 14.642650202907172, 'after': 17.571180243488605, 'delta': 2.9285300405814336}}, 'source': 'rebuilt_from_modified_disc_geometry'}
+- fusion:
+- spacer:
+  * {'structure': 'disc_5_205', 'field': 'height', 'before': 10.00307835054343, 'after': 11.503540103124942, 'source': 'geometry_modification'}
+  * {'structure': 'vertebra_5', 'field': 'centroid', 'before': [153.86433004746257, 55.52208835341366, 8.410806863818912], 'after': [153.75773735672328, 56.26464176844816, 8.400867455307585], 'source': 'geometry_modification'}
+  * {'structure': 'vertebra_6', 'field': 'centroid', 'before': [157.58698952482163, 29.58903901624412, 8.757932290875967], 'after': [157.69358221556092, 28.84648560120962, 8.767871699387294], 'source': 'geometry_modification'}
+  * {'structure': 'disc_5_205', 'field': 'centroid', 'before': None, 'after': [155.7256597861421, 42.55556368482889, 8.58436957734744], 'source': 'geometry_modification'}
+  * {'structure': 'disc_5_205', 'field': 'clinical_state.disc_heights', 'changes': {'mean_height': {'before': 10.00307835054343, 'after': 11.503540103124942, 'delta': 1.5004617525815132}, 'maximum_height': {'before': 10.752192753395526, 'after': 12.365021666404854, 'delta': 1.6128289130093272}, 'minimum_height': {'before': 8.6813597125468, 'after': 9.98356366942882, 'delta': 1.3022039568820194}, 'anterior_height': {'before': 10.365591417763795, 'after': 11.920430130428363, 'delta': 1.5548387126645675}, 'posterior_height': {'before': 9.464055115615501, 'after': 10.883663382957826, 'delta': 1.4196082673423245}, 'left_height': {'before': 10.752192753395526, 'after': 12.365021666404854, 'delta': 1.6128289130093272}, 'right_height': {'before': 8.6813597125468, 'after': 9.98356366942882, 'delta': 1.3022039568820194}}, 'source': 'rebuilt_from_modified_disc_geometry'}
+- alignment_correction:
+  * {'structure': 'vertebra_6', 'field': 'centroid', 'before': [157.58698952482163, 29.58903901624412, 8.757932290875967], 'after': [156.08698952482163, 30.33903901624412, 8.757932290875967], 'source': 'geometry_modification'}
+
+4. Which values changed because deterministic rules changed them?
+Alignment, slippage, curvature, and load distribution are deterministic proxy rebuilds. Fusion load changes also come from a fused_with multiplier, not altered anatomy geometry.
+- implant: relationship_changes; alignment; slippage; curvature; load_distribution
+- fusion: relationship_changes; alignment; slippage; curvature; load_distribution
+- spacer: relationship_changes; alignment; slippage; curvature; load_distribution
+- alignment_correction: alignment; slippage; curvature; load_distribution
+
+5. Is the surgery engine truly geometry-first?
+Partially. Implant, spacer, and alignment correction start with geometry changes. Fusion is relationship/constraint-first. Rebuilt metrics are generated after anatomy edits, but several major changes are caused by deterministic rebuild formulas and method changes rather than real anatomical geometry alone.
+Implant, spacer, and alignment correction are geometry-first in the limited object/centroid model. Fusion is not fully geometry-first because it records no geometry_changes; it adds a fusion object, constraints, and a graph edge.
+
+6. Which outputs are directly derived from geometry?
+Directly geometry-derived: geometry_changes, changed centroids, changed disc height, relative_spacing, rebuilt slippage from centroid projection, rebuilt curvature from centroid angles, rebuilt alignment from centroid vectors. Visual before/after plots are also centroid-derived.
+
+7. Which outputs remain estimated?
+Estimated/proxy: load_distribution, stress_score, risk_score, surgical comparison scores/deltas, canal/foraminal consequences, implant/spacer material behavior, fusion load transfer, curvature clinical meaning, and any physical mm interpretation.
+
+8. Are any measurements simply copied from previous states?
+Yes. Disc areas, canal areas, foraminal areas, degeneration features, many non-target disc height records, original mesh/PCA fields, and canal proxies are copied or mostly unchanged. Some records are marked recomputed even when their numeric values did not change.
+- implant: copied/unchanged sections: ['disc_areas', 'canal_areas', 'foraminal_areas', 'degeneration_features', {'unchanged_disc_height_records': ['disc_1_201', 'disc_2_202', 'disc_3_203', 'disc_4_204', 'disc_5_205']}]
+- fusion: copied/unchanged sections: ['disc_areas', 'canal_areas', 'foraminal_areas', 'degeneration_features', {'unchanged_disc_height_records': ['disc_1_201', 'disc_2_202', 'disc_3_203', 'disc_4_204', 'disc_5_205', 'disc_6_206_207']}]
+- spacer: copied/unchanged sections: ['disc_areas', 'canal_areas', 'foraminal_areas', 'degeneration_features', {'unchanged_disc_height_records': ['disc_1_201', 'disc_2_202', 'disc_3_203', 'disc_4_204', 'disc_6_206_207']}]
+- alignment_correction: copied/unchanged sections: ['disc_areas', 'canal_areas', 'foraminal_areas', 'degeneration_features', {'unchanged_disc_height_records': ['disc_1_201', 'disc_2_202', 'disc_3_203', 'disc_4_204', 'disc_5_205', 'disc_6_206_207']}]
+
+9. Which surgery produces the largest structural effect?
+By changed structure count: implant. By geometry magnitude proxy: implant.
+
+10. Which surgery produces the smallest effect?
+By changed structure count: alignment_correction. By geometry magnitude proxy: fusion.
+
+Explicit metric-vs-geometry findings:
+- implant: partial_geometry_first; flags: ['No direct score edit found in output; downstream scores are rule-rebuilt, not manually edited in result JSON.']
+- fusion: relationship_first_not_geometry_first; flags: ['No anatomy centroid/disc geometry changed; operation created fusion object, constraints, and graph relationship only.']
+- spacer: partial_geometry_first; flags: ['No direct score edit found in output; downstream scores are rule-rebuilt, not manually edited in result JSON.']
+- alignment_correction: partial_geometry_first; flags: ['No direct score edit found in output; downstream scores are rule-rebuilt, not manually edited in result JSON.']
+
+Brutal honesty:
+- The Phase 7 architecture is a real improvement over Phase 5/6 because anatomy objects and centroids are modified before downstream metrics are rebuilt.
+- It is still not a true anatomical/biomechanical surgery simulator: no mesh deformation, no real implant geometry, no finite element model, no tissue mechanics, no calibrated physical spacing, and no clinical validation.
+- The largest reported curvature/alignment differences are partly artifacts of changing measurement methodology during rebuild, not necessarily consequences of surgery.
+- Fusion is the weakest geometry-first case because it does not move anatomy or alter disc geometry; it mainly changes constraints and graph relationships.

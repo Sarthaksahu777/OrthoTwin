@@ -1,0 +1,27 @@
+{
+  "generated_utc": "2026-06-21T09:24:02.954627+00:00",
+  "what_is_mesh_based": [
+    "disc expansion/compression scales reconstructed vertices",
+    "adjacent vertebra meshes are translated",
+    "centroids/PCA/bounding boxes/heights are rebuilt from transformed vertices"
+  ],
+  "what_remains_centroid_based": [
+    "relative spacing",
+    "curvature",
+    "alignment summaries"
+  ],
+  "what_remains_rule_based": [
+    "choice of 20% implant/collapse and 15% spacer transforms",
+    "fusion lock relationship"
+  ],
+  "what_remains_estimated": [
+    "volume estimate from bounding boxes",
+    "surface/height proxy interpretation",
+    "clinical meaning of changes"
+  ],
+  "blocked": [
+    "physical calibration",
+    "FEM biomechanics",
+    "clinical validation"
+  ]
+}

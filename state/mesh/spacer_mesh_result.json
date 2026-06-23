@@ -1,0 +1,63 @@
+{
+  "scenario_id": "spacer_mesh_v3",
+  "operation": "spacer",
+  "mesh_operations": [
+    {
+      "structure_name": "Disc 5 (205)",
+      "operation": "expand_disc_height",
+      "parameters": {
+        "percent": 15.0,
+        "scale_factor": 1.15,
+        "axis": [
+          -0.10053294484944582,
+          0.9932398750833912,
+          -0.05803169430774645
+        ]
+      },
+      "vertices_moved": 1779,
+      "average_displacement": 0.4144939068804947,
+      "max_displacement": 0.818717808429205
+    },
+    {
+      "structure_name": "Vertebra 5",
+      "operation": "translate_mesh",
+      "parameters": {
+        "translation": [
+          0.08107122008157917,
+          -0.8009629940441328,
+          0.04679759722522613
+        ]
+      },
+      "vertices_moved": 7789,
+      "average_displacement": 0.8064144565046637,
+      "max_displacement": 0.8064144565046656
+    },
+    {
+      "structure_name": "Vertebra 6",
+      "operation": "translate_mesh",
+      "parameters": {
+        "translation": [
+          -0.08107122008157917,
+          0.8009629940441328,
+          -0.04679759722522613
+        ]
+      },
+      "vertices_moved": 7838,
+      "average_displacement": 0.8064144565046653,
+      "max_displacement": 0.8064144565046727
+    }
+  ],
+  "created_objects": [
+    {
+      "id": "spacer_mesh_disc_5_205",
+      "type": "spacer_proxy",
+      "geometry_changed": true
+    }
+  ],
+  "geometry_changed": true,
+  "relationship_changed": false,
+  "constraint_changed": false,
+  "not_medical_advice": true,
+  "biomechanics_claim": "none",
+  "clinical_validity_claim": "none"
+}

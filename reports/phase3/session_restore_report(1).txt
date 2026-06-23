@@ -1,0 +1,36 @@
+OrthoTwin Session Restore Report - 2026-06-19 13:43:06
+============================================================
+
+--- Loaded Files ---
+✓ reconstructed_structures: /content/drive/MyDrive/OrthoTwin_Showcase/reconstructed_structures.pkl
+✓ patient_alpha_measurements: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_measurements.json
+✓ patient_alpha_clean_measurements: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_clean_measurements.json
+✓ patient_alpha_mesh_statistics: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_mesh_statistics.json
+✓ patient_alpha_component_analysis: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_component_analysis.json
+✓ patient_alpha_disc_ranking: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_disc_ranking.json
+✓ patient_alpha_findings: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_findings.json
+✓ patient_alpha_clean_prediction: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_clean_prediction.npy
+✓ final_model_checkpoint: /content/drive/MyDrive/FINAL_SEGRESNET_WEIGHTED.pth
+✓ ram_backup_manifest: /content/drive/MyDrive/OrthoTwin_Final_Archive/ram_backup_manifest.json
+
+--- Missing Files (Expected) ---
+None
+
+--- Variable Summary (in RAM) ---
+✓ reconstructed_structures: Type=<class 'list'>, Length: 14
+✓ best_mask_pred_cleaned: Type=<class 'torch.Tensor'>, Shape: torch.Size([16, 256, 256])
+✓ patient_alpha_measurements: Type=<class 'list'>, Length: 14
+✓ patient_alpha_clean_measurements: Type=<class 'list'>, Length: 14
+✓ patient_alpha_mesh_statistics: Type=<class 'dict'>, Length: 4
+✓ patient_alpha_component_analysis: Type=<class 'list'>, Length: 14
+✓ patient_alpha_disc_ranking: Type=<class 'list'>, Length: 6
+✓ patient_alpha_findings: Type=<class 'list'>, Length: 6
+
+--- Current Project Status ---
+Status: READY FOR LABEL VERIFICATION AND MEASUREMENT VALIDATION.
+
+--- Conclusion ---
+This report summarizes the state of the Colab environment after attempting to restore project artifacts.
+Please review the loaded files and variable summaries to ensure all necessary data is present.
+
+============================================================

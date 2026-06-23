@@ -1,0 +1,214 @@
+{
+  "generated_utc": "2026-06-21T11:44:07.089461+00:00",
+  "scope": "Existing Phase 7 and Phase 8 visualization audit only.",
+  "available_meshes": [
+    {
+      "id": "vertebra_1",
+      "name": "Vertebra 1",
+      "type": "vertebra",
+      "vertex_count": 7693,
+      "face_count": 14976
+    },
+    {
+      "id": "vertebra_2",
+      "name": "Vertebra 2",
+      "type": "vertebra",
+      "vertex_count": 7897,
+      "face_count": 15372
+    },
+    {
+      "id": "vertebra_3",
+      "name": "Vertebra 3",
+      "type": "vertebra",
+      "vertex_count": 8046,
+      "face_count": 15710
+    },
+    {
+      "id": "vertebra_4",
+      "name": "Vertebra 4",
+      "type": "vertebra",
+      "vertex_count": 7967,
+      "face_count": 15712
+    },
+    {
+      "id": "vertebra_5",
+      "name": "Vertebra 5",
+      "type": "vertebra",
+      "vertex_count": 7789,
+      "face_count": 15416
+    },
+    {
+      "id": "vertebra_6",
+      "name": "Vertebra 6",
+      "type": "vertebra",
+      "vertex_count": 7838,
+      "face_count": 15412
+    },
+    {
+      "id": "vertebra_7",
+      "name": "Vertebra 7",
+      "type": "vertebra",
+      "vertex_count": 4595,
+      "face_count": 8886
+    },
+    {
+      "id": "vertebra_8_100",
+      "name": "Vertebra 8 (100)",
+      "type": "vertebra",
+      "vertex_count": 10743,
+      "face_count": 21458
+    },
+    {
+      "id": "disc_1_201",
+      "name": "Disc 1 (201)",
+      "type": "disc",
+      "vertex_count": 2333,
+      "face_count": 4562
+    },
+    {
+      "id": "disc_2_202",
+      "name": "Disc 2 (202)",
+      "type": "disc",
+      "vertex_count": 2167,
+      "face_count": 4168
+    },
+    {
+      "id": "disc_3_203",
+      "name": "Disc 3 (203)",
+      "type": "disc",
+      "vertex_count": 1842,
+      "face_count": 3528
+    },
+    {
+      "id": "disc_4_204",
+      "name": "Disc 4 (204)",
+      "type": "disc",
+      "vertex_count": 1956,
+      "face_count": 3774
+    },
+    {
+      "id": "disc_5_205",
+      "name": "Disc 5 (205)",
+      "type": "disc",
+      "vertex_count": 1779,
+      "face_count": 3470
+    },
+    {
+      "id": "disc_6_206_207",
+      "name": "Disc 6 (206/207)",
+      "type": "disc",
+      "vertex_count": 2667,
+      "face_count": 5192
+    }
+  ],
+  "available_surgery_states": [
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\alignment_geometry_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\fusion_geometry_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\implant_geometry_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_alignment_correction.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_fusion.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_implant.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_spacer.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\spacer_geometry_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\surgical_object_schema.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\surgical_objects.json"
+  ],
+  "available_mesh_outputs": [
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\collapse_mesh_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\fusion_mesh_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\implant_mesh_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_inventory.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state_collapse.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state_fusion.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state_implant.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state_spacer.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_state_vector.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\spacer_mesh_result.json"
+  ],
+  "available_reports": [
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\geometry_vs_rule_based_breakdown.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\phase7_forensic_validation_report.txt",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\phase7_geometry_aware_surgery_report.txt",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\phase7_limitations.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\phase7_validation_report.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\surgical_comparison_matrix.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\surgical_dashboard.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase8\\mesh_impact_analysis.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase8\\orthotwin_final_prototype_report.txt",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase8\\phase8_limitations.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase8\\phase8_validation_report.json"
+  ],
+  "available_state_outputs": [
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_collapse_10.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_collapse_20.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_collapse_30.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_restore_10.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_restore_20.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_restore_30.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_fusion_l4_l5.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_fusion_l5_s1.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_implant_disc_5.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_implant_disc_6.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\graphs\\disc_relationships.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\graphs\\spine_centerline.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\graphs\\spine_graph.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\future_state_0_months.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\future_state_10_years.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\future_state_1_year.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\future_state_2_years.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\future_state_5_years.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\future_state_6_months.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\natural_progression_rules.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\time_model.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\master_digital_twin_state.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\collapse_mesh_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\fusion_mesh_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\implant_mesh_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_inventory.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state_collapse.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state_fusion.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state_implant.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state_spacer.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_state_vector.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\spacer_mesh_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\clinical_state_vector.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\patient_state_after_intervention.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\patient_state_vector.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\patient_state_vector_v2.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\baseline_scenario.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\disc_collapse_10.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\disc_collapse_20.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\disc_collapse_30.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\disc_restoration_10.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\disc_restoration_20.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\disc_restoration_30.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\fusion_l4_l5.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\fusion_l5_s1.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\implant_disc_5.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\implant_disc_6.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\scenario_schema.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\alignment_geometry_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\fusion_geometry_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\implant_geometry_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_alignment_correction.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_fusion.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_implant.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_spacer.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\spacer_geometry_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\surgical_object_schema.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\surgical_objects.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\transitions\\cascade_analysis.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\transitions\\disc_collapse_simulation.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\transitions\\disc_restoration_simulation.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\transitions\\fusion_simulation.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\transitions\\implant_simulation.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\transitions\\whole_spine_delta_report.json"
+  ],
+  "available_comparisons": [
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\surgical_comparison_matrix.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\geometry_vs_rule_based_breakdown.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase8\\mesh_impact_analysis.json"
+  ]
+}

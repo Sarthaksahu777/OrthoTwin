@@ -1,0 +1,68 @@
+{
+  "generated_utc": "2026-06-21T05:29:22.765111+00:00",
+  "metrics": [
+    {
+      "metric": "disc_heights",
+      "source_file": "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\clinical_state_vector.json",
+      "input_data": "clinical_state_vector.json",
+      "calculation_path": "clinical_state_vector.disc_heights + progression height factor",
+      "output_file": "future_state_*"
+    },
+    {
+      "metric": "disc_areas",
+      "source_file": "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\clinical_state_vector.json",
+      "input_data": "clinical_state_vector.json",
+      "calculation_path": "clinical_state_vector.disc_areas + progression area factor",
+      "output_file": "future_state_*"
+    },
+    {
+      "metric": "foraminal_areas",
+      "source_file": "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\clinical_state_vector.json",
+      "input_data": "clinical_state_vector.json",
+      "calculation_path": "clinical_state_vector.foraminal_areas + disc-height coupling",
+      "output_file": "future_state_*"
+    },
+    {
+      "metric": "canal_areas",
+      "source_file": "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\clinical_state_vector.json",
+      "input_data": "clinical_state_vector.json",
+      "calculation_path": "clinical_state_vector.canal_areas + configurable area factor",
+      "output_file": "future_state_*"
+    },
+    {
+      "metric": "alignment",
+      "source_file": "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\clinical_state_vector.json",
+      "input_data": "clinical_state_vector.json",
+      "calculation_path": "clinical_state_vector.alignment + yearly angle offset",
+      "output_file": "future_state_*"
+    },
+    {
+      "metric": "curvature",
+      "source_file": "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\clinical_state_vector.json",
+      "input_data": "clinical_state_vector.json",
+      "calculation_path": "clinical_state_vector.curvature + yearly curvature factor",
+      "output_file": "future_state_*"
+    },
+    {
+      "metric": "load_distribution",
+      "source_file": "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\patient_state_vector_v2.json",
+      "input_data": "patient_state_vector_v2.json",
+      "calculation_path": "patient_state_vector_v2.load_metrics + height-loss load rule",
+      "output_file": "future_state_*"
+    },
+    {
+      "metric": "scenario_rankings",
+      "source_file": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase5\\scenario_ranking.json",
+      "input_data": "scenario_ranking.json",
+      "calculation_path": "Phase 5 comparator scoring",
+      "output_file": "master_dashboard.json"
+    },
+    {
+      "metric": "confidence_scores",
+      "source_file": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase6\\confidence_scoring.json",
+      "input_data": "confidence_scoring.json",
+      "calculation_path": "manual evidence-aware scoring",
+      "output_file": "master_digital_twin_state.json"
+    }
+  ]
+}

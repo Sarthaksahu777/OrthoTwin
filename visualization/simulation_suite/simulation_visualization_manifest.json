@@ -1,0 +1,29 @@
+{
+  "generated_utc": "2026-06-21T11:44:07.089461+00:00",
+  "visualization_count": 15,
+  "visualizations": [
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\patient_alpha_showcase.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\implant_before_after.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\implant_difference_heatmap.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\spacer_before_after.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\spacer_difference_heatmap.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\fusion_before_after.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\fusion_relationship_visualization.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\alignment_before_after.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\alignment_centerline_comparison.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\mesh_displacement_heatmap_implant.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\mesh_displacement_heatmap_spacer.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\mesh_displacement_heatmap_alignment.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\state_change_dashboard.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\surgery_comparison_dashboard.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\digital_twin_story.png"
+  ],
+  "all_visualizations_exist": true,
+  "gallery": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery",
+  "gallery_index": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery\\showcase_index.md",
+  "inventory": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\visualization_inventory.json",
+  "source_scope": "Existing Phase 7 and Phase 8 visualization audit only.",
+  "no_new_science": true,
+  "no_new_measurements": true,
+  "no_new_simulations": true
+}

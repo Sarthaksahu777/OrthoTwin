@@ -1,0 +1,315 @@
+{
+  "generated_utc": "2026-06-21T05:19:07.721521+00:00",
+  "patient_id": "patient_alpha",
+  "not_medical_advice": true,
+  "current_state": {
+    "patient_id": "patient_alpha",
+    "disc_count": 6,
+    "vertebra_count": 8,
+    "mean_disc_height": 15.666666666666666,
+    "mean_relative_load_index": 1.0667562602767204,
+    "mean_stress_score": 0.14488800943833197,
+    "mean_disc_angle_degrees": 99.53563505162094,
+    "centerline_length": 166.83652375411722,
+    "intervention_history_count": 0
+  },
+  "available_scenarios": [
+    {
+      "id": "disc_collapse_10",
+      "name": "Disc collapse 10% (disc_6_206_207)",
+      "intervention": "disc_collapse",
+      "parameters": {
+        "collapse_percent": 10
+      },
+      "affected_structure_count": 5
+    },
+    {
+      "id": "disc_collapse_20",
+      "name": "Disc collapse 20% (disc_6_206_207)",
+      "intervention": "disc_collapse",
+      "parameters": {
+        "collapse_percent": 20
+      },
+      "affected_structure_count": 5
+    },
+    {
+      "id": "disc_collapse_30",
+      "name": "Disc collapse 30% (disc_6_206_207)",
+      "intervention": "disc_collapse",
+      "parameters": {
+        "collapse_percent": 30
+      },
+      "affected_structure_count": 5
+    },
+    {
+      "id": "disc_restoration_10",
+      "name": "Disc restoration 10% (disc_6_206_207)",
+      "intervention": "disc_restoration",
+      "parameters": {
+        "restoration_percent": 10
+      },
+      "affected_structure_count": 5
+    },
+    {
+      "id": "disc_restoration_20",
+      "name": "Disc restoration 20% (disc_6_206_207)",
+      "intervention": "disc_restoration",
+      "parameters": {
+        "restoration_percent": 20
+      },
+      "affected_structure_count": 5
+    },
+    {
+      "id": "disc_restoration_30",
+      "name": "Disc restoration 30% (disc_6_206_207)",
+      "intervention": "disc_restoration",
+      "parameters": {
+        "restoration_percent": 30
+      },
+      "affected_structure_count": 5
+    },
+    {
+      "id": "fusion_l4_l5",
+      "name": "Fusion L4-L5 internal graph mapping",
+      "intervention": "fusion",
+      "parameters": {
+        "vertebra_a": "vertebra_4",
+        "vertebra_b": "vertebra_5",
+        "internal_mapping": {
+          "L4": "vertebra_4",
+          "L5": "vertebra_5"
+        }
+      },
+      "affected_structure_count": 10
+    },
+    {
+      "id": "fusion_l5_s1",
+      "name": "Fusion L5-S1 internal graph mapping",
+      "intervention": "fusion",
+      "parameters": {
+        "vertebra_a": "vertebra_5",
+        "vertebra_b": "vertebra_6",
+        "internal_mapping": {
+          "L5": "vertebra_5",
+          "S1_proxy": "vertebra_6"
+        }
+      },
+      "affected_structure_count": 8
+    },
+    {
+      "id": "implant_disc_6",
+      "name": "Implant insertion at Disc 6",
+      "intervention": "implant_insertion",
+      "parameters": {
+        "implant_height": 18.0,
+        "height_rule": "current_height_x_1.20"
+      },
+      "affected_structure_count": 5
+    },
+    {
+      "id": "implant_disc_5",
+      "name": "Implant insertion at Disc 5",
+      "intervention": "implant_insertion",
+      "parameters": {
+        "implant_height": 18.0,
+        "height_rule": "current_height_x_1.20"
+      },
+      "affected_structure_count": 7
+    }
+  ],
+  "scenario_rankings": [
+    {
+      "scenario_id": "disc_restoration_30",
+      "rank_basis": {
+        "alignment_improvement": 1.0,
+        "height_restoration": 1.0,
+        "minimal_propagation_damage": 0.5177607375482318,
+        "structural_stability": 1.0
+      },
+      "total_score": 0.879440184387058,
+      "not_medical_advice": true,
+      "clinical_validity_claim": "none",
+      "rank": 1
+    },
+    {
+      "scenario_id": "disc_restoration_20",
+      "rank_basis": {
+        "alignment_improvement": 0.871794871794872,
+        "height_restoration": 0.8333333333333334,
+        "minimal_propagation_damage": 0.7588803687741161,
+        "structural_stability": 1.0
+      },
+      "total_score": 0.8512585537319907,
+      "not_medical_advice": true,
+      "clinical_validity_claim": "none",
+      "rank": 2
+    },
+    {
+      "scenario_id": "disc_restoration_10",
+      "rank_basis": {
+        "alignment_improvement": 0.743589743589744,
+        "height_restoration": 0.6666666666666666,
+        "minimal_propagation_damage": 1.0,
+        "structural_stability": 1.0
+      },
+      "total_score": 0.8230769230769232,
+      "not_medical_advice": true,
+      "clinical_validity_claim": "none",
+      "rank": 3
+    },
+    {
+      "scenario_id": "implant_disc_6",
+      "rank_basis": {
+        "alignment_improvement": 1.0,
+        "height_restoration": 0.8333333333333334,
+        "minimal_propagation_damage": 0.42937806509714993,
+        "structural_stability": 1.0
+      },
+      "total_score": 0.8073445162742875,
+      "not_medical_advice": true,
+      "clinical_validity_claim": "none",
+      "rank": 4
+    },
+    {
+      "scenario_id": "implant_disc_5",
+      "rank_basis": {
+        "alignment_improvement": 1.0,
+        "height_restoration": 0.8333333333333334,
+        "minimal_propagation_damage": 0.33430923302801885,
+        "structural_stability": 0.6
+      },
+      "total_score": 0.7235773082570047,
+      "not_medical_advice": true,
+      "clinical_validity_claim": "none",
+      "rank": 5
+    },
+    {
+      "scenario_id": "disc_collapse_10",
+      "rank_basis": {
+        "alignment_improvement": 0.41025641025641185,
+        "height_restoration": 0.3333333333333333,
+        "minimal_propagation_damage": 0.8817385517557625,
+        "structural_stability": 1.0
+      },
+      "total_score": 0.5935115610158642,
+      "not_medical_advice": true,
+      "clinical_validity_claim": "none",
+      "rank": 6
+    },
+    {
+      "scenario_id": "fusion_l5_s1",
+      "rank_basis": {
+        "alignment_improvement": 0.615384615384616,
+        "height_restoration": 0.5,
+        "minimal_propagation_damage": 0.009768678716552404,
+        "structural_stability": 0.4
+      },
+      "total_score": 0.3970575542945229,
+      "not_medical_advice": true,
+      "clinical_validity_claim": "none",
+      "rank": 7
+    },
+    {
+      "scenario_id": "disc_collapse_20",
+      "rank_basis": {
+        "alignment_improvement": 0.20512820512820776,
+        "height_restoration": 0.16666666666666666,
+        "minimal_propagation_damage": 0.5223574722856403,
+        "structural_stability": 1.0
+      },
+      "total_score": 0.39212782960987236,
+      "not_medical_advice": true,
+      "clinical_validity_claim": "none",
+      "rank": 8
+    },
+    {
+      "scenario_id": "fusion_l4_l5",
+      "rank_basis": {
+        "alignment_improvement": 0.615384615384616,
+        "height_restoration": 0.5,
+        "minimal_propagation_damage": 0.0,
+        "structural_stability": 0.0
+      },
+      "total_score": 0.33461538461538476,
+      "not_medical_advice": true,
+      "clinical_validity_claim": "none",
+      "rank": 9
+    },
+    {
+      "scenario_id": "disc_collapse_30",
+      "rank_basis": {
+        "alignment_improvement": 0.0,
+        "height_restoration": 0.0,
+        "minimal_propagation_damage": 0.162976392815519,
+        "structural_stability": 1.0
+      },
+      "total_score": 0.19074409820387975,
+      "not_medical_advice": true,
+      "clinical_validity_claim": "none",
+      "rank": 10
+    }
+  ],
+  "key_metrics": {
+    "scenario_count": 10,
+    "most_sensitive_structures": [
+      [
+        "disc_5_205",
+        10
+      ],
+      [
+        "disc_6_206_207",
+        10
+      ],
+      [
+        "vertebra_5",
+        10
+      ],
+      [
+        "vertebra_6",
+        10
+      ],
+      [
+        "vertebra_7",
+        9
+      ],
+      [
+        "disc_4_204",
+        3
+      ],
+      [
+        "vertebra_4",
+        3
+      ],
+      [
+        "disc_3_203",
+        2
+      ],
+      [
+        "disc_2_202",
+        1
+      ],
+      [
+        "vertebra_3",
+        1
+      ],
+      [
+        "vertebra_8_100",
+        1
+      ]
+    ],
+    "largest_propagation": "fusion_l4_l5",
+    "smallest_propagation": "disc_restoration_10"
+  },
+  "future_states": [
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_collapse_10.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_collapse_20.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_collapse_30.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_restore_10.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_restore_20.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_restore_30.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_fusion_l4_l5.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_fusion_l5_s1.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_implant_disc_6.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_implant_disc_5.json"
+  ]
+}

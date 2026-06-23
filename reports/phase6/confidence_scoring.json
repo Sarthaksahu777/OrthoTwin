@@ -1,0 +1,38 @@
+{
+  "generated_utc": "2026-06-21T05:29:22.767119+00:00",
+  "scale": "0-10",
+  "scores": {
+    "segmentation": {
+      "score": 6.0,
+      "rationale": "Existing masks and QC artifacts exist, but no independent clinical validation is present."
+    },
+    "measurements": {
+      "score": 4.0,
+      "rationale": "Rich geometric measurements exist; Phase 4.5 physical calibration is blocked. Physical calibration file explicitly reports blocked status."
+    },
+    "state_vector": {
+      "score": 7.0,
+      "rationale": "Patient state v2 and clinical state are structured and reusable."
+    },
+    "graph": {
+      "score": 7.0,
+      "rationale": "Spine graph is connected and used by propagation/scenario layers."
+    },
+    "propagation": {
+      "score": 4.0,
+      "rationale": "Deterministic graph propagation exists, but it is explicitly not physics."
+    },
+    "scenario_engine": {
+      "score": 6.0,
+      "rationale": "Scenarios and future states are generated consistently from existing state."
+    },
+    "longitudinal_engine": {
+      "score": 3.0,
+      "rationale": "Configurable time evolution exists, but no patient-specific temporal validation exists."
+    }
+  },
+  "digital_twin_readiness_score": 5.285714285714286,
+  "research_readiness_score": 6.0,
+  "engineering_readiness_score": 7.0,
+  "not_clinically_validated": true
+}

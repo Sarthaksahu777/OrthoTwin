@@ -1,0 +1,39 @@
+ORTHOTWIN DIGITAL TWIN REPORT
+==============================
+
+Current State
+  Patient ID: patient_alpha
+  Structures: 14
+  Discs: 6
+  Vertebrae: 8
+  Quality Flags: 14
+
+Intervention Applied
+  Type: disc_height_restoration
+  Target: Disc 6 (206/207)
+  Parameters: {'old_height': 15.0, 'new_height': 18.0}
+
+Predicted Changes
+ORTHOTWIN STATE CHANGE REPORT
+===============================
+Patient: patient_alpha
+
+Before
+  Interventions: 0
+After
+  Interventions: 1
+
+Predicted Changes
+  Disc 6 (206/207)
+    height: 15.0 -> 18.0 (20.00%)
+    severity_score: 1.0 -> 0.9 (-10.00%)
+    volume: 2504.0 -> 3004.7999999999997 (20.00%)
+
+Geometry Differences
+  Disc 6 (206/207)
+    height: 15.0 -> 18.0
+    volume: 2504.0 -> 3004.7999999999997
+
+Version 1 Notes
+  Deterministic geometric rules only.
+  No AI models, neural networks, inference, or LLM calls are used.

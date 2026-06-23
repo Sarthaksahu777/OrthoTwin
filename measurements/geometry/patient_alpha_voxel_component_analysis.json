@@ -1,0 +1,156 @@
+[
+    {
+        "class_id": 1,
+        "name": "Vertebra 1",
+        "total_volume": 15929,
+        "num_components": 13,
+        "largest_component_volume": 15915,
+        "second_largest_volume": 3,
+        "largest_component_percent": 99.91210998807207,
+        "flagged": true,
+        "reason": "Multiple components (13)"
+    },
+    {
+        "class_id": 2,
+        "name": "Vertebra 2",
+        "total_volume": 16789,
+        "num_components": 4,
+        "largest_component_volume": 16743,
+        "second_largest_volume": 44,
+        "largest_component_percent": 99.72601107868248,
+        "flagged": true,
+        "reason": "Multiple components (4)"
+    },
+    {
+        "class_id": 3,
+        "name": "Vertebra 3",
+        "total_volume": 18336,
+        "num_components": 2,
+        "largest_component_volume": 18335,
+        "second_largest_volume": 1,
+        "largest_component_percent": 99.99454624781849,
+        "flagged": true,
+        "reason": "Multiple components (2)"
+    },
+    {
+        "class_id": 4,
+        "name": "Vertebra 4",
+        "total_volume": 15736,
+        "num_components": 4,
+        "largest_component_volume": 15727,
+        "second_largest_volume": 7,
+        "largest_component_percent": 99.94280630401627,
+        "flagged": true,
+        "reason": "Multiple components (4)"
+    },
+    {
+        "class_id": 5,
+        "name": "Vertebra 5",
+        "total_volume": 13713,
+        "num_components": 8,
+        "largest_component_volume": 13695,
+        "second_largest_volume": 6,
+        "largest_component_percent": 99.86873769415882,
+        "flagged": true,
+        "reason": "Multiple components (8)"
+    },
+    {
+        "class_id": 6,
+        "name": "Vertebra 6",
+        "total_volume": 13251,
+        "num_components": 21,
+        "largest_component_volume": 13174,
+        "second_largest_volume": 34,
+        "largest_component_percent": 99.41891178024301,
+        "flagged": true,
+        "reason": "Multiple components (21)"
+    },
+    {
+        "class_id": 7,
+        "name": "Vertebra 7",
+        "total_volume": 7454,
+        "num_components": 9,
+        "largest_component_volume": 7377,
+        "second_largest_volume": 53,
+        "largest_component_percent": 98.96699758518916,
+        "flagged": true,
+        "reason": "Multiple components (9)"
+    },
+    {
+        "class_id": 8,
+        "name": "Vertebra 8 (100)",
+        "total_volume": 18252,
+        "num_components": 1,
+        "largest_component_volume": 18252,
+        "second_largest_volume": 0,
+        "largest_component_percent": 100.0,
+        "flagged": false,
+        "reason": "OK"
+    },
+    {
+        "class_id": 9,
+        "name": "Disc 1 (201)",
+        "total_volume": 3440,
+        "num_components": 1,
+        "largest_component_volume": 3440,
+        "second_largest_volume": 0,
+        "largest_component_percent": 100.0,
+        "flagged": false,
+        "reason": "OK"
+    },
+    {
+        "class_id": 10,
+        "name": "Disc 2 (202)",
+        "total_volume": 5309,
+        "num_components": 2,
+        "largest_component_volume": 5304,
+        "second_largest_volume": 5,
+        "largest_component_percent": 99.90582030514221,
+        "flagged": true,
+        "reason": "Multiple components (2)"
+    },
+    {
+        "class_id": 11,
+        "name": "Disc 3 (203)",
+        "total_volume": 4657,
+        "num_components": 1,
+        "largest_component_volume": 4657,
+        "second_largest_volume": 0,
+        "largest_component_percent": 100.0,
+        "flagged": false,
+        "reason": "OK"
+    },
+    {
+        "class_id": 12,
+        "name": "Disc 4 (204)",
+        "total_volume": 4159,
+        "num_components": 2,
+        "largest_component_volume": 4154,
+        "second_largest_volume": 5,
+        "largest_component_percent": 99.87977879297908,
+        "flagged": true,
+        "reason": "Multiple components (2)"
+    },
+    {
+        "class_id": 13,
+        "name": "Disc 5 (205)",
+        "total_volume": 3033,
+        "num_components": 1,
+        "largest_component_volume": 3033,
+        "second_largest_volume": 0,
+        "largest_component_percent": 100.0,
+        "flagged": false,
+        "reason": "OK"
+    },
+    {
+        "class_id": 14,
+        "name": "Disc 6 (206/207)",
+        "total_volume": 4184,
+        "num_components": 3,
+        "largest_component_volume": 2504,
+        "second_largest_volume": 1675,
+        "largest_component_percent": 59.847036328871894,
+        "flagged": true,
+        "reason": "Multiple components (3); Largest component <98% of total"
+    }
+]

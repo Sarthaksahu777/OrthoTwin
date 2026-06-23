@@ -1,0 +1,18 @@
+ORTHOTWIN VISUALIZATION SUITE COMPLETE
+
+Generated: 2026-06-21T11:44:07.089461+00:00
+
+Number of visualizations generated: 15
+Best visualization: patient_alpha_showcase.png
+Most dramatic surgery: implant
+Largest mesh displacement: 1.3528
+Strongest comparison figure: surgery_comparison_dashboard.png
+
+Scientific boundary:
+No new science.
+No new measurements.
+No new simulations.
+Visualization only.
+
+Note:
+The alignment displacement visualization is based on existing Phase 7 geometry output. Phase 8 mesh outputs include implant, collapse, spacer, and fusion; there is no separate Phase 8 alignment mesh simulation in the frozen outputs.

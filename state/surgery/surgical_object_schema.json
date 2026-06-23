@@ -1,0 +1,21 @@
+{
+  "schema_name": "orthtwin_surgical_object_v1",
+  "generated_utc": "2026-06-21T06:18:00.462438+00:00",
+  "object_types": [
+    "Disc",
+    "Vertebra",
+    "Implant",
+    "Spacer",
+    "FusionSegment",
+    "AlignmentCorrection"
+  ],
+  "required_fields": {
+    "id": "Stable object identifier.",
+    "object_type": "Disc, Vertebra, Implant, Spacer, FusionSegment, or AlignmentCorrection.",
+    "geometry": "Centroid, height, width/depth proxies, and local axes where available.",
+    "relationships": "Graph neighbors, above/below structures, or attached structures.",
+    "measurements": "Current measurement values derived from existing OrthoTwin state.",
+    "constraints": "Motion locks, target height, material placeholder, correction vector, and other deterministic constraints."
+  },
+  "scope": "Geometry-aware research representation only; no clinical validity claim."
+}

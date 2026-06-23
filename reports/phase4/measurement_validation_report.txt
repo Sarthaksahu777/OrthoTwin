@@ -1,0 +1,30 @@
+ORTHOTWIN PHASE 4 MEASUREMENT VALIDATION
+==========================================
+
+Disc directional heights
+  Confidence: MEDIUM
+  Reason: Computed from reconstructed mesh vertex projections and local PCA axes. Needs voxel spacing and radiologist validation for clinical reporting.
+
+Disc cross-sectional area
+  Confidence: MEDIUM
+  Reason: Uses mesh footprint and volume/height proxies. Reasonable geometric feature, but not calibrated physical area without voxel spacing.
+
+Canal measurements
+  Confidence: LOW
+  Reason: No canal segmentation exists. Values are geometric estimates derived from vertebral dimensions and centerline level.
+
+Foraminal measurements
+  Confidence: LOW
+  Reason: No foraminal boundary segmentation exists. Values are proxy estimates using disc height and adjacent vertebral spacing.
+
+Disc degeneration features
+  Confidence: LOW
+  Reason: Relative internal geometry scores only. They are not diagnostic grades and do not use MRI signal intensity.
+
+Vertebral slippage
+  Confidence: MEDIUM
+  Reason: Centroid displacement along AP axis is measurable, but clinical slippage needs calibrated radiographic landmarks.
+
+Curvature
+  Confidence: MEDIUM
+  Reason: Computed from vertebral centroid centerline. Useful for system geometry, but not a radiographic Cobb-angle substitute.

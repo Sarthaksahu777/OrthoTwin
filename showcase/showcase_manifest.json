@@ -1,0 +1,381 @@
+{
+  "generated_utc": "2026-06-21T19:37:56.598728+00:00",
+  "classification": "Digital Twin Prototype",
+  "figures": [
+    {
+      "section": "hero",
+      "name": "patient_alpha_showcase.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\hero\\patient_alpha_showcase.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\patient_alpha_showcase.png"
+    },
+    {
+      "section": "hero",
+      "name": "implant_before_after.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\hero\\implant_before_after.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\implant_before_after.png"
+    },
+    {
+      "section": "hero",
+      "name": "mesh_displacement_heatmap_implant.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\hero\\mesh_displacement_heatmap_implant.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\mesh_displacement_heatmap_implant.png"
+    },
+    {
+      "section": "hero",
+      "name": "surgery_comparison_dashboard.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\hero\\surgery_comparison_dashboard.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\surgery_comparison_dashboard.png"
+    },
+    {
+      "section": "hero",
+      "name": "digital_twin_story.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\hero\\digital_twin_story.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\digital_twin_story.png"
+    },
+    {
+      "section": "segmentation",
+      "name": "segmentation_pipeline.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\segmentation\\segmentation_pipeline.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\segmentation_pipeline.png"
+    },
+    {
+      "section": "segmentation",
+      "name": "segmentation_comparison.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\segmentation\\segmentation_comparison.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\segmentation_comparison.png"
+    },
+    {
+      "section": "segmentation",
+      "name": "segmentation_statistics.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\segmentation\\segmentation_statistics.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\segmentation_statistics.png"
+    },
+    {
+      "section": "reconstruction",
+      "name": "reconstruction_gallery.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reconstruction\\reconstruction_gallery.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\reconstruction_gallery.png"
+    },
+    {
+      "section": "reconstruction",
+      "name": "reconstruction_full.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reconstruction\\reconstruction_full.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\reconstruction_full.png"
+    },
+    {
+      "section": "reconstruction",
+      "name": "reconstruction_labeled.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reconstruction\\reconstruction_labeled.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\reconstruction_labeled.png"
+    },
+    {
+      "section": "measurements",
+      "name": "measurement_dashboard.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\measurements\\measurement_dashboard.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\measurement_dashboard.png"
+    },
+    {
+      "section": "measurements",
+      "name": "disc_height_comparison.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\measurements\\disc_height_comparison.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\disc_height_comparison.png"
+    },
+    {
+      "section": "measurements",
+      "name": "curvature_visualization.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\measurements\\curvature_visualization.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\curvature_visualization.png"
+    },
+    {
+      "section": "measurements",
+      "name": "alignment_visualization.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\measurements\\alignment_visualization.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\alignment_visualization.png"
+    },
+    {
+      "section": "graph",
+      "name": "spine_graph_presentation.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\graph\\spine_graph_presentation.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\spine_graph_presentation.png"
+    },
+    {
+      "section": "graph",
+      "name": "graph_explanation.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\graph\\graph_explanation.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\graph_explanation.png"
+    },
+    {
+      "section": "state",
+      "name": "state_vector_visualization.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\state\\state_vector_visualization.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\state_vector_visualization.png"
+    },
+    {
+      "section": "state",
+      "name": "digital_twin_overview.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\state\\digital_twin_overview.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\digital_twin_overview.png"
+    },
+    {
+      "section": "state",
+      "name": "digital_twin_story.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\state\\digital_twin_story.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\digital_twin_story.png"
+    },
+    {
+      "section": "surgery",
+      "name": "implant_before_after.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\surgery\\implant_before_after.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\implant_before_after.png"
+    },
+    {
+      "section": "surgery",
+      "name": "implant_difference_heatmap.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\surgery\\implant_difference_heatmap.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\implant_difference_heatmap.png"
+    },
+    {
+      "section": "surgery",
+      "name": "spacer_before_after.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\surgery\\spacer_before_after.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\spacer_before_after.png"
+    },
+    {
+      "section": "surgery",
+      "name": "spacer_difference_heatmap.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\surgery\\spacer_difference_heatmap.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\spacer_difference_heatmap.png"
+    },
+    {
+      "section": "surgery",
+      "name": "fusion_before_after.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\surgery\\fusion_before_after.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\fusion_before_after.png"
+    },
+    {
+      "section": "surgery",
+      "name": "fusion_relationship_visualization.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\surgery\\fusion_relationship_visualization.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\fusion_relationship_visualization.png"
+    },
+    {
+      "section": "surgery",
+      "name": "alignment_before_after.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\surgery\\alignment_before_after.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\alignment_before_after.png"
+    },
+    {
+      "section": "surgery",
+      "name": "alignment_centerline_comparison.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\surgery\\alignment_centerline_comparison.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\alignment_centerline_comparison.png"
+    },
+    {
+      "section": "mesh",
+      "name": "mesh_before_after.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\mesh\\mesh_before_after.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\mesh_before_after.png"
+    },
+    {
+      "section": "mesh",
+      "name": "mesh_displacement_heatmap_implant.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\mesh\\mesh_displacement_heatmap_implant.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\mesh_displacement_heatmap_implant.png"
+    },
+    {
+      "section": "mesh",
+      "name": "mesh_displacement_heatmap_spacer.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\mesh\\mesh_displacement_heatmap_spacer.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\mesh_displacement_heatmap_spacer.png"
+    },
+    {
+      "section": "mesh",
+      "name": "mesh_displacement_heatmap_alignment.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\mesh\\mesh_displacement_heatmap_alignment.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\mesh_displacement_heatmap_alignment.png"
+    },
+    {
+      "section": "mesh",
+      "name": "mesh_change_heatmap.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\mesh\\mesh_change_heatmap.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\mesh_change_heatmap.png"
+    },
+    {
+      "section": "dashboards",
+      "name": "executive_dashboard.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\dashboards\\executive_dashboard.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\executive_dashboard.png"
+    },
+    {
+      "section": "dashboards",
+      "name": "outcome_comparison_dashboard.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\dashboards\\outcome_comparison_dashboard.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\outcome_comparison_dashboard.png"
+    },
+    {
+      "section": "dashboards",
+      "name": "state_change_dashboard.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\dashboards\\state_change_dashboard.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\state_change_dashboard.png"
+    },
+    {
+      "section": "dashboards",
+      "name": "surgery_comparison_dashboard.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\dashboards\\surgery_comparison_dashboard.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\surgery_comparison_dashboard.png"
+    },
+    {
+      "section": "dashboards",
+      "name": "surgery_ranking_dashboard.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\dashboards\\surgery_ranking_dashboard.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\surgery_ranking_dashboard.png"
+    },
+    {
+      "section": "limitations",
+      "name": "orthotwin_poster.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\limitations\\orthotwin_poster.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\orthotwin_poster.png"
+    },
+    {
+      "section": "limitations",
+      "name": "calibration_decision_flowchart.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\limitations\\calibration_decision_flowchart.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\calibration\\calibration_decision_flowchart.png"
+    },
+    {
+      "section": "limitations",
+      "name": "spacing_candidate_dashboard.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\limitations\\spacing_candidate_dashboard.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\calibration\\spacing_candidate_dashboard.png"
+    },
+    {
+      "section": "architecture",
+      "name": "architecture_diagram.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\architecture\\architecture_diagram.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\release\\architecture_diagram.png"
+    },
+    {
+      "section": "architecture",
+      "name": "orthotwin_pipeline_timeline.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\architecture\\orthotwin_pipeline_timeline.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\orthotwin_pipeline_timeline.png"
+    },
+    {
+      "section": "architecture",
+      "name": "digital_twin_story.png",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\architecture\\digital_twin_story.png",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\digital_twin_story.png"
+    }
+  ],
+  "reports": [
+    {
+      "name": "ORTHOTWIN_V1_EXECUTIVE_SUMMARY.md",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reports\\ORTHOTWIN_V1_EXECUTIVE_SUMMARY.md",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\ORTHOTWIN_V1_EXECUTIVE_SUMMARY.md"
+    },
+    {
+      "name": "ORTHOTWIN_V1_RELEASE_NOTES.md",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reports\\ORTHOTWIN_V1_RELEASE_NOTES.md",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\ORTHOTWIN_V1_RELEASE_NOTES.md"
+    },
+    {
+      "name": "orthotwin_master_audit.md",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reports\\orthotwin_master_audit.md",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\reports\\master_audit\\orthotwin_master_audit.md"
+    },
+    {
+      "name": "orthotwin_master_audit.pdf",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reports\\orthotwin_master_audit.pdf",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\reports\\master_audit\\orthotwin_master_audit.pdf"
+    },
+    {
+      "name": "phase95_calibration_audit.txt",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reports\\phase95_calibration_audit.txt",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\reports\\calibration\\phase95_calibration_audit.txt"
+    },
+    {
+      "name": "physical_calibration_decision.json",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reports\\physical_calibration_decision.json",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\reports\\calibration\\physical_calibration_decision.json"
+    },
+    {
+      "name": "orthotwin_v1_classification.json",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reports\\orthotwin_v1_classification.json",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\reports\\release_v1\\orthotwin_v1_classification.json"
+    },
+    {
+      "name": "ppt_storyboard.md",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reports\\ppt_storyboard.md",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\presentation\\ppt_storyboard.md"
+    },
+    {
+      "name": "demo_script.md",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reports\\demo_script.md",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\presentation\\demo_script.md"
+    },
+    {
+      "name": "orthotwin_showcase_report.md",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\showcase\\reports\\orthotwin_showcase_report.md",
+      "source": "C:\\OrthoTwin\\OrthoTwin\\presentation\\orthotwin_showcase_report.md"
+    }
+  ],
+  "ppt_assets": [
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\README.md",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\01_problem\\digital_twin_story.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\01_problem\\executive_dashboard.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\02_segmentation\\segmentation_comparison.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\02_segmentation\\segmentation_pipeline.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\03_reconstruction\\patient_alpha_showcase.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\03_reconstruction\\reconstruction_gallery.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\04_measurements\\disc_height_comparison.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\04_measurements\\measurement_dashboard.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\05_state\\digital_twin_overview.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\05_state\\state_vector_visualization.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\06_graph\\graph_explanation.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\06_graph\\spine_graph_presentation.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\07_surgery\\alignment_before_after.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\07_surgery\\fusion_relationship_visualization.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\07_surgery\\implant_before_after.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\07_surgery\\spacer_before_after.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\08_mesh\\mesh_before_after.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\08_mesh\\mesh_displacement_heatmap_implant.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\08_mesh\\mesh_displacement_heatmap_spacer.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\09_results\\outcome_comparison_dashboard.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\09_results\\state_change_dashboard.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\09_results\\surgery_comparison_dashboard.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\10_limitations\\calibration_decision_flowchart.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\10_limitations\\orthotwin_poster.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\11_future\\architecture_diagram.png",
+    "C:\\OrthoTwin\\OrthoTwin\\showcase\\ppt_assets\\11_future\\orthotwin_pipeline_timeline.png"
+  ],
+  "ppt_asset_count": 26,
+  "top_10_figures": [
+    "patient_alpha_showcase.png",
+    "implant_before_after.png",
+    "mesh_displacement_heatmap_implant.png",
+    "surgery_comparison_dashboard.png",
+    "digital_twin_story.png",
+    "segmentation_pipeline.png",
+    "segmentation_comparison.png",
+    "segmentation_statistics.png",
+    "reconstruction_gallery.png",
+    "reconstruction_full.png"
+  ],
+  "recommended_ppt_assets": [
+    "patient_alpha_showcase.png",
+    "digital_twin_story.png",
+    "reconstruction_gallery.png",
+    "measurement_dashboard.png",
+    "spine_graph_presentation.png",
+    "implant_before_after.png",
+    "mesh_displacement_heatmap_implant.png",
+    "surgery_comparison_dashboard.png",
+    "orthotwin_poster.png",
+    "calibration_decision_flowchart.png"
+  ],
+  "figure_ranking_file": "C:\\OrthoTwin\\OrthoTwin\\showcase\\showcase_figure_ranking.json",
+  "validation_file": "C:\\OrthoTwin\\OrthoTwin\\showcase\\showcase_validation.json",
+  "no_new_science": true,
+  "no_new_measurements": true,
+  "no_new_simulations": true
+}

@@ -1,0 +1,3114 @@
+{
+  "generated_utc": "2026-06-21T05:08:22.709461+00:00",
+  "spacing_groups": [
+    {
+      "spacing": [
+        4.38969596,
+        0.63051755,
+        0.38792314
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\100_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\100_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\100_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\100_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.7887656,
+        0.8125,
+        0.87628826
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\101_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\101_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.79056721,
+        0.67708331,
+        0.74088356
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\101_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\101_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000005,
+        0.875,
+        0.875
+      ],
+      "count": 14,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\104_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\122_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\226_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\47_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\64_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000005,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 10,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\104_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\122_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\226_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\47_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\71_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.29367902,
+        0.625,
+        0.65749805
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\105_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\105_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\105_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\105_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39999989,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 10,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\106_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\106_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\126_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\179_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\179_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.30000001
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\107_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\107_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\107_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\107_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.46875,
+        0.46875,
+        0.89999998
+      ],
+      "count": 55,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\107_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\110_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\127_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\129_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\136_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39999992,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 8,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\108_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\108_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\8_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\8_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\108_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.36177717,
+        0.49282857,
+        0.35612262
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\109_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\109_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\109_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\109_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40000003,
+        0.3125,
+        0.3125
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\10_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\10_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40000003,
+        0.36458334,
+        0.36458334
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\10_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\10_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.29999989
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\110_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\110_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\110_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\110_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.29995467,
+        0.625,
+        0.62523884
+      ],
+      "count": 32,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\112_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\112_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\125_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\125_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\144_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31483108,
+        0.55948623,
+        0.60837454
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\113_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\113_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\113_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\113_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.29995476,
+        0.625,
+        0.62523884
+      ],
+      "count": 28,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\115_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\115_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\117_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\117_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\30_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.79999992,
+        1.0625,
+        1.0625
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\116_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\116_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.79999992,
+        0.6640625,
+        0.6640625
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\116_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\116_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.27631265,
+        0.5859375,
+        0.7064683
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\118_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\118_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\118_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\118_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.89083531,
+        0.46875,
+        0.48594129
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\118_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\118_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.312444,
+        0.5859375,
+        0.51091838
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\11_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\11_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31244424,
+        0.5859375,
+        0.51091838
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\11_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\11_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.91040304,
+        0.46875,
+        0.44821073
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\11_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\11_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.79999999,
+        0.67708331,
+        0.67708331
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\120_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\120_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.28077069,
+        0.625,
+        0.71914365
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\121_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\121_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\121_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\121_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.34415263,
+        0.83120201,
+        0.50488382
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\123_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\123_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        5.11999976,
+        0.67708331,
+        0.67708331
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\124_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\124_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.29999995
+      ],
+      "count": 10,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\127_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\34_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\35_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\55_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\7_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.29999993
+      ],
+      "count": 6,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\127_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\45_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\45_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\127_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\45_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.30000008
+      ],
+      "count": 14,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\129_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\129_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\22_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\22_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\234_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000012,
+        0.875,
+        0.875
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\12_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\173_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\12_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\173_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000012,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\12_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\173_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\12_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\173_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.27160266,
+        0.625,
+        0.75976311
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\130_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\130_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\130_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\130_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.30353406,
+        0.625,
+        0.60604249
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\131_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\131_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\131_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\131_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.7999999,
+        1.0625,
+        1.0625
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\132_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\132_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.3697827,
+        0.52638674,
+        0.19680161
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\133_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\133_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\133_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\133_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.37327096,
+        0.60324339,
+        0.57277144
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\134_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\134_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.30000007
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\136_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\136_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\136_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\136_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.21178836,
+        0.81112519,
+        0.83530934
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\137_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\137_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\137_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\137_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.38160174,
+        0.60342924,
+        0.50488383
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\138_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\138_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.38160169,
+        0.60342924,
+        0.50488382
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\138_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\42_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\138_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\42_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39122526,
+        0.60342923,
+        0.4128926
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\13_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\13_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39122533,
+        0.60342924,
+        0.4128926
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\13_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\13_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.28456092,
+        0.60428977,
+        0.71954301
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\140_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\140_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\140_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\140_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.93561037,
+        0.47224244,
+        0.38868163
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\141_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\141_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.30785935,
+        0.5859375,
+        0.53980502
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\142_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\142_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\142_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\142_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.90645707,
+        0.46875,
+        0.45613831
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\142_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\142_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40996246,
+        0.46820399,
+        0.38792314
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\143_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\143_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40996244,
+        0.46820399,
+        0.38792314
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\143_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\143_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.28471372,
+        0.625,
+        0.70091443
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\145_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\145_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\145_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\145_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.33344765,
+        0.5859375,
+        0.34849658
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\146_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\146_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\146_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\146_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.93121111,
+        0.46875,
+        0.40320273
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\146_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\146_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39762787,
+        0.47268348,
+        0.50488383
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\147_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\147_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31338221,
+        0.625,
+        0.54965812
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\149_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\149_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\149_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\149_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.36041454,
+        0.60342923,
+        0.66342037
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\151_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\151_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.30000012
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\152_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\152_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\152_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\152_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.3999999,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\154_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\154_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\154_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\154_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39999999,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\155_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\155_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\155_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\155_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.26383716,
+        0.76026055,
+        0.6637932
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\156_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\156_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\156_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\156_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.73938669,
+        0.67708331,
+        1.01816302
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\159_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\159_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.34359948,
+        0.625,
+        0.31775367
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\15_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\15_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\15_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\15_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.1515837,
+        0.83158477,
+        1.02334656
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\160_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\160_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\160_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\160_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.28814328,
+        0.5859375,
+        0.64918102
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\161_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\161_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.2999999
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\161_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\161_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.46875,
+        0.46875,
+        0.89999997
+      ],
+      "count": 1,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\161_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.30000006
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\162_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\162_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\162_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\162_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.38669788,
+        0.60342923,
+        0.45849946
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\163_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\163_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.3872446,
+        0.58069273,
+        0.43602864
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\163_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\163_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40000025,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\165_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\165_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\165_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\165_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.29999998
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\166_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\166_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\166_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\166_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.30697341,
+        0.625,
+        0.58698456
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\167_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\167_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\167_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\167_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.29267969,
+        0.625,
+        0.66248377
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\168_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\168_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\168_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\168_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.24906781,
+        0.625,
+        0.85098972
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\169_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\169_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\169_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\169_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39999986,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\171_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\171_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\171_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\171_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31841829,
+        0.65891558,
+        0.47453232
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\172_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\172_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\172_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\172_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.3299778,
+        0.5,
+        0.22637747
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\174_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\174_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\174_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\174_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.28882715,
+        0.625,
+        0.68135223
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\175_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\175_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\175_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\175_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.29999992
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\177_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\177_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\177_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\177_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31024266,
+        0.625,
+        0.5682587
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\17_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\17_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\17_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\17_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40000002,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\180_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\180_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.84512979,
+        0.8125,
+        0.47420761
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\181_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\181_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.83564228,
+        0.67708331,
+        0.33912369
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\181_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\181_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.79999978,
+        0.875,
+        0.875
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\182_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\182_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.79999978,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\182_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\182_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        5.12900336,
+        0.67708331,
+        0.77507766
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\183_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\183_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39593838,
+        0.60342924,
+        0.35925729
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\184_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\184_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39593841,
+        0.60342924,
+        0.35925729
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\184_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\184_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.30000003
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\185_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\185_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\185_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\185_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.35763193,
+        0.625,
+        0.08326023
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\186_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\186_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\186_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\186_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.3818445,
+        0.66813259,
+        0.41292315
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\187_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\187_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.3818444,
+        0.66813259,
+        0.41292315
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\187_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\187_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.30688349,
+        0.625,
+        0.58749028
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\188_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\188_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\188_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\188_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.38422108,
+        0.60342924,
+        0.48160645
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\189_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\189_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.38422115,
+        0.60342924,
+        0.48160645
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\189_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\189_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.30000009
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\18_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\18_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\18_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\18_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40000016,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 8,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\190_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\190_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\249_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\249_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\190_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.30498745,
+        0.5859375,
+        0.55711771
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\191_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\191_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\191_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\191_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.90405625,
+        0.46875,
+        0.46087829
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\191_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\191_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.29995484,
+        0.625,
+        0.62523884
+      ],
+      "count": 20,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\192_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\192_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\213_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\213_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\232_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.35617023,
+        0.3535698,
+        0.53137413
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\193_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\193_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\193_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\193_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.29251759,
+        0.625,
+        0.66328905
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\195_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\195_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\195_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\195_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.27316248,
+        0.83274884,
+        0.51398984
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\196_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\196_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\196_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\196_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.83505104,
+        0.67708331,
+        0.34745329
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\197_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\197_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.32791741,
+        0.625,
+        0.45342137
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\198_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\198_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\198_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\198_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.22813565,
+        0.7693835,
+        0.81144252
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\19_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\19_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\19_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\19_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.32114716,
+        0.625,
+        0.50060673
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\1_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\1_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\1_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\1_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.29999995,
+        0.5859375,
+        0.5859375
+      ],
+      "count": 16,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\200_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\200_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\34_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\5_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\5_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.89999998,
+        0.46875,
+        0.46875
+      ],
+      "count": 6,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\200_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\241_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\41_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\200_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\241_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.78106063,
+        0.67708331,
+        0.79993853
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\201_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\201_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.30695133,
+        0.625,
+        0.58710898
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\202_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\202_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\202_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\202_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31946508,
+        0.625,
+        0.5116408
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\203_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\203_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\203_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\203_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31318802,
+        0.625,
+        0.55082649
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\205_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\205_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\205_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\205_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.39655449,
+        0.24799582,
+        0.27048944
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\207_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\207_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\207_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\207_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.81574169,
+        0.67708331,
+        0.55414175
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\208_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\208_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.26079895,
+        0.5859375,
+        0.7749273
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\209_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\209_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\209_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\209_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.87152444,
+        0.46875,
+        0.51978037
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\209_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\209_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.35584725,
+        0.76756447,
+        0.50488382
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\20_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\20_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.74292302,
+        0.8125,
+        1.09765119
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\212_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\212_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.75100855,
+        0.67708331,
+        0.9624761
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\212_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\212_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.20644262,
+        0.9375,
+        0.90815557
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\214_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\214_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.20644261,
+        0.9375,
+        0.90815557
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\214_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\214_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31325803,
+        0.625,
+        0.55040608
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\215_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\215_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\215_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\215_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.37193767,
+        0.46820399,
+        0.69599895
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\217_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\217_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.37193747,
+        0.46820399,
+        0.69599894
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\217_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\217_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.32802979,
+        0.625,
+        0.45259601
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\218_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\218_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\218_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\218_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39999996,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\219_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\219_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.8194422,
+        0.67708331,
+        0.52097942
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\21_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\21_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.29999996
+      ],
+      "count": 10,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\220_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\220_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\52_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\69_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\69_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.35661232,
+        0.625,
+        0.11738388
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\221_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\221_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\221_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\221_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40000004,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\222_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\222_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\222_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\222_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.29705392,
+        0.625,
+        0.64035959
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\223_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\223_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\223_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\223_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.41271304,
+        0.73834871,
+        0.63731721
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\224_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\224_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\224_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\224_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.79999997,
+        0.875,
+        0.875
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\225_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\225_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.79999997,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\225_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\225_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.35429136,
+        0.625,
+        0.1713315
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\227_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\227_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\227_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\227_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.28068035,
+        0.625,
+        0.71955634
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\228_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\228_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\228_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\228_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.27655784,
+        0.625,
+        0.73810127
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\229_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\229_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\229_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\229_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.34632426,
+        0.38844308,
+        0.56786908
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\231_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\231_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\231_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\231_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.79999985,
+        0.875,
+        0.875
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\233_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\233_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.79999985,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\233_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\233_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.29999997
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\234_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\234_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.28093402,
+        0.625,
+        0.71839932
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\236_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\236_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\236_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\236_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39715889,
+        0.4770258,
+        0.50488382
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\237_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\237_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.3964741,
+        0.59734362,
+        0.62368965
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\237_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\237_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.3
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\239_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\239_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\239_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\239_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.37592739,
+        0.71475294,
+        0.87393115
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\23_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\23_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\23_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\23_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.30000019,
+        0.5859375,
+        0.5859375
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\241_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\241_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\241_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\241_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.27929409,
+        0.69154721,
+        0.66275335
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\242_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\242_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\242_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\242_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.30690272,
+        0.625,
+        0.58738303
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\243_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\243_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\243_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\243_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31223132,
+        0.59607342,
+        0.58742572
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\244_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\244_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\244_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\244_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.35643639,
+        0.39258728,
+        0.50145722
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\245_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\245_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\245_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\245_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.75299048,
+        0.67708331,
+        0.95264002
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\246_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\246_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.25548907,
+        0.625,
+        0.82608363
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\24_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\24_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\24_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\24_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39999987,
+        0.3125,
+        0.3125
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\250_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\250_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39999987,
+        0.36458334,
+        0.36458334
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\250_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\250_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.29995462,
+        0.625,
+        0.62523884
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\251_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\251_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\251_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\251_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31647162,
+        0.625,
+        0.53069842
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\252_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\252_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\252_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\252_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.34948123,
+        0.625,
+        0.24819392
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\253_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\253_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\253_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\253_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.29632808,
+        0.625,
+        0.64408501
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\254_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\254_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\254_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\254_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31677688,
+        0.625,
+        0.52878759
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\255_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\255_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\255_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\255_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40000016,
+        0.3125,
+        0.3125
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\256_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\256_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40000016,
+        0.36458334,
+        0.36458334
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\256_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\256_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.27153381,
+        0.625,
+        0.76006061
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\257_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\257_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\257_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\257_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.30325373,
+        0.62582338,
+        0.60671922
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\25_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\25_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\25_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\25_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.32541423,
+        0.625,
+        0.47142885
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\28_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\28_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\28_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\28_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.28459785,
+        0.625,
+        0.70145743
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\29_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\29_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\29_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\29_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.78636529,
+        0.8125,
+        0.88930509
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\2_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\2_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.78853504,
+        0.67708331,
+        0.75390579
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\2_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\2_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40000006,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\31_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\31_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40553212,
+        0.73298546,
+        0.69093246
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\31_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\31_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31913152,
+        0.625,
+        0.51379932
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\32_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\32_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\32_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\32_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.67312478,
+        1.00084716,
+        1.23309473
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\33_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\33_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.69050491,
+        0.86601935,
+        1.09820681
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\33_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\33_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.30000013
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\35_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\35_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.32511155,
+        0.625,
+        0.47355858
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\37_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\37_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\37_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\37_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.3378015,
+        0.625,
+        0.37377051
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\38_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\38_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\38_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\38_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.28457339,
+        0.625,
+        0.70157156
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\39_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\39_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\39_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\39_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.82137311,
+        0.8125,
+        0.67417944
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\3_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\3_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.81748035,
+        0.67708331,
+        0.53881872
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\3_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\3_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31337833,
+        0.625,
+        0.54968036
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\40_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\40_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\40_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\40_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31962748,
+        0.625,
+        0.510586
+      ],
+      "count": 1,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\4_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31962747,
+        0.62499964,
+        0.51058564
+      ],
+      "count": 3,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\4_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\4_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\4_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.24677799,
+        0.5859375,
+        0.83171781
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\50_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\50_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\50_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\50_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.28861722,
+        0.625,
+        0.68236464
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\51_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\51_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\51_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\51_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.32085615,
+        0.5859375,
+        0.45303047
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\52_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\52_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.41923451,
+        0.74373104,
+        0.58360836
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\53_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\53_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\53_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\53_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.30972343,
+        0.5859375,
+        0.52825525
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\55_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\55_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.856384,
+        0.875,
+        0.47027738
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\58_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\58_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        9.62734658,
+        0.72916669,
+        0.07669833
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\58_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\58_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.32393695,
+        0.50511065,
+        0.60626377
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\60_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\60_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\60_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\60_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31154728,
+        0.5859375,
+        0.51669912
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\61_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\61_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\61_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\61_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.90961931,
+        0.46875,
+        0.44979904
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\61_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\61_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000008,
+        0.875,
+        0.875
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\62_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\62_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000008,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\62_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\62_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39233474,
+        0.46820399,
+        0.55285505
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\63_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\63_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\63_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\63_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.24089254,
+        0.5859375,
+        0.85436432
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\65_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\65_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\65_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\65_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.85856496,
+        0.46875,
+        0.54091844
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\65_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\65_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39569994,
+        0.46820399,
+        0.52542797
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\66_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\66_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39569992,
+        0.46820399,
+        0.52542796
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\66_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\66_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.32462773,
+        0.3125,
+        0.86905153
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\67_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\67_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.31800978,
+        0.36458334,
+        0.92071271
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\67_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\67_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000011,
+        0.875,
+        0.875
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\68_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\68_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000011,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\68_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\68_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.78167729,
+        0.67708331,
+        0.79624357
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\6_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\6_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40000011,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\72_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\72_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.7937745,
+        0.875,
+        0.90848906
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\73_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\73_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.79479261,
+        0.72916669,
+        0.7626593
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\73_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\73_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.30330455,
+        0.625,
+        0.60729235
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\75_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\75_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\75_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\75_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39999998,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\77_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\77_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.3000001
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\78_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\78_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\78_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\78_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.28875302,
+        0.625,
+        0.68170923
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\80_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\80_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\80_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\80_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31925453,
+        0.5859375,
+        0.46461964
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\81_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\81_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\81_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\81_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.91657226,
+        0.46875,
+        0.43545581
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\81_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\81_t2_SPACE.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000019,
+        0.8125,
+        0.8125
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\82_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\82_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000019,
+        0.67708331,
+        0.67708331
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\82_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\82_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.29609735,
+        0.46130364,
+        0.77083866
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\83_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\83_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\83_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\83_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000005,
+        0.9375,
+        0.9375
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\85_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\85_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000005,
+        0.78125,
+        0.78125
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\85_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\85_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.29263705,
+        0.625,
+        0.66269565
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\86_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\86_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\86_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\86_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.27656596,
+        0.625,
+        0.73806474
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\87_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\87_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\87_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\87_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.8276185,
+        0.8125,
+        0.62789906
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\88_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\88_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.82242742,
+        0.67708331,
+        0.49258191
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\88_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\88_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        5.16923083,
+        0.67708331,
+        0.67708331
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\89_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\89_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.75706036,
+        0.8125,
+        1.03466552
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\90_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\90_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.76335281,
+        0.67708331,
+        0.89939511
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\90_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\90_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80000005,
+        0.67708331,
+        0.67708331
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\91_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\91_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.78532949,
+        0.8125,
+        0.89486154
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\93_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\93_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.80135393,
+        0.67708331,
+        0.6674142
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\93_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\93_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        3.31340006,
+        0.625,
+        0.54954937
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\94_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\94_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\94_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\94_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.40000015,
+        0.72916669,
+        0.72916669
+      ],
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\96_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\96_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\96_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\96_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.78034081,
+        0.67708331,
+        0.80422865
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\97_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\97_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.39565359,
+        0.30795002,
+        0.62241974
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\99_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\99_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.83518045,
+        0.8125,
+        0.5667317
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\9_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\9_t1.mha"
+      ]
+    },
+    {
+      "spacing": [
+        4.82827669,
+        0.67708331,
+        0.43149111
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\9_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\9_t2.mha"
+      ]
+    },
+    {
+      "spacing": [
+        0.68359375,
+        0.68359375,
+        0.89999998
+      ],
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\sub-verse500_dir-ax_ct.nii.gz",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\sub-verse500_dir-ax_seg-vert_msk.nii.gz"
+      ]
+    },
+    {
+      "spacing": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "count": 30,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\dicom_series\\100206310\\1012284084\\1.dcm",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\dicom_series\\100206310\\1012284084\\10.dcm",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\dicom_series\\100206310\\1012284084\\11.dcm",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\dicom_series\\100206310\\1012284084\\12.dcm",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\dicom_series\\100206310\\1012284084\\13.dcm"
+      ]
+    }
+  ],
+  "unique_spacing_count": 237,
+  "is_spacing_identical_across_dataset": false,
+  "is_spacing_patient_specific": true,
+  "patient_alpha_image_records_with_spacing": [],
+  "runtime_reports_declaring_missing_mesh_spacing": [
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase3\\runtime_recovery_report.txt"
+  ],
+  "trusted_patient_alpha_spacing_available": false,
+  "calibration_decision": "stop_missing_trusted_patient_alpha_spacing",
+  "decision_reason": "Repository contains image metadata, but no spacing metadata is reliably linked to the Patient Alpha reconstructed mesh/state."
+}

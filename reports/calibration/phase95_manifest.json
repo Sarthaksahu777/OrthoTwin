@@ -1,0 +1,21 @@
+{
+  "generated_utc": "2026-06-21T12:41:00.951318+00:00",
+  "decision": "calibration still blocked",
+  "confidence": "LOW",
+  "files": [
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\calibration\\image_metadata_inventory.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\calibration\\patient_alpha_linkage_graph.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\calibration\\reconstruction_traceback.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\calibration\\spacing_candidate_ranking.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\calibration\\physical_calibration_decision.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\calibration\\phase95_calibration_audit.txt",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\calibration\\metadata_lineage_graph.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\calibration\\patient_alpha_linkage_graph.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\calibration\\spacing_candidate_dashboard.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\calibration\\calibration_decision_flowchart.png"
+  ],
+  "calibrated_measurements_generated": false,
+  "no_fake_spacing": true,
+  "no_inference": true,
+  "no_reconstruction": true
+}

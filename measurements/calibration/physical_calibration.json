@@ -1,0 +1,11 @@
+{
+  "generated_utc": "2026-06-21T05:08:22.719026+00:00",
+  "calibration_status": "blocked",
+  "reason": "Repository contains image metadata, but no spacing metadata is reliably linked to the Patient Alpha reconstructed mesh/state.",
+  "mm_per_voxel_x": null,
+  "mm_per_voxel_y": null,
+  "mm_per_voxel_z": null,
+  "voxel_volume_mm3": null,
+  "patient_alpha_spacing_source": null,
+  "no_assumed_spacing": true
+}

@@ -1,0 +1,599 @@
+{
+  "generated_utc": "2026-06-20T23:25:40.447309+00:00",
+  "interventions": {
+    "collapse": {
+      "intervention": "collapse",
+      "action": {
+        "type": "disc_collapse",
+        "target": "disc_6_206_207",
+        "parameters": {
+          "collapse_percent": 20.0
+        }
+      },
+      "direct_effects": [
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "height",
+          "before": 15.0,
+          "after": 12.0,
+          "delta": -3.0
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "relative_load_index",
+          "before": 1.2087350874024716,
+          "after": 1.3487350874024715,
+          "delta": 0.1399999999999999
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "stress_score",
+          "before": 0.2325110178794304,
+          "after": 0.31651101787943037,
+          "delta": 0.08399999999999996
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "disc_angle_degrees",
+          "before": 85.9992461272594,
+          "after": 87.59924612725939,
+          "delta": 1.5999999999999943
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "disc_tilt_degrees",
+          "before": 81.96957698537713,
+          "after": 83.56957698537713,
+          "delta": 1.5999999999999943
+        }
+      ],
+      "secondary_effects": [
+        {
+          "node_id": "vertebra_6",
+          "depth": 1,
+          "effect_tier": "secondary",
+          "parent": "disc_6_206_207",
+          "node_type": "vertebra",
+          "load_delta": 0.11000000000000001,
+          "effects": [
+            {
+              "node_id": "vertebra_6",
+              "metric": "relative_load_index",
+              "before": 1.1743725376016747,
+              "after": 1.2843725376016748,
+              "delta": 0.1100000000000001
+            },
+            {
+              "node_id": "vertebra_6",
+              "metric": "stress_score",
+              "before": 0.20462352256100483,
+              "after": 0.27062352256100486,
+              "delta": 0.06600000000000003
+            }
+          ]
+        },
+        {
+          "node_id": "vertebra_7",
+          "depth": 1,
+          "effect_tier": "secondary",
+          "parent": "disc_6_206_207",
+          "node_type": "vertebra",
+          "load_delta": 0.11000000000000001,
+          "effects": [
+            {
+              "node_id": "vertebra_7",
+              "metric": "relative_load_index",
+              "before": 1.2087350874024716,
+              "after": 1.3187350874024717,
+              "delta": 0.1100000000000001
+            },
+            {
+              "node_id": "vertebra_7",
+              "metric": "stress_score",
+              "before": 0.22524105244148296,
+              "after": 0.29124105244148296,
+              "delta": 0.066
+            }
+          ]
+        }
+      ],
+      "tertiary_effects": [
+        {
+          "node_id": "disc_5_205",
+          "depth": 2,
+          "effect_tier": "tertiary",
+          "parent": "vertebra_6",
+          "node_type": "disc",
+          "load_delta": 0.05,
+          "effects": [
+            {
+              "node_id": "disc_5_205",
+              "metric": "relative_load_index",
+              "before": 1.140009987800878,
+              "after": 1.190009987800878,
+              "delta": 0.050000000000000044
+            },
+            {
+              "node_id": "disc_5_205",
+              "metric": "stress_score",
+              "before": 0.1892810301073428,
+              "after": 0.2192810301073428,
+              "delta": 0.03
+            }
+          ]
+        }
+      ],
+      "affected_structures": [
+        "disc_6_206_207",
+        "vertebra_6",
+        "vertebra_7",
+        "disc_5_205",
+        "vertebra_5"
+      ],
+      "affected_structure_count": 5
+    },
+    "restoration": {
+      "intervention": "restoration",
+      "action": {
+        "type": "disc_restoration",
+        "target": "disc_6_206_207",
+        "parameters": {
+          "restoration_percent": 20.0
+        }
+      },
+      "direct_effects": [
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "height",
+          "before": 15.0,
+          "after": 18.0,
+          "delta": 3.0
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "relative_load_index",
+          "before": 1.2087350874024716,
+          "after": 1.1087350874024715,
+          "delta": -0.10000000000000009
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "stress_score",
+          "before": 0.2325110178794304,
+          "after": 0.1975110178794304,
+          "delta": -0.035
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "disc_angle_degrees",
+          "before": 85.9992461272594,
+          "after": 84.9992461272594,
+          "delta": -1.0
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "disc_tilt_degrees",
+          "before": 81.96957698537713,
+          "after": 80.96957698537713,
+          "delta": -1.0
+        }
+      ],
+      "secondary_effects": [
+        {
+          "node_id": "vertebra_6",
+          "depth": 1,
+          "effect_tier": "secondary",
+          "parent": "disc_6_206_207",
+          "node_type": "vertebra",
+          "load_delta": -0.07150000000000001,
+          "effects": [
+            {
+              "node_id": "vertebra_6",
+              "metric": "relative_load_index",
+              "before": 1.1743725376016747,
+              "after": 1.1028725376016748,
+              "delta": -0.0714999999999999
+            },
+            {
+              "node_id": "vertebra_6",
+              "metric": "stress_score",
+              "before": 0.20462352256100483,
+              "after": 0.17959852256100484,
+              "delta": -0.02502499999999999
+            }
+          ]
+        },
+        {
+          "node_id": "vertebra_7",
+          "depth": 1,
+          "effect_tier": "secondary",
+          "parent": "disc_6_206_207",
+          "node_type": "vertebra",
+          "load_delta": -0.07150000000000001,
+          "effects": [
+            {
+              "node_id": "vertebra_7",
+              "metric": "relative_load_index",
+              "before": 1.2087350874024716,
+              "after": 1.1372350874024715,
+              "delta": -0.07150000000000012
+            },
+            {
+              "node_id": "vertebra_7",
+              "metric": "stress_score",
+              "before": 0.22524105244148296,
+              "after": 0.20021605244148297,
+              "delta": -0.02502499999999999
+            }
+          ]
+        }
+      ],
+      "tertiary_effects": [
+        {
+          "node_id": "disc_5_205",
+          "depth": 2,
+          "effect_tier": "tertiary",
+          "parent": "vertebra_6",
+          "node_type": "disc",
+          "load_delta": -0.0325,
+          "effects": [
+            {
+              "node_id": "disc_5_205",
+              "metric": "relative_load_index",
+              "before": 1.140009987800878,
+              "after": 1.107509987800878,
+              "delta": -0.03249999999999997
+            },
+            {
+              "node_id": "disc_5_205",
+              "metric": "stress_score",
+              "before": 0.1892810301073428,
+              "after": 0.1779060301073428,
+              "delta": -0.011374999999999996
+            }
+          ]
+        }
+      ],
+      "affected_structures": [
+        "disc_6_206_207",
+        "vertebra_6",
+        "vertebra_7",
+        "disc_5_205",
+        "vertebra_5"
+      ],
+      "affected_structure_count": 5
+    },
+    "fusion": {
+      "intervention": "fusion",
+      "action": {
+        "type": "fusion",
+        "target": "vertebra_5__vertebra_6",
+        "parameters": {
+          "vertebra_a": "vertebra_5",
+          "vertebra_b": "vertebra_6"
+        }
+      },
+      "direct_effects": [
+        {
+          "node_id": "vertebra_5",
+          "metric": "relative_load_index",
+          "before": 1.070004993900439,
+          "after": 0.9095042448153732,
+          "delta": -0.16050074908506584
+        },
+        {
+          "node_id": "vertebra_6",
+          "metric": "relative_load_index",
+          "before": 1.1743725376016747,
+          "after": 0.9982166569614235,
+          "delta": -0.17615588064025123
+        },
+        {
+          "node_id": "disc_5_205",
+          "metric": "motion_segment_removed",
+          "before": false,
+          "after": true,
+          "delta": 1
+        }
+      ],
+      "secondary_effects": [
+        {
+          "node_id": "disc_4_204",
+          "depth": 1,
+          "effect_tier": "secondary",
+          "parent": "vertebra_5",
+          "node_type": "disc",
+          "load_delta": 0.08800000000000001,
+          "effects": [
+            {
+              "node_id": "disc_4_204",
+              "metric": "relative_load_index",
+              "before": 1.0,
+              "after": 1.088,
+              "delta": 0.08800000000000008
+            },
+            {
+              "node_id": "disc_4_204",
+              "metric": "stress_score",
+              "before": 0.0936993350219281,
+              "after": 0.1464993350219281,
+              "delta": 0.0528
+            }
+          ]
+        },
+        {
+          "node_id": "disc_5_205",
+          "depth": 1,
+          "effect_tier": "secondary",
+          "parent": "vertebra_5",
+          "node_type": "disc",
+          "load_delta": 0.08800000000000001,
+          "effects": [
+            {
+              "node_id": "disc_5_205",
+              "metric": "relative_load_index",
+              "before": 1.140009987800878,
+              "after": 1.2280099878008781,
+              "delta": 0.08800000000000008
+            },
+            {
+              "node_id": "disc_5_205",
+              "metric": "stress_score",
+              "before": 0.1892810301073428,
+              "after": 0.2420810301073428,
+              "delta": 0.052800000000000014
+            }
+          ]
+        }
+      ],
+      "tertiary_effects": [
+        {
+          "node_id": "vertebra_4",
+          "depth": 2,
+          "effect_tier": "tertiary",
+          "parent": "disc_4_204",
+          "node_type": "vertebra",
+          "load_delta": 0.04,
+          "effects": [
+            {
+              "node_id": "vertebra_4",
+              "metric": "relative_load_index",
+              "before": 1.0,
+              "after": 1.04,
+              "delta": 0.040000000000000036
+            },
+            {
+              "node_id": "vertebra_4",
+              "metric": "stress_score",
+              "before": 0.1,
+              "after": 0.124,
+              "delta": 0.023999999999999994
+            }
+          ]
+        },
+        {
+          "node_id": "vertebra_6",
+          "depth": 2,
+          "effect_tier": "tertiary",
+          "parent": "disc_5_205",
+          "node_type": "vertebra",
+          "load_delta": 0.04,
+          "effects": [
+            {
+              "node_id": "vertebra_6",
+              "metric": "relative_load_index",
+              "before": 0.9982166569614235,
+              "after": 1.0382166569614235,
+              "delta": 0.040000000000000036
+            },
+            {
+              "node_id": "vertebra_6",
+              "metric": "stress_score",
+              "before": 0.20462352256100483,
+              "after": 0.22862352256100482,
+              "delta": 0.023999999999999994
+            }
+          ]
+        },
+        {
+          "node_id": "vertebra_5",
+          "depth": 2,
+          "effect_tier": "tertiary",
+          "parent": "disc_5_205",
+          "node_type": "vertebra",
+          "load_delta": 0.04,
+          "effects": [
+            {
+              "node_id": "vertebra_5",
+              "metric": "relative_load_index",
+              "before": 0.9095042448153732,
+              "after": 0.9495042448153732,
+              "delta": 0.040000000000000036
+            },
+            {
+              "node_id": "vertebra_5",
+              "metric": "stress_score",
+              "before": 0.14200299634026342,
+              "after": 0.16600299634026341,
+              "delta": 0.023999999999999994
+            }
+          ]
+        },
+        {
+          "node_id": "vertebra_7",
+          "depth": 2,
+          "effect_tier": "tertiary",
+          "parent": "disc_6_206_207",
+          "node_type": "vertebra",
+          "load_delta": 0.04,
+          "effects": [
+            {
+              "node_id": "vertebra_7",
+              "metric": "relative_load_index",
+              "before": 1.2087350874024716,
+              "after": 1.2487350874024716,
+              "delta": 0.040000000000000036
+            },
+            {
+              "node_id": "vertebra_7",
+              "metric": "stress_score",
+              "before": 0.22524105244148296,
+              "after": 0.24924105244148295,
+              "delta": 0.023999999999999994
+            }
+          ]
+        }
+      ],
+      "affected_structures": [
+        "vertebra_5__vertebra_6",
+        "disc_4_204",
+        "disc_5_205",
+        "vertebra_4",
+        "vertebra_6",
+        "disc_3_203",
+        "disc_6_206_207",
+        "vertebra_5",
+        "vertebra_7"
+      ],
+      "affected_structure_count": 9
+    },
+    "implant": {
+      "intervention": "implant",
+      "action": {
+        "type": "implant_insertion",
+        "target": "disc_6_206_207",
+        "parameters": {
+          "implant_height": 18.0
+        }
+      },
+      "direct_effects": [
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "height",
+          "before": 15.0,
+          "after": 18.0,
+          "delta": 3.0
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "implant_inserted",
+          "before": false,
+          "after": true,
+          "delta": 1
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "relative_load_index",
+          "before": 1.2087350874024716,
+          "after": 0.9587350874024716,
+          "delta": -0.25
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "stress_score",
+          "before": 0.2325110178794304,
+          "after": 0.1450110178794304,
+          "delta": -0.0875
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "disc_angle_degrees",
+          "before": 85.9992461272594,
+          "after": 84.4992461272594,
+          "delta": -1.5
+        },
+        {
+          "node_id": "disc_6_206_207",
+          "metric": "disc_tilt_degrees",
+          "before": 81.96957698537713,
+          "after": 80.46957698537713,
+          "delta": -1.5
+        }
+      ],
+      "secondary_effects": [
+        {
+          "node_id": "vertebra_6",
+          "depth": 1,
+          "effect_tier": "secondary",
+          "parent": "disc_6_206_207",
+          "node_type": "vertebra",
+          "load_delta": -0.08937500000000001,
+          "effects": [
+            {
+              "node_id": "vertebra_6",
+              "metric": "relative_load_index",
+              "before": 1.1743725376016747,
+              "after": 1.0849975376016747,
+              "delta": -0.08937499999999998
+            },
+            {
+              "node_id": "vertebra_6",
+              "metric": "stress_score",
+              "before": 0.20462352256100483,
+              "after": 0.17334227256100482,
+              "delta": -0.03128125000000001
+            }
+          ]
+        },
+        {
+          "node_id": "vertebra_7",
+          "depth": 1,
+          "effect_tier": "secondary",
+          "parent": "disc_6_206_207",
+          "node_type": "vertebra",
+          "load_delta": -0.08937500000000001,
+          "effects": [
+            {
+              "node_id": "vertebra_7",
+              "metric": "relative_load_index",
+              "before": 1.2087350874024716,
+              "after": 1.1193600874024716,
+              "delta": -0.08937499999999998
+            },
+            {
+              "node_id": "vertebra_7",
+              "metric": "stress_score",
+              "before": 0.22524105244148296,
+              "after": 0.19395980244148295,
+              "delta": -0.03128125000000001
+            }
+          ]
+        }
+      ],
+      "tertiary_effects": [
+        {
+          "node_id": "disc_5_205",
+          "depth": 2,
+          "effect_tier": "tertiary",
+          "parent": "vertebra_6",
+          "node_type": "disc",
+          "load_delta": -0.040625,
+          "effects": [
+            {
+              "node_id": "disc_5_205",
+              "metric": "relative_load_index",
+              "before": 1.140009987800878,
+              "after": 1.0993849878008781,
+              "delta": -0.04062499999999991
+            },
+            {
+              "node_id": "disc_5_205",
+              "metric": "stress_score",
+              "before": 0.1892810301073428,
+              "after": 0.1750622801073428,
+              "delta": -0.014218750000000002
+            }
+          ]
+        }
+      ],
+      "affected_structures": [
+        "disc_6_206_207",
+        "vertebra_6",
+        "vertebra_7",
+        "disc_5_205",
+        "vertebra_5"
+      ],
+      "affected_structure_count": 5
+    }
+  }
+}

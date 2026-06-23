@@ -1,0 +1,15 @@
+{
+  "patient_id": "patient_alpha",
+  "validated_utc": "2026-06-19T17:15:24.500529+00:00",
+  "graph_connected": true,
+  "node_count": 14,
+  "edge_count": 13,
+  "visited_node_count": 14,
+  "missing_nodes": [],
+  "missing_neighbor_references": [],
+  "broken_relationships": [],
+  "impossible_ordering": [],
+  "missing_disc_relationships": [],
+  "issues": [],
+  "status": "pass"
+}

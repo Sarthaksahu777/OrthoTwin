@@ -1,0 +1,31 @@
+{
+  "scenario_id": "fusion_mesh_v3",
+  "operation": "fusion",
+  "mesh_operations": [
+    {
+      "structure_name": "fusion_mesh_vertebra_5_vertebra_6",
+      "operation": "fusion_constraint",
+      "parameters": {
+        "vertebra_a": "Vertebra 5",
+        "vertebra_b": "Vertebra 6",
+        "locked_relative_transform": true
+      },
+      "vertices_moved": 0,
+      "average_displacement": 0.0,
+      "max_displacement": 0.0
+    }
+  ],
+  "created_objects": [
+    {
+      "id": "fusion_mesh_vertebra_5_vertebra_6",
+      "type": "fusion_segment",
+      "geometry_changed": false
+    }
+  ],
+  "geometry_changed": false,
+  "relationship_changed": true,
+  "constraint_changed": true,
+  "not_medical_advice": true,
+  "biomechanics_claim": "none",
+  "clinical_validity_claim": "none"
+}

@@ -1,0 +1,16 @@
+# Capability Matrix Report
+
+- Segmentation: COMPLETE - Existing segmentation outputs and masks are present; no retraining in release.
+- Voxel cleanup / QC: COMPLETE - Cleanup and validation artifacts exist.
+- 3D reconstruction: COMPLETE - reconstructed_structures.pkl contains vertebra and disc meshes.
+- Measurements: PARTIAL - Geometry-derived and estimated measurements exist; physical calibration and clinical validation missing.
+- State representation: COMPLETE - Patient state vectors and clinical state vector exist.
+- Spine graph: COMPLETE - Connected graph representation exists.
+- Propagation engine: EXPERIMENTAL - Deterministic graph propagation exists; not physics.
+- Scenario engine: EXPERIMENTAL - Scenario comparison exists; internal scoring only.
+- Longitudinal engine: EXPERIMENTAL - Rule-based future states exist; no follow-up validation.
+- Geometry surgery: EXPERIMENTAL - Anatomy-first centroid/object surgery exists; some metrics remain copied/estimated.
+- Mesh surgery: EXPERIMENTAL - Vertex-level transformations exist; no FEM or tissue mechanics.
+- Physical calibration: BLOCKED - Patient Alpha spacing/orientation/slice thickness could not be proven.
+- Biomechanics: BLOCKED - Material properties, boundary conditions, solver, and validated meshes missing.
+- Clinical validation: BLOCKED - No independent radiologist, biomechanical, prospective, or regulatory validation.

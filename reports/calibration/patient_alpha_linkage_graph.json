@@ -1,0 +1,2949 @@
+{
+  "generated_utc": "2026-06-21T12:41:00.951318+00:00",
+  "confidence": "MEDIUM",
+  "trusted_image_link_found": false,
+  "evidence_count": 139,
+  "nodes": [
+    {
+      "id": "patient_alpha",
+      "type": "patient"
+    },
+    {
+      "id": "config\\default_config.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "manifests\\final_repository_manifest.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "manifests\\master_index.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "manifests\\orthtwin2_arrangement_log.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "manifests\\phase45_manifest.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "manifests\\phase6_manifest.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "manifests\\project_graph.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "manifests\\project_inventory.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "manifests\\state_validation_report.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "presentation\\presentation_dataset.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\master_digital_twin_state.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "visualization\\simulation_suite\\simulation_visualization_manifest.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "visualization\\simulation_suite\\simulation_visualization_summary.txt",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\future_states\\future_state_disc_collapse_10.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\future_states\\future_state_disc_collapse_20.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\future_states\\future_state_disc_collapse_30.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\future_states\\future_state_disc_restore_10.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\future_states\\future_state_disc_restore_20.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\future_states\\future_state_disc_restore_30.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\future_states\\future_state_fusion_l4_l5.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\future_states\\future_state_fusion_l5_s1.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\future_states\\future_state_implant_disc_5.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\future_states\\future_state_implant_disc_6.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\graphs\\disc_relationships.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\graphs\\spine_centerline.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\graphs\\spine_graph.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\longitudinal\\future_state_0_months.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\longitudinal\\future_state_10_years.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\longitudinal\\future_state_1_year.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\longitudinal\\future_state_2_years.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\longitudinal\\future_state_5_years.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\longitudinal\\future_state_6_months.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\mesh\\mesh_rebuilt_state.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\mesh\\mesh_rebuilt_state_collapse.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\mesh\\mesh_rebuilt_state_fusion.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\mesh\\mesh_rebuilt_state_implant.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\mesh\\mesh_rebuilt_state_spacer.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\mesh\\mesh_state_vector.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\patient_states\\clinical_state_vector.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\patient_states\\patient_state_after_intervention.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\patient_states\\patient_state_vector.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\patient_states\\patient_state_vector_v2.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\scenarios\\baseline_scenario.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\scenarios\\disc_collapse_10.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\scenarios\\disc_collapse_20.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\scenarios\\disc_collapse_30.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\scenarios\\disc_restoration_10.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\scenarios\\disc_restoration_20.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\scenarios\\disc_restoration_30.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\scenarios\\fusion_l4_l5.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\scenarios\\fusion_l5_s1.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\scenarios\\implant_disc_5.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\scenarios\\implant_disc_6.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\surgery\\alignment_geometry_result.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\surgery\\fusion_geometry_result.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\surgery\\implant_geometry_result.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\surgery\\rebuilt_state_alignment_correction.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\surgery\\rebuilt_state_fusion.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\surgery\\rebuilt_state_implant.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\surgery\\rebuilt_state_spacer.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\surgery\\spacer_geometry_result.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\surgery\\surgical_objects.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\transitions\\disc_collapse_simulation.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\transitions\\disc_restoration_simulation.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\transitions\\fusion_simulation.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "state\\transitions\\implant_simulation.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\calibration\\patient_alpha_linkage_graph.json",
+      "type": "artifact",
+      "score": 4
+    },
+    {
+      "id": "reports\\calibration\\reconstruction_traceback.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase3\\digital_twin_report.txt",
+      "type": "artifact",
+      "score": 5
+    },
+    {
+      "id": "reports\\phase3\\patient_alpha_report.txt",
+      "type": "artifact",
+      "score": 4
+    },
+    {
+      "id": "reports\\phase3\\runtime_recovery_report.txt",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase3\\session_restore_report(1).txt",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase3\\session_restore_report.txt",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase3\\state_change_report.txt",
+      "type": "artifact",
+      "score": 5
+    },
+    {
+      "id": "reports\\phase4_5\\missing_spacing_report.txt",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase5\\dashboard_state.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase5\\phase5_scenario_report.txt",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase6\\failure_modes.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase6\\master_dashboard.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase6\\repository_knowledge_graph.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase9\\assumption_reduction_plan.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase9\\orthotwin_final_gap_analysis.txt",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase9\\orthotwin_prototype_status.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase9\\patient_alpha_spacing_audit.json",
+      "type": "artifact",
+      "score": 4
+    },
+    {
+      "id": "reports\\phase9\\phase9_manifest.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\release_v1\\capability_matrix.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\release_v1\\capability_matrix_report.txt",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\release_v1\\orthotwin_v1_repository_audit.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\release_v1\\orthotwin_v1_validation.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\release_v1\\repository_health_report.txt",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\release_v1\\research_readiness_report.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "reports\\phase6\\evidence\\assumption_registry.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\alignment\\load_path_model.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\alignment\\local_alignment_metrics.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\calibration\\imaging_metadata_report.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\calibration\\physical_calibration.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\calibration\\spacing_validation_report.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\discs\\patient_alpha_disc_ranking.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\discs\\relative_disc_metrics.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\geometry\\final_project_status.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\geometry\\GLOBAL_reconstructed_structures.pkl",
+      "type": "artifact",
+      "score": 1
+    },
+    {
+      "id": "measurements\\geometry\\patient_alpha_clean_measurements.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\geometry\\patient_alpha_component_analysis.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\geometry\\patient_alpha_findings.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\geometry\\patient_alpha_measurements.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\geometry\\patient_alpha_mesh_statistics.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\geometry\\patient_alpha_mesh_statistics_orthtwin2.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\geometry\\patient_alpha_pca_measurements.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\geometry\\patient_alpha_voxel_component_analysis.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "measurements\\geometry\\reconstructed_structures.pkl",
+      "type": "artifact",
+      "score": 1
+    },
+    {
+      "id": "measurements\\vertebrae\\relative_vertebral_metrics.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin2\\session_summary.txt",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_clean_measurements.pkl",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_component_analysis.pkl",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_disc_ranking.pkl",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_findings.pkl",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_measurements.pkl",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_mesh_statistics(1).pkl",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_mesh_statistics.pkl",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\patient_alpha_clean_measurements.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\patient_alpha_component_analysis.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_ranking.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\patient_alpha_mesh_statistics.pkl",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\project_manifest.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\ram_backup_manifest.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\reconstructed_structures.pkl",
+      "type": "artifact",
+      "score": 1
+    },
+    {
+      "id": "archive\\OrthoTwin_Final_Archive\\session_recovery_summary.txt",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Showcase\\final_project_status.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Showcase\\patient_alpha_clean_measurements.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Showcase\\patient_alpha_component_analysis.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Showcase\\patient_alpha_disc_ranking.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Showcase\\patient_alpha_findings.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Showcase\\patient_alpha_measurements.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Showcase\\patient_alpha_mesh_statistics.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Showcase\\patient_alpha_pca_measurements.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_analysis.json",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Showcase\\reconstructed_structures.pkl",
+      "type": "artifact",
+      "score": 1
+    },
+    {
+      "id": "archive\\OrthoTwin_Showcase\\runtime_recovery_report.txt",
+      "type": "artifact",
+      "score": 2
+    },
+    {
+      "id": "archive\\OrthoTwin_Showcase\\session_summary.txt",
+      "type": "artifact",
+      "score": 2
+    }
+  ],
+  "edges": [
+    {
+      "from": "patient_alpha",
+      "to": "config\\default_config.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "manifests\\final_repository_manifest.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "manifests\\master_index.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "manifests\\orthtwin2_arrangement_log.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "manifests\\phase45_manifest.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "manifests\\phase6_manifest.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "manifests\\project_graph.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "manifests\\project_inventory.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "manifests\\state_validation_report.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "presentation\\presentation_dataset.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\master_digital_twin_state.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "visualization\\simulation_suite\\simulation_visualization_manifest.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "visualization\\simulation_suite\\simulation_visualization_summary.txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\future_states\\future_state_disc_collapse_10.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\future_states\\future_state_disc_collapse_20.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\future_states\\future_state_disc_collapse_30.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\future_states\\future_state_disc_restore_10.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\future_states\\future_state_disc_restore_20.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\future_states\\future_state_disc_restore_30.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\future_states\\future_state_fusion_l4_l5.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\future_states\\future_state_fusion_l5_s1.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\future_states\\future_state_implant_disc_5.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\future_states\\future_state_implant_disc_6.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\graphs\\disc_relationships.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\graphs\\spine_centerline.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\graphs\\spine_graph.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\longitudinal\\future_state_0_months.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\longitudinal\\future_state_10_years.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\longitudinal\\future_state_1_year.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\longitudinal\\future_state_2_years.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\longitudinal\\future_state_5_years.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\longitudinal\\future_state_6_months.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\mesh\\mesh_rebuilt_state.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\mesh\\mesh_rebuilt_state_collapse.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\mesh\\mesh_rebuilt_state_fusion.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\mesh\\mesh_rebuilt_state_implant.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\mesh\\mesh_rebuilt_state_spacer.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\mesh\\mesh_state_vector.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\patient_states\\clinical_state_vector.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\patient_states\\patient_state_after_intervention.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\patient_states\\patient_state_vector.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\patient_states\\patient_state_vector_v2.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\scenarios\\baseline_scenario.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\scenarios\\disc_collapse_10.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\scenarios\\disc_collapse_20.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\scenarios\\disc_collapse_30.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\scenarios\\disc_restoration_10.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\scenarios\\disc_restoration_20.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\scenarios\\disc_restoration_30.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\scenarios\\fusion_l4_l5.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\scenarios\\fusion_l5_s1.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\scenarios\\implant_disc_5.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\scenarios\\implant_disc_6.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\surgery\\alignment_geometry_result.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\surgery\\fusion_geometry_result.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\surgery\\implant_geometry_result.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\surgery\\rebuilt_state_alignment_correction.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\surgery\\rebuilt_state_fusion.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\surgery\\rebuilt_state_implant.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\surgery\\rebuilt_state_spacer.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\surgery\\spacer_geometry_result.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\surgery\\surgical_objects.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\transitions\\disc_collapse_simulation.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\transitions\\disc_restoration_simulation.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\transitions\\fusion_simulation.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "state\\transitions\\implant_simulation.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\calibration\\patient_alpha_linkage_graph.json",
+      "confidence_score": 4,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha",
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\calibration\\reconstruction_traceback.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase3\\digital_twin_report.txt",
+      "confidence_score": 5,
+      "reasons": [
+        "file_content_mentions_patient_alpha",
+        "metadata_patient_id_mentions_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase3\\patient_alpha_report.txt",
+      "confidence_score": 4,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha",
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase3\\runtime_recovery_report.txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase3\\session_restore_report(1).txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase3\\session_restore_report.txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase3\\state_change_report.txt",
+      "confidence_score": 5,
+      "reasons": [
+        "file_content_mentions_patient_alpha",
+        "metadata_patient_id_mentions_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase4_5\\missing_spacing_report.txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase5\\dashboard_state.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase5\\phase5_scenario_report.txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase6\\failure_modes.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase6\\master_dashboard.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase6\\repository_knowledge_graph.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase9\\assumption_reduction_plan.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase9\\orthotwin_final_gap_analysis.txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase9\\orthotwin_prototype_status.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase9\\patient_alpha_spacing_audit.json",
+      "confidence_score": 4,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha",
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase9\\phase9_manifest.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\release_v1\\capability_matrix.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\release_v1\\capability_matrix_report.txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\release_v1\\orthotwin_v1_repository_audit.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\release_v1\\orthotwin_v1_validation.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\release_v1\\repository_health_report.txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\release_v1\\research_readiness_report.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "reports\\phase6\\evidence\\assumption_registry.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\alignment\\load_path_model.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\alignment\\local_alignment_metrics.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\calibration\\imaging_metadata_report.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\calibration\\physical_calibration.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\calibration\\spacing_validation_report.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\discs\\patient_alpha_disc_ranking.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\discs\\relative_disc_metrics.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\geometry\\final_project_status.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\geometry\\GLOBAL_reconstructed_structures.pkl",
+      "confidence_score": 1,
+      "reasons": [
+        "active_reconstruction_artifact"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\geometry\\patient_alpha_clean_measurements.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\geometry\\patient_alpha_component_analysis.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\geometry\\patient_alpha_findings.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\geometry\\patient_alpha_measurements.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\geometry\\patient_alpha_mesh_statistics.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\geometry\\patient_alpha_mesh_statistics_orthtwin2.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\geometry\\patient_alpha_pca_measurements.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\geometry\\patient_alpha_voxel_component_analysis.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\geometry\\reconstructed_structures.pkl",
+      "confidence_score": 1,
+      "reasons": [
+        "active_reconstruction_artifact"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "measurements\\vertebrae\\relative_vertebral_metrics.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin2\\session_summary.txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_clean_measurements.pkl",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_component_analysis.pkl",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_disc_ranking.pkl",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_findings.pkl",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_measurements.pkl",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_mesh_statistics(1).pkl",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_mesh_statistics.pkl",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\patient_alpha_clean_measurements.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\patient_alpha_component_analysis.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_ranking.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\patient_alpha_mesh_statistics.pkl",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\project_manifest.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\ram_backup_manifest.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\reconstructed_structures.pkl",
+      "confidence_score": 1,
+      "reasons": [
+        "active_reconstruction_artifact"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Final_Archive\\session_recovery_summary.txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Showcase\\final_project_status.json",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Showcase\\patient_alpha_clean_measurements.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Showcase\\patient_alpha_component_analysis.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Showcase\\patient_alpha_disc_ranking.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Showcase\\patient_alpha_findings.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Showcase\\patient_alpha_measurements.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Showcase\\patient_alpha_mesh_statistics.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Showcase\\patient_alpha_pca_measurements.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_analysis.json",
+      "confidence_score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Showcase\\reconstructed_structures.pkl",
+      "confidence_score": 1,
+      "reasons": [
+        "active_reconstruction_artifact"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Showcase\\runtime_recovery_report.txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    },
+    {
+      "from": "patient_alpha",
+      "to": "archive\\OrthoTwin_Showcase\\session_summary.txt",
+      "confidence_score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "file": "reports\\phase3\\digital_twin_report.txt",
+      "score": 5,
+      "reasons": [
+        "file_content_mentions_patient_alpha",
+        "metadata_patient_id_mentions_alpha"
+      ],
+      "metadata": {
+        "patient_id": "patient_alpha"
+      }
+    },
+    {
+      "file": "reports\\phase3\\state_change_report.txt",
+      "score": 5,
+      "reasons": [
+        "file_content_mentions_patient_alpha",
+        "metadata_patient_id_mentions_alpha"
+      ],
+      "metadata": {
+        "patient_id": "patient_alpha"
+      }
+    },
+    {
+      "file": "reports\\calibration\\patient_alpha_linkage_graph.json",
+      "score": 4,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha",
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase3\\patient_alpha_report.txt",
+      "score": 4,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha",
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase9\\patient_alpha_spacing_audit.json",
+      "score": 4,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha",
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "config\\default_config.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "manifests\\final_repository_manifest.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "manifests\\master_index.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "manifests\\orthtwin2_arrangement_log.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "manifests\\phase45_manifest.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "manifests\\phase6_manifest.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "manifests\\project_graph.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "manifests\\project_inventory.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "manifests\\state_validation_report.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "presentation\\presentation_dataset.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\master_digital_twin_state.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "visualization\\simulation_suite\\simulation_visualization_manifest.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "visualization\\simulation_suite\\simulation_visualization_summary.txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\future_states\\future_state_disc_collapse_10.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\future_states\\future_state_disc_collapse_20.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\future_states\\future_state_disc_collapse_30.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\future_states\\future_state_disc_restore_10.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\future_states\\future_state_disc_restore_20.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\future_states\\future_state_disc_restore_30.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\future_states\\future_state_fusion_l4_l5.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\future_states\\future_state_fusion_l5_s1.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\future_states\\future_state_implant_disc_5.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\future_states\\future_state_implant_disc_6.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\graphs\\disc_relationships.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\graphs\\spine_centerline.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\graphs\\spine_graph.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\longitudinal\\future_state_0_months.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\longitudinal\\future_state_10_years.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\longitudinal\\future_state_1_year.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\longitudinal\\future_state_2_years.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\longitudinal\\future_state_5_years.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\longitudinal\\future_state_6_months.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\mesh\\mesh_rebuilt_state.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\mesh\\mesh_rebuilt_state_collapse.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\mesh\\mesh_rebuilt_state_fusion.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\mesh\\mesh_rebuilt_state_implant.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\mesh\\mesh_rebuilt_state_spacer.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\mesh\\mesh_state_vector.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\patient_states\\clinical_state_vector.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\patient_states\\patient_state_after_intervention.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\patient_states\\patient_state_vector.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\patient_states\\patient_state_vector_v2.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\scenarios\\baseline_scenario.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\scenarios\\disc_collapse_10.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\scenarios\\disc_collapse_20.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\scenarios\\disc_collapse_30.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\scenarios\\disc_restoration_10.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\scenarios\\disc_restoration_20.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\scenarios\\disc_restoration_30.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\scenarios\\fusion_l4_l5.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\scenarios\\fusion_l5_s1.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\scenarios\\implant_disc_5.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\scenarios\\implant_disc_6.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\surgery\\alignment_geometry_result.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\surgery\\fusion_geometry_result.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\surgery\\implant_geometry_result.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\surgery\\rebuilt_state_alignment_correction.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\surgery\\rebuilt_state_fusion.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\surgery\\rebuilt_state_implant.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\surgery\\rebuilt_state_spacer.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\surgery\\spacer_geometry_result.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\surgery\\surgical_objects.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\transitions\\disc_collapse_simulation.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\transitions\\disc_restoration_simulation.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\transitions\\fusion_simulation.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "state\\transitions\\implant_simulation.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\calibration\\reconstruction_traceback.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase3\\runtime_recovery_report.txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase3\\session_restore_report(1).txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase3\\session_restore_report.txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase4_5\\missing_spacing_report.txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase5\\dashboard_state.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase5\\phase5_scenario_report.txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase6\\failure_modes.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase6\\master_dashboard.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase6\\repository_knowledge_graph.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase9\\assumption_reduction_plan.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase9\\orthotwin_final_gap_analysis.txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase9\\orthotwin_prototype_status.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase9\\phase9_manifest.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\release_v1\\capability_matrix.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\release_v1\\capability_matrix_report.txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\release_v1\\orthotwin_v1_repository_audit.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\release_v1\\orthotwin_v1_validation.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\release_v1\\repository_health_report.txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\release_v1\\research_readiness_report.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "reports\\phase6\\evidence\\assumption_registry.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\alignment\\load_path_model.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\alignment\\local_alignment_metrics.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\calibration\\imaging_metadata_report.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\calibration\\physical_calibration.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\calibration\\spacing_validation_report.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\discs\\patient_alpha_disc_ranking.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\discs\\relative_disc_metrics.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\geometry\\final_project_status.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\geometry\\patient_alpha_clean_measurements.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\geometry\\patient_alpha_component_analysis.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\geometry\\patient_alpha_findings.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\geometry\\patient_alpha_measurements.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\geometry\\patient_alpha_mesh_statistics.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\geometry\\patient_alpha_mesh_statistics_orthtwin2.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\geometry\\patient_alpha_pca_measurements.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\geometry\\patient_alpha_voxel_component_analysis.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\vertebrae\\relative_vertebral_metrics.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin2\\session_summary.txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_clean_measurements.pkl",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_component_analysis.pkl",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_disc_ranking.pkl",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_findings.pkl",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_measurements.pkl",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_mesh_statistics(1).pkl",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_mesh_statistics.pkl",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\patient_alpha_clean_measurements.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\patient_alpha_component_analysis.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_ranking.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\patient_alpha_mesh_statistics.pkl",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\project_manifest.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\ram_backup_manifest.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\session_recovery_summary.txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Showcase\\final_project_status.json",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Showcase\\patient_alpha_clean_measurements.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Showcase\\patient_alpha_component_analysis.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Showcase\\patient_alpha_disc_ranking.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Showcase\\patient_alpha_findings.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Showcase\\patient_alpha_measurements.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Showcase\\patient_alpha_mesh_statistics.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Showcase\\patient_alpha_pca_measurements.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_analysis.json",
+      "score": 2,
+      "reasons": [
+        "filename_or_directory_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Showcase\\runtime_recovery_report.txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Showcase\\session_summary.txt",
+      "score": 2,
+      "reasons": [
+        "file_content_mentions_patient_alpha"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\geometry\\GLOBAL_reconstructed_structures.pkl",
+      "score": 1,
+      "reasons": [
+        "active_reconstruction_artifact"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "measurements\\geometry\\reconstructed_structures.pkl",
+      "score": 1,
+      "reasons": [
+        "active_reconstruction_artifact"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Final_Archive\\reconstructed_structures.pkl",
+      "score": 1,
+      "reasons": [
+        "active_reconstruction_artifact"
+      ],
+      "metadata": {}
+    },
+    {
+      "file": "archive\\OrthoTwin_Showcase\\reconstructed_structures.pkl",
+      "score": 1,
+      "reasons": [
+        "active_reconstruction_artifact"
+      ],
+      "metadata": {}
+    }
+  ]
+}

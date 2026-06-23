@@ -1,0 +1,28 @@
+{
+  "generated_utc": "2026-06-21T05:08:22.721992+00:00",
+  "phase": "4.5_physical_calibration",
+  "status": "blocked_missing_trusted_patient_alpha_spacing",
+  "files": [
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\measurements\\calibration\\imaging_metadata_report.json",
+      "exists": true,
+      "size": 1178606
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\measurements\\calibration\\spacing_validation_report.json",
+      "exists": true,
+      "size": 92155
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\measurements\\calibration\\physical_calibration.json",
+      "exists": true,
+      "size": 419
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase4_5\\missing_spacing_report.txt",
+      "exists": true,
+      "size": 1275
+    }
+  ],
+  "all_files_exist": true
+}

@@ -1,0 +1,61 @@
+{
+  "generated_utc": "2026-06-22T00:00:00+05:30",
+  "source_material_scanned": [
+    "docs",
+    "showcase",
+    "manifests",
+    "reports/release_v1",
+    "reports/master_audit",
+    "reports/calibration",
+    "reports/repository_minimization",
+    "visualization/presentation",
+    "visualization/simulation_suite",
+    "visualization/release",
+    "state/mesh",
+    "showcase/showcase_manifest.json"
+  ],
+  "repository_classification": "Digital Twin Prototype",
+  "readme_outputs": {
+    "readme": "README.md",
+    "audit": "README_AUDIT.json",
+    "quality_score": "README_QUALITY_SCORE.txt"
+  },
+  "actual_values_used": {
+    "active_showcase_patient": "Patient Alpha",
+    "reconstructed_structures": 14,
+    "vertebra_meshes": 8,
+    "disc_meshes": 6,
+    "mesh_vertices": 75312,
+    "mesh_faces": 147636,
+    "release_audit_reports": 65,
+    "release_audit_state_files": 71,
+    "release_audit_measurement_files": 103,
+    "release_audit_visualizations": 104,
+    "release_audit_simulation_outputs": 53,
+    "curated_showcase_figures": 44,
+    "ppt_assets": 26
+  },
+  "data_policy": {
+    "large_dicom_collection_size_mb": 33666.445,
+    "large_dicom_collection_classification": "unused for active V1 showcase pipeline",
+    "large_dicom_collection_action": "archive_internal",
+    "github_recommendation": "Do not upload archive/internal or the whole local folder."
+  },
+  "claim_safety": {
+    "clinical_validation_claimed": false,
+    "biomechanical_validation_claimed": false,
+    "diagnosis_claimed": false,
+    "treatment_recommendation_claimed": false,
+    "physical_calibration_claimed": false
+  },
+  "limitations_included": [
+    "physical calibration blocked",
+    "no clinical validation",
+    "no biomechanical validation",
+    "no outcome prediction",
+    "not a medical device",
+    "not for diagnosis"
+  ],
+  "quality_score_out_of_10": 9.3,
+  "quality_rationale": "The README uses actual repository outputs, presents the system as a serious research prototype, embeds curated figures, includes installation and workflow guidance, and clearly states limitations and GitHub data policy."
+}

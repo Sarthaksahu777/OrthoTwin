@@ -1,0 +1,56 @@
+[
+    {
+        "disc_id": 9,
+        "disc_name": "Disc 1 (201)",
+        "height": 35.0,
+        "volume": 3293.791748046875,
+        "height_zscore": -0.768349818662772,
+        "volume_zscore": 0.5264094639315243,
+        "severity_score": 0.6918222262361029
+    },
+    {
+        "disc_id": 10,
+        "disc_name": "Disc 2 (202)",
+        "height": 53.0,
+        "volume": 4043.041748046875,
+        "height_zscore": 2.19528519617935,
+        "volume_zscore": 1.6478500588753833,
+        "severity_score": 0.0
+    },
+    {
+        "disc_id": 11,
+        "disc_name": "Disc 3 (203)",
+        "height": 37.0,
+        "volume": 3061.458251953125,
+        "height_zscore": -0.43905703923586953,
+        "volume_zscore": 0.1786640997876982,
+        "severity_score": 0.6949472377311389
+    },
+    {
+        "disc_id": 12,
+        "disc_name": "Disc 4 (204)",
+        "height": 39.0,
+        "volume": 2828.375,
+        "height_zscore": -0.10976425980896709,
+        "volume_zscore": -0.17020346209653522,
+        "severity_score": 0.6982622974439328
+    },
+    {
+        "disc_id": 13,
+        "disc_name": "Disc 5 (205)",
+        "height": 37.0,
+        "volume": 1858.0,
+        "height_zscore": -0.43905703923586953,
+        "volume_zscore": -1.622613094820789,
+        "severity_score": 1.0
+    },
+    {
+        "disc_id": 14,
+        "disc_name": "Disc 6 (206/207)",
+        "height": 37.0,
+        "volume": 2567.875,
+        "height_zscore": -0.43905703923586953,
+        "volume_zscore": -0.560107065677283,
+        "severity_score": 0.8200607879299809
+    }
+]

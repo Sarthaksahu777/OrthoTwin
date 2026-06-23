@@ -1,0 +1,17 @@
+{
+  "generated_utc": "2026-06-21T19:37:56.598728+00:00",
+  "all_required_directories_exist": true,
+  "top_level_readme_exists": true,
+  "ppt_readme_exists": true,
+  "hero_gallery_exists": true,
+  "architecture_summary_exists": true,
+  "surgery_showcase_exists": true,
+  "mesh_showcase_exists": true,
+  "digital_twin_explainer_exists": true,
+  "limitations_summary_exists": true,
+  "showcase_summary_exists": true,
+  "curated_figure_count": 44,
+  "ppt_asset_count": 26,
+  "classification": "Digital Twin Prototype",
+  "no_new_science": true
+}

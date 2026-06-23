@@ -1,0 +1,79 @@
+{
+    "date": "2026-06-17 13:58:03.846906",
+    "project": "OrthoTwin",
+    "patient_alpha_index": 60,
+    "patient_alpha_mean_foreground_dice": 0.7332365087100438,
+    "model_checkpoint": "FINAL_SEGRESNET_WEIGHTED.pth",
+    "top_10_validation_rankings": [
+        {
+            "rank": 1,
+            "original_val_ds_index": 60,
+            "mean_foreground_dice": 0.7332365087100438
+        },
+        {
+            "rank": 2,
+            "original_val_ds_index": 83,
+            "mean_foreground_dice": 0.6932096206224881
+        },
+        {
+            "rank": 3,
+            "original_val_ds_index": 9,
+            "mean_foreground_dice": 0.6911387145519257
+        },
+        {
+            "rank": 4,
+            "original_val_ds_index": 53,
+            "mean_foreground_dice": 0.68503680399486
+        },
+        {
+            "rank": 5,
+            "original_val_ds_index": 78,
+            "mean_foreground_dice": 0.6838887802192143
+        },
+        {
+            "rank": 6,
+            "original_val_ds_index": 54,
+            "mean_foreground_dice": 0.6777827313968113
+        },
+        {
+            "rank": 7,
+            "original_val_ds_index": 23,
+            "mean_foreground_dice": 0.6751160408769336
+        },
+        {
+            "rank": 8,
+            "original_val_ds_index": 17,
+            "mean_foreground_dice": 0.6711542180606297
+        },
+        {
+            "rank": 9,
+            "original_val_ds_index": 15,
+            "mean_foreground_dice": 0.6702199280261993
+        },
+        {
+            "rank": 10,
+            "original_val_ds_index": 45,
+            "mean_foreground_dice": 0.6488997340202332
+        }
+    ],
+    "status": {
+        "segmentation": true,
+        "patient_alpha_found": true,
+        "visualizations_saved": true,
+        "reconstruction_completed": true,
+        "mesh_statistics_generated": true
+    },
+    "saved_output_locations": {
+        "mri_slice_8_png": "/content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_mri_slice_8.png",
+        "gt_mask_slice_8_png": "/content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_gt_mask_slice_8.png",
+        "pred_mask_slice_8_png": "/content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_pred_mask_slice_8.png",
+        "overlay_slice_8_png": "/content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_overlay_slice_8.png",
+        "mesh_statistics_json": "/content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_mesh_statistics.json",
+        "reconstructed_structures_pkl": "/content/drive/MyDrive/OrthoTwin_Showcase/reconstructed_structures.pkl",
+        "matplotlib_screenshots": [
+            "/content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_reconstruction_matplotlib_front.png",
+            "/content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_reconstruction_matplotlib_side.png",
+            "/content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_reconstruction_matplotlib_angled.png"
+        ]
+    }
+}

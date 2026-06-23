@@ -1,0 +1,75 @@
+{
+  "generated_utc": "2026-06-21T09:52:04.357888+00:00",
+  "capabilities": [
+    {
+      "subsystem": "Segmentation",
+      "status": "COMPLETE",
+      "rationale": "Existing segmentation outputs and masks are present; no retraining in release."
+    },
+    {
+      "subsystem": "Voxel cleanup / QC",
+      "status": "COMPLETE",
+      "rationale": "Cleanup and validation artifacts exist."
+    },
+    {
+      "subsystem": "3D reconstruction",
+      "status": "COMPLETE",
+      "rationale": "reconstructed_structures.pkl contains vertebra and disc meshes."
+    },
+    {
+      "subsystem": "Measurements",
+      "status": "PARTIAL",
+      "rationale": "Geometry-derived and estimated measurements exist; physical calibration and clinical validation missing."
+    },
+    {
+      "subsystem": "State representation",
+      "status": "COMPLETE",
+      "rationale": "Patient state vectors and clinical state vector exist."
+    },
+    {
+      "subsystem": "Spine graph",
+      "status": "COMPLETE",
+      "rationale": "Connected graph representation exists."
+    },
+    {
+      "subsystem": "Propagation engine",
+      "status": "EXPERIMENTAL",
+      "rationale": "Deterministic graph propagation exists; not physics."
+    },
+    {
+      "subsystem": "Scenario engine",
+      "status": "EXPERIMENTAL",
+      "rationale": "Scenario comparison exists; internal scoring only."
+    },
+    {
+      "subsystem": "Longitudinal engine",
+      "status": "EXPERIMENTAL",
+      "rationale": "Rule-based future states exist; no follow-up validation."
+    },
+    {
+      "subsystem": "Geometry surgery",
+      "status": "EXPERIMENTAL",
+      "rationale": "Anatomy-first centroid/object surgery exists; some metrics remain copied/estimated."
+    },
+    {
+      "subsystem": "Mesh surgery",
+      "status": "EXPERIMENTAL",
+      "rationale": "Vertex-level transformations exist; no FEM or tissue mechanics."
+    },
+    {
+      "subsystem": "Physical calibration",
+      "status": "BLOCKED",
+      "rationale": "Patient Alpha spacing/orientation/slice thickness could not be proven."
+    },
+    {
+      "subsystem": "Biomechanics",
+      "status": "BLOCKED",
+      "rationale": "Material properties, boundary conditions, solver, and validated meshes missing."
+    },
+    {
+      "subsystem": "Clinical validation",
+      "status": "BLOCKED",
+      "rationale": "No independent radiologist, biomechanical, prospective, or regulatory validation."
+    }
+  ]
+}

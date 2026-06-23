@@ -1,0 +1,153 @@
+{
+  "generated_utc": "2026-06-21T09:52:04.357888+00:00",
+  "nodes": [
+    {
+      "id": "mri",
+      "label": "MRI / source imaging",
+      "major_files": []
+    },
+    {
+      "id": "segmentation",
+      "label": "Segmentation",
+      "major_files": []
+    },
+    {
+      "id": "cleanup",
+      "label": "Voxel cleanup / QC",
+      "major_files": []
+    },
+    {
+      "id": "reconstruction",
+      "label": "3D reconstruction",
+      "major_files": [
+        "measurements/geometry/reconstructed_structures.pkl"
+      ]
+    },
+    {
+      "id": "measurements",
+      "label": "Measurement engines",
+      "major_files": [
+        "state/patient_states/clinical_state_vector.json"
+      ]
+    },
+    {
+      "id": "clinical_state",
+      "label": "Clinical state vector",
+      "major_files": []
+    },
+    {
+      "id": "spine_graph",
+      "label": "Spine graph",
+      "major_files": [
+        "state/graphs/spine_graph.json"
+      ]
+    },
+    {
+      "id": "scenario",
+      "label": "Scenario engine",
+      "major_files": [
+        "simulation/scenario_engine.py",
+        "reports/phase5"
+      ]
+    },
+    {
+      "id": "longitudinal",
+      "label": "Longitudinal engine",
+      "major_files": [
+        "simulation/longitudinal_engine.py",
+        "reports/phase6"
+      ]
+    },
+    {
+      "id": "geometry_surgery",
+      "label": "Geometry surgery engine",
+      "major_files": [
+        "simulation/surgery",
+        "reports/phase7"
+      ]
+    },
+    {
+      "id": "mesh_surgery",
+      "label": "Mesh surgery engine",
+      "major_files": [
+        "simulation/mesh",
+        "state/mesh",
+        "reports/phase8"
+      ]
+    },
+    {
+      "id": "evidence",
+      "label": "Evidence audit",
+      "major_files": [
+        "reports/phase9"
+      ]
+    },
+    {
+      "id": "reports",
+      "label": "Reports / release package",
+      "major_files": []
+    }
+  ],
+  "edges": [
+    {
+      "from": "mri",
+      "to": "segmentation",
+      "relationship": "feeds"
+    },
+    {
+      "from": "segmentation",
+      "to": "cleanup",
+      "relationship": "feeds"
+    },
+    {
+      "from": "cleanup",
+      "to": "reconstruction",
+      "relationship": "feeds"
+    },
+    {
+      "from": "reconstruction",
+      "to": "measurements",
+      "relationship": "feeds"
+    },
+    {
+      "from": "measurements",
+      "to": "clinical_state",
+      "relationship": "feeds"
+    },
+    {
+      "from": "clinical_state",
+      "to": "spine_graph",
+      "relationship": "feeds"
+    },
+    {
+      "from": "spine_graph",
+      "to": "scenario",
+      "relationship": "feeds"
+    },
+    {
+      "from": "scenario",
+      "to": "longitudinal",
+      "relationship": "feeds"
+    },
+    {
+      "from": "longitudinal",
+      "to": "geometry_surgery",
+      "relationship": "feeds"
+    },
+    {
+      "from": "geometry_surgery",
+      "to": "mesh_surgery",
+      "relationship": "feeds"
+    },
+    {
+      "from": "mesh_surgery",
+      "to": "evidence",
+      "relationship": "feeds"
+    },
+    {
+      "from": "evidence",
+      "to": "reports",
+      "relationship": "feeds"
+    }
+  ]
+}

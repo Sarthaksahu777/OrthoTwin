@@ -1,0 +1,1214 @@
+[
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\alignment_before_after.png",
+    "relative_path": "visualization\\simulation_suite\\alignment_before_after.png",
+    "name": "alignment_before_after.png",
+    "size_bytes": 94094,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery\\alignment_before_after.png",
+    "relative_path": "visualization\\simulation_suite\\showcase_gallery\\alignment_before_after.png",
+    "name": "alignment_before_after.png",
+    "size_bytes": 94094,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\digital_twin_story.png",
+    "relative_path": "visualization\\simulation_suite\\digital_twin_story.png",
+    "name": "digital_twin_story.png",
+    "size_bytes": 146488,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery\\digital_twin_story.png",
+    "relative_path": "visualization\\simulation_suite\\showcase_gallery\\digital_twin_story.png",
+    "name": "digital_twin_story.png",
+    "size_bytes": 146488,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\executive_dashboard.png",
+    "relative_path": "visualization\\presentation\\executive_dashboard.png",
+    "name": "executive_dashboard.png",
+    "size_bytes": 101652,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\fusion_before_after.png",
+    "relative_path": "visualization\\simulation_suite\\fusion_before_after.png",
+    "name": "fusion_before_after.png",
+    "size_bytes": 263167,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery\\fusion_before_after.png",
+    "relative_path": "visualization\\simulation_suite\\showcase_gallery\\fusion_before_after.png",
+    "name": "fusion_before_after.png",
+    "size_bytes": 263167,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\implant_before_after.png",
+    "relative_path": "visualization\\simulation_suite\\implant_before_after.png",
+    "name": "implant_before_after.png",
+    "size_bytes": 363985,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery\\implant_before_after.png",
+    "relative_path": "visualization\\simulation_suite\\showcase_gallery\\implant_before_after.png",
+    "name": "implant_before_after.png",
+    "size_bytes": 363985,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\implant_difference_heatmap.png",
+    "relative_path": "visualization\\simulation_suite\\implant_difference_heatmap.png",
+    "name": "implant_difference_heatmap.png",
+    "size_bytes": 166407,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\measurement_dashboard.png",
+    "relative_path": "visualization\\presentation\\measurement_dashboard.png",
+    "name": "measurement_dashboard.png",
+    "size_bytes": 163971,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\mesh_before_after.png",
+    "relative_path": "visualization\\presentation\\mesh_before_after.png",
+    "name": "mesh_before_after.png",
+    "size_bytes": 334208,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\mesh_displacement_heatmap_alignment.png",
+    "relative_path": "visualization\\simulation_suite\\mesh_displacement_heatmap_alignment.png",
+    "name": "mesh_displacement_heatmap_alignment.png",
+    "size_bytes": 155506,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery\\mesh_displacement_heatmap_alignment.png",
+    "relative_path": "visualization\\simulation_suite\\showcase_gallery\\mesh_displacement_heatmap_alignment.png",
+    "name": "mesh_displacement_heatmap_alignment.png",
+    "size_bytes": 155506,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\mesh_displacement_heatmap_implant.png",
+    "relative_path": "visualization\\simulation_suite\\mesh_displacement_heatmap_implant.png",
+    "name": "mesh_displacement_heatmap_implant.png",
+    "size_bytes": 169978,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery\\mesh_displacement_heatmap_implant.png",
+    "relative_path": "visualization\\simulation_suite\\showcase_gallery\\mesh_displacement_heatmap_implant.png",
+    "name": "mesh_displacement_heatmap_implant.png",
+    "size_bytes": 169978,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\mesh_displacement_heatmap_spacer.png",
+    "relative_path": "visualization\\simulation_suite\\mesh_displacement_heatmap_spacer.png",
+    "name": "mesh_displacement_heatmap_spacer.png",
+    "size_bytes": 173554,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery\\mesh_displacement_heatmap_spacer.png",
+    "relative_path": "visualization\\simulation_suite\\showcase_gallery\\mesh_displacement_heatmap_spacer.png",
+    "name": "mesh_displacement_heatmap_spacer.png",
+    "size_bytes": 173554,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\outcome_comparison_dashboard.png",
+    "relative_path": "visualization\\presentation\\outcome_comparison_dashboard.png",
+    "name": "outcome_comparison_dashboard.png",
+    "size_bytes": 126546,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\patient_alpha_showcase.png",
+    "relative_path": "visualization\\simulation_suite\\patient_alpha_showcase.png",
+    "name": "patient_alpha_showcase.png",
+    "size_bytes": 158124,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery\\patient_alpha_showcase.png",
+    "relative_path": "visualization\\simulation_suite\\showcase_gallery\\patient_alpha_showcase.png",
+    "name": "patient_alpha_showcase.png",
+    "size_bytes": 158124,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\reconstruction_gallery.png",
+    "relative_path": "visualization\\presentation\\reconstruction_gallery.png",
+    "name": "reconstruction_gallery.png",
+    "size_bytes": 375599,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\spacer_before_after.png",
+    "relative_path": "visualization\\simulation_suite\\spacer_before_after.png",
+    "name": "spacer_before_after.png",
+    "size_bytes": 367892,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery\\spacer_before_after.png",
+    "relative_path": "visualization\\simulation_suite\\showcase_gallery\\spacer_before_after.png",
+    "name": "spacer_before_after.png",
+    "size_bytes": 367892,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\spacer_difference_heatmap.png",
+    "relative_path": "visualization\\simulation_suite\\spacer_difference_heatmap.png",
+    "name": "spacer_difference_heatmap.png",
+    "size_bytes": 169502,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\state_change_dashboard.png",
+    "relative_path": "visualization\\simulation_suite\\state_change_dashboard.png",
+    "name": "state_change_dashboard.png",
+    "size_bytes": 150054,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery\\state_change_dashboard.png",
+    "relative_path": "visualization\\simulation_suite\\showcase_gallery\\state_change_dashboard.png",
+    "name": "state_change_dashboard.png",
+    "size_bytes": 150054,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\surgery_comparison_dashboard.png",
+    "relative_path": "visualization\\simulation_suite\\surgery_comparison_dashboard.png",
+    "name": "surgery_comparison_dashboard.png",
+    "size_bytes": 89177,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\showcase_gallery\\surgery_comparison_dashboard.png",
+    "relative_path": "visualization\\simulation_suite\\showcase_gallery\\surgery_comparison_dashboard.png",
+    "name": "surgery_comparison_dashboard.png",
+    "size_bytes": 89177,
+    "score": 9,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\mesh_change_heatmap.png",
+    "relative_path": "visualization\\presentation\\mesh_change_heatmap.png",
+    "name": "mesh_change_heatmap.png",
+    "size_bytes": 68833,
+    "score": 7,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\surgery_ranking_dashboard.png",
+    "relative_path": "visualization\\presentation\\surgery_ranking_dashboard.png",
+    "name": "surgery_ranking_dashboard.png",
+    "size_bytes": 54215,
+    "score": 7,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\mesh\\collapse_mesh_before_after.png",
+    "relative_path": "visualization\\mesh\\collapse_mesh_before_after.png",
+    "name": "collapse_mesh_before_after.png",
+    "size_bytes": 208509,
+    "score": 6,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\mesh\\fusion_mesh_before_after.png",
+    "relative_path": "visualization\\mesh\\fusion_mesh_before_after.png",
+    "name": "fusion_mesh_before_after.png",
+    "size_bytes": 134596,
+    "score": 6,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\mesh\\implant_mesh_before_after.png",
+    "relative_path": "visualization\\mesh\\implant_mesh_before_after.png",
+    "name": "implant_mesh_before_after.png",
+    "size_bytes": 208377,
+    "score": 6,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\scenario_heatmap.png",
+    "relative_path": "visualization\\simulation\\scenario_heatmap.png",
+    "name": "scenario_heatmap.png",
+    "size_bytes": 87991,
+    "score": 6,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\mesh\\spacer_mesh_before_after.png",
+    "relative_path": "visualization\\mesh\\spacer_mesh_before_after.png",
+    "name": "spacer_mesh_before_after.png",
+    "size_bytes": 210876,
+    "score": 6,
+    "tier": "A",
+    "reasons": [
+      "presentation_composite",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\alignment_centerline_comparison.png",
+    "relative_path": "visualization\\simulation_suite\\alignment_centerline_comparison.png",
+    "name": "alignment_centerline_comparison.png",
+    "size_bytes": 160381,
+    "score": 5,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\release\\architecture_diagram.png",
+    "relative_path": "visualization\\release\\architecture_diagram.png",
+    "name": "architecture_diagram.png",
+    "size_bytes": 87979,
+    "score": 5,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\digital_twin_overview.png",
+    "relative_path": "visualization\\presentation\\digital_twin_overview.png",
+    "name": "digital_twin_overview.png",
+    "size_bytes": 93193,
+    "score": 5,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation_suite\\fusion_relationship_visualization.png",
+    "relative_path": "visualization\\simulation_suite\\fusion_relationship_visualization.png",
+    "name": "fusion_relationship_visualization.png",
+    "size_bytes": 153579,
+    "score": 5,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\graph_explanation.png",
+    "relative_path": "visualization\\presentation\\graph_explanation.png",
+    "name": "graph_explanation.png",
+    "size_bytes": 89194,
+    "score": 5,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\orthotwin_pipeline_timeline.png",
+    "relative_path": "visualization\\presentation\\orthotwin_pipeline_timeline.png",
+    "name": "orthotwin_pipeline_timeline.png",
+    "size_bytes": 80758,
+    "score": 5,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\orthotwin_poster.png",
+    "relative_path": "visualization\\presentation\\orthotwin_poster.png",
+    "name": "orthotwin_poster.png",
+    "size_bytes": 121497,
+    "score": 5,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\reconstruction_exploded.png",
+    "relative_path": "visualization\\presentation\\reconstruction_exploded.png",
+    "name": "reconstruction_exploded.png",
+    "size_bytes": 302986,
+    "score": 5,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\reconstruction_labeled.png",
+    "relative_path": "visualization\\presentation\\reconstruction_labeled.png",
+    "name": "reconstruction_labeled.png",
+    "size_bytes": 269347,
+    "score": 5,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\segmentation_comparison.png",
+    "relative_path": "visualization\\presentation\\segmentation_comparison.png",
+    "name": "segmentation_comparison.png",
+    "size_bytes": 325571,
+    "score": 5,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\segmentation_pipeline.png",
+    "relative_path": "visualization\\presentation\\segmentation_pipeline.png",
+    "name": "segmentation_pipeline.png",
+    "size_bytes": 375524,
+    "score": 5,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\spine_graph_presentation.png",
+    "relative_path": "visualization\\presentation\\spine_graph_presentation.png",
+    "name": "spine_graph_presentation.png",
+    "size_bytes": 151398,
+    "score": 5,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder",
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\surgery\\alignment_before_after.png",
+    "relative_path": "visualization\\surgery\\alignment_before_after.png",
+    "name": "alignment_before_after.png",
+    "size_bytes": 54771,
+    "score": 4,
+    "tier": "B",
+    "reasons": [
+      "presentation_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\before_after_alignment_plot.png",
+    "relative_path": "visualization\\simulation\\before_after_alignment_plot.png",
+    "name": "before_after_alignment_plot.png",
+    "size_bytes": 47952,
+    "score": 4,
+    "tier": "B",
+    "reasons": [
+      "presentation_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\surgery\\fusion_before_after.png",
+    "relative_path": "visualization\\surgery\\fusion_before_after.png",
+    "name": "fusion_before_after.png",
+    "size_bytes": 53406,
+    "score": 4,
+    "tier": "B",
+    "reasons": [
+      "presentation_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\surgery\\implant_before_after.png",
+    "relative_path": "visualization\\surgery\\implant_before_after.png",
+    "name": "implant_before_after.png",
+    "size_bytes": 54906,
+    "score": 4,
+    "tier": "B",
+    "reasons": [
+      "presentation_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\surgery\\spacer_before_after.png",
+    "relative_path": "visualization\\surgery\\spacer_before_after.png",
+    "name": "spacer_before_after.png",
+    "size_bytes": 54780,
+    "score": 4,
+    "tier": "B",
+    "reasons": [
+      "presentation_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\surgery\\surgical_heatmap.png",
+    "relative_path": "visualization\\surgery\\surgical_heatmap.png",
+    "name": "surgical_heatmap.png",
+    "size_bytes": 49640,
+    "score": 4,
+    "tier": "B",
+    "reasons": [
+      "presentation_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\alignment_demo.png",
+    "relative_path": "visualization\\presentation\\alignment_demo.png",
+    "name": "alignment_demo.png",
+    "size_bytes": 74579,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\alignment_visualization.png",
+    "relative_path": "visualization\\presentation\\alignment_visualization.png",
+    "name": "alignment_visualization.png",
+    "size_bytes": 56348,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\curvature_visualization.png",
+    "relative_path": "visualization\\presentation\\curvature_visualization.png",
+    "name": "curvature_visualization.png",
+    "size_bytes": 76555,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\disc_height_comparison.png",
+    "relative_path": "visualization\\presentation\\disc_height_comparison.png",
+    "name": "disc_height_comparison.png",
+    "size_bytes": 64192,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\disc_volume_comparison.png",
+    "relative_path": "visualization\\presentation\\disc_volume_comparison.png",
+    "name": "disc_volume_comparison.png",
+    "size_bytes": 73454,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\fusion_demo.png",
+    "relative_path": "visualization\\presentation\\fusion_demo.png",
+    "name": "fusion_demo.png",
+    "size_bytes": 72212,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\implant_demo.png",
+    "relative_path": "visualization\\presentation\\implant_demo.png",
+    "name": "implant_demo.png",
+    "size_bytes": 73244,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\mesh_displacement_map.png",
+    "relative_path": "visualization\\presentation\\mesh_displacement_map.png",
+    "name": "mesh_displacement_map.png",
+    "size_bytes": 57229,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\reconstruction_full.png",
+    "relative_path": "visualization\\presentation\\reconstruction_full.png",
+    "name": "reconstruction_full.png",
+    "size_bytes": 67632,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\segmentation_statistics.png",
+    "relative_path": "visualization\\presentation\\segmentation_statistics.png",
+    "name": "segmentation_statistics.png",
+    "size_bytes": 44432,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\spacer_demo.png",
+    "relative_path": "visualization\\presentation\\spacer_demo.png",
+    "name": "spacer_demo.png",
+    "size_bytes": 74185,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\calibration\\spacing_candidate_dashboard.png",
+    "relative_path": "visualization\\calibration\\spacing_candidate_dashboard.png",
+    "name": "spacing_candidate_dashboard.png",
+    "size_bytes": 105990,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_composite",
+      "high_resolution_or_composite",
+      "technical_support_or_error_artifact"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\presentation\\state_vector_visualization.png",
+    "relative_path": "visualization\\presentation\\state_vector_visualization.png",
+    "name": "state_vector_visualization.png",
+    "size_bytes": 61023,
+    "score": 3,
+    "tier": "B",
+    "reasons": [
+      "presentation_or_release_folder"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\mesh\\3d_mesh_overlays.png",
+    "relative_path": "visualization\\mesh\\3d_mesh_overlays.png",
+    "name": "3d_mesh_overlays.png",
+    "size_bytes": 224346,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\future_state_graph.png",
+    "relative_path": "visualization\\simulation\\future_state_graph.png",
+    "name": "future_state_graph.png",
+    "size_bytes": 125580,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\load_redistribution_plot.png",
+    "relative_path": "visualization\\simulation\\load_redistribution_plot.png",
+    "name": "load_redistribution_plot.png",
+    "size_bytes": 118562,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\calibration\\metadata_lineage_graph.png",
+    "relative_path": "visualization\\calibration\\metadata_lineage_graph.png",
+    "name": "metadata_lineage_graph.png",
+    "size_bytes": 99847,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\calibration\\patient_alpha_linkage_graph.png",
+    "relative_path": "visualization\\calibration\\patient_alpha_linkage_graph.png",
+    "name": "patient_alpha_linkage_graph.png",
+    "size_bytes": 82791,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\segmentation\\patient_alpha_mri_slice_8.png",
+    "relative_path": "visualization\\segmentation\\patient_alpha_mri_slice_8.png",
+    "name": "patient_alpha_mri_slice_8.png",
+    "size_bytes": 198691,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\segmentation\\patient_alpha_overlay_slice_8.png",
+    "relative_path": "visualization\\segmentation\\patient_alpha_overlay_slice_8.png",
+    "name": "patient_alpha_overlay_slice_8.png",
+    "size_bytes": 191879,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_angled.png",
+    "relative_path": "visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_angled.png",
+    "name": "patient_alpha_reconstruction_matplotlib_angled.png",
+    "size_bytes": 764068,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_front.png",
+    "relative_path": "visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_front.png",
+    "name": "patient_alpha_reconstruction_matplotlib_front.png",
+    "size_bytes": 124888,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_side.png",
+    "relative_path": "visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_side.png",
+    "name": "patient_alpha_reconstruction_matplotlib_side.png",
+    "size_bytes": 902746,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\propagation_graph.png",
+    "relative_path": "visualization\\simulation\\propagation_graph.png",
+    "name": "propagation_graph.png",
+    "size_bytes": 142775,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\spine_graph.png",
+    "relative_path": "visualization\\state\\spine_graph.png",
+    "name": "spine_graph.png",
+    "size_bytes": 138618,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state_comparison.png",
+    "relative_path": "visualization\\state_comparison.png",
+    "name": "state_comparison.png",
+    "size_bytes": 81092,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\state_comparison.png",
+    "relative_path": "visualization\\state\\state_comparison.png",
+    "name": "state_comparison.png",
+    "size_bytes": 81092,
+    "score": 2,
+    "tier": "B",
+    "reasons": [
+      "high_resolution_or_composite"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\affected_structures_map.png",
+    "relative_path": "visualization\\simulation\\affected_structures_map.png",
+    "name": "affected_structures_map.png",
+    "size_bytes": 72091,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\alignment_changes.png",
+    "relative_path": "visualization\\alignment_changes.png",
+    "name": "alignment_changes.png",
+    "size_bytes": 42424,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\alignment_changes.png",
+    "relative_path": "visualization\\state\\alignment_changes.png",
+    "name": "alignment_changes.png",
+    "size_bytes": 42424,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\alignment_plot.png",
+    "relative_path": "visualization\\state\\alignment_plot.png",
+    "name": "alignment_plot.png",
+    "size_bytes": 78091,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\calibration\\calibration_decision_flowchart.png",
+    "relative_path": "visualization\\calibration\\calibration_decision_flowchart.png",
+    "name": "calibration_decision_flowchart.png",
+    "size_bytes": 52158,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\centerline_plot.png",
+    "relative_path": "visualization\\state\\centerline_plot.png",
+    "name": "centerline_plot.png",
+    "size_bytes": 75107,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\disc_changes.png",
+    "relative_path": "visualization\\disc_changes.png",
+    "name": "disc_changes.png",
+    "size_bytes": 50408,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\disc_changes.png",
+    "relative_path": "visualization\\state\\disc_changes.png",
+    "name": "disc_changes.png",
+    "size_bytes": 50408,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\intervention_comparison.png",
+    "relative_path": "visualization\\simulation\\intervention_comparison.png",
+    "name": "intervention_comparison.png",
+    "size_bytes": 69704,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\load_distribution_plot.png",
+    "relative_path": "visualization\\state\\load_distribution_plot.png",
+    "name": "load_distribution_plot.png",
+    "size_bytes": 59476,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\phase4_canal_area_plot.png",
+    "relative_path": "visualization\\state\\phase4_canal_area_plot.png",
+    "name": "phase4_canal_area_plot.png",
+    "size_bytes": 50089,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\phase4_curvature_plot.png",
+    "relative_path": "visualization\\state\\phase4_curvature_plot.png",
+    "name": "phase4_curvature_plot.png",
+    "size_bytes": 65607,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\phase4_disc_height_plot.png",
+    "relative_path": "visualization\\state\\phase4_disc_height_plot.png",
+    "name": "phase4_disc_height_plot.png",
+    "size_bytes": 47895,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\phase4_foraminal_area_plot.png",
+    "relative_path": "visualization\\state\\phase4_foraminal_area_plot.png",
+    "name": "phase4_foraminal_area_plot.png",
+    "size_bytes": 47851,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\phase4_slippage_plot.png",
+    "relative_path": "visualization\\state\\phase4_slippage_plot.png",
+    "name": "phase4_slippage_plot.png",
+    "size_bytes": 66101,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\longitudinal\\progression_alignment.png",
+    "relative_path": "visualization\\longitudinal\\progression_alignment.png",
+    "name": "progression_alignment.png",
+    "size_bytes": 60666,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\longitudinal\\progression_curvature.png",
+    "relative_path": "visualization\\longitudinal\\progression_curvature.png",
+    "name": "progression_curvature.png",
+    "size_bytes": 62696,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\longitudinal\\progression_disc_height.png",
+    "relative_path": "visualization\\longitudinal\\progression_disc_height.png",
+    "name": "progression_disc_height.png",
+    "size_bytes": 68069,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\longitudinal\\progression_load_distribution.png",
+    "relative_path": "visualization\\longitudinal\\progression_load_distribution.png",
+    "name": "progression_load_distribution.png",
+    "size_bytes": 47948,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\propagation_comparison.png",
+    "relative_path": "visualization\\simulation\\propagation_comparison.png",
+    "name": "propagation_comparison.png",
+    "size_bytes": 66060,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\relative_disc_height_plot.png",
+    "relative_path": "visualization\\state\\relative_disc_height_plot.png",
+    "name": "relative_disc_height_plot.png",
+    "size_bytes": 44865,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\relative_volume_plot.png",
+    "relative_path": "visualization\\state\\relative_volume_plot.png",
+    "name": "relative_volume_plot.png",
+    "size_bytes": 46886,
+    "score": 0,
+    "tier": "C",
+    "reasons": []
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\segmentation\\candidate_patient.png",
+    "relative_path": "visualization\\segmentation\\candidate_patient.png",
+    "name": "candidate_patient.png",
+    "size_bytes": 46942,
+    "score": -3,
+    "tier": "C",
+    "reasons": [
+      "technical_support_or_error_artifact"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\segmentation\\patient_alpha_gt_mask_slice_8.png",
+    "relative_path": "visualization\\segmentation\\patient_alpha_gt_mask_slice_8.png",
+    "name": "patient_alpha_gt_mask_slice_8.png",
+    "size_bytes": 29955,
+    "score": -3,
+    "tier": "C",
+    "reasons": [
+      "technical_support_or_error_artifact"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\segmentation\\patient_alpha_pred_mask_slice_8.png",
+    "relative_path": "visualization\\segmentation\\patient_alpha_pred_mask_slice_8.png",
+    "name": "patient_alpha_pred_mask_slice_8.png",
+    "size_bytes": 28669,
+    "score": -3,
+    "tier": "C",
+    "reasons": [
+      "technical_support_or_error_artifact"
+    ]
+  },
+  {
+    "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\segmentation\\weighted_loss_results.png",
+    "relative_path": "visualization\\segmentation\\weighted_loss_results.png",
+    "name": "weighted_loss_results.png",
+    "size_bytes": 14996,
+    "score": -3,
+    "tier": "C",
+    "reasons": [
+      "technical_support_or_error_artifact"
+    ]
+  }
+]

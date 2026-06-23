@@ -1,0 +1,45 @@
+name: OrthoTwin CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lightweight-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install lightweight dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r OrthoTwin/requirements.txt
+
+      - name: Compile Python files
+        run: python -m compileall -q OrthoTwin
+
+      - name: Verify key repository files
+        run: |
+          test -f OrthoTwin/README.md
+          test -f OrthoTwin/showcase/showcase_manifest.json
+          test -f OrthoTwin/reports/repository_minimization/github_inclusion_audit.json
+          test -f OrthoTwin/state/mesh/mesh_state_vector.json
+
+      - name: Import lightweight modules
+        run: |
+          python - <<'PY'
+          import json
+          import pathlib
+          import numpy
+          import matplotlib
+          root = pathlib.Path("OrthoTwin")
+          assert (root / "README.md").exists()
+          assert (root / "showcase").exists()
+          print("OrthoTwin lightweight CI checks passed.")
+          PY

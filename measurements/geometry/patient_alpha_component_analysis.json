@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Vertebra 1",
+        "component_count": 5,
+        "total_vertices": 7693,
+        "largest_component_vertices": 14,
+        "second_largest_component_vertices": 6,
+        "largest_component_percent": 0.18198362147406735,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+    },
+    {
+        "name": "Vertebra 2",
+        "component_count": 5,
+        "total_vertices": 7897,
+        "largest_component_vertices": 142,
+        "second_largest_component_vertices": 14,
+        "largest_component_percent": 1.7981511966569583,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+    },
+    {
+        "name": "Vertebra 3",
+        "component_count": 0,
+        "total_vertices": 8046,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+    },
+    {
+        "name": "Vertebra 4",
+        "component_count": 3,
+        "total_vertices": 7967,
+        "largest_component_vertices": 6,
+        "second_largest_component_vertices": 5,
+        "largest_component_percent": 0.07531065645788879,
+        "flagged": true,
+        "reason": "Multiple components (3); Largest component <98% of total"
+    },
+    {
+        "name": "Vertebra 5",
+        "component_count": 5,
+        "total_vertices": 7789,
+        "largest_component_vertices": 14,
+        "second_largest_component_vertices": 14,
+        "largest_component_percent": 0.17974065990499422,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+    },
+    {
+        "name": "Vertebra 6",
+        "component_count": 9,
+        "total_vertices": 7838,
+        "largest_component_vertices": 118,
+        "second_largest_component_vertices": 70,
+        "largest_component_percent": 1.5054860933911711,
+        "flagged": true,
+        "reason": "Multiple components (9); Largest component <98% of total"
+    },
+    {
+        "name": "Vertebra 7",
+        "component_count": 5,
+        "total_vertices": 4595,
+        "largest_component_vertices": 128,
+        "second_largest_component_vertices": 42,
+        "largest_component_percent": 2.7856365614798695,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+    },
+    {
+        "name": "Vertebra 8 (100)",
+        "component_count": 0,
+        "total_vertices": 10743,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+    },
+    {
+        "name": "Disc 1 (201)",
+        "component_count": 0,
+        "total_vertices": 2333,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+    },
+    {
+        "name": "Disc 2 (202)",
+        "component_count": 1,
+        "total_vertices": 2167,
+        "largest_component_vertices": 20,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.9229349330872173,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+    },
+    {
+        "name": "Disc 3 (203)",
+        "component_count": 0,
+        "total_vertices": 1842,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+    },
+    {
+        "name": "Disc 4 (204)",
+        "component_count": 0,
+        "total_vertices": 1956,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+    },
+    {
+        "name": "Disc 5 (205)",
+        "component_count": 0,
+        "total_vertices": 1779,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+    },
+    {
+        "name": "Disc 6 (206/207)",
+        "component_count": 0,
+        "total_vertices": 2667,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+    }
+]

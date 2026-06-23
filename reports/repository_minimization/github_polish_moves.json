@@ -1,0 +1,21 @@
+{
+  "generated_utc": "2026-06-22T14:57:57.102806+00:00",
+  "moves": [
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin\\__pycache__",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\archive\\internal\\github_polish\\__pycache__",
+      "status": "moved"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin\\stage2",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\archive\\internal\\github_polish\\stage2",
+      "status": "moved"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\archive\\internal\\github_polish\\archive\\OrthoTwin_Showcase",
+      "status": "moved"
+    }
+  ],
+  "no_deletion": true
+}

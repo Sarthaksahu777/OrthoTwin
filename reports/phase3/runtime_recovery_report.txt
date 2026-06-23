@@ -1,0 +1,82 @@
+--- OrthoTwin Runtime Recovery Report ---
+Report Date: 2026-06-18 12:28:14
+
+--- Step 1: Loaded Project State ---
+
+Attempting to load: /content/drive/MyDrive/OrthoTwin_Showcase/final_project_status.json
+  Status: ✓ Found (Size: 0.00 MB)
+  Content Summary for final_project_status: Loaded dictionary/list with 8 entries/items.
+Attempting to load: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_measurements.json
+  Status: ✓ Found (Size: 0.01 MB)
+  Content Summary for patient_alpha_measurements: Loaded dictionary/list with 14 entries/items.
+Attempting to load: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_findings.json
+  Status: ✓ Found (Size: 0.00 MB)
+  Content Summary for patient_alpha_findings: Loaded dictionary/list with 6 entries/items.
+Attempting to load: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_mesh_statistics.json
+  Status: ✓ Found (Size: 0.00 MB)
+  Content Summary for patient_alpha_mesh_statistics: Loaded dictionary/list with 4 entries/items.
+Attempting to load: /content/drive/MyDrive/OrthoTwin_Showcase/reconstructed_structures.pkl
+  Status: ✓ Found (Size: 2.55 MB)
+  Content Summary for reconstructed_structures: Loaded pickle object (Type: <class 'list'>, Length: 14).
+Attempting to load: /content/drive/MyDrive/OrthoTwin_Showcase/session_summary.txt
+  Status: ✓ Found (Size: 0.00 MB)
+  Content Summary for session_summary: Loaded text file (First 100 chars: 'OrthoTwin Colab Session Summary - 2026-06-17 13:58:51 ==============================================...')
+
+--- Step 2: Restored Variables Into Memory ---
+
+  reconstructed_structures: Loaded 14 structures.
+    - Number of Vertebrae: 8
+    - Number of Discs: 6
+  all_measurements: Loaded 14 entries.
+  disc_findings: Loaded 6 entries.
+  mesh_statistics: Loaded. Total structures: 14
+
+--- Step 3: Reconstruction Validation (Patient Alpha) ---
+
+Structure Name            | Class ID   | Vertices   | Faces      | Volume          | Surface Area    | Centroid (X,Y,Z)
+--------------------------------------------------------------------------------------------------------------------------------------------
+Vertebra 1                | 1          | 7693       | 14976      | 11522.96        | 5707.27         | (7.80, 170.39, 159.67)
+Vertebra 2                | 2          | 7897       | 15372      | 12480.92        | 6037.98         | (8.03, 144.26, 155.76)
+Vertebra 3                | 3          | 8046       | 15710      | 13271.17        | 6299.35         | (7.71, 113.98, 155.05)
+Vertebra 4                | 4          | 7967       | 15712      | 10204.21        | 6286.09         | (7.80, 85.44, 158.16)
+Vertebra 5                | 5          | 7789       | 15416      | 10758.42        | 6133.44         | (8.01, 57.76, 161.91)
+Vertebra 6                | 6          | 7838       | 15412      | 8220.83         | 6009.93         | (8.26, 34.48, 162.64)
+Vertebra 7                | 7          | 4595       | 8886       | 6049.71         | 3443.05         | (8.54, 10.09, 165.98)
+Vertebra 8 (100)          | 8          | 10743      | 21458      | 18126.08        | 8521.93         | (8.43, 104.47, 162.50)
+Disc 1 (201)              | 9          | 2333       | 4562       | 3293.79         | 1671.24         | (7.27, 191.13, 144.06)
+Disc 2 (202)              | 10         | 2167       | 4168       | 4043.04         | 1572.39         | (7.72, 160.36, 136.73)
+Disc 3 (203)              | 11         | 1842       | 3528       | 3061.46         | 1432.23         | (7.51, 127.13, 132.34)
+Disc 4 (204)              | 12         | 1956       | 3774       | 2828.38         | 1500.21         | (7.62, 95.15, 134.76)
+Disc 5 (205)              | 13         | 1779       | 3470       | 1858.00         | 1413.17         | (7.75, 66.09, 137.56)
+Disc 6 (206/207)          | 14         | 2667       | 5192       | 2567.88         | 2098.60         | (8.56, 26.63, 144.08)
+--------------------------------------------------------------------------------------------------------------------------------------------
+Patient Alpha reconstruction details loaded successfully from patient_alpha_measurements.json.
+
+--- Step 4: Coordinate System Inspection ---
+
+  Axis Directions & Coordinate Convention: Based on typical medical imaging conventions, and as derived from `skimage.measure.marching_cubes` output, the coordinate system is right-handed, with axes corresponding to image array indices.
+  Measurement Units: All reported measurements (bounding box dimensions, volume, surface area, centroid coordinates) are in **voxel units**, as derived directly from the voxel grid segmentation before any physical spacing information was applied.
+  Voxel Spacing Availability: Voxel spacing information was not explicitly available within the loaded mesh data or measurements JSON. To convert these to physical units (e.g., millimeters), the original image's metadata (e.g., from SimpleITK.ReadImage().GetSpacing()) would be required.
+  Therefore, current measurements are unitless representations of extent within the discretized image volume.
+
+--- Step 5: Project Status Summary ---
+
+Completed Tasks:
+  - MRI loading and preprocessing
+  - Segmentation model training (with weighted loss) & checkpointing
+  - Prediction mask generation for Patient Alpha
+  - Ground truth comparison (Dice scores) for validation set & Patient Alpha
+  - 3D reconstruction and mesh generation for Patient Alpha's segmented structures
+  - Volume and surface area calculations for reconstructed structures
+  - Disc abnormality ranking for Patient Alpha
+  - Generation of various visualization images (2D slices, 3D screenshots for all views, individual disc views)
+  - Comprehensive session and project status reports saved to Google Drive
+
+Not Yet Completed / Next Steps:
+  - Connected-component cleanup for segmented masks (post-processing)
+  - True disc-height measurement (requires physical spacing and refined methodology for clinical relevance)
+  - Automated clinical measurement pipeline (e.g., automated reporting of stenosis, curvature)
+  - Automated findings report generation for multiple patients
+  - Surgery simulation prototype development (integrating biomechanics)
+  - Full digital twin/world model prototype implementation (interactive, dynamic)
+  - Interactive 3D visualization within the notebook/browser (beyond static Matplotlib screenshots)

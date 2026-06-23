@@ -1,0 +1,30 @@
+{
+  "total_files": 148748,
+  "total_states": 9,
+  "total_measurement_files": 58,
+  "total_reports": 25,
+  "digital_twin_readiness_score": 100,
+  "category_counts": {
+    "tabular_or_metadata": 45,
+    "other": 367,
+    "report_or_doc": 24,
+    "script": 9,
+    "source_code": 6,
+    "archive_reference": 18,
+    "geometry_measurement": 49,
+    "cleaned_data": 18,
+    "model_checkpoint": 16,
+    "alignment_measurement": 3,
+    "visualization": 53,
+    "disc_measurement": 5,
+    "segmentation_visualization": 3,
+    "raw_image": 898,
+    "raw_dicom": 147218,
+    "state_transition": 2,
+    "vertebral_measurement": 1,
+    "state_graph": 4,
+    "patient_state": 3,
+    "state_visualization": 6
+  },
+  "architectural_problems": []
+}

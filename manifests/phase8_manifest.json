@@ -1,0 +1,27 @@
+{
+  "generated_utc": "2026-06-21T09:24:07.686241+00:00",
+  "phase": "phase8_mesh_level_digital_twin",
+  "files": [
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_inventory.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_state_vector.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\implant_mesh_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\collapse_mesh_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\spacer_mesh_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\fusion_mesh_result.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state_implant.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state_collapse.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state_spacer.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state_fusion.json",
+    "C:\\OrthoTwin\\OrthoTwin\\state\\mesh\\mesh_rebuilt_state.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase8\\mesh_impact_analysis.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase8\\phase8_limitations.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase8\\orthotwin_final_prototype_report.txt",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\mesh\\implant_mesh_before_after.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\mesh\\collapse_mesh_before_after.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\mesh\\fusion_mesh_before_after.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\mesh\\spacer_mesh_before_after.png",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\mesh\\3d_mesh_overlays.png",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase8\\phase8_validation_report.json"
+  ],
+  "all_files_exist": true
+}

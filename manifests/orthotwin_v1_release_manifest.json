@@ -1,0 +1,23 @@
+{
+  "generated_utc": "2026-06-21T09:52:04.357888+00:00",
+  "phase": "orthotwin_v1_release_candidate",
+  "files": [
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\release_v1\\orthotwin_v1_repository_audit.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\release_v1\\repository_health_report.txt",
+    "C:\\OrthoTwin\\OrthoTwin\\docs\\orthotwin_architecture.md",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\release_v1\\architecture_graph.json",
+    "C:\\OrthoTwin\\OrthoTwin\\visualization\\release\\architecture_diagram.png",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\release_v1\\capability_matrix.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\release_v1\\capability_matrix_report.txt",
+    "C:\\OrthoTwin\\OrthoTwin\\docs\\scientific_limitations.md",
+    "C:\\OrthoTwin\\OrthoTwin\\docs\\orthotwin_v1_whitepaper.md",
+    "C:\\OrthoTwin\\OrthoTwin\\docs\\demo_walkthrough.md",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\release_v1\\research_readiness_report.json",
+    "C:\\OrthoTwin\\OrthoTwin\\docs\\orthotwin_roadmap.md",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\release_v1\\orthotwin_v1_classification.json",
+    "C:\\OrthoTwin\\OrthoTwin\\ORTHOTWIN_V1_RELEASE_NOTES.md",
+    "C:\\OrthoTwin\\OrthoTwin\\ORTHOTWIN_V1_EXECUTIVE_SUMMARY.md",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\release_v1\\orthotwin_v1_validation.json"
+  ],
+  "all_files_exist": true
+}

@@ -1,0 +1,47 @@
+{
+  "generated_utc": "2026-06-21T09:24:02.951606+00:00",
+  "surgeries": [
+    {
+      "surgery": "implant",
+      "vertices_moved": 15100,
+      "average_displacement": 1.352834425370094,
+      "max_displacement": 1.5870214703987866,
+      "affected_structures": [
+        "Disc 6 (206/207)",
+        "Vertebra 6",
+        "Vertebra 7"
+      ]
+    },
+    {
+      "surgery": "collapse",
+      "vertices_moved": 15100,
+      "average_displacement": 1.352834425370094,
+      "max_displacement": 1.5870214703987895,
+      "affected_structures": [
+        "Disc 6 (206/207)",
+        "Vertebra 6",
+        "Vertebra 7"
+      ]
+    },
+    {
+      "surgery": "spacer",
+      "vertices_moved": 17406,
+      "average_displacement": 0.7663577715809946,
+      "max_displacement": 0.818717808429205,
+      "affected_structures": [
+        "Disc 5 (205)",
+        "Vertebra 5",
+        "Vertebra 6"
+      ]
+    },
+    {
+      "surgery": "fusion",
+      "vertices_moved": 0,
+      "average_displacement": 0.0,
+      "max_displacement": 0.0,
+      "affected_structures": [
+        "fusion_mesh_vertebra_5_vertebra_6"
+      ]
+    }
+  ]
+}

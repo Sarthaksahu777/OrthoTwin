@@ -1,0 +1,221 @@
+{
+  "generated_utc": "2026-06-21T06:18:05.385069+00:00",
+  "current_state": "clinical_state_vector.json",
+  "surgery_options": [
+    {
+      "id": "implant",
+      "scenario_id": "implant_geometry_v2",
+      "workflow": [
+        "Current Disc Geometry",
+        "Apply Implant",
+        "Increase Disc Space",
+        "Update Adjacent Vertebra Positions",
+        "Rebuild Local Relationships",
+        "Recompute Measurements"
+      ]
+    },
+    {
+      "id": "fusion",
+      "scenario_id": "fusion_geometry_v2",
+      "workflow": [
+        "Fuse Vertebra A + B",
+        "Remove Relative Motion",
+        "Update Graph Relationship",
+        "Recompute Connected Structures",
+        "Recompute Load Transfer Proxy"
+      ]
+    },
+    {
+      "id": "spacer",
+      "scenario_id": "spacer_geometry_v2",
+      "workflow": [
+        "Insert Spacer",
+        "Expand Disc Space",
+        "Update Adjacent Vertebra Positions",
+        "Recompute Local Alignment",
+        "Recompute State"
+      ]
+    },
+    {
+      "id": "alignment_correction",
+      "scenario_id": "alignment_correction_geometry_v2",
+      "workflow": [
+        "Select Vertebra",
+        "Apply Geometry Translation",
+        "Rebuild Local Relationships",
+        "Recompute Alignment",
+        "Recompute State"
+      ]
+    }
+  ],
+  "predicted_outcomes": [
+    {
+      "surgery": "implant",
+      "scenario_id": "implant_geometry_v2",
+      "structures_affected": [
+        "disc_6_206_207",
+        "implant_disc_6_206_207",
+        "vertebra_6",
+        "vertebra_7"
+      ],
+      "alignment_change": {
+        "before": 95.52863136433103,
+        "after": 115.85263252611571,
+        "delta": 20.32400116178468,
+        "percent_change": 21.275298171364106
+      },
+      "disc_height_change": {
+        "before": 13.438408001191862,
+        "after": 13.805018453051085,
+        "delta": 0.3666104518592235,
+        "percent_change": 2.728079485506829
+      },
+      "curvature_change": {
+        "before": 0.17254478240509424,
+        "after": 5.930867947608321,
+        "delta": 5.758323165203227,
+        "percent_change": 3337.2919684607145
+      },
+      "load_redistribution": {
+        "before": 1.0,
+        "after": 1.0585961349210287,
+        "delta": 0.058596134921028664,
+        "percent_change": 5.859613492102866
+      },
+      "rebuilt_state_file": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_implant.json"
+    },
+    {
+      "surgery": "fusion",
+      "scenario_id": "fusion_geometry_v2",
+      "structures_affected": [
+        "fusion_vertebra_5_vertebra_6"
+      ],
+      "alignment_change": {
+        "before": 95.52863136433103,
+        "after": 115.82563758668687,
+        "delta": 20.297006222355833,
+        "percent_change": 21.24703969111237
+      },
+      "disc_height_change": {
+        "before": 13.438408001191862,
+        "after": 13.438408001191862,
+        "delta": 0.0,
+        "percent_change": 0.0
+      },
+      "curvature_change": {
+        "before": 0.17254478240509424,
+        "after": 5.935369756515384,
+        "delta": 5.76282497411029,
+        "percent_change": 3339.90103541963
+      },
+      "load_redistribution": {
+        "before": 1.0,
+        "after": 1.0714179357034896,
+        "delta": 0.07141793570348964,
+        "percent_change": 7.141793570348964
+      },
+      "rebuilt_state_file": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_fusion.json"
+    },
+    {
+      "surgery": "spacer",
+      "scenario_id": "spacer_geometry_v2",
+      "structures_affected": [
+        "disc_5_205",
+        "spacer_disc_5_205",
+        "vertebra_5",
+        "vertebra_6"
+      ],
+      "alignment_change": {
+        "before": 95.52863136433103,
+        "after": 115.81438688829057,
+        "delta": 20.285755523959537,
+        "percent_change": 21.235262385988644
+      },
+      "disc_height_change": {
+        "before": 13.438408001191862,
+        "after": 13.688484959955447,
+        "delta": 0.2500769587635858,
+        "percent_change": 1.8609120867695512
+      },
+      "curvature_change": {
+        "before": 0.17254478240509424,
+        "after": 5.916277978485469,
+        "delta": 5.743733196080375,
+        "percent_change": 3328.836210529653
+      },
+      "load_redistribution": {
+        "before": 1.0,
+        "after": 1.0585915818689065,
+        "delta": 0.05859158186890645,
+        "percent_change": 5.859158186890645
+      },
+      "rebuilt_state_file": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_spacer.json"
+    },
+    {
+      "surgery": "alignment_correction",
+      "scenario_id": "alignment_correction_geometry_v2",
+      "structures_affected": [
+        "alignment_correction_vertebra_6",
+        "vertebra_6"
+      ],
+      "alignment_change": {
+        "before": 95.52863136433103,
+        "after": 115.81531793573556,
+        "delta": 20.28668657140453,
+        "percent_change": 21.236237012581423
+      },
+      "disc_height_change": {
+        "before": 13.438408001191862,
+        "after": 13.438408001191862,
+        "delta": 0.0,
+        "percent_change": 0.0
+      },
+      "curvature_change": {
+        "before": 0.17254478240509424,
+        "after": 5.91443002871074,
+        "delta": 5.741885246305646,
+        "percent_change": 3327.7652133375213
+      },
+      "load_redistribution": {
+        "before": 1.0,
+        "after": 1.058591692707888,
+        "delta": 0.058591692707888,
+        "percent_change": 5.8591692707888
+      },
+      "rebuilt_state_file": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_alignment_correction.json"
+    }
+  ],
+  "affected_structures": {
+    "implant": [
+      "disc_6_206_207",
+      "implant_disc_6_206_207",
+      "vertebra_6",
+      "vertebra_7"
+    ],
+    "fusion": [
+      "fusion_vertebra_5_vertebra_6"
+    ],
+    "spacer": [
+      "disc_5_205",
+      "spacer_disc_5_205",
+      "vertebra_5",
+      "vertebra_6"
+    ],
+    "alignment_correction": [
+      "alignment_correction_vertebra_6",
+      "vertebra_6"
+    ]
+  },
+  "confidence": {
+    "geometry_rebuild": "MEDIUM",
+    "load_proxy": "LOW",
+    "clinical_realism": "LOW",
+    "reason": "Anatomy changes precede metric rebuild, but no physical calibration, FE model, or clinical validation exists."
+  },
+  "warnings": [
+    "No diagnosis.",
+    "No treatment recommendation.",
+    "No clinical claims.",
+    "Geometry-aware does not mean biomechanically validated."
+  ]
+}

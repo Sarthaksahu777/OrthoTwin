@@ -1,0 +1,37 @@
+
+Patient Alpha Summary
+
+Structures Segmented: 14
+Segmentation Quality: Mean Foreground Dice = 0.0000
+
+Voxel Cleanup Results:
+- Vertebra 1 required 0.09% cleanup
+- Vertebra 2 required 0.27% cleanup
+- Vertebra 4 required 0.06% cleanup
+- Vertebra 5 required 0.13% cleanup
+- Vertebra 6 required 0.58% cleanup
+- Vertebra 7 required 1.03% cleanup
+- Disc 2 (202) required 0.09% cleanup
+- Disc 4 (204) required 0.12% cleanup
+- Disc 6 (206/207) required 40.15% cleanup
+
+Pipeline Status:
+- Segmentation completed
+- 3D reconstruction completed
+- Quantitative measurements extracted
+- Disc ranking generated
+
+Potential Areas Requiring Review:
+- Disc 6 (206/207) (Severity Score: 1.0000)
+- Disc 5 (205) (Severity Score: 0.8905)
+
+Limitations:
+- Measurements derived from segmentation
+- Anatomical labels not clinically verified
+- Findings are not medical diagnoses
+
+Future Work:
+- Radiology-grade measurements
+- Automated report generation
+- Surgery simulation
+- Digital twin / world model

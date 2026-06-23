@@ -1,0 +1,31 @@
+{
+  "generated_utc": "2026-06-20T23:33:48.155762+00:00",
+  "phase": "OrthoTwin Phase 4",
+  "all_outputs_exist": true,
+  "outputs": {
+    "radiology_disc_heights": "C:\\OrthoTwin\\OrthoTwin\\measurements\\radiology\\radiology_disc_heights.json",
+    "disc_area_measurements": "C:\\OrthoTwin\\OrthoTwin\\measurements\\radiology\\disc_area_measurements.json",
+    "canal_measurements": "C:\\OrthoTwin\\OrthoTwin\\measurements\\radiology\\canal_measurements.json",
+    "foraminal_measurements": "C:\\OrthoTwin\\OrthoTwin\\measurements\\radiology\\foraminal_measurements.json",
+    "disc_degeneration_features": "C:\\OrthoTwin\\OrthoTwin\\measurements\\radiology\\disc_degeneration_features.json",
+    "vertebral_slippage": "C:\\OrthoTwin\\OrthoTwin\\measurements\\radiology\\vertebral_slippage.json",
+    "curvature_measurements": "C:\\OrthoTwin\\OrthoTwin\\measurements\\radiology\\curvature_measurements.json",
+    "clinical_state_vector": "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\clinical_state_vector.json",
+    "measurement_validation_report": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase4\\measurement_validation_report.txt",
+    "phase4_report": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase4\\phase4_radiology_measurements_report.txt",
+    "disc_height_plot": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\phase4_disc_height_plot.png",
+    "canal_area_plot": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\phase4_canal_area_plot.png",
+    "foraminal_area_plot": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\phase4_foraminal_area_plot.png",
+    "curvature_plot": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\phase4_curvature_plot.png",
+    "slippage_plot": "C:\\OrthoTwin\\OrthoTwin\\visualization\\state\\phase4_slippage_plot.png",
+    "orthtwin2_arrangement_log": "C:\\OrthoTwin\\OrthoTwin\\manifests\\orthtwin2_arrangement_log.json"
+  },
+  "input_files": {
+    "patient_state_vector_v2": "C:\\OrthoTwin\\OrthoTwin\\state\\patient_states\\patient_state_vector_v2.json",
+    "reconstructed_structures": "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\reconstructed_structures.pkl",
+    "spine_coordinate_system": "C:\\OrthoTwin\\OrthoTwin\\measurements\\alignment\\spine_coordinate_system.json",
+    "spine_graph": "C:\\OrthoTwin\\OrthoTwin\\state\\graphs\\spine_graph.json"
+  },
+  "orthtwin2_files_arranged": 15,
+  "scope": "Existing files only. No retraining, inference, segmentation recomputation, or mask modification."
+}

@@ -1,0 +1,138 @@
+{
+  "generated_utc": "2026-06-21T09:20:58.125786+00:00",
+  "assumptions": [
+    {
+      "assumption_id": "A001",
+      "name": "disc_height_loss_per_year_fraction",
+      "value": 0.006,
+      "category": "hardcoded_configurable_parameter",
+      "source": "natural_progression_rules.json",
+      "confidence": "LOW",
+      "impact": "Changes longitudinal trajectory; not patient-calibrated.",
+      "can_replace_now": false,
+      "reduction_status": "partially_removable_with_external_longitudinal_measurements",
+      "possible_replacement": "Observed longitudinal measurements or validated literature coefficients."
+    },
+    {
+      "assumption_id": "A002",
+      "name": "disc_volume_loss_per_year_fraction",
+      "value": 0.004,
+      "category": "hardcoded_configurable_parameter",
+      "source": "natural_progression_rules.json",
+      "confidence": "LOW",
+      "impact": "Changes longitudinal trajectory; not patient-calibrated.",
+      "can_replace_now": false,
+      "reduction_status": "partially_removable_with_external_longitudinal_measurements",
+      "possible_replacement": "Observed longitudinal measurements or validated literature coefficients."
+    },
+    {
+      "assumption_id": "A003",
+      "name": "foraminal_area_loss_coupled_to_disc_height",
+      "value": 0.65,
+      "category": "hardcoded_configurable_parameter",
+      "source": "natural_progression_rules.json",
+      "confidence": "LOW",
+      "impact": "Changes longitudinal trajectory; not patient-calibrated.",
+      "can_replace_now": false,
+      "reduction_status": "partially_removable_with_external_longitudinal_measurements",
+      "possible_replacement": "Observed longitudinal measurements or validated literature coefficients."
+    },
+    {
+      "assumption_id": "A004",
+      "name": "canal_area_change_per_year_fraction",
+      "value": -0.001,
+      "category": "hardcoded_configurable_parameter",
+      "source": "natural_progression_rules.json",
+      "confidence": "LOW",
+      "impact": "Changes longitudinal trajectory; not patient-calibrated.",
+      "can_replace_now": false,
+      "reduction_status": "partially_removable_with_external_longitudinal_measurements",
+      "possible_replacement": "Observed longitudinal measurements or validated literature coefficients."
+    },
+    {
+      "assumption_id": "A005",
+      "name": "alignment_change_degrees_per_year",
+      "value": 0.12,
+      "category": "hardcoded_configurable_parameter",
+      "source": "natural_progression_rules.json",
+      "confidence": "LOW",
+      "impact": "Changes longitudinal trajectory; not patient-calibrated.",
+      "can_replace_now": false,
+      "reduction_status": "partially_removable_with_external_longitudinal_measurements",
+      "possible_replacement": "Observed longitudinal measurements or validated literature coefficients."
+    },
+    {
+      "assumption_id": "A006",
+      "name": "curvature_change_per_year_fraction",
+      "value": 0.008,
+      "category": "hardcoded_configurable_parameter",
+      "source": "natural_progression_rules.json",
+      "confidence": "LOW",
+      "impact": "Changes longitudinal trajectory; not patient-calibrated.",
+      "can_replace_now": false,
+      "reduction_status": "partially_removable_with_external_longitudinal_measurements",
+      "possible_replacement": "Observed longitudinal measurements or validated literature coefficients."
+    },
+    {
+      "assumption_id": "A007",
+      "name": "load_increase_per_disc_height_loss_fraction",
+      "value": 0.85,
+      "category": "hardcoded_configurable_parameter",
+      "source": "natural_progression_rules.json",
+      "confidence": "LOW",
+      "impact": "Changes longitudinal trajectory; not patient-calibrated.",
+      "can_replace_now": false,
+      "reduction_status": "not_removable_with_current_data",
+      "possible_replacement": "Validated FEM/materials/boundary conditions."
+    },
+    {
+      "assumption_id": "A008",
+      "name": "stress_increase_per_load_delta",
+      "value": 0.45,
+      "category": "hardcoded_configurable_parameter",
+      "source": "natural_progression_rules.json",
+      "confidence": "LOW",
+      "impact": "Changes longitudinal trajectory; not patient-calibrated.",
+      "can_replace_now": false,
+      "reduction_status": "not_removable_with_current_data",
+      "possible_replacement": "Validated FEM/materials/boundary conditions."
+    },
+    {
+      "assumption_id": "A009",
+      "name": "risk_score_cap",
+      "value": 1.0,
+      "category": "hardcoded_configurable_parameter",
+      "source": "natural_progression_rules.json",
+      "confidence": "LOW",
+      "impact": "Changes longitudinal trajectory; not patient-calibrated.",
+      "can_replace_now": false,
+      "reduction_status": "not_removable_with_current_data",
+      "possible_replacement": "Validated FEM/materials/boundary conditions."
+    },
+    {
+      "assumption_id": "A999",
+      "name": "physical_spacing_missing",
+      "value": "Physical calibration blocked",
+      "category": "known_limitation",
+      "source": "phase4_5/missing_spacing_report.txt",
+      "confidence": "HIGH",
+      "impact": "Measurements remain voxel-space; radiology-grade physical claims cannot be made.",
+      "can_replace_now": false,
+      "reduction_status": "blocked_external_data_required",
+      "possible_replacement": "Original Patient Alpha image/DICOM header linked to reconstruction."
+    },
+    {
+      "assumption_id": "A998",
+      "name": "no_longitudinal_patient_followup",
+      "value": true,
+      "category": "known_limitation",
+      "source": "available repository state",
+      "confidence": "HIGH",
+      "impact": "Progression cannot be validated against observed Patient Alpha timepoints.",
+      "can_replace_now": false,
+      "reduction_status": "required_until_external_data",
+      "possible_replacement": "Serial patient imaging/outcomes."
+    }
+  ],
+  "summary": "Current single-timepoint voxel geometry cannot eliminate the major longitudinal/biomechanical assumptions."
+}

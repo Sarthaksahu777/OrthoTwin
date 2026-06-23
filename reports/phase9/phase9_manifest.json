@@ -1,0 +1,14 @@
+{
+  "generated_utc": "2026-06-21T09:20:58.128882+00:00",
+  "phase": "phase9_scientific_grounding_audit",
+  "files": [
+    "OrthoTwin\\reports\\phase9\\patient_alpha_spacing_audit.json",
+    "OrthoTwin\\reports\\phase9\\measurement_evidence_matrix.json",
+    "OrthoTwin\\reports\\phase9\\surgery_evidence_matrix.json",
+    "OrthoTwin\\reports\\phase9\\assumption_reduction_plan.json",
+    "OrthoTwin\\reports\\phase9\\validation_roadmap.json",
+    "OrthoTwin\\reports\\phase9\\biomechanics_readiness_report.json",
+    "OrthoTwin\\reports\\phase9\\orthotwin_prototype_status.json",
+    "OrthoTwin\\reports\\phase9\\orthotwin_final_gap_analysis.txt"
+  ]
+}

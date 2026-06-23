@@ -1,0 +1,1496 @@
+{
+  "generated_utc": "2026-06-21T09:52:04.357888+00:00",
+  "root": "C:\\OrthoTwin\\OrthoTwin",
+  "total_files": 148946,
+  "total_reports": 65,
+  "total_measurements": 103,
+  "total_state_files": 71,
+  "total_visualizations": 104,
+  "total_manifests": 25,
+  "total_simulation_outputs": 53,
+  "total_size_bytes": 45851725179,
+  "extensions": {
+    ".bmp": 2,
+    ".csv": 2,
+    ".dcm": 147218,
+    ".ipynb": 3,
+    ".json": 170,
+    ".md": 13,
+    ".mha": 894,
+    ".nii.gz": 2,
+    ".npy": 2,
+    ".pdf": 19,
+    ".pkl": 420,
+    ".png": 102,
+    ".pt": 1,
+    ".pth": 17,
+    ".py": 37,
+    ".pyc": 19,
+    ".txt": 24,
+    ".zip": 1
+  },
+  "verification": {
+    "broken_path_references_count": 535,
+    "duplicate_filename_groups_count": 674,
+    "duplicate_content_groups_count": 45,
+    "orphaned_files_count": 9
+  },
+  "broken_path_references_sample": [
+    {
+      "source": "archive\\test_ct.py",
+      "reference": "C:\\OrthoTwin\\4290709089\\4237840455"
+    },
+    {
+      "source": "archive\\test_mha.py",
+      "reference": "C:\\OrthoTwin\\images\\1_t2.mha"
+    },
+    {
+      "source": "archive\\test_mha.py",
+      "reference": "C:\\OrthoTwin\\masks\\1_t2.mha"
+    },
+    {
+      "source": "archive\\test_mha.py",
+      "reference": "C:\\OrthoTwin\\images\\1_t2.mha"
+    },
+    {
+      "source": "archive\\test_mha.py",
+      "reference": "C:\\OrthoTwin\\masks\\1_t2.mha"
+    },
+    {
+      "source": "manifests\\orthotwin_v1_release_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\visualization\\release\\architecture_diagram.png"
+    },
+    {
+      "source": "manifests\\orthtwin2_arrangement_log.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin2\\data .txt"
+    },
+    {
+      "source": "manifests\\orthtwin2_arrangement_log.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\final_project_status.json"
+    },
+    {
+      "source": "manifests\\orthtwin2_arrangement_log.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_gt_mask_slice_8.png"
+    },
+    {
+      "source": "manifests\\orthtwin2_arrangement_log.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_mesh_statistics.json"
+    },
+    {
+      "source": "manifests\\orthtwin2_arrangement_log.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_mri_slice_8.png"
+    },
+    {
+      "source": "manifests\\orthtwin2_arrangement_log.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_overlay_slice_8.png"
+    },
+    {
+      "source": "manifests\\orthtwin2_arrangement_log.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_pred_mask_slice_8.png"
+    },
+    {
+      "source": "manifests\\orthtwin2_arrangement_log.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_angled.png"
+    },
+    {
+      "source": "manifests\\orthtwin2_arrangement_log.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_front.png"
+    },
+    {
+      "source": "manifests\\orthtwin2_arrangement_log.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_side.png"
+    },
+    {
+      "source": "manifests\\orthtwin2_arrangement_log.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\reconstructed_structures.pkl"
+    },
+    {
+      "source": "manifests\\orthtwin2_arrangement_log.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\session_summary.txt"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\spine_graph.json"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\disc_relationships.json"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\relative_disc_metrics.json"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\relative_vertebral_metrics.json"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\spine_centerline.json"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\local_alignment_metrics.json"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\load_path_model.json"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\state_validation_report.json"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\patient_state_vector_v2.json"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\stage2_readiness_report.txt"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\figures\\spine_graph.png"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\figures\\centerline_plot.png"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\figures\\relative_disc_height_plot.png"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\figures\\relative_volume_plot.png"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\figures\\alignment_plot.png"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\figures\\load_distribution_plot.png"
+    },
+    {
+      "source": "manifests\\stage2_manifest.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\stage2\\stage2_manifest.json"
+    },
+    {
+      "source": "state\\master_digital_twin_state.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\master_digital_twin_state.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\master_digital_twin_state.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\master_digital_twin_state.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "visualization\\release\\architecture_diagram_error.txt",
+      "reference": "C:\\Users\\win10\\AppData\\Local\\Programs\\Python\\Python314\\tcl\\tcl8.6}"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_collapse_10.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_collapse_10.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_collapse_10.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_collapse_10.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_collapse_20.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_collapse_20.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_collapse_20.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_collapse_20.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_collapse_30.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_collapse_30.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_collapse_30.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_collapse_30.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_restore_10.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_restore_10.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_restore_10.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_restore_10.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_restore_20.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_restore_20.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_restore_20.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_restore_20.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_restore_30.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_restore_30.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_restore_30.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_disc_restore_30.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_fusion_l4_l5.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_fusion_l4_l5.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_fusion_l4_l5.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_fusion_l4_l5.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_fusion_l5_s1.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_fusion_l5_s1.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_fusion_l5_s1.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_fusion_l5_s1.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_implant_disc_5.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_implant_disc_5.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_implant_disc_5.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_implant_disc_5.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_implant_disc_6.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_implant_disc_6.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_implant_disc_6.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\future_states\\future_state_implant_disc_6.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\patient_states\\patient_state_vector_v2.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\patient_states\\patient_state_vector_v2.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\patient_states\\patient_state_vector_v2.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\patient_states\\patient_state_vector_v2.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\transitions\\disc_collapse_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\transitions\\disc_collapse_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\transitions\\disc_collapse_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\transitions\\disc_collapse_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\transitions\\disc_restoration_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\transitions\\disc_restoration_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\transitions\\disc_restoration_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\transitions\\disc_restoration_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\transitions\\fusion_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\transitions\\fusion_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\transitions\\fusion_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\transitions\\fusion_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    },
+    {
+      "source": "state\\transitions\\implant_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json"
+    },
+    {
+      "source": "state\\transitions\\implant_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json"
+    },
+    {
+      "source": "state\\transitions\\implant_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json"
+    },
+    {
+      "source": "state\\transitions\\implant_simulation.json",
+      "reference": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    }
+  ],
+  "duplicate_filenames_sample": {
+    "__init__.py": [
+      "__init__.py",
+      "simulation\\mesh\\__init__.py",
+      "simulation\\surgery\\__init__.py"
+    ],
+    "2105.14711v4.pdf": [
+      "docs\\2105.14711v4.pdf",
+      "archive\\Research paper\\2105.14711v4.pdf"
+    ],
+    "s41597-024-03351-8.pdf": [
+      "docs\\s41597-024-03351-8.pdf",
+      "archive\\Research paper\\s41597-024-03351-8.pdf"
+    ],
+    "alignment_changes.png": [
+      "visualization\\alignment_changes.png",
+      "visualization\\state\\alignment_changes.png"
+    ],
+    "disc_changes.png": [
+      "visualization\\disc_changes.png",
+      "visualization\\state\\disc_changes.png"
+    ],
+    "state_comparison.png": [
+      "visualization\\state_comparison.png",
+      "visualization\\state\\state_comparison.png"
+    ],
+    "__init__.cpython-314.pyc": [
+      "__pycache__\\__init__.cpython-314.pyc",
+      "simulation\\surgery\\__pycache__\\__init__.cpython-314.pyc",
+      "simulation\\mesh\\__pycache__\\__init__.cpython-314.pyc"
+    ],
+    "patient_alpha_reconstruction_matplotlib_angled.png": [
+      "visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_angled.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_reconstruction_matplotlib_angled.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_angled.png"
+    ],
+    "patient_alpha_reconstruction_matplotlib_front.png": [
+      "visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_front.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_reconstruction_matplotlib_front.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_front.png"
+    ],
+    "patient_alpha_reconstruction_matplotlib_side.png": [
+      "visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_side.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_reconstruction_matplotlib_side.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_side.png"
+    ],
+    "patient_alpha_gt_mask_slice_8.png": [
+      "visualization\\segmentation\\patient_alpha_gt_mask_slice_8.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_gt_mask_slice_8.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_gt_mask_slice_8.png"
+    ],
+    "patient_alpha_mri_slice_8.png": [
+      "visualization\\segmentation\\patient_alpha_mri_slice_8.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_mri_slice_8.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_mri_slice_8.png"
+    ],
+    "patient_alpha_overlay_slice_8.png": [
+      "visualization\\segmentation\\patient_alpha_overlay_slice_8.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_overlay_slice_8.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_overlay_slice_8.png"
+    ],
+    "patient_alpha_pred_mask_slice_8.png": [
+      "visualization\\segmentation\\patient_alpha_pred_mask_slice_8.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_pred_mask_slice_8.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_pred_mask_slice_8.png"
+    ],
+    "weighted_loss_results.png": [
+      "visualization\\segmentation\\weighted_loss_results.png",
+      "archive\\OrthoTwin_Final_Archive\\weighted_loss_results.png"
+    ],
+    "weighted_dice_results.json": [
+      "reports\\phase1\\weighted_dice_results.json",
+      "archive\\OrthoTwin_Final_Archive\\weighted_dice_results.json"
+    ],
+    "runtime_recovery_report.txt": [
+      "reports\\phase3\\runtime_recovery_report.txt",
+      "archive\\OrthoTwin_Showcase\\runtime_recovery_report.txt"
+    ],
+    "final_segresnet_weighted.pth": [
+      "models\\checkpoints\\FINAL_SEGRESNET_WEIGHTED.pth",
+      "archive\\OrthoTwin_Final_Archive\\FINAL_SEGRESNET_WEIGHTED.pth"
+    ],
+    "segresnet_weighted_epoch12.pth": [
+      "models\\checkpoints\\segresnet_weighted_epoch12.pth",
+      "archive\\OrthoTwin_Final_Archive\\segresnet_weighted_epoch12.pth"
+    ],
+    "spine_coordinate_system.json": [
+      "measurements\\alignment\\spine_coordinate_system.json",
+      "archive\\OrthoTwin_Showcase\\spine_coordinate_system.json"
+    ],
+    "patient_alpha_disc_ranking.json": [
+      "measurements\\discs\\patient_alpha_disc_ranking.json",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_ranking.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_ranking.json"
+    ],
+    "final_project_status.json": [
+      "measurements\\geometry\\final_project_status.json",
+      "archive\\OrthoTwin_Showcase\\final_project_status.json"
+    ],
+    "patient_alpha_clean_measurements.json": [
+      "measurements\\geometry\\patient_alpha_clean_measurements.json",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_clean_measurements.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_clean_measurements.json"
+    ],
+    "patient_alpha_component_analysis.json": [
+      "measurements\\geometry\\patient_alpha_component_analysis.json",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_component_analysis.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_component_analysis.json"
+    ],
+    "patient_alpha_findings.json": [
+      "measurements\\geometry\\patient_alpha_findings.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_findings.json"
+    ],
+    "patient_alpha_measurements.json": [
+      "measurements\\geometry\\patient_alpha_measurements.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_measurements.json"
+    ],
+    "patient_alpha_mesh_statistics.json": [
+      "measurements\\geometry\\patient_alpha_mesh_statistics.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_mesh_statistics.json"
+    ],
+    "patient_alpha_pca_measurements.json": [
+      "measurements\\geometry\\patient_alpha_pca_measurements.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_pca_measurements.json"
+    ],
+    "patient_alpha_voxel_component_analysis.json": [
+      "measurements\\geometry\\patient_alpha_voxel_component_analysis.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_analysis.json"
+    ],
+    "reconstructed_structures.pkl": [
+      "measurements\\geometry\\reconstructed_structures.pkl",
+      "archive\\OrthoTwin_Final_Archive\\reconstructed_structures.pkl",
+      "archive\\OrthoTwin_Showcase\\reconstructed_structures.pkl"
+    ],
+    "1.bmp": [
+      "data\\raw\\1.bmp",
+      "archive\\Research paper\\1.bmp"
+    ],
+    "100_t1.mha": [
+      "data\\raw\\100_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\100_t1.mha"
+    ],
+    "100_t2.mha": [
+      "data\\raw\\100_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\100_t2.mha"
+    ],
+    "101_t1.mha": [
+      "data\\raw\\101_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\101_t1.mha"
+    ],
+    "101_t2.mha": [
+      "data\\raw\\101_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\101_t2.mha"
+    ],
+    "104_t1.mha": [
+      "data\\raw\\104_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\104_t1.mha"
+    ],
+    "104_t2.mha": [
+      "data\\raw\\104_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\104_t2.mha"
+    ],
+    "105_t1.mha": [
+      "data\\raw\\105_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\105_t1.mha"
+    ],
+    "105_t2.mha": [
+      "data\\raw\\105_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\105_t2.mha"
+    ],
+    "106_t1.mha": [
+      "data\\raw\\106_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\106_t1.mha"
+    ],
+    "106_t2.mha": [
+      "data\\raw\\106_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\106_t2.mha"
+    ],
+    "107_t1.mha": [
+      "data\\raw\\107_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\107_t1.mha"
+    ],
+    "107_t2.mha": [
+      "data\\raw\\107_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\107_t2.mha"
+    ],
+    "107_t2_space.mha": [
+      "data\\raw\\107_t2_SPACE.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\107_t2_SPACE.mha"
+    ],
+    "108_t1.mha": [
+      "data\\raw\\108_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\108_t1.mha"
+    ],
+    "108_t2.mha": [
+      "data\\raw\\108_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\108_t2.mha"
+    ],
+    "109_t1.mha": [
+      "data\\raw\\109_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\109_t1.mha"
+    ],
+    "109_t2.mha": [
+      "data\\raw\\109_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\109_t2.mha"
+    ],
+    "10_t1.mha": [
+      "data\\raw\\10_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\10_t1.mha"
+    ],
+    "10_t2.mha": [
+      "data\\raw\\10_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\10_t2.mha"
+    ],
+    "110_t1.mha": [
+      "data\\raw\\110_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\110_t1.mha"
+    ],
+    "110_t2.mha": [
+      "data\\raw\\110_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\110_t2.mha"
+    ],
+    "110_t2_space.mha": [
+      "data\\raw\\110_t2_SPACE.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\110_t2_SPACE.mha"
+    ],
+    "112_t1.mha": [
+      "data\\raw\\112_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\112_t1.mha"
+    ],
+    "112_t2.mha": [
+      "data\\raw\\112_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\112_t2.mha"
+    ],
+    "113_t1.mha": [
+      "data\\raw\\113_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\113_t1.mha"
+    ],
+    "113_t2.mha": [
+      "data\\raw\\113_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\113_t2.mha"
+    ],
+    "115_t1.mha": [
+      "data\\raw\\115_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\115_t1.mha"
+    ],
+    "115_t2.mha": [
+      "data\\raw\\115_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\115_t2.mha"
+    ],
+    "116_t1.mha": [
+      "data\\raw\\116_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\116_t1.mha"
+    ],
+    "116_t2.mha": [
+      "data\\raw\\116_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\116_t2.mha"
+    ],
+    "117_t1.mha": [
+      "data\\raw\\117_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\117_t1.mha"
+    ],
+    "117_t2.mha": [
+      "data\\raw\\117_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\117_t2.mha"
+    ],
+    "118_t1.mha": [
+      "data\\raw\\118_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\118_t1.mha"
+    ],
+    "118_t2.mha": [
+      "data\\raw\\118_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\118_t2.mha"
+    ],
+    "118_t2_space.mha": [
+      "data\\raw\\118_t2_SPACE.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\118_t2_SPACE.mha"
+    ],
+    "11_t1.mha": [
+      "data\\raw\\11_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\11_t1.mha"
+    ],
+    "11_t2.mha": [
+      "data\\raw\\11_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\11_t2.mha"
+    ],
+    "11_t2_space.mha": [
+      "data\\raw\\11_t2_SPACE.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\11_t2_SPACE.mha"
+    ],
+    "120_t2.mha": [
+      "data\\raw\\120_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\120_t2.mha"
+    ],
+    "121_t1.mha": [
+      "data\\raw\\121_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\121_t1.mha"
+    ],
+    "121_t2.mha": [
+      "data\\raw\\121_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\121_t2.mha"
+    ],
+    "122_t1.mha": [
+      "data\\raw\\122_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\122_t1.mha"
+    ],
+    "122_t2.mha": [
+      "data\\raw\\122_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\122_t2.mha"
+    ],
+    "123_t2.mha": [
+      "data\\raw\\123_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\123_t2.mha"
+    ],
+    "124_t2.mha": [
+      "data\\raw\\124_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\124_t2.mha"
+    ],
+    "125_t1.mha": [
+      "data\\raw\\125_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\125_t1.mha"
+    ],
+    "125_t2.mha": [
+      "data\\raw\\125_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\125_t2.mha"
+    ],
+    "126_t1.mha": [
+      "data\\raw\\126_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\126_t1.mha"
+    ],
+    "127_t1.mha": [
+      "data\\raw\\127_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\127_t1.mha"
+    ],
+    "127_t2.mha": [
+      "data\\raw\\127_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\127_t2.mha"
+    ],
+    "127_t2_space.mha": [
+      "data\\raw\\127_t2_SPACE.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\127_t2_SPACE.mha"
+    ],
+    "129_t1.mha": [
+      "data\\raw\\129_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\129_t1.mha"
+    ],
+    "129_t2.mha": [
+      "data\\raw\\129_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\129_t2.mha"
+    ],
+    "129_t2_space.mha": [
+      "data\\raw\\129_t2_SPACE.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\129_t2_SPACE.mha"
+    ],
+    "12_t1.mha": [
+      "data\\raw\\12_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\12_t1.mha"
+    ],
+    "12_t2.mha": [
+      "data\\raw\\12_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\12_t2.mha"
+    ],
+    "130_t1.mha": [
+      "data\\raw\\130_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\130_t1.mha"
+    ],
+    "130_t2.mha": [
+      "data\\raw\\130_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\130_t2.mha"
+    ],
+    "131_t1.mha": [
+      "data\\raw\\131_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\131_t1.mha"
+    ],
+    "131_t2.mha": [
+      "data\\raw\\131_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\131_t2.mha"
+    ],
+    "132_t1.mha": [
+      "data\\raw\\132_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\132_t1.mha"
+    ],
+    "133_t1.mha": [
+      "data\\raw\\133_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\133_t1.mha"
+    ],
+    "133_t2.mha": [
+      "data\\raw\\133_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\133_t2.mha"
+    ],
+    "134_t2.mha": [
+      "data\\raw\\134_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\134_t2.mha"
+    ],
+    "136_t1.mha": [
+      "data\\raw\\136_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\136_t1.mha"
+    ],
+    "136_t2.mha": [
+      "data\\raw\\136_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\136_t2.mha"
+    ],
+    "136_t2_space.mha": [
+      "data\\raw\\136_t2_SPACE.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\136_t2_SPACE.mha"
+    ],
+    "137_t1.mha": [
+      "data\\raw\\137_t1.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\137_t1.mha"
+    ],
+    "137_t2.mha": [
+      "data\\raw\\137_t2.mha",
+      "data\\raw\\spine_segmentation_dataset\\masks\\137_t2.mha"
+    ]
+  },
+  "duplicate_content_sample": {
+    "dead60791fe1653e40b4bb26141eaa17391d199c63f3f78a6f46d0a15fcb5140": [
+      "visualization\\alignment_changes.png",
+      "visualization\\state\\alignment_changes.png"
+    ],
+    "bc3da747d756fb6eb40e1e632c5fd55cd36a660a4bcedaf556cedc18deabed16": [
+      "visualization\\disc_changes.png",
+      "visualization\\state\\disc_changes.png"
+    ],
+    "bf7ab85c1d0e70e60a5be3010e05d9135c800e4138ffec16bec4262d7f319a30": [
+      "visualization\\state_comparison.png",
+      "visualization\\state\\state_comparison.png"
+    ],
+    "72de485ffc3d1ca7527f574200dc5f1c05d415793c1c7bdcffefbf3e4f201d44": [
+      "visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_angled.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_reconstruction_matplotlib_angled.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_angled.png"
+    ],
+    "6958df01f2fd2e4da0825af19e88dcc721cdc8bc654d3885b0d6f4123c92b235": [
+      "visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_front.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_reconstruction_matplotlib_front.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_front.png"
+    ],
+    "82d5c362d2c827a6b41fc1d7648fa1fa40c385593ae619ef03e18c9a47539fe2": [
+      "visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_side.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_reconstruction_matplotlib_side.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_side.png"
+    ],
+    "a58e7dd8869f4ca90010d1e41c5c6821f481b786a3bf10f64004c49daee0cc7e": [
+      "visualization\\segmentation\\patient_alpha_gt_mask_slice_8.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_gt_mask_slice_8.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_gt_mask_slice_8.png"
+    ],
+    "58ef4d0ae3e49dac81b7fdd9f1af27e3c3ab4a66667799c36030160ae1544937": [
+      "visualization\\segmentation\\patient_alpha_mri_slice_8.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_mri_slice_8.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_mri_slice_8.png"
+    ],
+    "95e69dadd6aeb2eebf1ccdfd88ddbe6180bed3ce3869061aa5c642d5e330e081": [
+      "visualization\\segmentation\\patient_alpha_overlay_slice_8.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_overlay_slice_8.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_overlay_slice_8.png"
+    ],
+    "e23304a1a66da1b390ae952bbee9d5ecb7695f89880d346eb4e6f0fa5f0a67ac": [
+      "visualization\\segmentation\\patient_alpha_pred_mask_slice_8.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_pred_mask_slice_8.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_pred_mask_slice_8.png"
+    ],
+    "e55d0626959348273a7fc84f13d741914fc0a352c6dcecd1d3509c18e0973f18": [
+      "visualization\\segmentation\\weighted_loss_results.png",
+      "archive\\OrthoTwin_Final_Archive\\weighted_loss_results.png"
+    ],
+    "4b3441b9dccbc597335700d072edee54f505b77a6df7233feee469c5b9748bc5": [
+      "reports\\phase1\\weighted_dice_results.json",
+      "archive\\OrthoTwin_Final_Archive\\weighted_dice_results.json"
+    ],
+    "e194188fde347a7af7e7bcfad03353bc55fac8ed6dfc99800205dfa0fce7f58e": [
+      "reports\\phase3\\runtime_recovery_report.txt",
+      "archive\\OrthoTwin_Showcase\\runtime_recovery_report.txt"
+    ],
+    "fae4ba7a2f435d80e9d7623b54170b4f7aaffe020e22e2b677596e73c49e75cc": [
+      "measurements\\alignment\\spine_coordinate_system.json",
+      "archive\\OrthoTwin_Showcase\\spine_coordinate_system.json"
+    ],
+    "481c4769fa8ff29f58ba4f12da6ca1960190cdf9f4a38a2f273396a3a5db1352": [
+      "measurements\\discs\\patient_alpha_disc_ranking.json",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_ranking.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_ranking.json"
+    ],
+    "470654589f46935c7af21fd2d56812c2f9bd8b66d471975af105e24a62db1322": [
+      "measurements\\geometry\\final_project_status.json",
+      "archive\\OrthoTwin_Showcase\\final_project_status.json"
+    ],
+    "76748571e8689c12fd6c79ce5fc39a069c559de20ab806d5ef8c454c51bda6f1": [
+      "measurements\\geometry\\patient_alpha_clean_measurements.json",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_clean_measurements.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_clean_measurements.json"
+    ],
+    "7a77146607c41760dd9e53bdd5717e3ef59c4d85c0b473f6eca53a657a5f9c54": [
+      "measurements\\geometry\\patient_alpha_component_analysis.json",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_component_analysis.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_component_analysis.json"
+    ],
+    "72dc48cdc009899efef408ff0c103b815b30537feaea28fa6e34784f448e717f": [
+      "measurements\\geometry\\patient_alpha_findings.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_findings.json"
+    ],
+    "0ce846793e705c980c8722e00ef35f10318b5c190509b26064a22ab5359b1849": [
+      "measurements\\geometry\\patient_alpha_measurements.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_measurements.json"
+    ],
+    "70a0e679dd768a8b8f6e9e8405afa675ec9d400caae4b14f3375682598f09cb7": [
+      "measurements\\geometry\\patient_alpha_mesh_statistics.json",
+      "measurements\\geometry\\patient_alpha_mesh_statistics_orthtwin2.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_mesh_statistics.json"
+    ],
+    "5162332d553a7e7c4f5755d0553f4add575e166d452a57bfa931d8b12141ddb1": [
+      "measurements\\geometry\\patient_alpha_pca_measurements.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_pca_measurements.json"
+    ],
+    "58100b79ad80308bc7ec91773c7935304a49cd921debd5fa8149f8871477c963": [
+      "measurements\\geometry\\patient_alpha_voxel_component_analysis.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_analysis.json"
+    ],
+    "99f202f424f75f8af9f72dd853cba776dad755d42e46dfa92b46c818baa58d60": [
+      "archive\\OrthoTwin2\\session_summary.txt",
+      "archive\\OrthoTwin_Showcase\\session_summary.txt"
+    ],
+    "d35b1f587fc81d8ce9e58aa6e08ff3dde52fbc24e4f9b6861bcfd99b7202fc31": [
+      "archive\\OrthoTwin_Final_Archive\\official_label_reference(1).json",
+      "archive\\OrthoTwin_Final_Archive\\official_label_reference.json"
+    ],
+    "3eded7e1a195f1c89be8b76feb56fa6ea86984d8d23908e927188582afcfdd79": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_10_Disc_2_(202).png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_10_Disc_2_(202).png"
+    ],
+    "96e69d3a3475fe2aa0beae2c26105ca4333e62f0c11e1521a4b01f7e678bee51": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_11_Disc_3_(203).png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_11_Disc_3_(203).png"
+    ],
+    "ffaf3dc8e16d1ee4050aeaa85e1ea9b65b7157c9dcd9ca43b570b15cd52aeb74": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_12_Disc_4_(204).png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_12_Disc_4_(204).png"
+    ],
+    "815aff3a5ef14430223518968aae1ec986f67788fc84c6b0eaff5bceb8f59806": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_13_Disc_5_(205).png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_13_Disc_5_(205).png"
+    ],
+    "209b44a6c45f111790206c2b9283ee61a7b93998e746de49c0dd754382e79089": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_14_Disc_6_(206-207).png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_14_Disc_6_(206-207).png"
+    ],
+    "34f02ff7b6ec8e77037a0b8d1f0b3f3982585face9c7c5133af7f36be2f4d9ef": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_9_Disc_1_(201).png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_9_Disc_1_(201).png"
+    ],
+    "aa44a566b54b5fca36134feb321edc0f4f0a3b5d8f4acf3f6ae5efa856968d16": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_pca_axes.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_pca_axes.png"
+    ],
+    "0ecd653ce9187575cc1246630dbfab578612cd73ecacd2608354908d230580db": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_vertebra_pca_axes.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_vertebra_pca_axes.png"
+    ],
+    "717d649a66c2d6d63e624263da829c0a9159d61b2b3757f7a246047fc3f95e21": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Disc_2_202.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Disc_2_202.png"
+    ],
+    "8fda7ddd8ce9e3445bb3d6cc18d32d32393633c2e4f2182e97b15f7aa8daebe5": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Disc_4_204.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Disc_4_204.png"
+    ],
+    "8d6f7c2051a1c320fcae974512824fb8399a387042073f3e3fd3c553e8e8d569": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Disc_6_206-207.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Disc_6_206-207.png"
+    ],
+    "0d75bc788ef2abc3f5b0f88e393c8b3ce301578816ce5486cf2082fc151807dd": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_1.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_1.png"
+    ],
+    "4acf6cd0ee96f04322efaab8bb41f7ced6c361726883c6335cd8a1bbce1bc4e2": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_2.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_2.png"
+    ],
+    "9db961efc9964398ceb1a8eae62d8e617226a468e95656f29d3e763db4d813bc": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_3.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_3.png"
+    ],
+    "7ff3fdc5e0d07e35acc1f21fd8a101a3d8905b87dd4fdb4f08c4af4498274328": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_4.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_4.png"
+    ],
+    "b1ea43a1ca1f9c05405e2c4790e2e45f66bda255212338c160308f581cfd1074": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_5.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_5.png"
+    ],
+    "425bfd0fa95d621a51ddb9e62aab53df3d22d82b9006a96f50e68378e3bcd399": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_6.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_6.png"
+    ],
+    "bc29953ccdd8ac21472bf980198d3b390842b5a37afcafd4924373a5d9918640": [
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_7.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_7.png"
+    ],
+    "2278378036af38bc4912d3079cc6fab702c9153e90db6b7d378f7fd414eeb5c1": [
+      "archive\\Spine_Project\\Copy of prediction_example(1).png",
+      "archive\\Spine_Project\\Copy of prediction_example.png",
+      "archive\\Spine_Project\\prediction_example.png"
+    ],
+    "71cd07d9c888ba2ccaba9be6c53d4c394c381560c0b11fb3e9b1319004edaaa9": [
+      "archive\\Spine_Project\\Copy of results(1).json",
+      "archive\\Spine_Project\\Copy of results.json",
+      "archive\\Spine_Project\\results.json"
+    ]
+  },
+  "orphaned_files": [
+    "comparison.py",
+    "demo.py",
+    "digital_twin.py",
+    "ORTHOTWIN_V1_EXECUTIVE_SUMMARY.md",
+    "ORTHOTWIN_V1_RELEASE_NOTES.md",
+    "repository_refactor.py",
+    "state_builder.py",
+    "__init__.py",
+    "__pycache__\\__init__.cpython-314.pyc"
+  ],
+  "categories": {
+    "reports": [
+      "docs\\2026-06-13.md",
+      "docs\\demo_walkthrough.md",
+      "docs\\FUTURE_EXTENSIONS.md",
+      "docs\\orthotwin_architecture.md",
+      "docs\\orthotwin_roadmap.md",
+      "docs\\orthotwin_v1_whitepaper.md",
+      "docs\\README.md",
+      "docs\\scientific_limitations.md",
+      "docs\\system_architecture.md",
+      "docs\\Welcome.md",
+      "reports\\phase1\\weighted_dice_results.json",
+      "reports\\phase2\\stage2_readiness_report.txt",
+      "reports\\phase3\\digital_twin_report.txt",
+      "reports\\phase3\\intervention_comparison.json",
+      "reports\\phase3\\patient_alpha_report.txt",
+      "reports\\phase3\\runtime_recovery_report.txt",
+      "reports\\phase3\\session_restore_report(1).txt",
+      "reports\\phase3\\session_restore_report.txt",
+      "reports\\phase3\\stage3_biomechanics_report.txt",
+      "reports\\phase3\\state_change_report.txt",
+      "reports\\phase4\\measurement_validation_report.txt",
+      "reports\\phase4\\phase4_radiology_measurements_report.txt",
+      "reports\\phase4_5\\missing_spacing_report.txt",
+      "reports\\phase5\\dashboard_state.json",
+      "reports\\phase5\\phase5_scenario_report.txt",
+      "reports\\phase5\\phase5_validation_report.json",
+      "reports\\phase5\\scenario_comparison_matrix.json",
+      "reports\\phase5\\scenario_ranking.json",
+      "reports\\phase6\\confidence_scoring.json",
+      "reports\\phase6\\failure_modes.json",
+      "reports\\phase6\\master_dashboard.json",
+      "reports\\phase6\\orthotwin_research_summary.md",
+      "reports\\phase6\\orthotwin_system_assessment.json",
+      "reports\\phase6\\repository_knowledge_graph.json",
+      "reports\\phase7\\geometry_vs_rule_based_breakdown.json",
+      "reports\\phase7\\phase7_forensic_validation_report.txt",
+      "reports\\phase7\\phase7_geometry_aware_surgery_report.txt",
+      "reports\\phase7\\phase7_limitations.json",
+      "reports\\phase7\\phase7_validation_report.json",
+      "reports\\phase7\\surgical_comparison_matrix.json",
+      "reports\\phase7\\surgical_dashboard.json",
+      "reports\\phase8\\mesh_impact_analysis.json",
+      "reports\\phase8\\orthotwin_final_prototype_report.txt",
+      "reports\\phase8\\phase8_limitations.json",
+      "reports\\phase8\\phase8_validation_report.json",
+      "reports\\phase9\\assumption_reduction_plan.json",
+      "reports\\phase9\\biomechanics_readiness_report.json",
+      "reports\\phase9\\measurement_evidence_matrix.json",
+      "reports\\phase9\\orthotwin_final_gap_analysis.txt",
+      "reports\\phase9\\orthotwin_prototype_status.json",
+      "reports\\phase9\\patient_alpha_spacing_audit.json",
+      "reports\\phase9\\phase9_manifest.json",
+      "reports\\phase9\\surgery_evidence_matrix.json",
+      "reports\\phase9\\validation_roadmap.json",
+      "reports\\release_v1\\architecture_graph.json",
+      "reports\\release_v1\\capability_matrix.json",
+      "reports\\release_v1\\capability_matrix_report.txt",
+      "reports\\release_v1\\orthotwin_v1_classification.json",
+      "reports\\release_v1\\orthotwin_v1_repository_audit.json",
+      "reports\\release_v1\\orthotwin_v1_validation.json",
+      "reports\\release_v1\\repository_health_report.txt",
+      "reports\\release_v1\\research_readiness_report.json",
+      "reports\\phase6\\evidence\\assumption_registry.json",
+      "reports\\phase6\\evidence\\evidence_rule_registry.json",
+      "reports\\phase6\\evidence\\traceability_map.json"
+    ],
+    "measurements": [
+      "state\\future_states\\future_state_disc_collapse_10.json",
+      "state\\future_states\\future_state_disc_collapse_20.json",
+      "state\\future_states\\future_state_disc_collapse_30.json",
+      "state\\future_states\\future_state_disc_restore_10.json",
+      "state\\future_states\\future_state_disc_restore_20.json",
+      "state\\future_states\\future_state_disc_restore_30.json",
+      "state\\future_states\\future_state_implant_disc_5.json",
+      "state\\future_states\\future_state_implant_disc_6.json",
+      "state\\graphs\\disc_relationships.json",
+      "state\\scenarios\\disc_collapse_10.json",
+      "state\\scenarios\\disc_collapse_20.json",
+      "state\\scenarios\\disc_collapse_30.json",
+      "state\\scenarios\\disc_restoration_10.json",
+      "state\\scenarios\\disc_restoration_20.json",
+      "state\\scenarios\\disc_restoration_30.json",
+      "state\\scenarios\\implant_disc_5.json",
+      "state\\scenarios\\implant_disc_6.json",
+      "state\\surgery\\alignment_geometry_result.json",
+      "state\\surgery\\rebuilt_state_alignment_correction.json",
+      "state\\transitions\\disc_collapse_simulation.json",
+      "state\\transitions\\disc_restoration_simulation.json",
+      "reports\\phase4\\measurement_validation_report.txt",
+      "reports\\phase4\\phase4_radiology_measurements_report.txt",
+      "reports\\phase9\\measurement_evidence_matrix.json",
+      "measurements\\alignment\\load_path_model.json",
+      "measurements\\alignment\\local_alignment_metrics.json",
+      "measurements\\alignment\\spine_coordinate_system.json",
+      "measurements\\calibration\\imaging_metadata_report.json",
+      "measurements\\calibration\\physical_calibration.json",
+      "measurements\\calibration\\spacing_validation_report.json",
+      "measurements\\discs\\patient_alpha_disc_ranking.json",
+      "measurements\\discs\\relative_disc_metrics.json",
+      "measurements\\geometry\\final_project_status.json",
+      "measurements\\geometry\\GLOBAL_reconstructed_structures(1).pkl",
+      "measurements\\geometry\\GLOBAL_reconstructed_structures.pkl",
+      "measurements\\geometry\\GLOBAL_reconstructed_structures_path.pkl",
+      "measurements\\geometry\\patient_alpha_clean_measurements.json",
+      "measurements\\geometry\\patient_alpha_component_analysis.json",
+      "measurements\\geometry\\patient_alpha_findings.json",
+      "measurements\\geometry\\patient_alpha_measurements.json",
+      "measurements\\geometry\\patient_alpha_mesh_statistics.json",
+      "measurements\\geometry\\patient_alpha_mesh_statistics_orthtwin2.json",
+      "measurements\\geometry\\patient_alpha_pca_measurements.json",
+      "measurements\\geometry\\patient_alpha_voxel_component_analysis.json",
+      "measurements\\geometry\\reconstructed_structures.pkl",
+      "measurements\\geometry\\reconstructed_structures_orthtwin2.pkl",
+      "measurements\\radiology\\canal_measurements.json",
+      "measurements\\radiology\\curvature_measurements.json",
+      "measurements\\radiology\\disc_area_measurements.json",
+      "measurements\\radiology\\disc_degeneration_features.json",
+      "measurements\\radiology\\foraminal_measurements.json",
+      "measurements\\radiology\\radiology_disc_heights.json",
+      "measurements\\radiology\\vertebral_slippage.json",
+      "measurements\\vertebrae\\relative_vertebral_metrics.json",
+      "archive\\OrthoTwin_Final_Archive\\all_measurements.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_all_measurements(1).pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_all_measurements.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_all_pca_measurements.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_bbox_height.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_class_id_to_disc_level.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_class_id_to_vertebral_level.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_clean_measurements.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_clean_measurements_filepath.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_color_mpl.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_counter.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_data.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_entry.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_findings.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_full_data.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_heights.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_labels.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_measurements.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_name.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_pca_data.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_ranking.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_ranking_filepath.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_to_visualize.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_disc_volumes.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_height.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_height_zscore.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_mean_height.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_measurement.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_measurements_filepath.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_measurements_file_path.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_measurement_match.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_mesh_surface_area.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_num_discs.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_clean_measurements.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_disc_ranking.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_measurements.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_pca_measurements_filepath.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_pca_measurements_file_path.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_potential_areas_review_str.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_sorted_disc_ranking.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_std_height.pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_surface_area.pkl",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_clean_measurements.json",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_ranking.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_clean_measurements.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_ranking.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_measurements.json",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_pca_measurements.json"
+    ],
+    "states": [
+      "manifests\\state_validation_report.json",
+      "state\\master_digital_twin_state.json",
+      "state\\future_states\\future_state_disc_collapse_10.json",
+      "state\\future_states\\future_state_disc_collapse_20.json",
+      "state\\future_states\\future_state_disc_collapse_30.json",
+      "state\\future_states\\future_state_disc_restore_10.json",
+      "state\\future_states\\future_state_disc_restore_20.json",
+      "state\\future_states\\future_state_disc_restore_30.json",
+      "state\\future_states\\future_state_fusion_l4_l5.json",
+      "state\\future_states\\future_state_fusion_l5_s1.json",
+      "state\\future_states\\future_state_implant_disc_5.json",
+      "state\\future_states\\future_state_implant_disc_6.json",
+      "state\\graphs\\disc_relationships.json",
+      "state\\graphs\\spine_centerline.json",
+      "state\\graphs\\spine_graph.json",
+      "state\\longitudinal\\future_state_0_months.json",
+      "state\\longitudinal\\future_state_10_years.json",
+      "state\\longitudinal\\future_state_1_year.json",
+      "state\\longitudinal\\future_state_2_years.json",
+      "state\\longitudinal\\future_state_5_years.json",
+      "state\\longitudinal\\future_state_6_months.json",
+      "state\\longitudinal\\natural_progression_rules.json",
+      "state\\longitudinal\\time_model.json",
+      "state\\mesh\\collapse_mesh_result.json",
+      "state\\mesh\\fusion_mesh_result.json",
+      "state\\mesh\\implant_mesh_result.json",
+      "state\\mesh\\mesh_inventory.json",
+      "state\\mesh\\mesh_rebuilt_state.json",
+      "state\\mesh\\mesh_rebuilt_state_collapse.json",
+      "state\\mesh\\mesh_rebuilt_state_fusion.json",
+      "state\\mesh\\mesh_rebuilt_state_implant.json",
+      "state\\mesh\\mesh_rebuilt_state_spacer.json",
+      "state\\mesh\\mesh_state_vector.json",
+      "state\\mesh\\spacer_mesh_result.json",
+      "state\\patient_states\\clinical_state_vector.json",
+      "state\\patient_states\\patient_state_after_intervention.json",
+      "state\\patient_states\\patient_state_vector.json",
+      "state\\patient_states\\patient_state_vector_v2.json",
+      "state\\scenarios\\baseline_scenario.json",
+      "state\\scenarios\\disc_collapse_10.json",
+      "state\\scenarios\\disc_collapse_20.json",
+      "state\\scenarios\\disc_collapse_30.json",
+      "state\\scenarios\\disc_restoration_10.json",
+      "state\\scenarios\\disc_restoration_20.json",
+      "state\\scenarios\\disc_restoration_30.json",
+      "state\\scenarios\\fusion_l4_l5.json",
+      "state\\scenarios\\fusion_l5_s1.json",
+      "state\\scenarios\\implant_disc_5.json",
+      "state\\scenarios\\implant_disc_6.json",
+      "state\\scenarios\\scenario_schema.json",
+      "state\\surgery\\alignment_geometry_result.json",
+      "state\\surgery\\fusion_geometry_result.json",
+      "state\\surgery\\implant_geometry_result.json",
+      "state\\surgery\\rebuilt_state_alignment_correction.json",
+      "state\\surgery\\rebuilt_state_fusion.json",
+      "state\\surgery\\rebuilt_state_implant.json",
+      "state\\surgery\\rebuilt_state_spacer.json",
+      "state\\surgery\\spacer_geometry_result.json",
+      "state\\surgery\\surgical_objects.json",
+      "state\\surgery\\surgical_object_schema.json",
+      "state\\transitions\\cascade_analysis.json",
+      "state\\transitions\\disc_collapse_simulation.json",
+      "state\\transitions\\disc_restoration_simulation.json",
+      "state\\transitions\\fusion_simulation.json",
+      "state\\transitions\\implant_simulation.json",
+      "state\\transitions\\whole_spine_delta_report.json",
+      "reports\\phase5\\dashboard_state.json",
+      "reports\\phase5\\scenario_comparison_matrix.json",
+      "reports\\phase5\\scenario_ranking.json",
+      "reports\\phase6\\master_dashboard.json",
+      "reports\\phase7\\surgical_dashboard.json"
+    ],
+    "visualizations": [
+      "visualization\\alignment_changes.png",
+      "visualization\\disc_changes.png",
+      "visualization\\state_comparison.png",
+      "visualization\\longitudinal\\progression_alignment.png",
+      "visualization\\longitudinal\\progression_curvature.png",
+      "visualization\\longitudinal\\progression_disc_height.png",
+      "visualization\\longitudinal\\progression_load_distribution.png",
+      "visualization\\mesh\\3d_mesh_overlays.png",
+      "visualization\\mesh\\collapse_mesh_before_after.png",
+      "visualization\\mesh\\fusion_mesh_before_after.png",
+      "visualization\\mesh\\implant_mesh_before_after.png",
+      "visualization\\mesh\\spacer_mesh_before_after.png",
+      "visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_angled.png",
+      "visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_front.png",
+      "visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_side.png",
+      "visualization\\release\\architecture_diagram_error.txt",
+      "visualization\\segmentation\\candidate_patient.png",
+      "visualization\\segmentation\\patient_alpha_gt_mask_slice_8.png",
+      "visualization\\segmentation\\patient_alpha_mri_slice_8.png",
+      "visualization\\segmentation\\patient_alpha_overlay_slice_8.png",
+      "visualization\\segmentation\\patient_alpha_pred_mask_slice_8.png",
+      "visualization\\segmentation\\weighted_loss_results.png",
+      "visualization\\simulation\\affected_structures_map.png",
+      "visualization\\simulation\\before_after_alignment_plot.png",
+      "visualization\\simulation\\future_state_graph.png",
+      "visualization\\simulation\\intervention_comparison.png",
+      "visualization\\simulation\\load_redistribution_plot.png",
+      "visualization\\simulation\\propagation_comparison.png",
+      "visualization\\simulation\\propagation_graph.png",
+      "visualization\\simulation\\scenario_heatmap.png",
+      "visualization\\state\\alignment_changes.png",
+      "visualization\\state\\alignment_plot.png",
+      "visualization\\state\\centerline_plot.png",
+      "visualization\\state\\disc_changes.png",
+      "visualization\\state\\load_distribution_plot.png",
+      "visualization\\state\\phase4_canal_area_plot.png",
+      "visualization\\state\\phase4_curvature_plot.png",
+      "visualization\\state\\phase4_disc_height_plot.png",
+      "visualization\\state\\phase4_foraminal_area_plot.png",
+      "visualization\\state\\phase4_slippage_plot.png",
+      "visualization\\state\\relative_disc_height_plot.png",
+      "visualization\\state\\relative_volume_plot.png",
+      "visualization\\state\\spine_graph.png",
+      "visualization\\state\\state_comparison.png",
+      "visualization\\state\\visualization.py",
+      "visualization\\surgery\\alignment_before_after.png",
+      "visualization\\surgery\\fusion_before_after.png",
+      "visualization\\surgery\\implant_before_after.png",
+      "visualization\\surgery\\spacer_before_after.png",
+      "visualization\\surgery\\surgical_heatmap.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_10_Disc_2_(202).png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_11_Disc_3_(203).png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_12_Disc_4_(204).png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_13_Disc_5_(205).png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_14_Disc_6_(206-207).png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_9_Disc_1_(201).png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_pca_axes.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_gt_mask_slice_8.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_mri_slice_8.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_overlay_slice_8.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_pred_mask_slice_8.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_reconstruction_matplotlib_angled.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_reconstruction_matplotlib_front.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_reconstruction_matplotlib_side.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_vertebra_pca_axes.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Disc_2_202.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Disc_4_204.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Disc_6_206-207.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_1.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_2.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_3.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_4.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_5.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_6.png",
+      "archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_7.png",
+      "archive\\OrthoTwin_Final_Archive\\weighted_loss_results.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_10_Disc_2_(202).png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_11_Disc_3_(203).png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_12_Disc_4_(204).png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_13_Disc_5_(205).png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_14_Disc_6_(206-207).png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_9_Disc_1_(201).png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_disc_pca_axes.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_gt_mask_slice_8.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_mri_slice_8.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_overlay_slice_8.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_pred_mask_slice_8.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_angled.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_front.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_side.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_vertebra_pca_axes.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Disc_2_202.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Disc_4_204.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Disc_6_206-207.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_1.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_2.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_3.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_4.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_5.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_6.png",
+      "archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_7.png",
+      "archive\\Spine_Project\\Copy of prediction_example(1).png",
+      "archive\\Spine_Project\\Copy of prediction_example.png",
+      "archive\\Spine_Project\\prediction_example.png"
+    ],
+    "manifests": [
+      "manifests\\dataflow.json",
+      "manifests\\final_repository_manifest.json",
+      "manifests\\master_index.json",
+      "manifests\\orthotwin_v1_release_manifest.json",
+      "manifests\\orthtwin2_arrangement_log.json",
+      "manifests\\phase45_manifest.json",
+      "manifests\\phase4_manifest.json",
+      "manifests\\phase5_manifest.json",
+      "manifests\\phase6_manifest.json",
+      "manifests\\phase7_manifest.json",
+      "manifests\\phase8_manifest.json",
+      "manifests\\pipeline_validation.json",
+      "manifests\\project_graph.json",
+      "manifests\\project_inventory.json",
+      "manifests\\project_inventory_initial.json",
+      "manifests\\refactor_summary.json",
+      "manifests\\stage2_manifest.json",
+      "manifests\\stage3_manifest.json",
+      "manifests\\state_validation_report.json",
+      "reports\\phase9\\phase9_manifest.json",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_manifest(1).pkl",
+      "archive\\OrthoTwin_Final_Archive\\GLOBAL_manifest.pkl",
+      "archive\\OrthoTwin_Final_Archive\\global_variables_manifest.json",
+      "archive\\OrthoTwin_Final_Archive\\project_manifest.json",
+      "archive\\OrthoTwin_Final_Archive\\ram_backup_manifest.json"
+    ],
+    "simulation_outputs": [
+      "state\\future_states\\future_state_disc_collapse_10.json",
+      "state\\future_states\\future_state_disc_collapse_20.json",
+      "state\\future_states\\future_state_disc_collapse_30.json",
+      "state\\future_states\\future_state_fusion_l4_l5.json",
+      "state\\future_states\\future_state_fusion_l5_s1.json",
+      "state\\future_states\\future_state_implant_disc_5.json",
+      "state\\future_states\\future_state_implant_disc_6.json",
+      "state\\longitudinal\\future_state_0_months.json",
+      "state\\longitudinal\\future_state_10_years.json",
+      "state\\longitudinal\\future_state_1_year.json",
+      "state\\longitudinal\\future_state_2_years.json",
+      "state\\longitudinal\\future_state_5_years.json",
+      "state\\longitudinal\\future_state_6_months.json",
+      "state\\longitudinal\\natural_progression_rules.json",
+      "state\\longitudinal\\time_model.json",
+      "state\\mesh\\collapse_mesh_result.json",
+      "state\\mesh\\fusion_mesh_result.json",
+      "state\\mesh\\implant_mesh_result.json",
+      "state\\mesh\\mesh_rebuilt_state_collapse.json",
+      "state\\mesh\\mesh_rebuilt_state_fusion.json",
+      "state\\mesh\\mesh_rebuilt_state_implant.json",
+      "state\\mesh\\mesh_rebuilt_state_spacer.json",
+      "state\\mesh\\spacer_mesh_result.json",
+      "state\\scenarios\\baseline_scenario.json",
+      "state\\scenarios\\disc_collapse_10.json",
+      "state\\scenarios\\disc_collapse_20.json",
+      "state\\scenarios\\disc_collapse_30.json",
+      "state\\scenarios\\disc_restoration_10.json",
+      "state\\scenarios\\disc_restoration_20.json",
+      "state\\scenarios\\disc_restoration_30.json",
+      "state\\scenarios\\fusion_l4_l5.json",
+      "state\\scenarios\\fusion_l5_s1.json",
+      "state\\scenarios\\implant_disc_5.json",
+      "state\\scenarios\\implant_disc_6.json",
+      "state\\scenarios\\scenario_schema.json",
+      "state\\surgery\\alignment_geometry_result.json",
+      "state\\surgery\\fusion_geometry_result.json",
+      "state\\surgery\\implant_geometry_result.json",
+      "state\\surgery\\rebuilt_state_alignment_correction.json",
+      "state\\surgery\\rebuilt_state_fusion.json",
+      "state\\surgery\\rebuilt_state_implant.json",
+      "state\\surgery\\rebuilt_state_spacer.json",
+      "state\\surgery\\spacer_geometry_result.json",
+      "state\\surgery\\surgical_objects.json",
+      "state\\surgery\\surgical_object_schema.json",
+      "state\\transitions\\disc_collapse_simulation.json",
+      "state\\transitions\\disc_restoration_simulation.json",
+      "state\\transitions\\fusion_simulation.json",
+      "state\\transitions\\implant_simulation.json",
+      "simulation\\propagation\\propagation_rules.json",
+      "reports\\phase5\\scenario_comparison_matrix.json",
+      "reports\\phase5\\scenario_ranking.json",
+      "reports\\phase9\\surgery_evidence_matrix.json"
+    ]
+  }
+}

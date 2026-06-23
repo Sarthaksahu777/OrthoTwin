@@ -1,0 +1,19 @@
+ORTHOTWIN FINAL GAP ANALYSIS
+
+Most Important Missing Item
+Trusted Patient Alpha image metadata linked to reconstruction: spacing, origin, orientation, and slice thickness.
+
+Most Important Scientific Risk
+Precise-looking deterministic proxy outputs may be mistaken for validated biomechanics or clinical predictions.
+
+Most Valuable Existing Asset
+The structured state/graph/provenance architecture and honest separation of geometry-derived, rule-derived, estimated, and unknown outputs.
+
+Shortest Path To Research Publication
+Publish as a deterministic digital spine-twin prototype and provenance/uncertainty framework. Add radiologist-reviewed measurement validation for a small set of geometry metrics.
+
+Shortest Path To Real Digital Twin
+Recover physical calibration, validate measurements, build FEM-ready meshes with materials/boundaries, and fit transition rules to longitudinal data.
+
+Final Status
+Digital Twin Prototype, not yet a research-grade biomechanical or clinical digital twin.

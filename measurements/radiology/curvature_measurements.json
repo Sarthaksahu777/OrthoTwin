@@ -1,0 +1,51 @@
+{
+  "generated_utc": "2026-06-20T23:33:47.075027+00:00",
+  "global_curvature": 0.17254478240509424,
+  "maximum_local_curvature": 0.4116449461593809,
+  "local_curvature": [
+    {
+      "at_node": "vertebra_2",
+      "angle_degrees": 12.46631793974284,
+      "curvature_estimate": 0.4116449461593809
+    },
+    {
+      "at_node": "vertebra_3",
+      "angle_degrees": 3.890924853475223,
+      "curvature_estimate": 0.12988694813467702
+    },
+    {
+      "at_node": "vertebra_4",
+      "angle_degrees": 1.897501585961866,
+      "curvature_estimate": 0.06598371938339949
+    },
+    {
+      "at_node": "vertebra_5",
+      "angle_degrees": 2.448448552587491,
+      "curvature_estimate": 0.09045336586396588
+    },
+    {
+      "at_node": "vertebra_6",
+      "angle_degrees": 4.01622976882972,
+      "curvature_estimate": 0.16475493248404793
+    }
+  ],
+  "curvature_peaks": [
+    {
+      "at_node": "vertebra_2",
+      "angle_degrees": 12.46631793974284,
+      "curvature_estimate": 0.4116449461593809
+    },
+    {
+      "at_node": "vertebra_6",
+      "angle_degrees": 4.01622976882972,
+      "curvature_estimate": 0.16475493248404793
+    },
+    {
+      "at_node": "vertebra_3",
+      "angle_degrees": 3.890924853475223,
+      "curvature_estimate": 0.12988694813467702
+    }
+  ],
+  "centerline_length": 166.83652375411722,
+  "method": "angle_change_per_centerline_segment_length"
+}

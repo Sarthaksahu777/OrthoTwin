@@ -1,0 +1,315 @@
+{
+  "patient_id": "patient_alpha",
+  "graph_type": "spine_adjacency_graph",
+  "nodes": {
+    "vertebra_1": {
+      "node_id": "vertebra_1",
+      "node_type": "vertebra",
+      "name": "Vertebra 1",
+      "class_id": 1,
+      "neighbors": [
+        "disc_1_201"
+      ],
+      "position_index": 0.0,
+      "centroid": [
+        151.51749921457744,
+        172.78071002199184,
+        7.4507697141061895
+      ]
+    },
+    "vertebra_2": {
+      "node_id": "vertebra_2",
+      "node_type": "vertebra",
+      "name": "Vertebra 2",
+      "class_id": 2,
+      "neighbors": [
+        "disc_1_201",
+        "disc_2_202"
+      ],
+      "position_index": 2.0,
+      "centroid": [
+        146.32658424416175,
+        142.9962372334707,
+        7.632085050468852
+      ]
+    },
+    "vertebra_3": {
+      "node_id": "vertebra_3",
+      "node_type": "vertebra",
+      "name": "Vertebra 3",
+      "class_id": 3,
+      "neighbors": [
+        "disc_2_202",
+        "disc_3_203",
+        "vertebra_8_100"
+      ],
+      "position_index": 4.0,
+      "centroid": [
+        147.69211889828196,
+        112.69331878920099,
+        7.8317425688573765
+      ]
+    },
+    "vertebra_4": {
+      "node_id": "vertebra_4",
+      "node_type": "vertebra",
+      "name": "Vertebra 4",
+      "class_id": 4,
+      "neighbors": [
+        "disc_3_203",
+        "disc_4_204"
+      ],
+      "position_index": 6.0,
+      "centroid": [
+        150.94194697017866,
+        83.30425383099129,
+        8.599097094169263
+      ]
+    },
+    "vertebra_5": {
+      "node_id": "vertebra_5",
+      "node_type": "vertebra",
+      "name": "Vertebra 5",
+      "class_id": 5,
+      "neighbors": [
+        "disc_4_204",
+        "disc_5_205"
+      ],
+      "position_index": 8.0,
+      "centroid": [
+        153.86433004746257,
+        55.52208835341366,
+        8.410806863818912
+      ]
+    },
+    "vertebra_6": {
+      "node_id": "vertebra_6",
+      "node_type": "vertebra",
+      "name": "Vertebra 6",
+      "class_id": 6,
+      "neighbors": [
+        "disc_5_205",
+        "disc_6_206_207"
+      ],
+      "position_index": 10.0,
+      "centroid": [
+        157.58698952482163,
+        29.58903901624412,
+        8.757932290875967
+      ]
+    },
+    "vertebra_7": {
+      "node_id": "vertebra_7",
+      "node_type": "vertebra",
+      "name": "Vertebra 7",
+      "class_id": 7,
+      "neighbors": [
+        "disc_6_206_207"
+      ],
+      "position_index": 12.0,
+      "centroid": [
+        162.2248881659211,
+        7.520536803578691,
+        8.441371831367764
+      ]
+    },
+    "disc_1_201": {
+      "node_id": "disc_1_201",
+      "node_type": "disc",
+      "name": "Disc 1 (201)",
+      "class_id": 9,
+      "neighbors": [
+        "vertebra_1",
+        "vertebra_2"
+      ],
+      "position_index": 1.0,
+      "centroid": [
+        143.02761627906978,
+        191.69970930232557,
+        7.214244186046511
+      ]
+    },
+    "disc_2_202": {
+      "node_id": "disc_2_202",
+      "node_type": "disc",
+      "name": "Disc 2 (202)",
+      "class_id": 10,
+      "neighbors": [
+        "vertebra_2",
+        "vertebra_3"
+      ],
+      "position_index": 3.0,
+      "centroid": [
+        136.5942684766214,
+        160.2605580693816,
+        7.5199849170437405
+      ]
+    },
+    "disc_3_203": {
+      "node_id": "disc_3_203",
+      "node_type": "disc",
+      "name": "Disc 3 (203)",
+      "class_id": 11,
+      "neighbors": [
+        "vertebra_3",
+        "vertebra_4"
+      ],
+      "position_index": 5.0,
+      "centroid": [
+        132.52115095555078,
+        127.11552501610478,
+        7.6922911745759075
+      ]
+    },
+    "disc_4_204": {
+      "node_id": "disc_4_204",
+      "node_type": "disc",
+      "name": "Disc 4 (204)",
+      "class_id": 12,
+      "neighbors": [
+        "vertebra_4",
+        "vertebra_5"
+      ],
+      "position_index": 7.0,
+      "centroid": [
+        134.60375541646604,
+        94.80765527202696,
+        7.983870967741935
+      ]
+    },
+    "disc_5_205": {
+      "node_id": "disc_5_205",
+      "node_type": "disc",
+      "name": "Disc 5 (205)",
+      "class_id": 13,
+      "neighbors": [
+        "vertebra_5",
+        "vertebra_6"
+      ],
+      "position_index": 9.0,
+      "centroid": [
+        137.88855918232773,
+        65.98780085723706,
+        8.368941641938674
+      ]
+    },
+    "disc_6_206_207": {
+      "node_id": "disc_6_206_207",
+      "node_type": "disc",
+      "name": "Disc 6 (206/207)",
+      "class_id": 14,
+      "neighbors": [
+        "vertebra_6",
+        "vertebra_7"
+      ],
+      "position_index": 11.0,
+      "centroid": [
+        143.25279552715654,
+        38.44408945686901,
+        8.972843450479234
+      ]
+    },
+    "vertebra_8_100": {
+      "node_id": "vertebra_8_100",
+      "node_type": "vertebra_auxiliary",
+      "name": "Vertebra 8 (100)",
+      "class_id": 8,
+      "neighbors": [
+        "vertebra_3"
+      ],
+      "position_index": 4.1,
+      "centroid": [
+        161.66617357001974,
+        101.61648038571116,
+        8.393710278325663
+      ]
+    }
+  },
+  "edges": [
+    {
+      "source": "vertebra_1",
+      "target": "disc_1_201",
+      "edge_type": "anatomic_adjacency"
+    },
+    {
+      "source": "disc_1_201",
+      "target": "vertebra_2",
+      "edge_type": "anatomic_adjacency"
+    },
+    {
+      "source": "vertebra_2",
+      "target": "disc_2_202",
+      "edge_type": "anatomic_adjacency"
+    },
+    {
+      "source": "disc_2_202",
+      "target": "vertebra_3",
+      "edge_type": "anatomic_adjacency"
+    },
+    {
+      "source": "vertebra_3",
+      "target": "disc_3_203",
+      "edge_type": "anatomic_adjacency"
+    },
+    {
+      "source": "disc_3_203",
+      "target": "vertebra_4",
+      "edge_type": "anatomic_adjacency"
+    },
+    {
+      "source": "vertebra_4",
+      "target": "disc_4_204",
+      "edge_type": "anatomic_adjacency"
+    },
+    {
+      "source": "disc_4_204",
+      "target": "vertebra_5",
+      "edge_type": "anatomic_adjacency"
+    },
+    {
+      "source": "vertebra_5",
+      "target": "disc_5_205",
+      "edge_type": "anatomic_adjacency"
+    },
+    {
+      "source": "disc_5_205",
+      "target": "vertebra_6",
+      "edge_type": "anatomic_adjacency"
+    },
+    {
+      "source": "vertebra_6",
+      "target": "disc_6_206_207",
+      "edge_type": "anatomic_adjacency"
+    },
+    {
+      "source": "disc_6_206_207",
+      "target": "vertebra_7",
+      "edge_type": "anatomic_adjacency"
+    },
+    {
+      "source": "vertebra_8_100",
+      "target": "vertebra_3",
+      "edge_type": "nearest_centroid_auxiliary_link",
+      "distance": 17.8405818484776
+    }
+  ],
+  "primary_chain": [
+    "vertebra_1",
+    "disc_1_201",
+    "vertebra_2",
+    "disc_2_202",
+    "vertebra_3",
+    "disc_3_203",
+    "vertebra_4",
+    "disc_4_204",
+    "vertebra_5",
+    "disc_5_205",
+    "vertebra_6",
+    "disc_6_206_207",
+    "vertebra_7"
+  ],
+  "notes": [
+    "Disc numbering is mapped between sequential primary vertebrae.",
+    "Out-of-chain vertebra-labeled structures are retained and connected by nearest centroid."
+  ]
+}

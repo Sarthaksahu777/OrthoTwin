@@ -1,0 +1,19 @@
+{
+  "model": "configurable_deterministic_progression_v1",
+  "generated_utc": "2026-06-21T05:29:21.089502+00:00",
+  "physics_claim": "None. This is a rule-based state evolution scaffold.",
+  "rules": {
+    "disc_height_loss_per_year_fraction": 0.006,
+    "disc_volume_loss_per_year_fraction": 0.004,
+    "foraminal_area_loss_coupled_to_disc_height": 0.65,
+    "canal_area_change_per_year_fraction": -0.001,
+    "alignment_change_degrees_per_year": 0.12,
+    "curvature_change_per_year_fraction": 0.008,
+    "load_increase_per_disc_height_loss_fraction": 0.85,
+    "stress_increase_per_load_delta": 0.45,
+    "risk_score_cap": 1.0
+  },
+  "configuration_policy": "All coefficients are stored here; no hidden progression constants are used by the engine.",
+  "confidence": "LOW",
+  "reason": "No longitudinal patient-specific follow-up data or validated biomechanics model is available."
+}

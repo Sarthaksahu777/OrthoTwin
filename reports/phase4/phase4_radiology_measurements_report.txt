@@ -1,0 +1,20 @@
+ORTHOTWIN PHASE 4 RADIOLOGY MEASUREMENTS REPORT
+==================================================
+
+1. What measurements now exist?
+   Disc directional heights, disc area estimates, canal estimates, foraminal estimates, curvature, slippage, and relative degeneration features.
+
+2. Which measurements are clinically meaningful?
+   Disc height, AP displacement/slippage proxy, and centerline curvature are meaningful geometric measurements, pending calibration and validation.
+
+3. Which measurements remain geometric estimates?
+   Canal area, foraminal area, degeneration scores, and area estimates remain geometric estimates.
+
+4. Which measurements need MRI metadata?
+   Any measurement requiring millimeters or square millimeters needs voxel spacing, orientation, slice thickness, and acquisition metadata.
+
+5. Which measurements need radiologist validation?
+   All clinical interpretations need validation. Canal, foraminal, degeneration, and slippage measurements especially require landmark review.
+
+Scope
+   No diagnosis was made. No segmentation was recomputed or modified.

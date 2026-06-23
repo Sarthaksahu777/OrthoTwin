@@ -1,0 +1,92 @@
+{
+  "stage": "OrthoTwin Stage 2",
+  "generated_utc": "2026-06-19T17:15:28.816001+00:00",
+  "all_files_exist": true,
+  "files": {
+    "spine_graph": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\spine_graph.json",
+      "exists": true,
+      "bytes": 7293
+    },
+    "disc_relationships": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\disc_relationships.json",
+      "exists": true,
+      "bytes": 4228
+    },
+    "relative_disc_metrics": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\relative_disc_metrics.json",
+      "exists": true,
+      "bytes": 2940
+    },
+    "relative_vertebral_metrics": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\relative_vertebral_metrics.json",
+      "exists": true,
+      "bytes": 5625
+    },
+    "spine_centerline": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\spine_centerline.json",
+      "exists": true,
+      "bytes": 5046
+    },
+    "local_alignment_metrics": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\local_alignment_metrics.json",
+      "exists": true,
+      "bytes": 2679
+    },
+    "load_path_model": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\load_path_model.json",
+      "exists": true,
+      "bytes": 5774
+    },
+    "state_validation_report": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\state_validation_report.json",
+      "exists": true,
+      "bytes": 390
+    },
+    "patient_state_vector_v2": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\patient_state_vector_v2.json",
+      "exists": true,
+      "bytes": 63405
+    },
+    "stage2_readiness_report": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\stage2_readiness_report.txt",
+      "exists": true,
+      "bytes": 1295
+    },
+    "spine_graph_plot": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\figures\\spine_graph.png",
+      "exists": true,
+      "bytes": 138618
+    },
+    "centerline_plot": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\figures\\centerline_plot.png",
+      "exists": true,
+      "bytes": 75107
+    },
+    "relative_disc_height_plot": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\figures\\relative_disc_height_plot.png",
+      "exists": true,
+      "bytes": 44865
+    },
+    "relative_volume_plot": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\figures\\relative_volume_plot.png",
+      "exists": true,
+      "bytes": 46886
+    },
+    "alignment_plot": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\figures\\alignment_plot.png",
+      "exists": true,
+      "bytes": 78091
+    },
+    "load_distribution_plot": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\figures\\load_distribution_plot.png",
+      "exists": true,
+      "bytes": 59476
+    },
+    "stage2_manifest": {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\stage2\\stage2_manifest.json",
+      "exists": true,
+      "bytes": 2897
+    }
+  }
+}

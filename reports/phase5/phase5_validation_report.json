@@ -1,0 +1,136 @@
+{
+  "generated_utc": "2026-06-21T05:19:07.725943+00:00",
+  "all_scenarios_generated": true,
+  "all_future_states_generated": true,
+  "all_reports_exist": true,
+  "all_visualizations_exist": true,
+  "scenario_files": [
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\scenario_schema.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\baseline_scenario.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\disc_collapse_10.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\disc_collapse_20.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\disc_collapse_30.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\disc_restoration_10.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\disc_restoration_20.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\disc_restoration_30.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\fusion_l4_l5.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\fusion_l5_s1.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\implant_disc_6.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\scenarios\\implant_disc_5.json",
+      "exists": true
+    }
+  ],
+  "future_state_files": [
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_collapse_10.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_collapse_20.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_collapse_30.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_restore_10.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_restore_20.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_restore_30.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_fusion_l4_l5.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_fusion_l5_s1.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_implant_disc_6.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_implant_disc_5.json",
+      "exists": true
+    }
+  ],
+  "report_files": [
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase5\\scenario_comparison_matrix.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase5\\scenario_ranking.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase5\\dashboard_state.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase5\\phase5_scenario_report.txt",
+      "exists": true
+    }
+  ],
+  "visualization_files": [
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\scenario_heatmap.png",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\intervention_comparison.png",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\propagation_comparison.png",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\future_state_graph.png",
+      "exists": true
+    }
+  ],
+  "not_medical_advice": true
+}

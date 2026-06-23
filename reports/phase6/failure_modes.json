@@ -1,0 +1,47 @@
+{
+  "generated_utc": "2026-06-21T05:29:22.768939+00:00",
+  "failure_modes": [
+    {
+      "failure_mode": "missing_spacing",
+      "severity": "HIGH",
+      "description": "Physical mm/mm2/mm3 calibration remains blocked.",
+      "mitigation": "Attach source image/DICOM spacing to Patient Alpha reconstruction."
+    },
+    {
+      "failure_mode": "poor_segmentation",
+      "severity": "MEDIUM",
+      "description": "Geometry depends on segmentation quality.",
+      "mitigation": "Add expert-reviewed segmentation QC and inter-rater validation."
+    },
+    {
+      "failure_mode": "invalid_graph",
+      "severity": "MEDIUM",
+      "description": "Broken adjacency would corrupt propagation.",
+      "mitigation": "Run graph connectivity validation before scenarios."
+    },
+    {
+      "failure_mode": "missing_disc",
+      "severity": "MEDIUM",
+      "description": "Scenario targets may not exist in alternate patients.",
+      "mitigation": "Add target existence checks and patient-specific scenario selection."
+    },
+    {
+      "failure_mode": "broken_state",
+      "severity": "HIGH",
+      "description": "Missing state keys can break downstream engines.",
+      "mitigation": "Schema validation and migration tests."
+    },
+    {
+      "failure_mode": "unvalidated_progression_rules",
+      "severity": "HIGH",
+      "description": "Longitudinal trajectories are assumptions, not observed outcomes.",
+      "mitigation": "Fit rules to longitudinal imaging cohorts."
+    },
+    {
+      "failure_mode": "no_physics_engine",
+      "severity": "HIGH",
+      "description": "No finite element or tissue model exists.",
+      "mitigation": "Integrate validated biomechanics module with boundary conditions."
+    }
+  ]
+}

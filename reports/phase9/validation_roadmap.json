@@ -1,0 +1,46 @@
+{
+  "generated_utc": "2026-06-21T09:20:58.126660+00:00",
+  "status": "PLACEHOLDERS_ONLY_NO_VALIDATION_CLAIMED",
+  "subsystems": [
+    {
+      "subsystem": "Segmentation",
+      "literature_needed": "segmentation validation literature",
+      "data_needed": "expert masks, Dice/Hausdorff"
+    },
+    {
+      "subsystem": "Disc Height",
+      "literature_needed": "radiology measurement literature",
+      "data_needed": "spacing, planes, radiologist comparison"
+    },
+    {
+      "subsystem": "Canal/Foraminal Area",
+      "literature_needed": "radiology measurement literature",
+      "data_needed": "direct segmentations or landmarks"
+    },
+    {
+      "subsystem": "Curvature/Alignment",
+      "literature_needed": "orthopedic radiology literature",
+      "data_needed": "validated landmarks"
+    },
+    {
+      "subsystem": "Load Redistribution",
+      "literature_needed": "finite element spine biomechanics literature",
+      "data_needed": "materials, boundaries, contact validation"
+    },
+    {
+      "subsystem": "Fusion/Implant/Spacer",
+      "literature_needed": "surgical biomechanics/device literature",
+      "data_needed": "device geometry, constraints"
+    },
+    {
+      "subsystem": "Longitudinal Progression",
+      "literature_needed": "natural history cohorts",
+      "data_needed": "serial imaging/outcomes"
+    },
+    {
+      "subsystem": "Scenario Ranking",
+      "literature_needed": "decision/outcome literature",
+      "data_needed": "prospective endpoints"
+    }
+  ]
+}

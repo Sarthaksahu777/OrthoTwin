@@ -1,0 +1,38 @@
+{
+  "generated_utc": "2026-06-21T09:20:58.127832+00:00",
+  "classification": "Digital Twin Prototype moving toward Research-Grade Digital Twin",
+  "complete": [
+    "architecture",
+    "state vectors",
+    "graph",
+    "voxel geometry measurements",
+    "scenario/evidence/longitudinal audits",
+    "geometry-aware surgery prototype"
+  ],
+  "partially_complete": [
+    "physical metadata discovery",
+    "clinical measurement engine",
+    "mesh reconstruction",
+    "traceability"
+  ],
+  "blocked": [
+    "physical calibration",
+    "clinical validation",
+    "biomechanics/FEM",
+    "longitudinal validation"
+  ],
+  "requires_external_data": [
+    "original Patient Alpha metadata",
+    "radiologist measurements",
+    "follow-up imaging",
+    "materials",
+    "boundary conditions",
+    "outcomes"
+  ],
+  "requires_clinical_collaboration": [
+    "measurement protocols",
+    "segmentation QC",
+    "study design",
+    "clinical safety boundaries"
+  ]
+}

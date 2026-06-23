@@ -1,0 +1,321 @@
+{
+  "id": "disc_collapse_30",
+  "name": "Disc collapse 30% (disc_6_206_207)",
+  "intervention": "disc_collapse",
+  "parameters": {
+    "collapse_percent": 30
+  },
+  "target": "disc_6_206_207",
+  "before_state": {
+    "patient_id": "patient_alpha",
+    "disc_count": 6,
+    "vertebra_count": 8,
+    "mean_disc_height": 15.666666666666666,
+    "mean_relative_load_index": 1.0667562602767204,
+    "mean_stress_score": 0.14488800943833197,
+    "mean_disc_angle_degrees": 99.53563505162094,
+    "centerline_length": 166.83652375411722,
+    "intervention_history_count": 0
+  },
+  "after_state": {
+    "patient_id": "patient_alpha",
+    "disc_count": 6,
+    "vertebra_count": 8,
+    "mean_disc_height": 14.916666666666666,
+    "mean_relative_load_index": 1.1128276888481492,
+    "mean_stress_score": 0.1725308665811891,
+    "mean_disc_angle_degrees": 99.93563505162093,
+    "centerline_length": 166.83652375411722,
+    "intervention_history_count": 1
+  },
+  "affected_structures": [
+    {
+      "node_id": "disc_5_205",
+      "name": "Disc 5 (205)",
+      "node_type": "disc"
+    },
+    {
+      "node_id": "disc_6_206_207",
+      "name": "Disc 6 (206/207)",
+      "node_type": "disc"
+    },
+    {
+      "node_id": "vertebra_5",
+      "name": "Vertebra 5",
+      "node_type": "vertebra"
+    },
+    {
+      "node_id": "vertebra_6",
+      "name": "Vertebra 6",
+      "node_type": "vertebra"
+    },
+    {
+      "node_id": "vertebra_7",
+      "name": "Vertebra 7",
+      "node_type": "vertebra"
+    }
+  ],
+  "metrics_changed": {
+    "disc_height": {
+      "disc_6_206_207": {
+        "before": 15.0,
+        "after": 10.5,
+        "delta": -4.5,
+        "percent_change": -30.0
+      }
+    },
+    "alignment": {
+      "disc_6_206_207": {
+        "disc_angle_degrees": {
+          "before": 85.9992461272594,
+          "after": 88.3992461272594,
+          "delta": 2.4000000000000057,
+          "percent_change": 2.790722137783103
+        },
+        "disc_tilt_degrees": {
+          "before": 81.96957698537713,
+          "after": 84.36957698537714,
+          "delta": 2.4000000000000057,
+          "percent_change": 2.927915561194309
+        }
+      }
+    },
+    "load_distribution": {
+      "disc_5_205": {
+        "relative_load_index": {
+          "before": 1.140009987800878,
+          "after": 1.215009987800878,
+          "delta": 0.07499999999999996,
+          "percent_change": 6.578889729262614
+        },
+        "stress_score": {
+          "before": 0.1892810301073428,
+          "after": 0.2342810301073428,
+          "delta": 0.04500000000000001,
+          "percent_change": 23.77417323568038
+        },
+        "risk_score": {
+          "before": 0.2157822648236095,
+          "after": 0.2846537915326997,
+          "delta": 0.06887152670909022,
+          "percent_change": 31.91713960616227
+        }
+      },
+      "disc_6_206_207": {
+        "relative_load_index": {
+          "before": 1.2087350874024716,
+          "after": 1.4187350874024716,
+          "delta": 0.20999999999999996,
+          "percent_change": 17.37353388584776
+        },
+        "stress_score": {
+          "before": 0.2325110178794304,
+          "after": 0.3585110178794304,
+          "delta": 0.126,
+          "percent_change": 54.190980345429416
+        },
+        "risk_score": {
+          "before": 0.2810442255185309,
+          "after": 0.5086321602859227,
+          "delta": 0.2275879347673918,
+          "percent_change": 80.97940256466347
+        }
+      },
+      "vertebra_5": {
+        "relative_load_index": {
+          "before": 1.070004993900439,
+          "after": 1.100004993900439,
+          "delta": 0.030000000000000027,
+          "percent_change": 2.803725232219939
+        },
+        "stress_score": {
+          "before": 0.14200299634026342,
+          "after": 0.1600029963402634,
+          "delta": 0.017999999999999988,
+          "percent_change": 12.675788866362309
+        },
+        "risk_score": {
+          "before": 0.15194391523290762,
+          "after": 0.17600409501332342,
+          "delta": 0.024060179780415802,
+          "percent_change": 15.834908389411378
+        }
+      },
+      "vertebra_6": {
+        "relative_load_index": {
+          "before": 1.1743725376016747,
+          "after": 1.3393725376016747,
+          "delta": 0.16500000000000004,
+          "percent_change": 14.050056069683484
+        },
+        "stress_score": {
+          "before": 0.20462352256100483,
+          "after": 0.30362352256100483,
+          "delta": 0.099,
+          "percent_change": 48.381534420357234
+        },
+        "risk_score": {
+          "before": 0.24030424544296078,
+          "after": 0.4066650078880924,
+          "delta": 0.16636076244513162,
+          "percent_change": 69.22922320347412
+        }
+      },
+      "vertebra_7": {
+        "relative_load_index": {
+          "before": 1.2087350874024716,
+          "after": 1.3737350874024716,
+          "delta": 0.16500000000000004,
+          "percent_change": 13.650633767451817
+        },
+        "stress_score": {
+          "before": 0.22524105244148296,
+          "after": 0.32424105244148294,
+          "delta": 0.09899999999999998,
+          "percent_change": 43.95291130408828
+        },
+        "risk_score": {
+          "before": 0.2722567632094806,
+          "after": 0.4454213105151699,
+          "delta": 0.1731645473056893,
+          "percent_change": 63.603396023794105
+        }
+      }
+    },
+    "curvature": {
+      "centerline_length": {
+        "before": 166.83652375411722,
+        "after": 166.83652375411722,
+        "delta": 0.0,
+        "percent_change": 0.0
+      },
+      "note": "Curvature is tracked from existing state; no geometric centerline recomputation is performed."
+    },
+    "propagation_magnitude": 0.645,
+    "affected_structure_count": 5,
+    "affected_structures": [
+      "disc_5_205",
+      "disc_6_206_207",
+      "vertebra_5",
+      "vertebra_6",
+      "vertebra_7"
+    ]
+  },
+  "direct_effects": [
+    {
+      "node_id": "disc_6_206_207",
+      "metric": "height",
+      "before": 15.0,
+      "after": 10.5,
+      "delta": -4.5
+    },
+    {
+      "node_id": "disc_6_206_207",
+      "metric": "relative_load_index",
+      "before": 1.2087350874024716,
+      "after": 1.4187350874024716,
+      "delta": 0.20999999999999996
+    },
+    {
+      "node_id": "disc_6_206_207",
+      "metric": "stress_score",
+      "before": 0.2325110178794304,
+      "after": 0.3585110178794304,
+      "delta": 0.126
+    },
+    {
+      "node_id": "disc_6_206_207",
+      "metric": "disc_angle_degrees",
+      "before": 85.9992461272594,
+      "after": 88.3992461272594,
+      "delta": 2.4000000000000057
+    },
+    {
+      "node_id": "disc_6_206_207",
+      "metric": "disc_tilt_degrees",
+      "before": 81.96957698537713,
+      "after": 84.36957698537714,
+      "delta": 2.4000000000000057
+    }
+  ],
+  "secondary_effects": [
+    {
+      "node_id": "vertebra_6",
+      "depth": 1,
+      "effect_tier": "secondary",
+      "parent": "disc_6_206_207",
+      "node_type": "vertebra",
+      "load_delta": 0.165,
+      "effects": [
+        {
+          "node_id": "vertebra_6",
+          "metric": "relative_load_index",
+          "before": 1.1743725376016747,
+          "after": 1.3393725376016747,
+          "delta": 0.16500000000000004
+        },
+        {
+          "node_id": "vertebra_6",
+          "metric": "stress_score",
+          "before": 0.20462352256100483,
+          "after": 0.30362352256100483,
+          "delta": 0.099
+        }
+      ]
+    },
+    {
+      "node_id": "vertebra_7",
+      "depth": 1,
+      "effect_tier": "secondary",
+      "parent": "disc_6_206_207",
+      "node_type": "vertebra",
+      "load_delta": 0.165,
+      "effects": [
+        {
+          "node_id": "vertebra_7",
+          "metric": "relative_load_index",
+          "before": 1.2087350874024716,
+          "after": 1.3737350874024716,
+          "delta": 0.16500000000000004
+        },
+        {
+          "node_id": "vertebra_7",
+          "metric": "stress_score",
+          "before": 0.22524105244148296,
+          "after": 0.32424105244148294,
+          "delta": 0.09899999999999998
+        }
+      ]
+    }
+  ],
+  "tertiary_effects": [
+    {
+      "node_id": "disc_5_205",
+      "depth": 2,
+      "effect_tier": "tertiary",
+      "parent": "vertebra_6",
+      "node_type": "disc",
+      "load_delta": 0.075,
+      "effects": [
+        {
+          "node_id": "disc_5_205",
+          "metric": "relative_load_index",
+          "before": 1.140009987800878,
+          "after": 1.215009987800878,
+          "delta": 0.07499999999999996
+        },
+        {
+          "node_id": "disc_5_205",
+          "metric": "stress_score",
+          "before": 0.1892810301073428,
+          "after": 0.2342810301073428,
+          "delta": 0.04500000000000001
+        }
+      ]
+    }
+  ],
+  "graph_updates": [],
+  "future_state_file": "C:\\OrthoTwin\\OrthoTwin\\state\\future_states\\future_state_disc_collapse_30.json",
+  "not_medical_advice": true,
+  "clinical_validity_claim": "none"
+}

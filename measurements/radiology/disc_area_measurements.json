@@ -1,0 +1,65 @@
+{
+  "generated_utc": "2026-06-20T23:33:47.072351+00:00",
+  "disc_area_measurements": {
+    "disc_1_201": {
+      "disc_name": "Disc 1 (201)",
+      "average_cross_sectional_area": 242.61548174591042,
+      "projected_disc_footprint_area": 551.575650163988,
+      "superior_surface_area": 338.40576470350175,
+      "inferior_surface_area": 441.9208244585634,
+      "mesh_surface_area_reference": 1671.249101469849,
+      "method": "mesh_projection_and_surface_band_estimate",
+      "units": "voxel squared"
+    },
+    "disc_2_202": {
+      "disc_name": "Disc 2 (202)",
+      "average_cross_sectional_area": 395.31112727194466,
+      "projected_disc_footprint_area": 777.4633441489359,
+      "superior_surface_area": 382.3974743585759,
+      "inferior_surface_area": 345.62140589023056,
+      "mesh_surface_area_reference": 1572.398310729277,
+      "method": "mesh_projection_and_surface_band_estimate",
+      "units": "voxel squared"
+    },
+    "disc_3_203": {
+      "disc_name": "Disc 3 (203)",
+      "average_cross_sectional_area": 363.8611573071936,
+      "projected_disc_footprint_area": 593.291743632215,
+      "superior_surface_area": 371.68346761271187,
+      "inferior_surface_area": 310.72668480910943,
+      "mesh_surface_area_reference": 1432.2393751385696,
+      "method": "mesh_projection_and_surface_band_estimate",
+      "units": "voxel squared"
+    },
+    "disc_4_204": {
+      "disc_name": "Disc 4 (204)",
+      "average_cross_sectional_area": 215.97033049970588,
+      "projected_disc_footprint_area": 931.832564396721,
+      "superior_surface_area": 328.0287521408418,
+      "inferior_surface_area": 767.3345035355624,
+      "mesh_surface_area_reference": 1500.2198215861977,
+      "method": "mesh_projection_and_surface_band_estimate",
+      "units": "voxel squared"
+    },
+    "disc_5_205": {
+      "disc_name": "Disc 5 (205)",
+      "average_cross_sectional_area": 303.2066623606151,
+      "projected_disc_footprint_area": 508.1426864646302,
+      "superior_surface_area": 430.7119067486917,
+      "inferior_surface_area": 350.1989675747933,
+      "mesh_surface_area_reference": 1413.1796261641136,
+      "method": "mesh_projection_and_surface_band_estimate",
+      "units": "voxel squared"
+    },
+    "disc_6_206_207": {
+      "disc_name": "Disc 6 (206/207)",
+      "average_cross_sectional_area": 227.6712686268904,
+      "projected_disc_footprint_area": 1487.3122774782041,
+      "superior_surface_area": 1361.5505190257945,
+      "inferior_surface_area": 760.7145554575093,
+      "mesh_surface_area_reference": 2098.612317390751,
+      "method": "mesh_projection_and_surface_band_estimate",
+      "units": "voxel squared"
+    }
+  }
+}

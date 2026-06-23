@@ -1,0 +1,2240 @@
+{
+  "patient_id": "patient_alpha",
+  "schema_version": "2.0",
+  "created_utc": "2026-06-19T17:15:24.500571+00:00",
+  "segmentation": {
+    "num_structures": 14,
+    "num_discs": 6,
+    "num_vertebrae": 8,
+    "source_files": {
+      "measurements": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_clean_measurements.json",
+      "disc_ranking": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_disc_ranking.json",
+      "component_analysis": "C:\\OrthoTwin\\OrthoTwin\\data\\patient_alpha_component_analysis.json",
+      "coordinate_system": "C:\\OrthoTwin\\OrthoTwin\\data\\spine_coordinate_system.json"
+    }
+  },
+  "disc_features": {
+    "disc_1_201": {
+      "class_id": 9,
+      "name": "Disc 1 (201)",
+      "voxel_count": 3440,
+      "approx_volume": 3440.0,
+      "centroid": [
+        143.02761627906978,
+        191.69970930232557,
+        7.214244186046511
+      ],
+      "bounding_box": {
+        "width": 35.0,
+        "height": 29.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        38.46673825803205,
+        15.94924350445249,
+        15.57521532433961
+      ],
+      "principal_axes": [
+        [
+          0.8502057941518357,
+          -0.5264495109740847,
+          -0.0010099434605970782
+        ],
+        [
+          0.08750060497816169,
+          0.1394195494404145,
+          0.9863598903860027
+        ],
+        [
+          0.5191278760759261,
+          0.8386972645889448,
+          -0.1645999594529685
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.8421585639029363,
+        0.10966792020310709,
+        0.04817351589395649
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "height": 16.0,
+        "volume": 3440.0,
+        "severity_score": 0.3857658656001095,
+        "height_zscore": 0.7071067661865491,
+        "volume_zscore": -0.426641607938442,
+        "decompression_percent": 0.0,
+        "implant_inserted": false,
+        "removed_fraction": 0.0
+      }
+    },
+    "disc_2_202": {
+      "class_id": 10,
+      "name": "Disc 2 (202)",
+      "voxel_count": 5304,
+      "approx_volume": 5304.0,
+      "centroid": [
+        136.5942684766214,
+        160.2605580693816,
+        7.5199849170437405
+      ],
+      "bounding_box": {
+        "width": 37.0,
+        "height": 21.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        36.40806696186422,
+        16.202834600819592,
+        13.882959310903601
+      ],
+      "principal_axes": [
+        [
+          0.964311962003985,
+          -0.261545383983422,
+          -0.0411880086067468
+        ],
+        [
+          0.05081489858181918,
+          0.03014912708929926,
+          0.9982529119506103
+        ],
+        [
+          0.25984665866265144,
+          0.9647201885794229,
+          -0.042363566057850265
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7626975561136289,
+        0.15228762216520997,
+        0.08501482172116122
+      ],
+      "quality": {
+        "component_count": 1,
+        "largest_component_percent": 0.9229349330872173,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "height": 16.0,
+        "volume": 5304.0,
+        "severity_score": 0.0,
+        "height_zscore": 0.7071067661865491,
+        "volume_zscore": 1.5193452367530496,
+        "decompression_percent": 0.0,
+        "implant_inserted": false,
+        "removed_fraction": 0.0
+      }
+    },
+    "disc_3_203": {
+      "class_id": 11,
+      "name": "Disc 3 (203)",
+      "voxel_count": 4657,
+      "approx_volume": 4657.0,
+      "centroid": [
+        132.52115095555078,
+        127.11552501610478,
+        7.6922911745759075
+      ],
+      "bounding_box": {
+        "width": 37.0,
+        "height": 13.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        36.2960553543505,
+        16.755000013468546,
+        12.17794687555498
+      ],
+      "principal_axes": [
+        [
+          0.9961209556657671,
+          -0.062191503988548974,
+          -0.06225157439905796
+        ],
+        [
+          0.066574125728394,
+          0.07003549971402823,
+          0.9953205084611223
+        ],
+        [
+          0.057540659250821434,
+          0.9956039602228638,
+          -0.07390417391143883
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7644590203175811,
+        0.1687611910787889,
+        0.06677978860362996
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "height": 16.0,
+        "volume": 4657.0,
+        "severity_score": 0.13390049090304232,
+        "height_zscore": 0.7071067661865491,
+        "volume_zscore": 0.8438873566482239,
+        "decompression_percent": 0.0,
+        "implant_inserted": false,
+        "removed_fraction": 0.0
+      }
+    },
+    "disc_4_204": {
+      "class_id": 12,
+      "name": "Disc 4 (204)",
+      "voxel_count": 4154,
+      "approx_volume": 4154.0,
+      "centroid": [
+        134.60375541646604,
+        94.80765527202696,
+        7.983870967741935
+      ],
+      "bounding_box": {
+        "width": 39.0,
+        "height": 15.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        38.941369192974406,
+        16.750753948706706,
+        10.873637354004586
+      ],
+      "principal_axes": [
+        [
+          0.9934812198574798,
+          0.09864774778712151,
+          -0.05712869372760316
+        ],
+        [
+          0.041966988268148236,
+          0.14944882860933606,
+          0.9878784436979069
+        ],
+        [
+          -0.10598979991581707,
+          0.9838362005353462,
+          -0.14433465567901335
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7802059769606545,
+        0.1633849577469984,
+        0.05640906529234698
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "height": 16.0,
+        "volume": 4154.0,
+        "severity_score": 0.23799932695285728,
+        "height_zscore": 0.7071067661865491,
+        "volume_zscore": 0.3187632242019684,
+        "decompression_percent": 0.0,
+        "implant_inserted": false,
+        "removed_fraction": 0.0,
+        "motion_segment_removed": true
+      }
+    },
+    "disc_5_205": {
+      "class_id": 13,
+      "name": "Disc 5 (205)",
+      "voxel_count": 3033,
+      "approx_volume": 3033.0,
+      "centroid": [
+        137.88855918232773,
+        65.98780085723706,
+        8.368941641938674
+      ],
+      "bounding_box": {
+        "width": 37.0,
+        "height": 11.0,
+        "depth": 15.0
+      },
+      "pca_lengths": [
+        36.34495078732442,
+        15.39764419552068,
+        9.700031243957717
+      ],
+      "principal_axes": [
+        [
+          0.996866235094449,
+          0.06342670541899148,
+          -0.04727327329803737
+        ],
+        [
+          0.04134967497594376,
+          0.09165824593053584,
+          0.9949316410348609
+        ],
+        [
+          -0.06743822141784482,
+          0.9937684936606863,
+          -0.08874833688226415
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.8143421677844943,
+        0.15228196093192745,
+        0.03337587128357826
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "height": 15.0,
+        "volume": 3033.0,
+        "severity_score": 0.8905203096016857,
+        "height_zscore": -1.4142135323730944,
+        "volume_zscore": -0.8515432419456508,
+        "decompression_percent": 0.0,
+        "implant_inserted": false,
+        "removed_fraction": 0.0
+      }
+    },
+    "disc_6_206_207": {
+      "class_id": 14,
+      "name": "Disc 6 (206/207)",
+      "voxel_count": 2504,
+      "approx_volume": 2504.0,
+      "centroid": [
+        143.25279552715654,
+        38.44408945686901,
+        8.972843450479234
+      ],
+      "bounding_box": {
+        "width": 32.0,
+        "height": 12.0,
+        "depth": 15.0
+      },
+      "pca_lengths": [
+        31.713688068892054,
+        14.386178078512991,
+        8.871399251400145
+      ],
+      "principal_axes": [
+        [
+          0.9901714698497797,
+          0.13969571266446001,
+          0.0067504191496106794
+        ],
+        [
+          -0.01373352023074536,
+          0.049084505071219864,
+          0.9987002061599792
+        ],
+        [
+          -0.13918279605467954,
+          0.9889771580906616,
+          -0.050520590429244505
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7626352622088848,
+        0.190516438552914,
+        0.04684829923820125
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "height": 15.0,
+        "volume": 2504.0,
+        "severity_score": 1.0,
+        "height_zscore": -1.4142135323730944,
+        "volume_zscore": -1.4038109677191482,
+        "decompression_percent": 0.0,
+        "implant_inserted": false,
+        "removed_fraction": 0.0
+      }
+    }
+  },
+  "vertebral_features": {
+    "vertebra_1": {
+      "class_id": 1,
+      "name": "Vertebra 1",
+      "voxel_count": 15915,
+      "approx_volume": 15915.0,
+      "centroid": [
+        151.51749921457744,
+        172.78071002199184,
+        7.4507697141061895
+      ],
+      "bounding_box": {
+        "width": 73.0,
+        "height": 53.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        75.19116822561959,
+        58.22585598741534,
+        16.192107981112112
+      ],
+      "principal_axes": [
+        [
+          0.95138849583209,
+          -0.30791490365178675,
+          -0.006952848873985287
+        ],
+        [
+          0.30797625894291775,
+          0.9508550157785975,
+          0.032021288172216965
+        ],
+        [
+          -0.003248680636574798,
+          -0.03260599757397684,
+          0.999463003315444
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7481356731865245,
+        0.18859131149273198,
+        0.06327301532074353
+      ],
+      "quality": {
+        "component_count": 5,
+        "largest_component_percent": 0.18198362147406735,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_2": {
+      "class_id": 2,
+      "name": "Vertebra 2",
+      "voxel_count": 16743,
+      "approx_volume": 16743.0,
+      "centroid": [
+        146.32658424416175,
+        142.9962372334707,
+        7.632085050468852
+      ],
+      "bounding_box": {
+        "width": 80.0,
+        "height": 45.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        79.07066064945464,
+        44.39930508110956,
+        17.79694321095901
+      ],
+      "principal_axes": [
+        [
+          0.9999132017389518,
+          0.004656624578429221,
+          -0.012324967979443605
+        ],
+        [
+          -0.003734238500359197,
+          0.9972637530570742,
+          0.07383130976314273
+        ],
+        [
+          0.01263504851518887,
+          -0.07377887696389973,
+          0.9971945812442851
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7984796003340925,
+        0.15243392215978493,
+        0.04908647750612268
+      ],
+      "quality": {
+        "component_count": 5,
+        "largest_component_percent": 1.7981511966569583,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_3": {
+      "class_id": 3,
+      "name": "Vertebra 3",
+      "voxel_count": 18335,
+      "approx_volume": 18335.0,
+      "centroid": [
+        147.69211889828196,
+        112.69331878920099,
+        7.8317425688573765
+      ],
+      "bounding_box": {
+        "width": 81.0,
+        "height": 54.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        82.47013401422203,
+        53.436345231902315,
+        18.114377038914768
+      ],
+      "principal_axes": [
+        [
+          0.9837575524032937,
+          0.17950142009326478,
+          -0.0005641577639960008
+        ],
+        [
+          -0.17845319257552317,
+          0.9783423827110128,
+          0.10488393704920675
+        ],
+        [
+          0.01937875509635796,
+          -0.10307968944384743,
+          0.994484309315675
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7984973430999889,
+        0.16004768148322154,
+        0.04145497541678953
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_4": {
+      "class_id": 4,
+      "name": "Vertebra 4",
+      "voxel_count": 15727,
+      "approx_volume": 15727.0,
+      "centroid": [
+        150.94194697017866,
+        83.30425383099129,
+        8.599097094169263
+      ],
+      "bounding_box": {
+        "width": 80.0,
+        "height": 46.0,
+        "depth": 15.0
+      },
+      "pca_lengths": [
+        81.79349012898112,
+        40.213019556831206,
+        16.007207509806264
+      ],
+      "principal_axes": [
+        [
+          0.9579649230356232,
+          0.28688252046593254,
+          -0.0012750233197917037
+        ],
+        [
+          -0.28623364886969715,
+          0.9560787145746236,
+          0.06311727015702143
+        ],
+        [
+          0.019326264204214613,
+          -0.06009917627097176,
+          0.9980053028533765
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.8218391159505027,
+        0.14039829722990457,
+        0.037762586819592756
+      ],
+      "quality": {
+        "component_count": 3,
+        "largest_component_percent": 0.07531065645788879,
+        "flagged": true,
+        "reason": "Multiple components (3); Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_5": {
+      "class_id": 5,
+      "name": "Vertebra 5",
+      "voxel_count": 13695,
+      "approx_volume": 13695.0,
+      "centroid": [
+        153.86433004746257,
+        55.52208835341366,
+        8.410806863818912
+      ],
+      "bounding_box": {
+        "width": 76.0,
+        "height": 49.0,
+        "depth": 15.0
+      },
+      "pca_lengths": [
+        78.33024394628825,
+        42.01305578792255,
+        14.967224372296581
+      ],
+      "principal_axes": [
+        [
+          0.9628394102815543,
+          0.2699442478097257,
+          -0.008388866616544153
+        ],
+        [
+          -0.2695904280883948,
+          0.9625086786263889,
+          0.029967393146531306
+        ],
+        [
+          0.016163882324021675,
+          -0.026592229002551135,
+          0.9995156738465342
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.8162876791234884,
+        0.1433892469553015,
+        0.040323073921210144
+      ],
+      "quality": {
+        "component_count": 5,
+        "largest_component_percent": 0.17974065990499422,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_6": {
+      "class_id": 6,
+      "name": "Vertebra 6",
+      "voxel_count": 13174,
+      "approx_volume": 13174.0,
+      "centroid": [
+        157.58698952482163,
+        29.58903901624412,
+        8.757932290875967
+      ],
+      "bounding_box": {
+        "width": 71.0,
+        "height": 56.0,
+        "depth": 14.0
+      },
+      "pca_lengths": [
+        78.87750316037553,
+        48.28118093760096,
+        13.364363766549008
+      ],
+      "principal_axes": [
+        [
+          0.9254223346123338,
+          0.3788688207807762,
+          -0.00720550073498681
+        ],
+        [
+          -0.3789117124454627,
+          0.9254135726114145,
+          -0.005969405181898039
+        ],
+        [
+          0.004406446675589953,
+          0.00825446950219993,
+          0.9999562225222324
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7724864451201318,
+        0.18649506278761271,
+        0.04101849209225552
+      ],
+      "quality": {
+        "component_count": 9,
+        "largest_component_percent": 1.5054860933911711,
+        "flagged": true,
+        "reason": "Multiple components (9); Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_7": {
+      "class_id": 7,
+      "name": "Vertebra 7",
+      "voxel_count": 7377,
+      "approx_volume": 7377.0,
+      "centroid": [
+        162.2248881659211,
+        7.520536803578691,
+        8.441371831367764
+      ],
+      "bounding_box": {
+        "width": 69.0,
+        "height": 27.0,
+        "depth": 14.0
+      },
+      "pca_lengths": [
+        68.06516945774257,
+        26.406015295700886,
+        13.163723670195047
+      ],
+      "principal_axes": [
+        [
+          0.9861297315369518,
+          0.16487165819741054,
+          -0.0191177640453971
+        ],
+        [
+          -0.16397370869392225,
+          0.9855859650176494,
+          0.04162845682210393
+        ],
+        [
+          0.025705552630122006,
+          -0.037916248277819864,
+          0.9989502403425882
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.8694561812967404,
+        0.08736411193296915,
+        0.04317970677029038
+      ],
+      "quality": {
+        "component_count": 5,
+        "largest_component_percent": 2.7856365614798695,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_8_100": {
+      "class_id": 8,
+      "name": "Vertebra 8 (100)",
+      "voxel_count": 18252,
+      "approx_volume": 18252.0,
+      "centroid": [
+        161.66617357001974,
+        101.61648038571116,
+        8.393710278325663
+      ],
+      "bounding_box": {
+        "width": 40.0,
+        "height": 203.0,
+        "depth": 10.0
+      },
+      "pca_lengths": [
+        202.26640902038622,
+        38.30405439829798,
+        9.197224009641142
+      ],
+      "principal_axes": [
+        [
+          0.012386963389324476,
+          0.9999084597150086,
+          -0.005443833975340344
+        ],
+        [
+          0.9999193206347546,
+          -0.012371412615311524,
+          0.002881036485847895
+        ],
+        [
+          -0.002813424838628722,
+          0.005479082063744218,
+          0.9999810319703152
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.9841225593669711,
+        0.014652935181573368,
+        0.0012245054514554749
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    }
+  },
+  "graph_structure": {
+    "patient_id": "patient_alpha",
+    "graph_type": "spine_adjacency_graph",
+    "nodes": {
+      "vertebra_1": {
+        "node_id": "vertebra_1",
+        "node_type": "vertebra",
+        "name": "Vertebra 1",
+        "class_id": 1,
+        "neighbors": [
+          "disc_1_201"
+        ],
+        "position_index": 0.0,
+        "centroid": [
+          151.51749921457744,
+          172.78071002199184,
+          7.4507697141061895
+        ]
+      },
+      "vertebra_2": {
+        "node_id": "vertebra_2",
+        "node_type": "vertebra",
+        "name": "Vertebra 2",
+        "class_id": 2,
+        "neighbors": [
+          "disc_1_201",
+          "disc_2_202"
+        ],
+        "position_index": 2.0,
+        "centroid": [
+          146.32658424416175,
+          142.9962372334707,
+          7.632085050468852
+        ]
+      },
+      "vertebra_3": {
+        "node_id": "vertebra_3",
+        "node_type": "vertebra",
+        "name": "Vertebra 3",
+        "class_id": 3,
+        "neighbors": [
+          "disc_2_202",
+          "disc_3_203",
+          "vertebra_8_100"
+        ],
+        "position_index": 4.0,
+        "centroid": [
+          147.69211889828196,
+          112.69331878920099,
+          7.8317425688573765
+        ]
+      },
+      "vertebra_4": {
+        "node_id": "vertebra_4",
+        "node_type": "vertebra",
+        "name": "Vertebra 4",
+        "class_id": 4,
+        "neighbors": [
+          "disc_3_203",
+          "disc_4_204"
+        ],
+        "position_index": 6.0,
+        "centroid": [
+          150.94194697017866,
+          83.30425383099129,
+          8.599097094169263
+        ],
+        "fusion": {
+          "fused_with": "vertebra_5"
+        },
+        "motion_segment_removed": true
+      },
+      "vertebra_5": {
+        "node_id": "vertebra_5",
+        "node_type": "vertebra",
+        "name": "Vertebra 5",
+        "class_id": 5,
+        "neighbors": [
+          "disc_4_204",
+          "disc_5_205"
+        ],
+        "position_index": 8.0,
+        "centroid": [
+          153.86433004746257,
+          55.52208835341366,
+          8.410806863818912
+        ],
+        "fusion": {
+          "fused_with": "vertebra_4"
+        },
+        "motion_segment_removed": true
+      },
+      "vertebra_6": {
+        "node_id": "vertebra_6",
+        "node_type": "vertebra",
+        "name": "Vertebra 6",
+        "class_id": 6,
+        "neighbors": [
+          "disc_5_205",
+          "disc_6_206_207"
+        ],
+        "position_index": 10.0,
+        "centroid": [
+          157.58698952482163,
+          29.58903901624412,
+          8.757932290875967
+        ]
+      },
+      "vertebra_7": {
+        "node_id": "vertebra_7",
+        "node_type": "vertebra",
+        "name": "Vertebra 7",
+        "class_id": 7,
+        "neighbors": [
+          "disc_6_206_207"
+        ],
+        "position_index": 12.0,
+        "centroid": [
+          162.2248881659211,
+          7.520536803578691,
+          8.441371831367764
+        ]
+      },
+      "disc_1_201": {
+        "node_id": "disc_1_201",
+        "node_type": "disc",
+        "name": "Disc 1 (201)",
+        "class_id": 9,
+        "neighbors": [
+          "vertebra_1",
+          "vertebra_2"
+        ],
+        "position_index": 1.0,
+        "centroid": [
+          143.02761627906978,
+          191.69970930232557,
+          7.214244186046511
+        ]
+      },
+      "disc_2_202": {
+        "node_id": "disc_2_202",
+        "node_type": "disc",
+        "name": "Disc 2 (202)",
+        "class_id": 10,
+        "neighbors": [
+          "vertebra_2",
+          "vertebra_3"
+        ],
+        "position_index": 3.0,
+        "centroid": [
+          136.5942684766214,
+          160.2605580693816,
+          7.5199849170437405
+        ]
+      },
+      "disc_3_203": {
+        "node_id": "disc_3_203",
+        "node_type": "disc",
+        "name": "Disc 3 (203)",
+        "class_id": 11,
+        "neighbors": [
+          "vertebra_3",
+          "vertebra_4"
+        ],
+        "position_index": 5.0,
+        "centroid": [
+          132.52115095555078,
+          127.11552501610478,
+          7.6922911745759075
+        ]
+      },
+      "disc_4_204": {
+        "node_id": "disc_4_204",
+        "node_type": "disc",
+        "name": "Disc 4 (204)",
+        "class_id": 12,
+        "neighbors": [
+          "vertebra_4",
+          "vertebra_5"
+        ],
+        "position_index": 7.0,
+        "centroid": [
+          134.60375541646604,
+          94.80765527202696,
+          7.983870967741935
+        ]
+      },
+      "disc_5_205": {
+        "node_id": "disc_5_205",
+        "node_type": "disc",
+        "name": "Disc 5 (205)",
+        "class_id": 13,
+        "neighbors": [
+          "vertebra_5",
+          "vertebra_6"
+        ],
+        "position_index": 9.0,
+        "centroid": [
+          137.88855918232773,
+          65.98780085723706,
+          8.368941641938674
+        ]
+      },
+      "disc_6_206_207": {
+        "node_id": "disc_6_206_207",
+        "node_type": "disc",
+        "name": "Disc 6 (206/207)",
+        "class_id": 14,
+        "neighbors": [
+          "vertebra_6",
+          "vertebra_7"
+        ],
+        "position_index": 11.0,
+        "centroid": [
+          143.25279552715654,
+          38.44408945686901,
+          8.972843450479234
+        ]
+      },
+      "vertebra_8_100": {
+        "node_id": "vertebra_8_100",
+        "node_type": "vertebra_auxiliary",
+        "name": "Vertebra 8 (100)",
+        "class_id": 8,
+        "neighbors": [
+          "vertebra_3"
+        ],
+        "position_index": 4.1,
+        "centroid": [
+          161.66617357001974,
+          101.61648038571116,
+          8.393710278325663
+        ]
+      }
+    },
+    "edges": [
+      {
+        "source": "vertebra_1",
+        "target": "disc_1_201",
+        "edge_type": "anatomic_adjacency"
+      },
+      {
+        "source": "disc_1_201",
+        "target": "vertebra_2",
+        "edge_type": "anatomic_adjacency"
+      },
+      {
+        "source": "vertebra_2",
+        "target": "disc_2_202",
+        "edge_type": "anatomic_adjacency"
+      },
+      {
+        "source": "disc_2_202",
+        "target": "vertebra_3",
+        "edge_type": "anatomic_adjacency"
+      },
+      {
+        "source": "vertebra_3",
+        "target": "disc_3_203",
+        "edge_type": "anatomic_adjacency"
+      },
+      {
+        "source": "disc_3_203",
+        "target": "vertebra_4",
+        "edge_type": "anatomic_adjacency"
+      },
+      {
+        "source": "vertebra_4",
+        "target": "disc_4_204",
+        "edge_type": "anatomic_adjacency"
+      },
+      {
+        "source": "disc_4_204",
+        "target": "vertebra_5",
+        "edge_type": "anatomic_adjacency"
+      },
+      {
+        "source": "vertebra_5",
+        "target": "disc_5_205",
+        "edge_type": "anatomic_adjacency"
+      },
+      {
+        "source": "disc_5_205",
+        "target": "vertebra_6",
+        "edge_type": "anatomic_adjacency"
+      },
+      {
+        "source": "vertebra_6",
+        "target": "disc_6_206_207",
+        "edge_type": "anatomic_adjacency"
+      },
+      {
+        "source": "disc_6_206_207",
+        "target": "vertebra_7",
+        "edge_type": "anatomic_adjacency"
+      },
+      {
+        "source": "vertebra_8_100",
+        "target": "vertebra_3",
+        "edge_type": "nearest_centroid_auxiliary_link",
+        "distance": 17.8405818484776
+      },
+      {
+        "source": "vertebra_4",
+        "target": "vertebra_5",
+        "edge_type": "fusion_lock",
+        "motion_segment_removed": "disc_4_204"
+      }
+    ],
+    "primary_chain": [
+      "vertebra_1",
+      "disc_1_201",
+      "vertebra_2",
+      "disc_2_202",
+      "vertebra_3",
+      "disc_3_203",
+      "vertebra_4",
+      "disc_4_204",
+      "vertebra_5",
+      "disc_5_205",
+      "vertebra_6",
+      "disc_6_206_207",
+      "vertebra_7"
+    ],
+    "notes": [
+      "Disc numbering is mapped between sequential primary vertebrae.",
+      "Out-of-chain vertebra-labeled structures are retained and connected by nearest centroid."
+    ]
+  },
+  "disc_relationships": {
+    "patient_id": "patient_alpha",
+    "disc_relationships": {
+      "disc_1_201": {
+        "disc_name": "Disc 1 (201)",
+        "structure_above": "vertebra_1",
+        "structure_above_name": "Vertebra 1",
+        "structure_below": "vertebra_2",
+        "structure_below_name": "Vertebra 2",
+        "distance_to_above": 20.73795048584398,
+        "distance_to_below": 48.81686155606903,
+        "relative_orientation": {
+          "above_vector": [
+            8.489882935507666,
+            -18.918999280333736,
+            0.23652552805967808
+          ],
+          "below_vector": [
+            3.2989679650919754,
+            -48.703472068854865,
+            0.4178408644223408
+          ],
+          "above_below_angle_degrees": 20.29268421395745
+        }
+      },
+      "disc_2_202": {
+        "disc_name": "Disc 2 (202)",
+        "structure_above": "vertebra_2",
+        "structure_above_name": "Vertebra 2",
+        "structure_below": "vertebra_3",
+        "structure_below_name": "Vertebra 3",
+        "distance_to_above": 19.818862494207263,
+        "distance_to_below": 48.845693050185844,
+        "relative_orientation": {
+          "above_vector": [
+            9.732315767540342,
+            -17.264320835910894,
+            0.11210013342511171
+          ],
+          "below_vector": [
+            11.097850421660553,
+            -47.567239280180615,
+            0.311757651813636
+          ],
+          "above_below_angle_degrees": 16.278081545101678
+        }
+      },
+      "disc_3_203": {
+        "disc_name": "Disc 3 (203)",
+        "structure_above": "vertebra_3",
+        "structure_above_name": "Vertebra 3",
+        "structure_below": "vertebra_4",
+        "structure_below_name": "Vertebra 4",
+        "distance_to_above": 20.932695656844743,
+        "distance_to_below": 47.53499243340527,
+        "relative_orientation": {
+          "above_vector": [
+            15.170967942731181,
+            -14.422206226903796,
+            0.13945139428146902
+          ],
+          "below_vector": [
+            18.420796014627882,
+            -43.8112711851135,
+            0.9068059195933555
+          ],
+          "above_below_angle_degrees": 23.65323545056779
+        }
+      },
+      "disc_4_204": {
+        "disc_name": "Disc 4 (204)",
+        "structure_above": "vertebra_4",
+        "structure_above_name": "Vertebra 4",
+        "structure_below": "vertebra_5",
+        "structure_below_name": "Vertebra 5",
+        "distance_to_above": 19.991079289174632,
+        "distance_to_below": 43.7550885896988,
+        "relative_orientation": {
+          "above_vector": [
+            16.33819155371262,
+            -11.503401441035678,
+            0.615226126427328
+          ],
+          "below_vector": [
+            19.26057463099653,
+            -39.285566918613306,
+            0.42693589607697735
+          ],
+          "above_below_angle_degrees": 28.7526773312104
+        }
+      },
+      "disc_5_205": {
+        "disc_name": "Disc 5 (205)",
+        "structure_above": "vertebra_5",
+        "structure_above_name": "Vertebra 5",
+        "structure_below": "vertebra_6",
+        "structure_below_name": "Vertebra 6",
+        "distance_to_above": 19.098642507905637,
+        "distance_to_below": 41.38900017203085,
+        "relative_orientation": {
+          "above_vector": [
+            15.975770865134848,
+            -10.465712503823404,
+            0.041865221880238224
+          ],
+          "below_vector": [
+            19.698430342493907,
+            -36.39876184099295,
+            0.38899064893729296
+          ],
+          "above_below_angle_degrees": 28.352142381607813
+        }
+      },
+      "disc_6_206_207": {
+        "disc_name": "Disc 6 (206/207)",
+        "structure_above": "vertebra_6",
+        "structure_above_name": "Vertebra 6",
+        "structure_below": "vertebra_7",
+        "structure_below_name": "Vertebra 7",
+        "distance_to_above": 16.850140138148145,
+        "distance_to_below": 36.28345173597193,
+        "relative_orientation": {
+          "above_vector": [
+            14.334193997665096,
+            -8.85505044062489,
+            -0.21491115960326646
+          ],
+          "below_vector": [
+            18.972092638764565,
+            -30.92355265329032,
+            -0.5314716191114695
+          ],
+          "above_below_angle_degrees": 26.761883328227764
+        }
+      }
+    }
+  },
+  "centerline": {
+    "patient_id": "patient_alpha",
+    "global_centerline": [
+      {
+        "node_id": "vertebra_1",
+        "name": "Vertebra 1",
+        "centroid": [
+          151.51749921457744,
+          172.78071002199184,
+          7.4507697141061895
+        ]
+      },
+      {
+        "node_id": "vertebra_2",
+        "name": "Vertebra 2",
+        "centroid": [
+          146.32658424416175,
+          142.9962372334707,
+          7.632085050468852
+        ]
+      },
+      {
+        "node_id": "vertebra_3",
+        "name": "Vertebra 3",
+        "centroid": [
+          147.69211889828196,
+          112.69331878920099,
+          7.8317425688573765
+        ]
+      },
+      {
+        "node_id": "vertebra_4",
+        "name": "Vertebra 4",
+        "centroid": [
+          150.94194697017866,
+          83.30425383099129,
+          8.599097094169263
+        ]
+      },
+      {
+        "node_id": "vertebra_5",
+        "name": "Vertebra 5",
+        "centroid": [
+          153.86433004746257,
+          55.52208835341366,
+          8.410806863818912
+        ]
+      },
+      {
+        "node_id": "vertebra_6",
+        "name": "Vertebra 6",
+        "centroid": [
+          157.58698952482163,
+          29.58903901624412,
+          8.757932290875967
+        ]
+      },
+      {
+        "node_id": "vertebra_7",
+        "name": "Vertebra 7",
+        "centroid": [
+          162.2248881659211,
+          7.520536803578691,
+          8.441371831367764
+        ]
+      }
+    ],
+    "local_centerline_segments": [
+      {
+        "start_node": "vertebra_1",
+        "end_node": "vertebra_2",
+        "start": [
+          151.51749921457744,
+          172.78071002199184,
+          7.4507697141061895
+        ],
+        "end": [
+          146.32658424416175,
+          142.9962372334707,
+          7.632085050468852
+        ],
+        "length": 30.233975801595157,
+        "unit_direction": [
+          -0.17169144423744018,
+          -0.9851325205780473,
+          0.005997072219429919
+        ]
+      },
+      {
+        "start_node": "vertebra_2",
+        "end_node": "vertebra_3",
+        "start": [
+          146.32658424416175,
+          142.9962372334707,
+          7.632085050468852
+        ],
+        "end": [
+          147.69211889828196,
+          112.69331878920099,
+          7.8317425688573765
+        ],
+        "length": 30.334327324935266,
+        "unit_direction": [
+          0.04501615082783527,
+          -0.998964576325392,
+          0.006581900308842612
+        ]
+      },
+      {
+        "start_node": "vertebra_3",
+        "end_node": "vertebra_4",
+        "start": [
+          147.69211889828196,
+          112.69331878920099,
+          7.8317425688573765
+        ],
+        "end": [
+          150.94194697017866,
+          83.30425383099129,
+          8.599097094169263
+        ],
+        "length": 29.57815671373512,
+        "unit_direction": [
+          0.10987256925268735,
+          -0.9936070473439067,
+          0.02594328418564205
+        ]
+      },
+      {
+        "start_node": "vertebra_4",
+        "end_node": "vertebra_5",
+        "start": [
+          150.94194697017866,
+          83.30425383099129,
+          8.599097094169263
+        ],
+        "end": [
+          153.86433004746257,
+          55.52208835341366,
+          8.410806863818912
+        ],
+        "length": 27.93607872778044,
+        "unit_direction": [
+          0.10460963780066274,
+          -0.994490520602315,
+          -0.006740037933924829
+        ]
+      },
+      {
+        "start_node": "vertebra_5",
+        "end_node": "vertebra_6",
+        "start": [
+          153.86433004746257,
+          55.52208835341366,
+          8.410806863818912
+        ],
+        "end": [
+          157.58698952482163,
+          29.58903901624412,
+          8.757932290875967
+        ],
+        "length": 26.201178171421038,
+        "unit_direction": [
+          0.14207985049388175,
+          -0.9897665352108493,
+          0.01324846633941378
+        ]
+      },
+      {
+        "start_node": "vertebra_6",
+        "end_node": "vertebra_7",
+        "start": [
+          157.58698952482163,
+          29.58903901624412,
+          8.757932290875967
+        ],
+        "end": [
+          162.2248881659211,
+          7.520536803578691,
+          8.441371831367764
+        ],
+        "length": 22.552807014650202,
+        "unit_direction": [
+          0.20564618134171547,
+          -0.9785257417548879,
+          -0.014036410603015703
+        ]
+      }
+    ],
+    "curvature_estimate": [
+      {
+        "at_node": "vertebra_2",
+        "angle_degrees": 12.46631793974284,
+        "curvature_estimate": 0.4116449461593809
+      },
+      {
+        "at_node": "vertebra_3",
+        "angle_degrees": 3.890924853475223,
+        "curvature_estimate": 0.12988694813467702
+      },
+      {
+        "at_node": "vertebra_4",
+        "angle_degrees": 1.897501585961866,
+        "curvature_estimate": 0.06598371938339949
+      },
+      {
+        "at_node": "vertebra_5",
+        "angle_degrees": 2.448448552587491,
+        "curvature_estimate": 0.09045336586396588
+      },
+      {
+        "at_node": "vertebra_6",
+        "angle_degrees": 4.01622976882972,
+        "curvature_estimate": 0.16475493248404793
+      }
+    ],
+    "centerline_length": 166.83652375411722,
+    "units": "voxel units"
+  },
+  "alignment_metrics": {
+    "patient_id": "patient_alpha",
+    "vertebral_pair_alignment": {
+      "vertebra_1__vertebra_2": {
+        "above": "vertebra_1",
+        "below": "vertebra_2",
+        "angle_difference_degrees": 18.202620311918555,
+        "tilt_difference_degrees": 18.200892134118945,
+        "orientation_difference_degrees": 81.95504566362789
+      },
+      "vertebra_2__vertebra_3": {
+        "above": "vertebra_2",
+        "below": "vertebra_3",
+        "angle_difference_degrees": 10.096141384536779,
+        "tilt_difference_degrees": 10.073895788092997,
+        "orientation_difference_degrees": 87.69154052773379
+      },
+      "vertebra_3__vertebra_4": {
+        "above": "vertebra_3",
+        "below": "vertebra_4",
+        "angle_difference_degrees": 6.330828994699551,
+        "tilt_difference_degrees": 6.330700788449477,
+        "orientation_difference_degrees": 94.03010079417561
+      },
+      "vertebra_4__vertebra_5": {
+        "above": "vertebra_4",
+        "below": "vertebra_5",
+        "angle_difference_degrees": 1.0890469573676624,
+        "tilt_difference_degrees": 1.0099082119804308,
+        "orientation_difference_degrees": 100.66585431468901
+      },
+      "vertebra_5__vertebra_6": {
+        "above": "vertebra_5",
+        "below": "vertebra_6",
+        "angle_difference_degrees": 6.602873634879557,
+        "tilt_difference_degrees": 6.602726812278462,
+        "orientation_difference_degrees": 97.49807274729051
+      },
+      "vertebra_6__vertebra_7": {
+        "above": "vertebra_6",
+        "below": "vertebra_7",
+        "angle_difference_degrees": 12.789752775122631,
+        "tilt_difference_degrees": 12.772711704643868,
+        "orientation_difference_degrees": 100.38852674317087
+      }
+    },
+    "disc_alignment": {
+      "disc_1_201": {
+        "disc_name": "Disc 1 (201)",
+        "disc_angle_degrees": 125.79084702648754,
+        "disc_tilt_degrees": 121.76589306413977
+      },
+      "disc_2_202": {
+        "disc_name": "Disc 2 (202)",
+        "disc_angle_degrees": 109.16573394393457,
+        "disc_tilt_degrees": 105.17496618738325
+      },
+      "disc_3_203": {
+        "disc_name": "Disc 3 (203)",
+        "disc_angle_degrees": 97.5576686743756,
+        "disc_tilt_degrees": 93.57254968984844
+      },
+      "disc_4_204": {
+        "disc_name": "Disc 4 (204)",
+        "disc_angle_degrees": 88.33466211871043,
+        "disc_tilt_degrees": 84.32940151973528
+      },
+      "disc_5_205": {
+        "disc_name": "Disc 5 (205)",
+        "disc_angle_degrees": 90.36565241895813,
+        "disc_tilt_degrees": 86.35940073950229
+      },
+      "disc_6_206_207": {
+        "disc_name": "Disc 6 (206/207)",
+        "disc_angle_degrees": 85.9992461272594,
+        "disc_tilt_degrees": 81.96957698537713
+      }
+    }
+  },
+  "relative_metrics": {
+    "disc_metrics": {
+      "patient_id": "patient_alpha",
+      "average_disc_height": 15.666666666666666,
+      "average_disc_volume": 3848.6666666666665,
+      "relative_disc_metrics": {
+        "disc_1_201": {
+          "disc_name": "Disc 1 (201)",
+          "height": 16.0,
+          "volume": 3440.0,
+          "height_relative_to_previous_disc": null,
+          "height_relative_to_next_disc": 1.0,
+          "height_relative_to_average_disc_height": 1.021276595744681,
+          "volume_relative_to_previous_disc": null,
+          "volume_relative_to_next_disc": 0.6485671191553545,
+          "volume_relative_to_average_disc_volume": 0.8938160401870778
+        },
+        "disc_2_202": {
+          "disc_name": "Disc 2 (202)",
+          "height": 16.0,
+          "volume": 5304.0,
+          "height_relative_to_previous_disc": 1.0,
+          "height_relative_to_next_disc": 1.0,
+          "height_relative_to_average_disc_height": 1.021276595744681,
+          "volume_relative_to_previous_disc": 1.541860465116279,
+          "volume_relative_to_next_disc": 1.1389306420442344,
+          "volume_relative_to_average_disc_volume": 1.3781396154512386
+        },
+        "disc_3_203": {
+          "disc_name": "Disc 3 (203)",
+          "height": 16.0,
+          "volume": 4657.0,
+          "height_relative_to_previous_disc": 1.0,
+          "height_relative_to_next_disc": 1.0,
+          "height_relative_to_average_disc_height": 1.021276595744681,
+          "volume_relative_to_previous_disc": 0.8780165912518854,
+          "volume_relative_to_next_disc": 1.1210881078478574,
+          "volume_relative_to_average_disc_volume": 1.2100294474276807
+        },
+        "disc_4_204": {
+          "disc_name": "Disc 4 (204)",
+          "height": 16.0,
+          "volume": 4154.0,
+          "height_relative_to_previous_disc": 1.0,
+          "height_relative_to_next_disc": 1.0666666666666667,
+          "height_relative_to_average_disc_height": 1.021276595744681,
+          "volume_relative_to_previous_disc": 0.8919905518574189,
+          "volume_relative_to_next_disc": 1.3696010550609956,
+          "volume_relative_to_average_disc_volume": 1.0793348345747444
+        },
+        "disc_5_205": {
+          "disc_name": "Disc 5 (205)",
+          "height": 15.0,
+          "volume": 3033.0,
+          "height_relative_to_previous_disc": 0.9375,
+          "height_relative_to_next_disc": 1.0,
+          "height_relative_to_average_disc_height": 0.9574468085106383,
+          "volume_relative_to_previous_disc": 0.7301396244583533,
+          "volume_relative_to_next_disc": 1.2112619808306708,
+          "volume_relative_to_average_disc_volume": 0.788065130781223
+        },
+        "disc_6_206_207": {
+          "disc_name": "Disc 6 (206/207)",
+          "height": 15.0,
+          "volume": 2504.0,
+          "height_relative_to_previous_disc": 1.0,
+          "height_relative_to_next_disc": null,
+          "height_relative_to_average_disc_height": 0.9574468085106383,
+          "volume_relative_to_previous_disc": 0.82558522914606,
+          "volume_relative_to_next_disc": null,
+          "volume_relative_to_average_disc_volume": 0.6506149315780357
+        }
+      }
+    },
+    "vertebral_metrics": {
+      "patient_id": "patient_alpha",
+      "relative_vertebral_metrics": {
+        "vertebra_1": {
+          "vertebra_name": "Vertebra 1",
+          "relative_height": {
+            "to_previous": null,
+            "to_next": 1.1777777777777778
+          },
+          "relative_width": {
+            "to_previous": null,
+            "to_next": 0.9125
+          },
+          "relative_volume": {
+            "to_previous": null,
+            "to_next": 0.9505464970435406
+          },
+          "relative_pca_lengths": {
+            "to_previous": [
+              null,
+              null,
+              null
+            ],
+            "to_next": [
+              0.9509363853549413,
+              1.3114136782331876,
+              0.9098252317365
+            ]
+          }
+        },
+        "vertebra_2": {
+          "vertebra_name": "Vertebra 2",
+          "relative_height": {
+            "to_previous": 0.8490566037735849,
+            "to_next": 0.8333333333333334
+          },
+          "relative_width": {
+            "to_previous": 1.095890410958904,
+            "to_next": 0.9876543209876543
+          },
+          "relative_volume": {
+            "to_previous": 1.0520263901979265,
+            "to_next": 0.9131715298609218
+          },
+          "relative_pca_lengths": {
+            "to_previous": [
+              1.051595054517496,
+              0.7625358928292237,
+              1.0991121867343596
+            ],
+            "to_next": [
+              0.9587793398737396,
+              0.8308821437623787,
+              0.9824761388551304
+            ]
+          }
+        },
+        "vertebra_3": {
+          "vertebra_name": "Vertebra 3",
+          "relative_height": {
+            "to_previous": 1.2,
+            "to_next": 1.173913043478261
+          },
+          "relative_width": {
+            "to_previous": 1.0125,
+            "to_next": 1.0125
+          },
+          "relative_volume": {
+            "to_previous": 1.0950845129307771,
+            "to_next": 1.1658294652508425
+          },
+          "relative_pca_lengths": {
+            "to_previous": [
+              1.0429928539466533,
+              1.2035401260061098,
+              1.0178364241652627
+            ],
+            "to_next": [
+              1.0082725884929704,
+              1.3288319509651145,
+              1.1316387963245693
+            ]
+          }
+        },
+        "vertebra_4": {
+          "vertebra_name": "Vertebra 4",
+          "relative_height": {
+            "to_previous": 0.8518518518518519,
+            "to_next": 0.9387755102040817
+          },
+          "relative_width": {
+            "to_previous": 0.9876543209876543,
+            "to_next": 1.0526315789473684
+          },
+          "relative_volume": {
+            "to_previous": 0.857758385601309,
+            "to_next": 1.1483753194596569
+          },
+          "relative_pca_lengths": {
+            "to_previous": [
+              0.9917952857318721,
+              0.7525406047572172,
+              0.8836741929031448
+            ],
+            "to_next": [
+              1.0442133971275214,
+              0.9571553128585139,
+              1.0694840346908028
+            ]
+          }
+        },
+        "vertebra_5": {
+          "vertebra_name": "Vertebra 5",
+          "relative_height": {
+            "to_previous": 1.065217391304348,
+            "to_next": 0.875
+          },
+          "relative_width": {
+            "to_previous": 0.95,
+            "to_next": 1.0704225352112675
+          },
+          "relative_volume": {
+            "to_previous": 0.8707954473198957,
+            "to_next": 1.0395475937452558
+          },
+          "relative_pca_lengths": {
+            "to_previous": [
+              0.9576586574648956,
+              1.0447625234545603,
+              0.9350303207556613
+            ],
+            "to_next": [
+              0.9930619100230065,
+              0.8701745684767035,
+              1.1199354218237858
+            ]
+          }
+        },
+        "vertebra_6": {
+          "vertebra_name": "Vertebra 6",
+          "relative_height": {
+            "to_previous": 1.1428571428571428,
+            "to_next": 2.074074074074074
+          },
+          "relative_width": {
+            "to_previous": 0.9342105263157895,
+            "to_next": 1.0289855072463767
+          },
+          "relative_volume": {
+            "to_previous": 0.9619569185834246,
+            "to_next": 1.7858207943608513
+          },
+          "relative_pca_lengths": {
+            "to_previous": [
+              1.0069865633823705,
+              1.1491946975082992,
+              0.8929086271523817
+            ],
+            "to_next": [
+              1.1588526670655783,
+              1.8284160028287768,
+              1.0152418951795719
+            ]
+          }
+        },
+        "vertebra_7": {
+          "vertebra_name": "Vertebra 7",
+          "relative_height": {
+            "to_previous": 0.48214285714285715,
+            "to_next": 0.1330049261083744
+          },
+          "relative_width": {
+            "to_previous": 0.971830985915493,
+            "to_next": 1.725
+          },
+          "relative_volume": {
+            "to_previous": 0.5599666008805222,
+            "to_next": 0.4041748849441157
+          },
+          "relative_pca_lengths": {
+            "to_previous": [
+              0.8629224649688889,
+              0.5469214874803552,
+              0.9849869324227642
+            ],
+            "to_next": [
+              0.33651247276992174,
+              0.6893791195345166,
+              1.4312713984563121
+            ]
+          }
+        },
+        "vertebra_8_100": {
+          "vertebra_name": "Vertebra 8 (100)",
+          "relative_height": {
+            "to_previous": 7.518518518518518,
+            "to_next": null
+          },
+          "relative_width": {
+            "to_previous": 0.5797101449275363,
+            "to_next": null
+          },
+          "relative_volume": {
+            "to_previous": 2.4741764945099636,
+            "to_next": null
+          },
+          "relative_pca_lengths": {
+            "to_previous": [
+              2.971658054064801,
+              1.450580633592763,
+              0.6986795104538126
+            ],
+            "to_next": [
+              null,
+              null,
+              null
+            ]
+          }
+        }
+      }
+    }
+  },
+  "load_metrics": {
+    "patient_id": "patient_alpha",
+    "model_type": "rule_based_geometric_load_approximation_v1",
+    "physics_claim": "This is not physics; it is a deterministic geometric approximation layer.",
+    "structures": {
+      "disc_1_201": {
+        "structure_name": "Disc 1 (201)",
+        "structure_type": "disc",
+        "relative_load_index": 1.053091979906461,
+        "stress_score": 0.17245982267245583,
+        "risk_score": 0.18161605611245368,
+        "rule_basis": {
+          "height_ratio_to_average": 1.021276595744681,
+          "volume_ratio_to_average": 0.8938160401870778,
+          "tilt_degrees": 121.76589306413977
+        }
+      },
+      "disc_2_202": {
+        "structure_name": "Disc 2 (202)",
+        "structure_type": "disc",
+        "relative_load_index": 1.016,
+        "stress_score": 0.12646107354153696,
+        "risk_score": 0.12848445071820155,
+        "rule_basis": {
+          "height_ratio_to_average": 1.021276595744681,
+          "volume_ratio_to_average": 1.3781396154512386,
+          "tilt_degrees": 105.17496618738325
+        }
+      },
+      "disc_3_203": {
+        "structure_name": "Disc 3 (203)",
+        "structure_type": "disc",
+        "relative_load_index": 1.104,
+        "stress_score": 0.16636949965538717,
+        "risk_score": 0.18367192761954745,
+        "rule_basis": {
+          "height_ratio_to_average": 1.021276595744681,
+          "volume_ratio_to_average": 1.2100294474276807,
+          "tilt_degrees": 93.57254968984844
+        }
+      },
+      "disc_4_204": {
+        "structure_name": "Disc 4 (204)",
+        "structure_type": "disc",
+        "relative_load_index": 1.1760000000000002,
+        "stress_score": 0.19929933502192812,
+        "risk_score": 0.2343760179857875,
+        "rule_basis": {
+          "height_ratio_to_average": 1.021276595744681,
+          "volume_ratio_to_average": 1.0793348345747444,
+          "tilt_degrees": 84.32940151973528
+        }
+      },
+      "disc_5_205": {
+        "structure_name": "Disc 5 (205)",
+        "structure_type": "disc",
+        "relative_load_index": 1.2440099878008781,
+        "stress_score": 0.2516810301073428,
+        "risk_score": 0.31309371519354795,
+        "rule_basis": {
+          "height_ratio_to_average": 0.9574468085106383,
+          "volume_ratio_to_average": 0.788065130781223,
+          "tilt_degrees": 86.35940073950229
+        }
+      },
+      "disc_6_206_207": {
+        "structure_name": "Disc 6 (206/207)",
+        "structure_type": "disc",
+        "relative_load_index": 1.2247350874024716,
+        "stress_score": 0.2421110178794304,
+        "risk_score": 0.29652185864366554,
+        "rule_basis": {
+          "height_ratio_to_average": 0.9574468085106383,
+          "volume_ratio_to_average": 0.6506149315780357,
+          "tilt_degrees": 81.96957698537713
+        }
+      },
+      "vertebra_1": {
+        "structure_name": "Vertebra 1",
+        "structure_type": "vertebra",
+        "relative_load_index": 1.053091979906461,
+        "stress_score": 0.13185518794387666,
+        "risk_score": 0.1388556409327556,
+        "rule_basis": {
+          "neighbor_disc_loads": [
+            1.053091979906461
+          ],
+          "quality_flag_used_as_penalty": true
+        }
+      },
+      "vertebra_2": {
+        "structure_name": "Vertebra 2",
+        "structure_type": "vertebra",
+        "relative_load_index": 1.0265459899532305,
+        "stress_score": 0.11592759397193833,
+        "risk_score": 0.1190050067168196,
+        "rule_basis": {
+          "neighbor_disc_loads": [
+            1.053091979906461,
+            1.0
+          ],
+          "quality_flag_used_as_penalty": true
+        }
+      },
+      "vertebra_3": {
+        "structure_name": "Vertebra 3",
+        "structure_type": "vertebra",
+        "relative_load_index": 1.04,
+        "stress_score": 0.124,
+        "risk_score": 0.12896,
+        "rule_basis": {
+          "neighbor_disc_loads": [
+            1.0,
+            1.0
+          ],
+          "quality_flag_used_as_penalty": true
+        }
+      },
+      "vertebra_4": {
+        "structure_name": "Vertebra 4",
+        "structure_type": "vertebra",
+        "relative_load_index": 0.89,
+        "stress_score": 0.124,
+        "risk_score": 0.11036,
+        "rule_basis": {
+          "neighbor_disc_loads": [
+            1.0,
+            1.0
+          ],
+          "quality_flag_used_as_penalty": true
+        }
+      },
+      "vertebra_5": {
+        "structure_name": "Vertebra 5",
+        "structure_type": "vertebra",
+        "relative_load_index": 0.9495042448153732,
+        "stress_score": 0.16600299634026341,
+        "risk_score": 0.15762054967715097,
+        "rule_basis": {
+          "neighbor_disc_loads": [
+            1.0,
+            1.140009987800878
+          ],
+          "quality_flag_used_as_penalty": true
+        }
+      },
+      "vertebra_6": {
+        "structure_name": "Vertebra 6",
+        "structure_type": "vertebra",
+        "relative_load_index": 1.2143725376016747,
+        "stress_score": 0.22862352256100482,
+        "risk_score": 0.27763412724784114,
+        "rule_basis": {
+          "neighbor_disc_loads": [
+            1.140009987800878,
+            1.2087350874024716
+          ],
+          "quality_flag_used_as_penalty": true
+        }
+      },
+      "vertebra_7": {
+        "structure_name": "Vertebra 7",
+        "structure_type": "vertebra",
+        "relative_load_index": 1.2087350874024716,
+        "stress_score": 0.22524105244148296,
+        "risk_score": 0.2722567632094806,
+        "rule_basis": {
+          "neighbor_disc_loads": [
+            1.2087350874024716
+          ],
+          "quality_flag_used_as_penalty": true
+        }
+      },
+      "vertebra_8_100": {
+        "structure_name": "Vertebra 8 (100)",
+        "structure_type": "vertebra",
+        "relative_load_index": 1.016,
+        "stress_score": 0.1096,
+        "risk_score": 0.11135360000000001,
+        "rule_basis": {
+          "neighbor_disc_loads": [],
+          "quality_flag_used_as_penalty": true
+        }
+      }
+    }
+  },
+  "quality_metrics": {
+    "total_flagged_structures": 14,
+    "flagged_structure_names": [
+      "Vertebra 1",
+      "Vertebra 2",
+      "Vertebra 3",
+      "Vertebra 4",
+      "Vertebra 5",
+      "Vertebra 6",
+      "Vertebra 7",
+      "Vertebra 8 (100)",
+      "Disc 1 (201)",
+      "Disc 2 (202)",
+      "Disc 3 (203)",
+      "Disc 4 (204)",
+      "Disc 5 (205)",
+      "Disc 6 (206/207)"
+    ],
+    "component_analysis": [
+      {
+        "name": "Vertebra 1",
+        "component_count": 5,
+        "total_vertices": 7693,
+        "largest_component_vertices": 14,
+        "second_largest_component_vertices": 6,
+        "largest_component_percent": 0.18198362147406735,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 2",
+        "component_count": 5,
+        "total_vertices": 7897,
+        "largest_component_vertices": 142,
+        "second_largest_component_vertices": 14,
+        "largest_component_percent": 1.7981511966569583,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 3",
+        "component_count": 0,
+        "total_vertices": 8046,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 4",
+        "component_count": 3,
+        "total_vertices": 7967,
+        "largest_component_vertices": 6,
+        "second_largest_component_vertices": 5,
+        "largest_component_percent": 0.07531065645788879,
+        "flagged": true,
+        "reason": "Multiple components (3); Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 5",
+        "component_count": 5,
+        "total_vertices": 7789,
+        "largest_component_vertices": 14,
+        "second_largest_component_vertices": 14,
+        "largest_component_percent": 0.17974065990499422,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 6",
+        "component_count": 9,
+        "total_vertices": 7838,
+        "largest_component_vertices": 118,
+        "second_largest_component_vertices": 70,
+        "largest_component_percent": 1.5054860933911711,
+        "flagged": true,
+        "reason": "Multiple components (9); Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 7",
+        "component_count": 5,
+        "total_vertices": 4595,
+        "largest_component_vertices": 128,
+        "second_largest_component_vertices": 42,
+        "largest_component_percent": 2.7856365614798695,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 8 (100)",
+        "component_count": 0,
+        "total_vertices": 10743,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Disc 1 (201)",
+        "component_count": 0,
+        "total_vertices": 2333,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Disc 2 (202)",
+        "component_count": 1,
+        "total_vertices": 2167,
+        "largest_component_vertices": 20,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.9229349330872173,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Disc 3 (203)",
+        "component_count": 0,
+        "total_vertices": 1842,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Disc 4 (204)",
+        "component_count": 0,
+        "total_vertices": 1956,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Disc 5 (205)",
+        "component_count": 0,
+        "total_vertices": 1779,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Disc 6 (206/207)",
+        "component_count": 0,
+        "total_vertices": 2667,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      }
+    ]
+  },
+  "state_validation": {
+    "patient_id": "patient_alpha",
+    "validated_utc": "2026-06-19T17:15:24.500529+00:00",
+    "graph_connected": true,
+    "node_count": 14,
+    "edge_count": 13,
+    "visited_node_count": 14,
+    "missing_nodes": [],
+    "missing_neighbor_references": [],
+    "broken_relationships": [],
+    "impossible_ordering": [],
+    "missing_disc_relationships": [],
+    "issues": [],
+    "status": "pass"
+  },
+  "intervention_history": [
+    {
+      "timestamp_utc": "2026-06-21T05:19:03.393110+00:00",
+      "type": "fusion",
+      "target": "vertebra_4__vertebra_5",
+      "parameters": {
+        "vertebra_a": "vertebra_4",
+        "vertebra_b": "vertebra_5"
+      },
+      "affected_structure_count": 11
+    }
+  ],
+  "representation_notes": [
+    "Official Stage 2 digital twin state.",
+    "Generated from existing deterministic measurements only.",
+    "No diagnosis, disease assignment, inference, or surgery simulation performed."
+  ],
+  "scenario_id": "fusion_l4_l5",
+  "scenario_generated_utc": "2026-06-21T05:19:03.504226+00:00"
+}

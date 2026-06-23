@@ -1,0 +1,316 @@
+{
+  "generated_utc": "2026-06-21T05:29:24.539895+00:00",
+  "nodes": [
+    {
+      "id": "OrthoTwin\\measurements\\alignment\\load_path_model.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "tabular_or_metadata"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\alignment\\local_alignment_metrics.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "tabular_or_metadata"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\alignment\\spine_coordinate_system.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "alignment_measurement"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\discs\\patient_alpha_disc_ranking.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "disc_measurement"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\discs\\relative_disc_metrics.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "disc_measurement"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\geometry\\GLOBAL_reconstructed_structures(1).pkl",
+      "type": "file",
+      "extension": ".pkl",
+      "category": "geometry_measurement"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\geometry\\GLOBAL_reconstructed_structures.pkl",
+      "type": "file",
+      "extension": ".pkl",
+      "category": "geometry_measurement"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\geometry\\GLOBAL_reconstructed_structures_path.pkl",
+      "type": "file",
+      "extension": ".pkl",
+      "category": "geometry_measurement"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\geometry\\patient_alpha_clean_measurements.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "cleaned_data"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\geometry\\patient_alpha_component_analysis.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "tabular_or_metadata"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\geometry\\patient_alpha_findings.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "tabular_or_metadata"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\geometry\\patient_alpha_measurements.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "geometry_measurement"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\geometry\\patient_alpha_mesh_statistics.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "geometry_measurement"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\geometry\\patient_alpha_pca_measurements.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "geometry_measurement"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\geometry\\patient_alpha_voxel_component_analysis.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "tabular_or_metadata"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\geometry\\reconstructed_structures.pkl",
+      "type": "file",
+      "extension": ".pkl",
+      "category": "geometry_measurement"
+    },
+    {
+      "id": "OrthoTwin\\measurements\\vertebrae\\relative_vertebral_metrics.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "vertebral_measurement"
+    },
+    {
+      "id": "OrthoTwin\\reports\\phase1\\weighted_dice_results.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "tabular_or_metadata"
+    },
+    {
+      "id": "OrthoTwin\\reports\\phase2\\stage2_readiness_report.txt",
+      "type": "file",
+      "extension": ".txt",
+      "category": "report_or_doc"
+    },
+    {
+      "id": "OrthoTwin\\reports\\phase3\\digital_twin_report.txt",
+      "type": "file",
+      "extension": ".txt",
+      "category": "report_or_doc"
+    },
+    {
+      "id": "OrthoTwin\\reports\\phase3\\patient_alpha_report.txt",
+      "type": "file",
+      "extension": ".txt",
+      "category": "report_or_doc"
+    },
+    {
+      "id": "OrthoTwin\\reports\\phase3\\report_generator.py",
+      "type": "file",
+      "extension": ".py",
+      "category": "report_or_doc"
+    },
+    {
+      "id": "OrthoTwin\\reports\\phase3\\runtime_recovery_report.txt",
+      "type": "file",
+      "extension": ".txt",
+      "category": "report_or_doc"
+    },
+    {
+      "id": "OrthoTwin\\reports\\phase3\\session_restore_report(1).txt",
+      "type": "file",
+      "extension": ".txt",
+      "category": "report_or_doc"
+    },
+    {
+      "id": "OrthoTwin\\reports\\phase3\\session_restore_report.txt",
+      "type": "file",
+      "extension": ".txt",
+      "category": "report_or_doc"
+    },
+    {
+      "id": "OrthoTwin\\reports\\phase3\\state_change_report.txt",
+      "type": "file",
+      "extension": ".txt",
+      "category": "report_or_doc"
+    },
+    {
+      "id": "OrthoTwin\\simulation\\biomechanics\\biomechanics_engine.py",
+      "type": "file",
+      "extension": ".py",
+      "category": "source_code"
+    },
+    {
+      "id": "OrthoTwin\\simulation\\biomechanics\\outcome_comparator.py",
+      "type": "file",
+      "extension": ".py",
+      "category": "source_code"
+    },
+    {
+      "id": "OrthoTwin\\simulation\\interventions\\simulation_engine.py",
+      "type": "file",
+      "extension": ".py",
+      "category": "source_code"
+    },
+    {
+      "id": "OrthoTwin\\simulation\\propagation\\propagation_engine.py",
+      "type": "file",
+      "extension": ".py",
+      "category": "source_code"
+    },
+    {
+      "id": "OrthoTwin\\simulation\\propagation\\stage2_engine.py",
+      "type": "file",
+      "extension": ".py",
+      "category": "source_code"
+    },
+    {
+      "id": "OrthoTwin\\simulation\\propagation\\state_transition.py",
+      "type": "file",
+      "extension": ".py",
+      "category": "state_transition"
+    },
+    {
+      "id": "OrthoTwin\\state\\graphs\\disc_relationships.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "disc_measurement"
+    },
+    {
+      "id": "OrthoTwin\\state\\graphs\\spine_centerline.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "state_graph"
+    },
+    {
+      "id": "OrthoTwin\\state\\graphs\\spine_graph.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "state_graph"
+    },
+    {
+      "id": "OrthoTwin\\state\\patient_states\\patient_state_after_intervention.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "patient_state"
+    },
+    {
+      "id": "OrthoTwin\\state\\patient_states\\patient_state_vector.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "patient_state"
+    },
+    {
+      "id": "OrthoTwin\\state\\patient_states\\patient_state_vector_v2.json",
+      "type": "file",
+      "extension": ".json",
+      "category": "patient_state"
+    },
+    {
+      "id": "OrthoTwin\\visualization\\state\\alignment_changes.png",
+      "type": "file",
+      "extension": ".png",
+      "category": "state_visualization"
+    },
+    {
+      "id": "OrthoTwin\\visualization\\state\\alignment_plot.png",
+      "type": "file",
+      "extension": ".png",
+      "category": "state_visualization"
+    },
+    {
+      "id": "OrthoTwin\\visualization\\state\\centerline_plot.png",
+      "type": "file",
+      "extension": ".png",
+      "category": "state_graph"
+    },
+    {
+      "id": "OrthoTwin\\visualization\\state\\disc_changes.png",
+      "type": "file",
+      "extension": ".png",
+      "category": "visualization"
+    },
+    {
+      "id": "OrthoTwin\\visualization\\state\\load_distribution_plot.png",
+      "type": "file",
+      "extension": ".png",
+      "category": "state_visualization"
+    },
+    {
+      "id": "OrthoTwin\\visualization\\state\\relative_disc_height_plot.png",
+      "type": "file",
+      "extension": ".png",
+      "category": "state_visualization"
+    },
+    {
+      "id": "OrthoTwin\\visualization\\state\\relative_volume_plot.png",
+      "type": "file",
+      "extension": ".png",
+      "category": "state_visualization"
+    },
+    {
+      "id": "OrthoTwin\\visualization\\state\\spine_graph.png",
+      "type": "file",
+      "extension": ".png",
+      "category": "state_graph"
+    },
+    {
+      "id": "OrthoTwin\\visualization\\state\\state_comparison.png",
+      "type": "file",
+      "extension": ".png",
+      "category": "visualization"
+    },
+    {
+      "id": "OrthoTwin\\visualization\\state\\visualization.py",
+      "type": "file",
+      "extension": ".py",
+      "category": "script"
+    }
+  ],
+  "edges": [
+    {
+      "source": "simulation/longitudinal_engine.py",
+      "target": "state/patient_states/clinical_state_vector.json",
+      "relationship": "consumes"
+    },
+    {
+      "source": "simulation/longitudinal_engine.py",
+      "target": "state/longitudinal/future_state_*.json",
+      "relationship": "produces"
+    },
+    {
+      "source": "simulation/scenario_engine.py",
+      "target": "reports/phase5/dashboard_state.json",
+      "relationship": "produces"
+    },
+    {
+      "source": "reports/phase6/confidence_scoring.json",
+      "target": "state/master_digital_twin_state.json",
+      "relationship": "supports"
+    }
+  ],
+  "note": "Compact knowledge graph; full inventory remains in project_inventory.json."
+}

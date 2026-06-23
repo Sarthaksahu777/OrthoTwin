@@ -1,0 +1,785 @@
+{
+  "generated_utc": "2026-06-22T15:02:56.836463+00:00",
+  "public_repository_size_bytes": 638921695,
+  "public_repository_size_mb": 609.323,
+  "public_repository_file_count": 567,
+  "local_repository_size_bytes_including_archive_internal": 46072668011,
+  "local_repository_size_mb_including_archive_internal": 43938.32,
+  "local_repository_file_count_including_archive_internal": 149207,
+  "top_level_entries": [
+    {
+      "name": ".github",
+      "path": ".github",
+      "type": "folder",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "GitHub Actions workflow, issue templates, and pull request template.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 2405,
+      "public_size_mb": 0.002,
+      "public_file_count": 4,
+      "total_local_size_bytes": 2405,
+      "total_local_size_mb": 0.002,
+      "total_local_file_count": 4
+    },
+    {
+      "name": "archive",
+      "path": "archive",
+      "type": "folder",
+      "classification": "INTERNAL_ARCHIVE",
+      "why_it_exists": "Contains local recovery archive and a small public archive shell. archive/internal is excluded from GitHub.",
+      "needed_for_github": false,
+      "needed_only_for_local_development": true,
+      "needed_for_reproducing_paper_or_prototype": false,
+      "public_size_bytes": 0,
+      "public_size_mb": 0.0,
+      "public_file_count": 0,
+      "total_local_size_bytes": 45433746316,
+      "total_local_size_mb": 43328.997,
+      "total_local_file_count": 148640
+    },
+    {
+      "name": "config",
+      "path": "config",
+      "type": "folder",
+      "classification": "REPRODUCIBILITY_REQUIRED",
+      "why_it_exists": "Default configuration for the prototype.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 219,
+      "public_size_mb": 0.0,
+      "public_file_count": 1,
+      "total_local_size_bytes": 219,
+      "total_local_size_mb": 0.0,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "data",
+      "path": "data",
+      "type": "folder",
+      "classification": "REPRODUCIBILITY_REQUIRED",
+      "why_it_exists": "Small remaining metadata/example files after raw datasets were archived.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 2696000,
+      "public_size_mb": 2.571,
+      "public_file_count": 3,
+      "total_local_size_bytes": 2696000,
+      "total_local_size_mb": 2.571,
+      "total_local_file_count": 3
+    },
+    {
+      "name": "docs",
+      "path": "docs",
+      "type": "folder",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Architecture, roadmap, whitepaper, limitations, and supporting research documentation.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 70471270,
+      "public_size_mb": 67.207,
+      "public_file_count": 27,
+      "total_local_size_bytes": 70471270,
+      "total_local_size_mb": 67.207,
+      "total_local_file_count": 27
+    },
+    {
+      "name": "manifests",
+      "path": "manifests",
+      "type": "folder",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Project inventory, dataflow, phase manifests, and validation maps.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 273632934,
+      "public_size_mb": 260.957,
+      "public_file_count": 19,
+      "total_local_size_bytes": 273632934,
+      "total_local_size_mb": 260.957,
+      "total_local_file_count": 19
+    },
+    {
+      "name": "measurements",
+      "path": "measurements",
+      "type": "folder",
+      "classification": "REPRODUCIBILITY_REQUIRED",
+      "why_it_exists": "Measurement outputs and reconstructed structures required for prototype reproducibility.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 12073734,
+      "public_size_mb": 11.514,
+      "public_file_count": 30,
+      "total_local_size_bytes": 12073734,
+      "total_local_size_mb": 11.514,
+      "total_local_file_count": 30
+    },
+    {
+      "name": "models",
+      "path": "models",
+      "type": "folder",
+      "classification": "REPRODUCIBILITY_REQUIRED",
+      "why_it_exists": "Retained final/showcase checkpoints only after pruning.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 50263429,
+      "public_size_mb": 47.935,
+      "public_file_count": 3,
+      "total_local_size_bytes": 50263429,
+      "total_local_size_mb": 47.935,
+      "total_local_file_count": 3
+    },
+    {
+      "name": "presentation",
+      "path": "presentation",
+      "type": "folder",
+      "classification": "SHOWCASE_ONLY",
+      "why_it_exists": "Presentation dataset, demo script, storyboard, and PPT assets.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 4054015,
+      "public_size_mb": 3.866,
+      "public_file_count": 35,
+      "total_local_size_bytes": 4054015,
+      "total_local_size_mb": 3.866,
+      "total_local_file_count": 35
+    },
+    {
+      "name": "reports",
+      "path": "reports",
+      "type": "folder",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Technical audits, release reports, calibration decision, and repository minimization reports.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 194180276,
+      "public_size_mb": 185.185,
+      "public_file_count": 96,
+      "total_local_size_bytes": 194180276,
+      "total_local_size_mb": 185.185,
+      "total_local_file_count": 96
+    },
+    {
+      "name": "showcase",
+      "path": "showcase",
+      "type": "folder",
+      "classification": "SHOWCASE_ONLY",
+      "why_it_exists": "Curated GitHub/demo/PPT-ready figures and summaries.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 13126422,
+      "public_size_mb": 12.518,
+      "public_file_count": 92,
+      "total_local_size_bytes": 13126422,
+      "total_local_size_mb": 12.518,
+      "total_local_file_count": 92
+    },
+    {
+      "name": "simulation",
+      "path": "simulation",
+      "type": "folder",
+      "classification": "REPRODUCIBILITY_REQUIRED",
+      "why_it_exists": "Prototype engines for scenarios, propagation, geometry surgery, mesh transformations, and placeholders.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 579443,
+      "public_size_mb": 0.553,
+      "public_file_count": 44,
+      "total_local_size_bytes": 579443,
+      "total_local_size_mb": 0.553,
+      "total_local_file_count": 44
+    },
+    {
+      "name": "state",
+      "path": "state",
+      "type": "folder",
+      "classification": "REPRODUCIBILITY_REQUIRED",
+      "why_it_exists": "Patient, clinical, graph, surgery, mesh, and future states used by reports and demos.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 2491434,
+      "public_size_mb": 2.376,
+      "public_file_count": 65,
+      "total_local_size_bytes": 2491434,
+      "total_local_size_mb": 2.376,
+      "total_local_file_count": 65
+    },
+    {
+      "name": "tools",
+      "path": "tools",
+      "type": "folder",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Audit, release, showcase, calibration, and minimization generators.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 492189,
+      "public_size_mb": 0.469,
+      "public_file_count": 17,
+      "total_local_size_bytes": 492189,
+      "total_local_size_mb": 0.469,
+      "total_local_file_count": 17
+    },
+    {
+      "name": "visualization",
+      "path": "visualization",
+      "type": "folder",
+      "classification": "SHOWCASE_ONLY",
+      "why_it_exists": "Generated figures used by README, reports, and showcase.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 14787339,
+      "public_size_mb": 14.102,
+      "public_file_count": 113,
+      "total_local_size_bytes": 14787339,
+      "total_local_size_mb": 14.102,
+      "total_local_file_count": 113
+    },
+    {
+      "name": ".gitignore",
+      "path": ".gitignore",
+      "type": "file",
+      "classification": "REPRODUCIBILITY_REQUIRED",
+      "why_it_exists": "Top-level source, README, release, or repository configuration file.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 82,
+      "public_size_mb": 0.0,
+      "public_file_count": 1,
+      "total_local_size_bytes": 82,
+      "total_local_size_mb": 0.0,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "__init__.py",
+      "path": "__init__.py",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level source, README, release, or repository configuration file.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 55,
+      "public_size_mb": 0.0,
+      "public_file_count": 1,
+      "total_local_size_bytes": 55,
+      "total_local_size_mb": 0.0,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "CITATION.cff",
+      "path": "CITATION.cff",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level project file or unclassified artifact.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": false,
+      "public_size_bytes": 569,
+      "public_size_mb": 0.001,
+      "public_file_count": 1,
+      "total_local_size_bytes": 569,
+      "total_local_size_mb": 0.001,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "CODE_OF_CONDUCT.md",
+      "path": "CODE_OF_CONDUCT.md",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level project file or unclassified artifact.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 620,
+      "public_size_mb": 0.001,
+      "public_file_count": 1,
+      "total_local_size_bytes": 620,
+      "total_local_size_mb": 0.001,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "comparison.py",
+      "path": "comparison.py",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level source, README, release, or repository configuration file.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 3942,
+      "public_size_mb": 0.004,
+      "public_file_count": 1,
+      "total_local_size_bytes": 3942,
+      "total_local_size_mb": 0.004,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "CONTRIBUTING.md",
+      "path": "CONTRIBUTING.md",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level project file or unclassified artifact.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 949,
+      "public_size_mb": 0.001,
+      "public_file_count": 1,
+      "total_local_size_bytes": 949,
+      "total_local_size_mb": 0.001,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "demo.py",
+      "path": "demo.py",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level source, README, release, or repository configuration file.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 2513,
+      "public_size_mb": 0.002,
+      "public_file_count": 1,
+      "total_local_size_bytes": 2513,
+      "total_local_size_mb": 0.002,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "digital_twin.py",
+      "path": "digital_twin.py",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level source, README, release, or repository configuration file.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 3400,
+      "public_size_mb": 0.003,
+      "public_file_count": 1,
+      "total_local_size_bytes": 3400,
+      "total_local_size_mb": 0.003,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "LICENSE",
+      "path": "LICENSE",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level project file or unclassified artifact.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": false,
+      "public_size_bytes": 1100,
+      "public_size_mb": 0.001,
+      "public_file_count": 1,
+      "total_local_size_bytes": 1100,
+      "total_local_size_mb": 0.001,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "ORTHOTWIN_V1_EXECUTIVE_SUMMARY.md",
+      "path": "ORTHOTWIN_V1_EXECUTIVE_SUMMARY.md",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level source, README, release, or repository configuration file.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 2108,
+      "public_size_mb": 0.002,
+      "public_file_count": 1,
+      "total_local_size_bytes": 2108,
+      "total_local_size_mb": 0.002,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "ORTHOTWIN_V1_RELEASE_NOTES.md",
+      "path": "ORTHOTWIN_V1_RELEASE_NOTES.md",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level source, README, release, or repository configuration file.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 1606,
+      "public_size_mb": 0.002,
+      "public_file_count": 1,
+      "total_local_size_bytes": 1606,
+      "total_local_size_mb": 0.002,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "README.md",
+      "path": "README.md",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level source, README, release, or repository configuration file.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 10141,
+      "public_size_mb": 0.01,
+      "public_file_count": 1,
+      "total_local_size_bytes": 10141,
+      "total_local_size_mb": 0.01,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "README_AUDIT.json",
+      "path": "README_AUDIT.json",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level source, README, release, or repository configuration file.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 2111,
+      "public_size_mb": 0.002,
+      "public_file_count": 1,
+      "total_local_size_bytes": 2111,
+      "total_local_size_mb": 0.002,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "README_QUALITY_SCORE.txt",
+      "path": "README_QUALITY_SCORE.txt",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level source, README, release, or repository configuration file.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 457,
+      "public_size_mb": 0.0,
+      "public_file_count": 1,
+      "total_local_size_bytes": 457,
+      "total_local_size_mb": 0.0,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "repository_refactor.py",
+      "path": "repository_refactor.py",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level source, README, release, or repository configuration file.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 33742,
+      "public_size_mb": 0.032,
+      "public_file_count": 1,
+      "total_local_size_bytes": 33742,
+      "total_local_size_mb": 0.032,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "requirements.txt",
+      "path": "requirements.txt",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level project file or unclassified artifact.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": false,
+      "public_size_bytes": 19,
+      "public_size_mb": 0.0,
+      "public_file_count": 1,
+      "total_local_size_bytes": 19,
+      "total_local_size_mb": 0.0,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "SECURITY.md",
+      "path": "SECURITY.md",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level project file or unclassified artifact.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 622,
+      "public_size_mb": 0.001,
+      "public_file_count": 1,
+      "total_local_size_bytes": 622,
+      "total_local_size_mb": 0.001,
+      "total_local_file_count": 1
+    },
+    {
+      "name": "state_builder.py",
+      "path": "state_builder.py",
+      "type": "file",
+      "classification": "PUBLIC_REPO",
+      "why_it_exists": "Top-level source, README, release, or repository configuration file.",
+      "needed_for_github": true,
+      "needed_only_for_local_development": false,
+      "needed_for_reproducing_paper_or_prototype": true,
+      "public_size_bytes": 6550,
+      "public_size_mb": 0.006,
+      "public_file_count": 1,
+      "total_local_size_bytes": 6550,
+      "total_local_size_mb": 0.006,
+      "total_local_file_count": 1
+    }
+  ],
+  "archive_internal": {
+    "file_count_considered": 148572,
+    "largest_hidden_files": [
+      {
+        "path": "archive/internal/archive/spine_segmentation_dataset.zip",
+        "size_mb": 3581.703,
+        "extension": ".zip",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/archive/OrthoTwin_Final_Archive/GLOBAL_all_sample_dice_results.pkl",
+        "size_mb": 1800.08,
+        "extension": ".pkl",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/sub-verse500_dir-ax_ct.nii.gz",
+        "size_mb": 162.954,
+        "extension": ".nii.gz",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/archive/OrthoTwin_Final_Archive/GLOBAL_preds_logits.pkl",
+        "size_mb": 60.0,
+        "extension": ".pkl",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/69_t2_SPACE.mha",
+        "size_mb": 41.88,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/146_t2_SPACE.mha",
+        "size_mb": 41.664,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/11_t2_SPACE.mha",
+        "size_mb": 40.781,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/162_t2_SPACE.mha",
+        "size_mb": 39.882,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/45_t2_SPACE.mha",
+        "size_mb": 39.706,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/141_t2_SPACE.mha",
+        "size_mb": 39.465,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/161_t2_SPACE.mha",
+        "size_mb": 39.371,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/22_t2_SPACE.mha",
+        "size_mb": 39.283,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/52_t2_SPACE.mha",
+        "size_mb": 39.283,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/136_t2_SPACE.mha",
+        "size_mb": 39.228,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/142_t2_SPACE.mha",
+        "size_mb": 39.088,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/234_t2_SPACE.mha",
+        "size_mb": 39.079,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/55_t2_SPACE.mha",
+        "size_mb": 38.834,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/220_t2_SPACE.mha",
+        "size_mb": 38.54,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/81_t2_SPACE.mha",
+        "size_mb": 38.515,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/98_t2_SPACE.mha",
+        "size_mb": 38.037,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/239_t2_SPACE.mha",
+        "size_mb": 38.006,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/177_t2_SPACE.mha",
+        "size_mb": 37.901,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/127_t2_SPACE.mha",
+        "size_mb": 37.715,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/107_t2_SPACE.mha",
+        "size_mb": 37.438,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/57_t2_SPACE.mha",
+        "size_mb": 37.413,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      }
+    ],
+    "hidden_source_code_files": [
+      {
+        "path": "archive/internal/archive/app.py",
+        "size_mb": 0.054,
+        "extension": ".py",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/archive/test_ct.py",
+        "size_mb": 0.002,
+        "extension": ".py",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/archive/test_mha.py",
+        "size_mb": 0.002,
+        "extension": ".py",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      }
+    ],
+    "critical_source_code_hidden": false,
+    "critical_source_code_reasoning": "No active OrthoTwin source code was intentionally moved into archive/internal; hidden files are raw data, historical archives, duplicate checkpoints, and old notebook/archive artifacts."
+  },
+  "unnecessarily_public": [],
+  "answers": {
+    "important_files_hidden_in_archive_internal": [
+      {
+        "path": "archive/internal/archive/spine_segmentation_dataset.zip",
+        "size_mb": 3581.703,
+        "extension": ".zip",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/archive/OrthoTwin_Final_Archive/GLOBAL_all_sample_dice_results.pkl",
+        "size_mb": 1800.08,
+        "extension": ".pkl",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/sub-verse500_dir-ax_ct.nii.gz",
+        "size_mb": 162.954,
+        "extension": ".nii.gz",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/archive/OrthoTwin_Final_Archive/GLOBAL_preds_logits.pkl",
+        "size_mb": 60.0,
+        "extension": ".pkl",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/69_t2_SPACE.mha",
+        "size_mb": 41.88,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/146_t2_SPACE.mha",
+        "size_mb": 41.664,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/11_t2_SPACE.mha",
+        "size_mb": 40.781,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/162_t2_SPACE.mha",
+        "size_mb": 39.882,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/45_t2_SPACE.mha",
+        "size_mb": 39.706,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      },
+      {
+        "path": "archive/internal/data/raw/141_t2_SPACE.mha",
+        "size_mb": 39.465,
+        "extension": ".mha",
+        "reason_hidden": "Archived by minimization policy; recoverable but excluded from GitHub."
+      }
+    ],
+    "folders_still_unnecessarily_public": [],
+    "estimated_github_repository_size_mb": 609.323,
+    "can_user_understand_and_run_without_archive_internal": true,
+    "critical_source_code_hidden_inside_archive_internal": false
+  }
+}

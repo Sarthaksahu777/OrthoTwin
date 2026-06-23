@@ -1,0 +1,73 @@
+{
+  "patient_id": "patient_alpha",
+  "average_disc_height": 15.666666666666666,
+  "average_disc_volume": 3848.6666666666665,
+  "relative_disc_metrics": {
+    "disc_1_201": {
+      "disc_name": "Disc 1 (201)",
+      "height": 16.0,
+      "volume": 3440.0,
+      "height_relative_to_previous_disc": null,
+      "height_relative_to_next_disc": 1.0,
+      "height_relative_to_average_disc_height": 1.021276595744681,
+      "volume_relative_to_previous_disc": null,
+      "volume_relative_to_next_disc": 0.6485671191553545,
+      "volume_relative_to_average_disc_volume": 0.8938160401870778
+    },
+    "disc_2_202": {
+      "disc_name": "Disc 2 (202)",
+      "height": 16.0,
+      "volume": 5304.0,
+      "height_relative_to_previous_disc": 1.0,
+      "height_relative_to_next_disc": 1.0,
+      "height_relative_to_average_disc_height": 1.021276595744681,
+      "volume_relative_to_previous_disc": 1.541860465116279,
+      "volume_relative_to_next_disc": 1.1389306420442344,
+      "volume_relative_to_average_disc_volume": 1.3781396154512386
+    },
+    "disc_3_203": {
+      "disc_name": "Disc 3 (203)",
+      "height": 16.0,
+      "volume": 4657.0,
+      "height_relative_to_previous_disc": 1.0,
+      "height_relative_to_next_disc": 1.0,
+      "height_relative_to_average_disc_height": 1.021276595744681,
+      "volume_relative_to_previous_disc": 0.8780165912518854,
+      "volume_relative_to_next_disc": 1.1210881078478574,
+      "volume_relative_to_average_disc_volume": 1.2100294474276807
+    },
+    "disc_4_204": {
+      "disc_name": "Disc 4 (204)",
+      "height": 16.0,
+      "volume": 4154.0,
+      "height_relative_to_previous_disc": 1.0,
+      "height_relative_to_next_disc": 1.0666666666666667,
+      "height_relative_to_average_disc_height": 1.021276595744681,
+      "volume_relative_to_previous_disc": 0.8919905518574189,
+      "volume_relative_to_next_disc": 1.3696010550609956,
+      "volume_relative_to_average_disc_volume": 1.0793348345747444
+    },
+    "disc_5_205": {
+      "disc_name": "Disc 5 (205)",
+      "height": 15.0,
+      "volume": 3033.0,
+      "height_relative_to_previous_disc": 0.9375,
+      "height_relative_to_next_disc": 1.0,
+      "height_relative_to_average_disc_height": 0.9574468085106383,
+      "volume_relative_to_previous_disc": 0.7301396244583533,
+      "volume_relative_to_next_disc": 1.2112619808306708,
+      "volume_relative_to_average_disc_volume": 0.788065130781223
+    },
+    "disc_6_206_207": {
+      "disc_name": "Disc 6 (206/207)",
+      "height": 15.0,
+      "volume": 2504.0,
+      "height_relative_to_previous_disc": 1.0,
+      "height_relative_to_next_disc": null,
+      "height_relative_to_average_disc_height": 0.9574468085106383,
+      "volume_relative_to_previous_disc": 0.82558522914606,
+      "volume_relative_to_next_disc": null,
+      "volume_relative_to_average_disc_volume": 0.6506149315780357
+    }
+  }
+}

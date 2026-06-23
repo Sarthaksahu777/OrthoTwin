@@ -1,0 +1,46 @@
+{
+  "model": "orthtwin_longitudinal_time_model_v1",
+  "generated_utc": "2026-06-21T05:29:21.089427+00:00",
+  "timelines": [
+    {
+      "id": "0_months",
+      "months": 0,
+      "years": 0.0,
+      "label": "0 months"
+    },
+    {
+      "id": "6_months",
+      "months": 6,
+      "years": 0.5,
+      "label": "6 months"
+    },
+    {
+      "id": "1_year",
+      "months": 12,
+      "years": 1.0,
+      "label": "1 year"
+    },
+    {
+      "id": "2_years",
+      "months": 24,
+      "years": 2.0,
+      "label": "2 years"
+    },
+    {
+      "id": "5_years",
+      "months": 60,
+      "years": 5.0,
+      "label": "5 years"
+    },
+    {
+      "id": "10_years",
+      "months": 120,
+      "years": 10.0,
+      "label": "10 years"
+    }
+  ],
+  "notes": [
+    "Time points are simulation checkpoints, not predicted clinical visits.",
+    "No patient-specific temporal imaging exists in this repository."
+  ]
+}

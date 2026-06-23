@@ -1,0 +1,23 @@
+ORTHOTWIN STAGE 2 READINESS REPORT
+====================================
+
+1. Can the spine now be represented as a connected system?
+   Yes. The generated graph contains 14 nodes and 13 edges.
+
+2. Can interventions propagate through neighboring structures?
+   Yes. Disc and vertebral neighbor relationships are explicit, so future transition rules can update adjacent nodes.
+
+3. Are state transitions now possible?
+   Yes. Stage 2 adds graph, relative metrics, local alignment, and load approximation fields for deterministic transitions.
+
+4. What data is still missing for biomechanics?
+   Material properties, boundary conditions, calibrated forces, ligament/facet data, patient scale, and validated motion/loading measurements.
+
+5. What data is still missing for surgical simulation?
+   Surgical approach constraints, instrument geometry, implant catalogs, collision models, tissue behavior, vascular/neural safety margins, and surgeon-defined goals.
+
+6. What is required for Stage 3?
+   A deterministic propagation engine that consumes the graph, updates neighboring structures, records state transitions, and validates every predicted state against consistency rules.
+
+Scope Statement
+   No diagnosis, disease assignment, inference, or surgery simulation was performed.

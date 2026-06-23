@@ -1,0 +1,17 @@
+{
+  "model": "deterministic_graph_propagation_v1",
+  "physics_claim": "Not physics; graph-based geometric state propagation.",
+  "max_depth": 3,
+  "depth_weights": {
+    "direct": 1.0,
+    "secondary": 0.55,
+    "tertiary": 0.25
+  },
+  "rules": [
+    "Direct target receives full action effect.",
+    "First-hop graph neighbors receive secondary effects.",
+    "Second-hop graph neighbors receive tertiary effects.",
+    "Loads and stress scores are bounded at zero and risk is capped at one.",
+    "Alignment changes are deterministic scalar offsets, not measured geometry recomputation."
+  ]
+}

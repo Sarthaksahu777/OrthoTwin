@@ -1,0 +1,57 @@
+{
+  "scenario_id": "collapse_mesh_v3",
+  "operation": "collapse",
+  "mesh_operations": [
+    {
+      "structure_name": "Disc 6 (206/207)",
+      "operation": "compress_disc_height",
+      "parameters": {
+        "percent": 20.0,
+        "scale_factor": 0.8,
+        "axis": [
+          0.9998901343228668,
+          0.012618292966482312,
+          0.007778043867933383
+        ]
+      },
+      "vertices_moved": 2667,
+      "average_displacement": 0.7338502297016837,
+      "max_displacement": 1.5870214703987895
+    },
+    {
+      "structure_name": "Vertebra 6",
+      "operation": "translate_mesh",
+      "parameters": {
+        "translation": [
+          1.4854493664571844,
+          0.01874589482326052,
+          0.011555159851359284
+        ]
+      },
+      "vertices_moved": 7838,
+      "average_displacement": 1.485612584289715,
+      "max_displacement": 1.485612584289716
+    },
+    {
+      "structure_name": "Vertebra 7",
+      "operation": "translate_mesh",
+      "parameters": {
+        "translation": [
+          -1.4854493664571844,
+          -0.01874589482326052,
+          -0.011555159851359284
+        ]
+      },
+      "vertices_moved": 4595,
+      "average_displacement": 1.485612584289715,
+      "max_displacement": 1.4856125842897152
+    }
+  ],
+  "created_objects": [],
+  "geometry_changed": true,
+  "relationship_changed": false,
+  "constraint_changed": false,
+  "not_medical_advice": true,
+  "biomechanics_claim": "none",
+  "clinical_validity_claim": "none"
+}

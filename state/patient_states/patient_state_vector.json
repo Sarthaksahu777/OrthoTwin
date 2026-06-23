@@ -1,0 +1,996 @@
+{
+  "patient_id": "patient_alpha",
+  "schema_version": "1.0",
+  "created_utc": "2026-06-19T17:42:22.232727+00:00",
+  "segmentation": {
+    "num_structures": 14,
+    "num_discs": 6,
+    "num_vertebrae": 8,
+    "source_files": {
+      "measurements": "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\patient_alpha_clean_measurements.json",
+      "disc_ranking": "C:\\OrthoTwin\\OrthoTwin\\measurements\\discs\\patient_alpha_disc_ranking.json",
+      "component_analysis": "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\patient_alpha_component_analysis.json",
+      "coordinate_system": "C:\\OrthoTwin\\OrthoTwin\\measurements\\alignment\\spine_coordinate_system.json"
+    }
+  },
+  "discs": {
+    "disc_1_201": {
+      "class_id": 9,
+      "name": "Disc 1 (201)",
+      "voxel_count": 3440,
+      "approx_volume": 3440.0,
+      "centroid": [
+        143.02761627906978,
+        191.69970930232557,
+        7.214244186046511
+      ],
+      "bounding_box": {
+        "width": 35.0,
+        "height": 29.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        38.46673825803205,
+        15.94924350445249,
+        15.57521532433961
+      ],
+      "principal_axes": [
+        [
+          0.8502057941518357,
+          -0.5264495109740847,
+          -0.0010099434605970782
+        ],
+        [
+          0.08750060497816169,
+          0.1394195494404145,
+          0.9863598903860027
+        ],
+        [
+          0.5191278760759261,
+          0.8386972645889448,
+          -0.1645999594529685
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.8421585639029363,
+        0.10966792020310709,
+        0.04817351589395649
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "height": 16.0,
+        "volume": 3440.0,
+        "severity_score": 0.3857658656001095,
+        "height_zscore": 0.7071067661865491,
+        "volume_zscore": -0.426641607938442,
+        "decompression_percent": 0.0,
+        "implant_inserted": false,
+        "removed_fraction": 0.0
+      }
+    },
+    "disc_2_202": {
+      "class_id": 10,
+      "name": "Disc 2 (202)",
+      "voxel_count": 5304,
+      "approx_volume": 5304.0,
+      "centroid": [
+        136.5942684766214,
+        160.2605580693816,
+        7.5199849170437405
+      ],
+      "bounding_box": {
+        "width": 37.0,
+        "height": 21.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        36.40806696186422,
+        16.202834600819592,
+        13.882959310903601
+      ],
+      "principal_axes": [
+        [
+          0.964311962003985,
+          -0.261545383983422,
+          -0.0411880086067468
+        ],
+        [
+          0.05081489858181918,
+          0.03014912708929926,
+          0.9982529119506103
+        ],
+        [
+          0.25984665866265144,
+          0.9647201885794229,
+          -0.042363566057850265
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7626975561136289,
+        0.15228762216520997,
+        0.08501482172116122
+      ],
+      "quality": {
+        "component_count": 1,
+        "largest_component_percent": 0.9229349330872173,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "height": 16.0,
+        "volume": 5304.0,
+        "severity_score": 0.0,
+        "height_zscore": 0.7071067661865491,
+        "volume_zscore": 1.5193452367530496,
+        "decompression_percent": 0.0,
+        "implant_inserted": false,
+        "removed_fraction": 0.0
+      }
+    },
+    "disc_3_203": {
+      "class_id": 11,
+      "name": "Disc 3 (203)",
+      "voxel_count": 4657,
+      "approx_volume": 4657.0,
+      "centroid": [
+        132.52115095555078,
+        127.11552501610478,
+        7.6922911745759075
+      ],
+      "bounding_box": {
+        "width": 37.0,
+        "height": 13.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        36.2960553543505,
+        16.755000013468546,
+        12.17794687555498
+      ],
+      "principal_axes": [
+        [
+          0.9961209556657671,
+          -0.062191503988548974,
+          -0.06225157439905796
+        ],
+        [
+          0.066574125728394,
+          0.07003549971402823,
+          0.9953205084611223
+        ],
+        [
+          0.057540659250821434,
+          0.9956039602228638,
+          -0.07390417391143883
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7644590203175811,
+        0.1687611910787889,
+        0.06677978860362996
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "height": 16.0,
+        "volume": 4657.0,
+        "severity_score": 0.13390049090304232,
+        "height_zscore": 0.7071067661865491,
+        "volume_zscore": 0.8438873566482239,
+        "decompression_percent": 0.0,
+        "implant_inserted": false,
+        "removed_fraction": 0.0
+      }
+    },
+    "disc_4_204": {
+      "class_id": 12,
+      "name": "Disc 4 (204)",
+      "voxel_count": 4154,
+      "approx_volume": 4154.0,
+      "centroid": [
+        134.60375541646604,
+        94.80765527202696,
+        7.983870967741935
+      ],
+      "bounding_box": {
+        "width": 39.0,
+        "height": 15.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        38.941369192974406,
+        16.750753948706706,
+        10.873637354004586
+      ],
+      "principal_axes": [
+        [
+          0.9934812198574798,
+          0.09864774778712151,
+          -0.05712869372760316
+        ],
+        [
+          0.041966988268148236,
+          0.14944882860933606,
+          0.9878784436979069
+        ],
+        [
+          -0.10598979991581707,
+          0.9838362005353462,
+          -0.14433465567901335
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7802059769606545,
+        0.1633849577469984,
+        0.05640906529234698
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "height": 16.0,
+        "volume": 4154.0,
+        "severity_score": 0.23799932695285728,
+        "height_zscore": 0.7071067661865491,
+        "volume_zscore": 0.3187632242019684,
+        "decompression_percent": 0.0,
+        "implant_inserted": false,
+        "removed_fraction": 0.0
+      }
+    },
+    "disc_5_205": {
+      "class_id": 13,
+      "name": "Disc 5 (205)",
+      "voxel_count": 3033,
+      "approx_volume": 3033.0,
+      "centroid": [
+        137.88855918232773,
+        65.98780085723706,
+        8.368941641938674
+      ],
+      "bounding_box": {
+        "width": 37.0,
+        "height": 11.0,
+        "depth": 15.0
+      },
+      "pca_lengths": [
+        36.34495078732442,
+        15.39764419552068,
+        9.700031243957717
+      ],
+      "principal_axes": [
+        [
+          0.996866235094449,
+          0.06342670541899148,
+          -0.04727327329803737
+        ],
+        [
+          0.04134967497594376,
+          0.09165824593053584,
+          0.9949316410348609
+        ],
+        [
+          -0.06743822141784482,
+          0.9937684936606863,
+          -0.08874833688226415
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.8143421677844943,
+        0.15228196093192745,
+        0.03337587128357826
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "height": 15.0,
+        "volume": 3033.0,
+        "severity_score": 0.8905203096016857,
+        "height_zscore": -1.4142135323730944,
+        "volume_zscore": -0.8515432419456508,
+        "decompression_percent": 0.0,
+        "implant_inserted": false,
+        "removed_fraction": 0.0
+      }
+    },
+    "disc_6_206_207": {
+      "class_id": 14,
+      "name": "Disc 6 (206/207)",
+      "voxel_count": 2504,
+      "approx_volume": 2504.0,
+      "centroid": [
+        143.25279552715654,
+        38.44408945686901,
+        8.972843450479234
+      ],
+      "bounding_box": {
+        "width": 32.0,
+        "height": 12.0,
+        "depth": 15.0
+      },
+      "pca_lengths": [
+        31.713688068892054,
+        14.386178078512991,
+        8.871399251400145
+      ],
+      "principal_axes": [
+        [
+          0.9901714698497797,
+          0.13969571266446001,
+          0.0067504191496106794
+        ],
+        [
+          -0.01373352023074536,
+          0.049084505071219864,
+          0.9987002061599792
+        ],
+        [
+          -0.13918279605467954,
+          0.9889771580906616,
+          -0.050520590429244505
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7626352622088848,
+        0.190516438552914,
+        0.04684829923820125
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "height": 15.0,
+        "volume": 2504.0,
+        "severity_score": 1.0,
+        "height_zscore": -1.4142135323730944,
+        "volume_zscore": -1.4038109677191482,
+        "decompression_percent": 0.0,
+        "implant_inserted": false,
+        "removed_fraction": 0.0
+      }
+    }
+  },
+  "vertebrae": {
+    "vertebra_1": {
+      "class_id": 1,
+      "name": "Vertebra 1",
+      "voxel_count": 15915,
+      "approx_volume": 15915.0,
+      "centroid": [
+        151.51749921457744,
+        172.78071002199184,
+        7.4507697141061895
+      ],
+      "bounding_box": {
+        "width": 73.0,
+        "height": 53.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        75.19116822561959,
+        58.22585598741534,
+        16.192107981112112
+      ],
+      "principal_axes": [
+        [
+          0.95138849583209,
+          -0.30791490365178675,
+          -0.006952848873985287
+        ],
+        [
+          0.30797625894291775,
+          0.9508550157785975,
+          0.032021288172216965
+        ],
+        [
+          -0.003248680636574798,
+          -0.03260599757397684,
+          0.999463003315444
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7481356731865245,
+        0.18859131149273198,
+        0.06327301532074353
+      ],
+      "quality": {
+        "component_count": 5,
+        "largest_component_percent": 0.18198362147406735,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_2": {
+      "class_id": 2,
+      "name": "Vertebra 2",
+      "voxel_count": 16743,
+      "approx_volume": 16743.0,
+      "centroid": [
+        146.32658424416175,
+        142.9962372334707,
+        7.632085050468852
+      ],
+      "bounding_box": {
+        "width": 80.0,
+        "height": 45.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        79.07066064945464,
+        44.39930508110956,
+        17.79694321095901
+      ],
+      "principal_axes": [
+        [
+          0.9999132017389518,
+          0.004656624578429221,
+          -0.012324967979443605
+        ],
+        [
+          -0.003734238500359197,
+          0.9972637530570742,
+          0.07383130976314273
+        ],
+        [
+          0.01263504851518887,
+          -0.07377887696389973,
+          0.9971945812442851
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7984796003340925,
+        0.15243392215978493,
+        0.04908647750612268
+      ],
+      "quality": {
+        "component_count": 5,
+        "largest_component_percent": 1.7981511966569583,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_3": {
+      "class_id": 3,
+      "name": "Vertebra 3",
+      "voxel_count": 18335,
+      "approx_volume": 18335.0,
+      "centroid": [
+        147.69211889828196,
+        112.69331878920099,
+        7.8317425688573765
+      ],
+      "bounding_box": {
+        "width": 81.0,
+        "height": 54.0,
+        "depth": 16.0
+      },
+      "pca_lengths": [
+        82.47013401422203,
+        53.436345231902315,
+        18.114377038914768
+      ],
+      "principal_axes": [
+        [
+          0.9837575524032937,
+          0.17950142009326478,
+          -0.0005641577639960008
+        ],
+        [
+          -0.17845319257552317,
+          0.9783423827110128,
+          0.10488393704920675
+        ],
+        [
+          0.01937875509635796,
+          -0.10307968944384743,
+          0.994484309315675
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7984973430999889,
+        0.16004768148322154,
+        0.04145497541678953
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_4": {
+      "class_id": 4,
+      "name": "Vertebra 4",
+      "voxel_count": 15727,
+      "approx_volume": 15727.0,
+      "centroid": [
+        150.94194697017866,
+        83.30425383099129,
+        8.599097094169263
+      ],
+      "bounding_box": {
+        "width": 80.0,
+        "height": 46.0,
+        "depth": 15.0
+      },
+      "pca_lengths": [
+        81.79349012898112,
+        40.213019556831206,
+        16.007207509806264
+      ],
+      "principal_axes": [
+        [
+          0.9579649230356232,
+          0.28688252046593254,
+          -0.0012750233197917037
+        ],
+        [
+          -0.28623364886969715,
+          0.9560787145746236,
+          0.06311727015702143
+        ],
+        [
+          0.019326264204214613,
+          -0.06009917627097176,
+          0.9980053028533765
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.8218391159505027,
+        0.14039829722990457,
+        0.037762586819592756
+      ],
+      "quality": {
+        "component_count": 3,
+        "largest_component_percent": 0.07531065645788879,
+        "flagged": true,
+        "reason": "Multiple components (3); Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_5": {
+      "class_id": 5,
+      "name": "Vertebra 5",
+      "voxel_count": 13695,
+      "approx_volume": 13695.0,
+      "centroid": [
+        153.86433004746257,
+        55.52208835341366,
+        8.410806863818912
+      ],
+      "bounding_box": {
+        "width": 76.0,
+        "height": 49.0,
+        "depth": 15.0
+      },
+      "pca_lengths": [
+        78.33024394628825,
+        42.01305578792255,
+        14.967224372296581
+      ],
+      "principal_axes": [
+        [
+          0.9628394102815543,
+          0.2699442478097257,
+          -0.008388866616544153
+        ],
+        [
+          -0.2695904280883948,
+          0.9625086786263889,
+          0.029967393146531306
+        ],
+        [
+          0.016163882324021675,
+          -0.026592229002551135,
+          0.9995156738465342
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.8162876791234884,
+        0.1433892469553015,
+        0.040323073921210144
+      ],
+      "quality": {
+        "component_count": 5,
+        "largest_component_percent": 0.17974065990499422,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_6": {
+      "class_id": 6,
+      "name": "Vertebra 6",
+      "voxel_count": 13174,
+      "approx_volume": 13174.0,
+      "centroid": [
+        157.58698952482163,
+        29.58903901624412,
+        8.757932290875967
+      ],
+      "bounding_box": {
+        "width": 71.0,
+        "height": 56.0,
+        "depth": 14.0
+      },
+      "pca_lengths": [
+        78.87750316037553,
+        48.28118093760096,
+        13.364363766549008
+      ],
+      "principal_axes": [
+        [
+          0.9254223346123338,
+          0.3788688207807762,
+          -0.00720550073498681
+        ],
+        [
+          -0.3789117124454627,
+          0.9254135726114145,
+          -0.005969405181898039
+        ],
+        [
+          0.004406446675589953,
+          0.00825446950219993,
+          0.9999562225222324
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.7724864451201318,
+        0.18649506278761271,
+        0.04101849209225552
+      ],
+      "quality": {
+        "component_count": 9,
+        "largest_component_percent": 1.5054860933911711,
+        "flagged": true,
+        "reason": "Multiple components (9); Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_7": {
+      "class_id": 7,
+      "name": "Vertebra 7",
+      "voxel_count": 7377,
+      "approx_volume": 7377.0,
+      "centroid": [
+        162.2248881659211,
+        7.520536803578691,
+        8.441371831367764
+      ],
+      "bounding_box": {
+        "width": 69.0,
+        "height": 27.0,
+        "depth": 14.0
+      },
+      "pca_lengths": [
+        68.06516945774257,
+        26.406015295700886,
+        13.163723670195047
+      ],
+      "principal_axes": [
+        [
+          0.9861297315369518,
+          0.16487165819741054,
+          -0.0191177640453971
+        ],
+        [
+          -0.16397370869392225,
+          0.9855859650176494,
+          0.04162845682210393
+        ],
+        [
+          0.025705552630122006,
+          -0.037916248277819864,
+          0.9989502403425882
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.8694561812967404,
+        0.08736411193296915,
+        0.04317970677029038
+      ],
+      "quality": {
+        "component_count": 5,
+        "largest_component_percent": 2.7856365614798695,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    },
+    "vertebra_8_100": {
+      "class_id": 8,
+      "name": "Vertebra 8 (100)",
+      "voxel_count": 18252,
+      "approx_volume": 18252.0,
+      "centroid": [
+        161.66617357001974,
+        101.61648038571116,
+        8.393710278325663
+      ],
+      "bounding_box": {
+        "width": 40.0,
+        "height": 203.0,
+        "depth": 10.0
+      },
+      "pca_lengths": [
+        202.26640902038622,
+        38.30405439829798,
+        9.197224009641142
+      ],
+      "principal_axes": [
+        [
+          0.012386963389324476,
+          0.9999084597150086,
+          -0.005443833975340344
+        ],
+        [
+          0.9999193206347546,
+          -0.012371412615311524,
+          0.002881036485847895
+        ],
+        [
+          -0.002813424838628722,
+          0.005479082063744218,
+          0.9999810319703152
+        ]
+      ],
+      "pc_explained_variance_ratios": [
+        0.9841225593669711,
+        0.014652935181573368,
+        0.0012245054514554749
+      ],
+      "quality": {
+        "component_count": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      "state_variables": {
+        "alignment_offset": 0.0,
+        "relative_load_index": 1.0
+      }
+    }
+  },
+  "alignment": {
+    "description": "Global spine orientation axes derived from PCA of vertebral centroids (voxel units).",
+    "methodology": "PCA performed on the (X, Y, Z) centroids of all identified vertebral bodies.",
+    "axes": {
+      "superior_inferior_axis": [
+        -0.0702179956149157,
+        0.9975045500057906,
+        -0.007355665134362812
+      ],
+      "anterior_posterior_axis": [
+        0.9974827804664207,
+        0.07028564988212317,
+        0.009382435378197659
+      ],
+      "left_right_axis": [
+        -0.00987601968417143,
+        0.006678333504160611,
+        0.9999289295228961
+      ]
+    },
+    "explained_variance_ratios": {
+      "superior_inferior_pc_ratio": 0.9934423999610522,
+      "anterior_posterior_pc_ratio": 0.00653861804639657,
+      "left_right_pc_ratio": 1.8981992551195642e-05
+    },
+    "vertebra_names_used": [
+      "Vertebra 1",
+      "Vertebra 2",
+      "Vertebra 3",
+      "Vertebra 4",
+      "Vertebra 5",
+      "Vertebra 6",
+      "Vertebra 7",
+      "Vertebra 8 (100)"
+    ]
+  },
+  "quality_metrics": {
+    "total_flagged_structures": 14,
+    "flagged_structure_names": [
+      "Vertebra 1",
+      "Vertebra 2",
+      "Vertebra 3",
+      "Vertebra 4",
+      "Vertebra 5",
+      "Vertebra 6",
+      "Vertebra 7",
+      "Vertebra 8 (100)",
+      "Disc 1 (201)",
+      "Disc 2 (202)",
+      "Disc 3 (203)",
+      "Disc 4 (204)",
+      "Disc 5 (205)",
+      "Disc 6 (206/207)"
+    ],
+    "component_analysis": [
+      {
+        "name": "Vertebra 1",
+        "component_count": 5,
+        "total_vertices": 7693,
+        "largest_component_vertices": 14,
+        "second_largest_component_vertices": 6,
+        "largest_component_percent": 0.18198362147406735,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 2",
+        "component_count": 5,
+        "total_vertices": 7897,
+        "largest_component_vertices": 142,
+        "second_largest_component_vertices": 14,
+        "largest_component_percent": 1.7981511966569583,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 3",
+        "component_count": 0,
+        "total_vertices": 8046,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 4",
+        "component_count": 3,
+        "total_vertices": 7967,
+        "largest_component_vertices": 6,
+        "second_largest_component_vertices": 5,
+        "largest_component_percent": 0.07531065645788879,
+        "flagged": true,
+        "reason": "Multiple components (3); Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 5",
+        "component_count": 5,
+        "total_vertices": 7789,
+        "largest_component_vertices": 14,
+        "second_largest_component_vertices": 14,
+        "largest_component_percent": 0.17974065990499422,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 6",
+        "component_count": 9,
+        "total_vertices": 7838,
+        "largest_component_vertices": 118,
+        "second_largest_component_vertices": 70,
+        "largest_component_percent": 1.5054860933911711,
+        "flagged": true,
+        "reason": "Multiple components (9); Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 7",
+        "component_count": 5,
+        "total_vertices": 4595,
+        "largest_component_vertices": 128,
+        "second_largest_component_vertices": 42,
+        "largest_component_percent": 2.7856365614798695,
+        "flagged": true,
+        "reason": "Multiple components (5); Largest component <98% of total"
+      },
+      {
+        "name": "Vertebra 8 (100)",
+        "component_count": 0,
+        "total_vertices": 10743,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Disc 1 (201)",
+        "component_count": 0,
+        "total_vertices": 2333,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Disc 2 (202)",
+        "component_count": 1,
+        "total_vertices": 2167,
+        "largest_component_vertices": 20,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.9229349330872173,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Disc 3 (203)",
+        "component_count": 0,
+        "total_vertices": 1842,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Disc 4 (204)",
+        "component_count": 0,
+        "total_vertices": 1956,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Disc 5 (205)",
+        "component_count": 0,
+        "total_vertices": 1779,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      },
+      {
+        "name": "Disc 6 (206/207)",
+        "component_count": 0,
+        "total_vertices": 2667,
+        "largest_component_vertices": 0,
+        "second_largest_component_vertices": 0,
+        "largest_component_percent": 0.0,
+        "flagged": true,
+        "reason": "Largest component <98% of total"
+      }
+    ]
+  },
+  "intervention_history": []
+}

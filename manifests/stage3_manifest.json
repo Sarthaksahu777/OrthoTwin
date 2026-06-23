@@ -1,0 +1,26 @@
+{
+  "generated_utc": "2026-06-20T23:25:41.898793+00:00",
+  "stage": "OrthoTwin Stage 3",
+  "outputs": {
+    "propagation_rules": "C:\\OrthoTwin\\OrthoTwin\\simulation\\propagation\\propagation_rules.json",
+    "disc_collapse_simulation": "C:\\OrthoTwin\\OrthoTwin\\state\\transitions\\disc_collapse_simulation.json",
+    "disc_restoration_simulation": "C:\\OrthoTwin\\OrthoTwin\\state\\transitions\\disc_restoration_simulation.json",
+    "fusion_simulation": "C:\\OrthoTwin\\OrthoTwin\\state\\transitions\\fusion_simulation.json",
+    "implant_simulation": "C:\\OrthoTwin\\OrthoTwin\\state\\transitions\\implant_simulation.json",
+    "cascade_analysis": "C:\\OrthoTwin\\OrthoTwin\\state\\transitions\\cascade_analysis.json",
+    "whole_spine_delta_report": "C:\\OrthoTwin\\OrthoTwin\\state\\transitions\\whole_spine_delta_report.json",
+    "intervention_comparison": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase3\\intervention_comparison.json",
+    "stage3_report": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase3\\stage3_biomechanics_report.txt",
+    "propagation_graph": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\propagation_graph.png",
+    "affected_structures_map": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\affected_structures_map.png",
+    "load_redistribution_plot": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\load_redistribution_plot.png",
+    "before_after_alignment_plot": "C:\\OrthoTwin\\OrthoTwin\\visualization\\simulation\\before_after_alignment_plot.png"
+  },
+  "all_outputs_exist": true,
+  "verification": {
+    "interventions_affect_more_than_one_structure": true,
+    "spine_behaves_as_connected_system": true,
+    "orthtwin2_files_discovered": [],
+    "orthtwin2_arrangement_note": "No files matching orthtwin2/OrthoTwin2 were found during Stage 3 discovery."
+  }
+}

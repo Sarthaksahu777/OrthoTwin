@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2026-06-21T12:41:00.951318+00:00",
+  "decision": "calibration still blocked",
+  "confidence": "LOW",
+  "trusted_calibration_recovered": false,
+  "reasoning": [
+    "Patient Alpha linkage confidence: MEDIUM.",
+    "Traceback status: PARTIAL_TRACE_ONLY.",
+    "Candidate spacing groups: 538.",
+    "Candidate metadata exists only if it can be linked to the active reconstruction. Without that chain, calibrated measurements are not generated."
+  ],
+  "evidence_chain": {
+    "linkage_confidence": "MEDIUM",
+    "trusted_image_link_found": false,
+    "can_trace_reconstruction_to_specific_metadata_source": false,
+    "automatic_spacing_winner_selected": false
+  }
+}

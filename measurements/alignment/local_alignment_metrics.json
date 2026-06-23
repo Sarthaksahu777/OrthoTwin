@@ -1,0 +1,79 @@
+{
+  "patient_id": "patient_alpha",
+  "vertebral_pair_alignment": {
+    "vertebra_1__vertebra_2": {
+      "above": "vertebra_1",
+      "below": "vertebra_2",
+      "angle_difference_degrees": 18.202620311918555,
+      "tilt_difference_degrees": 18.200892134118945,
+      "orientation_difference_degrees": 81.95504566362789
+    },
+    "vertebra_2__vertebra_3": {
+      "above": "vertebra_2",
+      "below": "vertebra_3",
+      "angle_difference_degrees": 10.096141384536779,
+      "tilt_difference_degrees": 10.073895788092997,
+      "orientation_difference_degrees": 87.69154052773379
+    },
+    "vertebra_3__vertebra_4": {
+      "above": "vertebra_3",
+      "below": "vertebra_4",
+      "angle_difference_degrees": 6.330828994699551,
+      "tilt_difference_degrees": 6.330700788449477,
+      "orientation_difference_degrees": 94.03010079417561
+    },
+    "vertebra_4__vertebra_5": {
+      "above": "vertebra_4",
+      "below": "vertebra_5",
+      "angle_difference_degrees": 1.0890469573676624,
+      "tilt_difference_degrees": 1.0099082119804308,
+      "orientation_difference_degrees": 100.66585431468901
+    },
+    "vertebra_5__vertebra_6": {
+      "above": "vertebra_5",
+      "below": "vertebra_6",
+      "angle_difference_degrees": 6.602873634879557,
+      "tilt_difference_degrees": 6.602726812278462,
+      "orientation_difference_degrees": 97.49807274729051
+    },
+    "vertebra_6__vertebra_7": {
+      "above": "vertebra_6",
+      "below": "vertebra_7",
+      "angle_difference_degrees": 12.789752775122631,
+      "tilt_difference_degrees": 12.772711704643868,
+      "orientation_difference_degrees": 100.38852674317087
+    }
+  },
+  "disc_alignment": {
+    "disc_1_201": {
+      "disc_name": "Disc 1 (201)",
+      "disc_angle_degrees": 125.79084702648754,
+      "disc_tilt_degrees": 121.76589306413977
+    },
+    "disc_2_202": {
+      "disc_name": "Disc 2 (202)",
+      "disc_angle_degrees": 109.16573394393457,
+      "disc_tilt_degrees": 105.17496618738325
+    },
+    "disc_3_203": {
+      "disc_name": "Disc 3 (203)",
+      "disc_angle_degrees": 97.5576686743756,
+      "disc_tilt_degrees": 93.57254968984844
+    },
+    "disc_4_204": {
+      "disc_name": "Disc 4 (204)",
+      "disc_angle_degrees": 88.33466211871043,
+      "disc_tilt_degrees": 84.32940151973528
+    },
+    "disc_5_205": {
+      "disc_name": "Disc 5 (205)",
+      "disc_angle_degrees": 90.36565241895813,
+      "disc_tilt_degrees": 86.35940073950229
+    },
+    "disc_6_206_207": {
+      "disc_name": "Disc 6 (206/207)",
+      "disc_angle_degrees": 85.9992461272594,
+      "disc_tilt_degrees": 81.96957698537713
+    }
+  }
+}

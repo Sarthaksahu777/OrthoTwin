@@ -1,0 +1,139 @@
+{
+  "generated_utc": "2026-06-21T06:18:05.383452+00:00",
+  "scope": "Honesty check for geometry-aware surgery simulations.",
+  "surgeries": {
+    "implant": {
+      "what_is_geometric": [
+        "Disc height/space change",
+        "Adjacent vertebra centroid translation",
+        "Graph relationship or surgical object creation",
+        "Measurement rebuild from modified geometry proxies"
+      ],
+      "what_is_estimated": [
+        "Load redistribution proxy",
+        "Stress/risk scalar proxy",
+        "Curvature from centroid angles",
+        "Foraminal/canal consequences through simplified geometry"
+      ],
+      "what_is_unknown": [
+        "Material properties",
+        "Patient-specific tissue response",
+        "Implant/device physics",
+        "True post-operative biomechanics"
+      ],
+      "what_requires_biomechanics": [
+        "Finite element stress/strain",
+        "Boundary conditions",
+        "Muscle/ligament forces",
+        "Contact mechanics"
+      ],
+      "what_requires_clinical_validation": [
+        "Measurement accuracy",
+        "Surgical outcome realism",
+        "Longitudinal progression",
+        "Decision support validity"
+      ],
+      "clinical_validity_claim": "none"
+    },
+    "fusion": {
+      "what_is_geometric": [
+        "Disc height/space change",
+        "Adjacent vertebra centroid translation",
+        "Graph relationship or surgical object creation",
+        "Measurement rebuild from modified geometry proxies"
+      ],
+      "what_is_estimated": [
+        "Load redistribution proxy",
+        "Stress/risk scalar proxy",
+        "Curvature from centroid angles",
+        "Foraminal/canal consequences through simplified geometry"
+      ],
+      "what_is_unknown": [
+        "Material properties",
+        "Patient-specific tissue response",
+        "Implant/device physics",
+        "True post-operative biomechanics"
+      ],
+      "what_requires_biomechanics": [
+        "Finite element stress/strain",
+        "Boundary conditions",
+        "Muscle/ligament forces",
+        "Contact mechanics"
+      ],
+      "what_requires_clinical_validation": [
+        "Measurement accuracy",
+        "Surgical outcome realism",
+        "Longitudinal progression",
+        "Decision support validity"
+      ],
+      "clinical_validity_claim": "none"
+    },
+    "spacer": {
+      "what_is_geometric": [
+        "Disc height/space change",
+        "Adjacent vertebra centroid translation",
+        "Graph relationship or surgical object creation",
+        "Measurement rebuild from modified geometry proxies"
+      ],
+      "what_is_estimated": [
+        "Load redistribution proxy",
+        "Stress/risk scalar proxy",
+        "Curvature from centroid angles",
+        "Foraminal/canal consequences through simplified geometry"
+      ],
+      "what_is_unknown": [
+        "Material properties",
+        "Patient-specific tissue response",
+        "Implant/device physics",
+        "True post-operative biomechanics"
+      ],
+      "what_requires_biomechanics": [
+        "Finite element stress/strain",
+        "Boundary conditions",
+        "Muscle/ligament forces",
+        "Contact mechanics"
+      ],
+      "what_requires_clinical_validation": [
+        "Measurement accuracy",
+        "Surgical outcome realism",
+        "Longitudinal progression",
+        "Decision support validity"
+      ],
+      "clinical_validity_claim": "none"
+    },
+    "alignment_correction": {
+      "what_is_geometric": [
+        "Disc height/space change",
+        "Adjacent vertebra centroid translation",
+        "Graph relationship or surgical object creation",
+        "Measurement rebuild from modified geometry proxies"
+      ],
+      "what_is_estimated": [
+        "Load redistribution proxy",
+        "Stress/risk scalar proxy",
+        "Curvature from centroid angles",
+        "Foraminal/canal consequences through simplified geometry"
+      ],
+      "what_is_unknown": [
+        "Material properties",
+        "Patient-specific tissue response",
+        "Implant/device physics",
+        "True post-operative biomechanics"
+      ],
+      "what_requires_biomechanics": [
+        "Finite element stress/strain",
+        "Boundary conditions",
+        "Muscle/ligament forces",
+        "Contact mechanics"
+      ],
+      "what_requires_clinical_validation": [
+        "Measurement accuracy",
+        "Surgical outcome realism",
+        "Longitudinal progression",
+        "Decision support validity"
+      ],
+      "clinical_validity_claim": "none"
+    }
+  },
+  "not_medical_advice": true
+}

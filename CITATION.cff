@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "OrthoTwin"
+message: "If you use OrthoTwin, please cite it as a research prototype."
+type: software
+authors:
+  - name: "OrthoTwin contributors"
+version: "1.0"
+date-released: "2026-06-22"
+abstract: "MRI-to-digital twin research prototype for spine reconstruction, state modeling, geometry-aware intervention simulation, and mesh-level anatomical transformation."
+keywords:
+  - medical imaging
+  - digital twin
+  - spine
+  - mesh
+  - research prototype
+license: MIT
+repository-code: "https://github.com/your-username/orthotwin"

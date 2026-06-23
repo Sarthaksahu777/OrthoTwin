@@ -1,0 +1,37 @@
+{
+  "generated_utc": "2026-06-20T23:25:40.455278+00:00",
+  "ranked_interventions": [
+    {
+      "intervention": "fusion",
+      "alignment_impact": 0.0,
+      "load_impact": 0.7366566297253174,
+      "affected_structures": 8,
+      "rank_score": 1.9314954833763929,
+      "rank": 1
+    },
+    {
+      "intervention": "collapse",
+      "alignment_impact": 1.5999999999999943,
+      "load_impact": 0.43000000000000016,
+      "affected_structures": 5,
+      "rank_score": 1.753499999999998,
+      "rank": 2
+    },
+    {
+      "intervention": "implant",
+      "alignment_impact": 1.5,
+      "load_impact": 0.485625,
+      "affected_structures": 5,
+      "rank_score": 1.7435312499999998,
+      "rank": 3
+    },
+    {
+      "intervention": "restoration",
+      "alignment_impact": 1.0,
+      "load_impact": 0.2885,
+      "affected_structures": 5,
+      "rank_score": 1.479825,
+      "rank": 4
+    }
+  ]
+}

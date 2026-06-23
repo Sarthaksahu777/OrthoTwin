@@ -1,0 +1,59 @@
+{
+  "generated_utc": "2026-06-20T23:33:47.074853+00:00",
+  "disc_degeneration_features": {
+    "disc_1_201": {
+      "disc_name": "Disc 1 (201)",
+      "height_loss_percent": 26.28302038212102,
+      "volume_loss_percent": 35.14328808446455,
+      "relative_collapse_score": 0.29827127463058434,
+      "shape_irregularity_score": 0.37966024236013174,
+      "not_diagnosis": true,
+      "method": "relative_geometry_score_against_patient_internal_reference"
+    },
+    "disc_2_202": {
+      "disc_name": "Disc 2 (202)",
+      "height_loss_percent": 30.242312196456588,
+      "volume_loss_percent": 0.0,
+      "relative_collapse_score": 0.1814538731787395,
+      "shape_irregularity_score": 0.341817427404134,
+      "not_diagnosis": true,
+      "method": "relative_geometry_score_against_patient_internal_reference"
+    },
+    "disc_3_203": {
+      "disc_name": "Disc 3 (203)",
+      "height_loss_percent": 33.45764880124925,
+      "volume_loss_percent": 12.198340874811462,
+      "relative_collapse_score": 0.24953925630674134,
+      "shape_irregularity_score": 0.31895146356457577,
+      "not_diagnosis": true,
+      "method": "relative_geometry_score_against_patient_internal_reference"
+    },
+    "disc_4_204": {
+      "disc_name": "Disc 4 (204)",
+      "height_loss_percent": 0.0,
+      "volume_loss_percent": 21.681749622926095,
+      "relative_collapse_score": 0.08672699849170439,
+      "shape_irregularity_score": 0.3632849985026085,
+      "not_diagnosis": true,
+      "method": "relative_geometry_score_against_patient_internal_reference"
+    },
+    "disc_5_205": {
+      "disc_name": "Disc 5 (205)",
+      "height_loss_percent": 47.99306361624176,
+      "volume_loss_percent": 42.81674208144796,
+      "relative_collapse_score": 0.4592253500232424,
+      "shape_irregularity_score": 0.3869955889662504,
+      "not_diagnosis": true,
+      "method": "relative_geometry_score_against_patient_internal_reference"
+    },
+    "disc_6_206_207": {
+      "disc_name": "Disc 6 (206/207)",
+      "height_loss_percent": 42.81874305294938,
+      "volume_loss_percent": 52.79034690799397,
+      "relative_collapse_score": 0.46807384594967216,
+      "shape_irregularity_score": 0.21895805018366302,
+      "not_diagnosis": true,
+      "method": "relative_geometry_score_against_patient_internal_reference"
+    }
+  }
+}

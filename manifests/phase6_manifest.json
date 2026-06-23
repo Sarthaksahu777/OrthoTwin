@@ -1,0 +1,127 @@
+{
+  "generated_utc": "2026-06-21T05:29:24.630641+00:00",
+  "phase": "phase6_longitudinal_evidence_engine",
+  "summary": {
+    "total_files_generated": 23,
+    "total_states": 8,
+    "total_scenarios": 10,
+    "total_future_states": 16,
+    "digital_twin_readiness_score": 5.285714285714286,
+    "research_readiness_score": 6.0,
+    "engineering_readiness_score": 7.0,
+    "most_important_remaining_limitation": "Trusted Patient Alpha physical spacing and patient-specific longitudinal validation are missing."
+  },
+  "files": [
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\time_model.json",
+      "exists": true,
+      "size": 949
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\natural_progression_rules.json",
+      "exists": true,
+      "size": 903
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\future_state_0_months.json",
+      "exists": true,
+      "size": 32612
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\future_state_6_months.json",
+      "exists": true,
+      "size": 40265
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\future_state_1_year.json",
+      "exists": true,
+      "size": 40225
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\future_state_2_years.json",
+      "exists": true,
+      "size": 40245
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\future_state_5_years.json",
+      "exists": true,
+      "size": 40189
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\longitudinal\\future_state_10_years.json",
+      "exists": true,
+      "size": 40266
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\longitudinal\\progression_curvature.png",
+      "exists": true,
+      "size": 62696
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\longitudinal\\progression_disc_height.png",
+      "exists": true,
+      "size": 68069
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\longitudinal\\progression_load_distribution.png",
+      "exists": true,
+      "size": 47948
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\longitudinal\\progression_alignment.png",
+      "exists": true,
+      "size": 60666
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase6\\evidence\\evidence_rule_registry.json",
+      "exists": true,
+      "size": 3091
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase6\\evidence\\assumption_registry.json",
+      "exists": true,
+      "size": 3760
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase6\\evidence\\traceability_map.json",
+      "exists": true,
+      "size": 2983
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase6\\confidence_scoring.json",
+      "exists": true,
+      "size": 1383
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase6\\failure_modes.json",
+      "exists": true,
+      "size": 1772
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\master_digital_twin_state.json",
+      "exists": true,
+      "size": 111997
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase6\\master_dashboard.json",
+      "exists": true,
+      "size": 13759
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase6\\repository_knowledge_graph.json",
+      "exists": true,
+      "size": 9453
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase6\\orthotwin_research_summary.md",
+      "exists": true,
+      "size": 1519
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase6\\orthotwin_system_assessment.json",
+      "exists": true,
+      "size": 938
+    }
+  ],
+  "all_files_exist": true
+}

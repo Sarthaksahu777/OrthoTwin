@@ -1,0 +1,87 @@
+{
+  "generated_utc": "2026-06-21T06:18:05.394686+00:00",
+  "phase": "phase7_geometry_aware_surgery_engine",
+  "files": [
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\surgical_object_schema.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\surgical_objects.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\implant_geometry_result.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\fusion_geometry_result.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\spacer_geometry_result.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\alignment_geometry_result.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\surgical_comparison_matrix.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\surgical_dashboard.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\phase7_limitations.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\phase7_geometry_aware_surgery_report.txt",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_implant.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_fusion.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_spacer.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\state\\surgery\\rebuilt_state_alignment_correction.json",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\surgery\\implant_before_after.png",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\surgery\\fusion_before_after.png",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\surgery\\spacer_before_after.png",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\surgery\\alignment_before_after.png",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\visualization\\surgery\\surgical_heatmap.png",
+      "exists": true
+    },
+    {
+      "path": "C:\\OrthoTwin\\OrthoTwin\\reports\\phase7\\phase7_validation_report.json",
+      "exists": true
+    }
+  ],
+  "all_files_exist": true
+}

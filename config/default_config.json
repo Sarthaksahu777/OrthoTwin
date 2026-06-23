@@ -1,0 +1,10 @@
+{
+  "patient_id": "patient_alpha",
+  "version": "1.0",
+  "deterministic_only": true,
+  "default_demo_intervention": {
+    "type": "disc_height_restoration",
+    "target": "disc_6_206_207",
+    "new_height": 18.0
+  }
+}

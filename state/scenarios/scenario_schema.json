@@ -1,0 +1,19 @@
+{
+  "schema_name": "orthtwin_scenario_v1",
+  "not_medical_advice": true,
+  "required_fields": {
+    "id": "Stable scenario identifier.",
+    "name": "Human-readable scenario name.",
+    "intervention": "Deterministic intervention type.",
+    "parameters": "Intervention parameters.",
+    "before_state": "Pre-action state summary.",
+    "after_state": "Post-action state summary.",
+    "affected_structures": "Direct and propagated structures.",
+    "metrics_changed": "Changed metrics with deltas."
+  },
+  "optional_fields": {
+    "future_state_file": "Path to full simulated future state.",
+    "graph_updates": "Graph changes for scenarios such as fusion.",
+    "scoring": "Internal scenario comparison scores."
+  }
+}

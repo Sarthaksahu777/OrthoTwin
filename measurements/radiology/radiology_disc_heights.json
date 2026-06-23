@@ -1,0 +1,113 @@
+{
+  "generated_utc": "2026-06-20T23:33:46.992114+00:00",
+  "disc_heights": {
+    "disc_1_201": {
+      "disc_name": "Disc 1 (201)",
+      "mean_height": 14.178814868882478,
+      "maximum_height": 16.357344960706456,
+      "minimum_height": 9.505047144780889,
+      "anterior_height": 15.33417299441632,
+      "posterior_height": 13.340164283802267,
+      "left_height": 16.357344960706456,
+      "right_height": 9.505047144780889,
+      "height_axis": [
+        -0.1844430937079675,
+        0.8305600870331767,
+        0.5255004158046656
+      ],
+      "method": "mesh_vertex_projection_on_local_minor_pca_axis",
+      "uses_bounding_box": false,
+      "units": "voxel units"
+    },
+    "disc_2_202": {
+      "disc_name": "Disc 2 (202)",
+      "mean_height": 13.41727979326836,
+      "maximum_height": 17.096713710594813,
+      "minimum_height": 8.189519509106653,
+      "anterior_height": 8.189519509106653,
+      "posterior_height": 8.567149180422057,
+      "left_height": 16.570599320624083,
+      "right_height": 16.6624172455942,
+      "height_axis": [
+        0.9737639294809974,
+        -0.22395941533194685,
+        -0.04032356539171292
+      ],
+      "method": "mesh_vertex_projection_on_local_minor_pca_axis",
+      "uses_bounding_box": false,
+      "units": "voxel units"
+    },
+    "disc_3_203": {
+      "disc_name": "Disc 3 (203)",
+      "mean_height": 12.798837981126628,
+      "maximum_height": 13.986189730171958,
+      "minimum_height": 11.106911831633681,
+      "anterior_height": 11.106911831633681,
+      "posterior_height": 12.707661266271558,
+      "left_height": 12.997339889109881,
+      "right_height": 13.196087188446057,
+      "height_axis": [
+        -0.31666899853506997,
+        0.9477404595793137,
+        0.03884284545687544
+      ],
+      "method": "mesh_vertex_projection_on_local_minor_pca_axis",
+      "uses_bounding_box": false,
+      "units": "voxel units"
+    },
+    "disc_4_204": {
+      "disc_name": "Disc 4 (204)",
+      "mean_height": 19.234123457553615,
+      "maximum_height": 23.86334651166532,
+      "minimum_height": 10.100926470208655,
+      "anterior_height": 23.86334651166532,
+      "posterior_height": 10.100926470208655,
+      "left_height": 23.386523522552096,
+      "right_height": 14.956474271676683,
+      "height_axis": [
+        0.7511887775347535,
+        -0.6533342115986884,
+        0.09417976672599293
+      ],
+      "method": "mesh_vertex_projection_on_local_minor_pca_axis",
+      "uses_bounding_box": false,
+      "units": "voxel units"
+    },
+    "disc_5_205": {
+      "disc_name": "Disc 5 (205)",
+      "mean_height": 10.00307835054343,
+      "maximum_height": 10.752192753395526,
+      "minimum_height": 8.6813597125468,
+      "anterior_height": 10.365591417763795,
+      "posterior_height": 9.464055115615501,
+      "left_height": 10.752192753395526,
+      "right_height": 8.6813597125468,
+      "height_axis": [
+        -0.10053294484944585,
+        0.9932398750833914,
+        -0.05803169430774646
+      ],
+      "method": "mesh_vertex_projection_on_local_minor_pca_axis",
+      "uses_bounding_box": false,
+      "units": "voxel units"
+    },
+    "disc_6_206_207": {
+      "disc_name": "Disc 6 (206/207)",
+      "mean_height": 10.998313555776669,
+      "maximum_height": 14.85612584289715,
+      "minimum_height": 5.3387597976003,
+      "anterior_height": 5.3387597976003,
+      "posterior_height": 6.56329804942068,
+      "left_height": 13.590733886058043,
+      "right_height": 14.642650202907172,
+      "height_axis": [
+        0.9998901343228668,
+        0.012618292966482312,
+        0.007778043867933383
+      ],
+      "method": "mesh_vertex_projection_on_local_minor_pca_axis",
+      "uses_bounding_box": false,
+      "units": "voxel units"
+    }
+  }
+}

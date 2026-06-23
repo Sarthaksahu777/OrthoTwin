@@ -1,0 +1,77 @@
+{
+    "total_structures": 14,
+    "total_vertices": 75312,
+    "total_faces": 147636,
+    "per_class_stats": [
+        {
+            "class": "Vertebra 1",
+            "vertices": 7693,
+            "faces": 14976
+        },
+        {
+            "class": "Vertebra 2",
+            "vertices": 7897,
+            "faces": 15372
+        },
+        {
+            "class": "Vertebra 3",
+            "vertices": 8046,
+            "faces": 15710
+        },
+        {
+            "class": "Vertebra 4",
+            "vertices": 7967,
+            "faces": 15712
+        },
+        {
+            "class": "Vertebra 5",
+            "vertices": 7789,
+            "faces": 15416
+        },
+        {
+            "class": "Vertebra 6",
+            "vertices": 7838,
+            "faces": 15412
+        },
+        {
+            "class": "Vertebra 7",
+            "vertices": 4595,
+            "faces": 8886
+        },
+        {
+            "class": "Vertebra 8 (100)",
+            "vertices": 10743,
+            "faces": 21458
+        },
+        {
+            "class": "Disc 1 (201)",
+            "vertices": 2333,
+            "faces": 4562
+        },
+        {
+            "class": "Disc 2 (202)",
+            "vertices": 2167,
+            "faces": 4168
+        },
+        {
+            "class": "Disc 3 (203)",
+            "vertices": 1842,
+            "faces": 3528
+        },
+        {
+            "class": "Disc 4 (204)",
+            "vertices": 1956,
+            "faces": 3774
+        },
+        {
+            "class": "Disc 5 (205)",
+            "vertices": 1779,
+            "faces": 3470
+        },
+        {
+            "class": "Disc 6 (206/207)",
+            "vertices": 2667,
+            "faces": 5192
+        }
+    ]
+}

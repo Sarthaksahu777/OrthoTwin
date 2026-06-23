@@ -1,0 +1,55 @@
+{
+  "generated_utc": "2026-06-22T14:57:57.102806+00:00",
+  "items": {
+    "LICENSE": {
+      "path": "LICENSE",
+      "status": "MISSING",
+      "required": true
+    },
+    ".gitignore": {
+      "path": ".gitignore",
+      "status": "EXISTS",
+      "required": true
+    },
+    "requirements.txt": {
+      "path": "requirements.txt",
+      "status": "MISSING",
+      "required": true
+    },
+    "CONTRIBUTING.md": {
+      "path": "CONTRIBUTING.md",
+      "status": "MISSING",
+      "required": true
+    },
+    "SECURITY.md": {
+      "path": "SECURITY.md",
+      "status": "MISSING",
+      "required": true
+    },
+    "CODE_OF_CONDUCT.md": {
+      "path": "CODE_OF_CONDUCT.md",
+      "status": "MISSING",
+      "required": true
+    },
+    "CITATION.cff": {
+      "path": "CITATION.cff",
+      "status": "MISSING",
+      "required": true
+    },
+    ".github/workflows/ci.yml": {
+      "path": ".github\\workflows\\ci.yml",
+      "status": "MISSING",
+      "required": true
+    },
+    ".github/ISSUE_TEMPLATE/": {
+      "path": ".github\\ISSUE_TEMPLATE",
+      "status": "MISSING",
+      "required": true
+    },
+    ".github/PULL_REQUEST_TEMPLATE.md": {
+      "path": ".github\\PULL_REQUEST_TEMPLATE.md",
+      "status": "MISSING",
+      "required": true
+    }
+  }
+}

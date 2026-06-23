@@ -1,0 +1,22 @@
+{
+  "generated_utc": "2026-06-21T05:29:24.627893+00:00",
+  "classification": "Digital Twin Prototype",
+  "available_classes": [
+    "Data Pipeline",
+    "Measurement Engine",
+    "Simulation Framework",
+    "Digital Twin Prototype",
+    "Advanced Digital Twin",
+    "Research Platform"
+  ],
+  "justification": [
+    "The system has structured patient state, graph connectivity, deterministic propagation, scenario comparison, and longitudinal evolution.",
+    "It lacks trusted physical calibration, validated biomechanics, patient-specific longitudinal data, and clinical validation.",
+    "Therefore it is stronger than a measurement-only pipeline but not an advanced or clinically validated digital twin."
+  ],
+  "digital_twin_readiness_score": 5.285714285714286,
+  "research_readiness_score": 6.0,
+  "engineering_readiness_score": 7.0,
+  "regulatory_readiness_claim": "none",
+  "clinical_validity_claim": "none"
+}

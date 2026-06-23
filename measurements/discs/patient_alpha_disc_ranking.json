@@ -1,0 +1,56 @@
+[
+    {
+        "class_id": 14,
+        "name": "Disc 6 (206/207)",
+        "height": 15.0,
+        "volume": 2504.0,
+        "height_zscore": -1.4142135323730944,
+        "volume_zscore": -1.4038109677191482,
+        "severity_score": 1.0
+    },
+    {
+        "class_id": 13,
+        "name": "Disc 5 (205)",
+        "height": 15.0,
+        "volume": 3033.0,
+        "height_zscore": -1.4142135323730944,
+        "volume_zscore": -0.8515432419456508,
+        "severity_score": 0.8905203096016857
+    },
+    {
+        "class_id": 9,
+        "name": "Disc 1 (201)",
+        "height": 16.0,
+        "volume": 3440.0,
+        "height_zscore": 0.7071067661865491,
+        "volume_zscore": -0.426641607938442,
+        "severity_score": 0.3857658656001095
+    },
+    {
+        "class_id": 12,
+        "name": "Disc 4 (204)",
+        "height": 16.0,
+        "volume": 4154.0,
+        "height_zscore": 0.7071067661865491,
+        "volume_zscore": 0.3187632242019684,
+        "severity_score": 0.23799932695285728
+    },
+    {
+        "class_id": 11,
+        "name": "Disc 3 (203)",
+        "height": 16.0,
+        "volume": 4657.0,
+        "height_zscore": 0.7071067661865491,
+        "volume_zscore": 0.8438873566482239,
+        "severity_score": 0.13390049090304232
+    },
+    {
+        "class_id": 10,
+        "name": "Disc 2 (202)",
+        "height": 16.0,
+        "volume": 5304.0,
+        "height_zscore": 0.7071067661865491,
+        "volume_zscore": 1.5193452367530496,
+        "severity_score": 0.0
+    }
+]

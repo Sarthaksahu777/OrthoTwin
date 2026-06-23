@@ -1,0 +1,24 @@
+ORTHOTWIN PHASE 4.5 MISSING SPACING REPORT
+
+Physical calibration was stopped.
+
+Reason:
+Repository contains image metadata, but no spacing metadata is reliably linked to the Patient Alpha reconstructed mesh/state.
+
+Why calibration cannot be trusted:
+- Phase 4 measurements were generated from reconstructed mesh/state files stored in voxel units.
+- Raw image metadata exists in the repository, but it is not linked to the active Patient Alpha state vector.
+- A prior runtime report states that voxel spacing was not explicitly available in the loaded mesh data or measurement JSON.
+- Borrowing spacing from an unrelated raw image, dataset sample, or DICOM series would create false physical precision.
+
+Rules followed:
+- No 1 mm voxel assumption was used.
+- No estimated spacing was invented.
+- No segmentation, mask, reconstruction, inference, or training files were modified.
+
+Required to proceed:
+- The original Patient Alpha image header or DICOM series used to create patient_alpha_clean_prediction.npy.
+- A clear mapping from that image to reconstructed_structures.pkl and patient_state_vector_v2.json.
+- Verified voxel spacing, origin, direction/orientation, and axis order for the reconstruction.
+
+Generated UTC: 2026-06-21T05:08:22.720560+00:00

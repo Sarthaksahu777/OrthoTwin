@@ -1,0 +1,30 @@
+# OrthoTwin V1 Repository Health Report
+
+Generated: 2026-06-21T09:52:04.357888+00:00
+
+## Inventory
+- Total files: 148946
+- Total size bytes: 45851725179
+- Reports: 65
+- Measurement files: 103
+- State files: 71
+- Visualizations: 104
+- Manifests: 25
+- Simulation outputs: 53
+
+## Health Checks
+- Broken path references found: 535
+- Duplicate filename groups: 674
+- Duplicate content groups among small files: 45
+- Orphaned files outside expected architecture roots: 9
+
+## Interpretation
+Broken references are repository/documentation references that could not be resolved by a conservative scanner. Some may be historical paths from earlier phases, not runtime failures.
+Duplicate filenames are expected in staged outputs and archives, but they should be reviewed before packaging public releases.
+No files were deleted, moved, or rewritten as part of this release freeze audit.
+
+## Most Important Repository Risk
+Physical calibration remains blocked unless a provably linked Patient Alpha source image/header is recovered.
+
+## Most Valuable Repository Asset
+The connected spine representation plus mesh-level transformation layer now provides a demonstrable digital twin prototype without claiming clinical validity.

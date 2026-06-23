@@ -1,0 +1,149 @@
+{
+  "generated_utc": "2026-06-20T23:33:47.072667+00:00",
+  "canal_measurements": {
+    "vertebra_1": {
+      "vertebra_name": "Vertebra 1",
+      "canal_width": 23.36,
+      "canal_depth": 12.0,
+      "canal_area": 280.32,
+      "centerline_point_used": {
+        "node_id": "vertebra_1",
+        "name": "Vertebra 1",
+        "centroid": [
+          151.51749921457744,
+          172.78071002199184,
+          7.4507697141061895
+        ]
+      },
+      "estimate_type": "GEOMETRIC ESTIMATE",
+      "not_diagnosis": true,
+      "method": "vertebral_geometry_scaled_by_centerline_level",
+      "units": "voxel units / voxel squared"
+    },
+    "vertebra_2": {
+      "vertebra_name": "Vertebra 2",
+      "canal_width": 25.6,
+      "canal_depth": 12.0,
+      "canal_area": 307.20000000000005,
+      "centerline_point_used": {
+        "node_id": "vertebra_2",
+        "name": "Vertebra 2",
+        "centroid": [
+          146.32658424416175,
+          142.9962372334707,
+          7.632085050468852
+        ]
+      },
+      "estimate_type": "GEOMETRIC ESTIMATE",
+      "not_diagnosis": true,
+      "method": "vertebral_geometry_scaled_by_centerline_level",
+      "units": "voxel units / voxel squared"
+    },
+    "vertebra_3": {
+      "vertebra_name": "Vertebra 3",
+      "canal_width": 25.92,
+      "canal_depth": 12.0,
+      "canal_area": 311.04,
+      "centerline_point_used": {
+        "node_id": "vertebra_3",
+        "name": "Vertebra 3",
+        "centroid": [
+          147.69211889828196,
+          112.69331878920099,
+          7.8317425688573765
+        ]
+      },
+      "estimate_type": "GEOMETRIC ESTIMATE",
+      "not_diagnosis": true,
+      "method": "vertebral_geometry_scaled_by_centerline_level",
+      "units": "voxel units / voxel squared"
+    },
+    "vertebra_4": {
+      "vertebra_name": "Vertebra 4",
+      "canal_width": 25.6,
+      "canal_depth": 11.25,
+      "canal_area": 288.0,
+      "centerline_point_used": {
+        "node_id": "vertebra_4",
+        "name": "Vertebra 4",
+        "centroid": [
+          150.94194697017866,
+          83.30425383099129,
+          8.599097094169263
+        ]
+      },
+      "estimate_type": "GEOMETRIC ESTIMATE",
+      "not_diagnosis": true,
+      "method": "vertebral_geometry_scaled_by_centerline_level",
+      "units": "voxel units / voxel squared"
+    },
+    "vertebra_5": {
+      "vertebra_name": "Vertebra 5",
+      "canal_width": 24.32,
+      "canal_depth": 11.25,
+      "canal_area": 273.6,
+      "centerline_point_used": {
+        "node_id": "vertebra_5",
+        "name": "Vertebra 5",
+        "centroid": [
+          153.86433004746257,
+          55.52208835341366,
+          8.410806863818912
+        ]
+      },
+      "estimate_type": "GEOMETRIC ESTIMATE",
+      "not_diagnosis": true,
+      "method": "vertebral_geometry_scaled_by_centerline_level",
+      "units": "voxel units / voxel squared"
+    },
+    "vertebra_6": {
+      "vertebra_name": "Vertebra 6",
+      "canal_width": 22.72,
+      "canal_depth": 10.5,
+      "canal_area": 238.56,
+      "centerline_point_used": {
+        "node_id": "vertebra_6",
+        "name": "Vertebra 6",
+        "centroid": [
+          157.58698952482163,
+          29.58903901624412,
+          8.757932290875967
+        ]
+      },
+      "estimate_type": "GEOMETRIC ESTIMATE",
+      "not_diagnosis": true,
+      "method": "vertebral_geometry_scaled_by_centerline_level",
+      "units": "voxel units / voxel squared"
+    },
+    "vertebra_7": {
+      "vertebra_name": "Vertebra 7",
+      "canal_width": 22.080000000000002,
+      "canal_depth": 10.5,
+      "canal_area": 231.84000000000003,
+      "centerline_point_used": {
+        "node_id": "vertebra_7",
+        "name": "Vertebra 7",
+        "centroid": [
+          162.2248881659211,
+          7.520536803578691,
+          8.441371831367764
+        ]
+      },
+      "estimate_type": "GEOMETRIC ESTIMATE",
+      "not_diagnosis": true,
+      "method": "vertebral_geometry_scaled_by_centerline_level",
+      "units": "voxel units / voxel squared"
+    },
+    "vertebra_8_100": {
+      "vertebra_name": "Vertebra 8 (100)",
+      "canal_width": 12.8,
+      "canal_depth": 7.5,
+      "canal_area": 96.0,
+      "centerline_point_used": null,
+      "estimate_type": "GEOMETRIC ESTIMATE",
+      "not_diagnosis": true,
+      "method": "vertebral_geometry_scaled_by_centerline_level",
+      "units": "voxel units / voxel squared"
+    }
+  }
+}

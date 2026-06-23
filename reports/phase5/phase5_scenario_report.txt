@@ -1,0 +1,23 @@
+ORTHOTWIN PHASE 5 SCENARIO REPORT
+
+Scope: deterministic digital twin scenario comparison only.
+Clinical validity claim: none. This is not diagnosis or treatment advice.
+
+1. How many scenarios exist? 10 generated scenarios plus one baseline.
+2. Most sensitive structures: disc_5_205 (10), disc_6_206_207 (10), vertebra_5 (10), vertebra_6 (10), vertebra_7 (9).
+3. Largest change scenario: fusion_l4_l5 by propagation magnitude 0.7425.
+4. Smallest change scenario: disc_restoration_10 by propagation magnitude 0.1442.
+5. Scenario affecting most structures: fusion_l4_l5 with 10 structures.
+6. Alignment-preserving scenario: fusion_l4_l5 with absolute alignment delta 0.0000.
+
+Top internal rankings:
+- 1. disc_restoration_30 score=0.879
+- 2. disc_restoration_20 score=0.851
+- 3. disc_restoration_10 score=0.823
+- 4. implant_disc_6 score=0.807
+- 5. implant_disc_5 score=0.724
+
+Limitations:
+- Propagation uses graph rules, not physics.
+- Curvature is tracked from existing state and not recomputed geometrically.
+- Physical calibration remains blocked until trusted Patient Alpha spacing metadata is linked.

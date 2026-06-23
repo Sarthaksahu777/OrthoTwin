@@ -1,0 +1,24 @@
+ORTHOTWIN PHASE 7 GEOMETRY-AWARE SURGERY REPORT
+
+1. Supported surgeries:
+implant, fusion, spacer, alignment_correction
+
+2. Structures modified:
+alignment_correction_vertebra_6, disc_5_205, disc_6_206_207, fusion_vertebra_5_vertebra_6, implant_disc_6_206_207, spacer_disc_5_205, vertebra_5, vertebra_6, vertebra_7
+
+3. Measurements recomputed:
+disc heights, relative spacing, alignment, slippage, curvature, load distribution, clinical state vector, graph metrics.
+
+4. Assumptions remaining:
+Rigid vertebra centroid proxies, simplified disc-space expansion, placeholder implant/spacer objects, and deterministic load proxies.
+
+5. Still not physically validated:
+No trusted spacing calibration, no finite element model, no material model, no boundary conditions, no clinical outcome validation.
+
+6. Required for clinical realism:
+Validated image spacing, radiologist-reviewed measurements, device geometry, tissue/material properties, finite element/contact mechanics, and prospective outcome validation.
+
+Architecture upgrade summary:
+Phase 7 changes the causal order from metric edits to anatomy edits followed by metric rebuild.
+
+No diagnosis. No treatment recommendation. No clinical claims.

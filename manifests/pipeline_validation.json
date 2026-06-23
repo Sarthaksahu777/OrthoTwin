@@ -1,0 +1,25 @@
+{
+  "validated_utc": "2026-06-19T17:46:24.095018+00:00",
+  "pipeline": [
+    "MRI",
+    "Segmentation",
+    "Cleanup",
+    "Measurements",
+    "State Vector",
+    "Graph",
+    "Simulation"
+  ],
+  "stage_counts": {
+    "MRI": 148116,
+    "Segmentation": 19,
+    "Cleanup": 18,
+    "Measurements": 58,
+    "State Vector": 3,
+    "Graph": 4,
+    "Simulation": 6
+  },
+  "complete_chain_available": true,
+  "missing_links": [],
+  "dependency_issues": [],
+  "digital_twin_readiness_score": 100
+}

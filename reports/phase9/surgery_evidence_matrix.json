@@ -1,0 +1,467 @@
+{
+  "generated_utc": "2026-06-21T09:20:58.122296+00:00",
+  "rows": [
+    {
+      "surgery": "implant",
+      "geometry_caused": [
+        {
+          "structure": "disc_6_206_207",
+          "field": "height",
+          "before": 10.998313555776669,
+          "after": 13.197976266932002,
+          "source": "geometry_modification"
+        },
+        {
+          "structure": "vertebra_6",
+          "field": "centroid",
+          "before": [
+            157.58698952482163,
+            29.58903901624412,
+            8.757932290875967
+          ],
+          "after": [
+            157.3608134064272,
+            30.665252309266037,
+            8.773369975376927
+          ],
+          "source": "geometry_modification"
+        },
+        {
+          "structure": "vertebra_7",
+          "field": "centroid",
+          "before": [
+            162.2248881659211,
+            7.520536803578691,
+            8.441371831367764
+          ],
+          "after": [
+            162.45106428431552,
+            6.44432351055677,
+            8.425934146866805
+          ],
+          "source": "geometry_modification"
+        },
+        {
+          "structure": "disc_6_206_207",
+          "field": "centroid",
+          "before": null,
+          "after": [
+            159.90593884537137,
+            18.554787909911404,
+            8.599652061121866
+          ],
+          "source": "geometry_modification"
+        },
+        {
+          "structure": "disc_6_206_207",
+          "field": "clinical_state.disc_heights",
+          "changes": {
+            "mean_height": {
+              "before": 10.998313555776669,
+              "after": 13.197976266932002,
+              "delta": 2.1996627111553337
+            },
+            "maximum_height": {
+              "before": 14.85612584289715,
+              "after": 17.82735101147658,
+              "delta": 2.97122516857943
+            },
+            "minimum_height": {
+              "before": 5.3387597976003,
+              "after": 6.40651175712036,
+              "delta": 1.0677519595200602
+            },
+            "anterior_height": {
+              "before": 5.3387597976003,
+              "after": 6.40651175712036,
+              "delta": 1.0677519595200602
+            },
+            "posterior_height": {
+              "before": 6.56329804942068,
+              "after": 7.875957659304815,
+              "delta": 1.3126596098841352
+            },
+            "left_height": {
+              "before": 13.590733886058043,
+              "after": 16.30888066326965,
+              "delta": 2.718146777211608
+            },
+            "right_height": {
+              "before": 14.642650202907172,
+              "after": 17.571180243488605,
+              "delta": 2.9285300405814336
+            }
+          },
+          "source": "rebuilt_from_modified_disc_geometry"
+        }
+      ],
+      "relationship_caused": [
+        {
+          "type": "local_spacing_rebuilt",
+          "disc": "disc_6_206_207",
+          "neighbors": [
+            "vertebra_6",
+            "vertebra_7"
+          ]
+        }
+      ],
+      "rule_caused": [
+        {
+          "field": "relationship_changes",
+          "changes": [
+            {
+              "type": "local_spacing_rebuilt",
+              "disc": "disc_6_206_207",
+              "neighbors": [
+                "vertebra_6",
+                "vertebra_7"
+              ]
+            }
+          ],
+          "source": "deterministic relationship/constraint rule"
+        },
+        {
+          "field": "alignment",
+          "record_count": 6,
+          "source": "deterministic centroid-angle rebuild rule"
+        },
+        {
+          "field": "slippage",
+          "record_count": 7,
+          "source": "deterministic centroid-projection rebuild rule"
+        },
+        {
+          "field": "curvature",
+          "global_curvature": 5.930867947608321,
+          "source": "deterministic centroid-angle curvature rebuild rule"
+        },
+        {
+          "field": "load_distribution",
+          "record_count": 14,
+          "source": "deterministic load proxy rule"
+        }
+      ],
+      "copied_sections": [
+        "disc_areas",
+        "canal_areas",
+        "foraminal_areas",
+        "degeneration_features",
+        {
+          "unchanged_disc_height_records": [
+            "disc_1_201",
+            "disc_2_202",
+            "disc_3_203",
+            "disc_4_204",
+            "disc_5_205"
+          ]
+        }
+      ],
+      "assessment": "partial_geometry_first",
+      "scientific_status": "PARTIAL_GEOMETRY_PROXY"
+    },
+    {
+      "surgery": "fusion",
+      "geometry_caused": [],
+      "relationship_caused": [
+        {
+          "type": "fusion_lock_added",
+          "vertebra_a": "vertebra_5",
+          "vertebra_b": "vertebra_6",
+          "fused_disc": "disc_5_205"
+        }
+      ],
+      "rule_caused": [
+        {
+          "field": "relationship_changes",
+          "changes": [
+            {
+              "type": "fusion_lock_added",
+              "vertebra_a": "vertebra_5",
+              "vertebra_b": "vertebra_6",
+              "fused_disc": "disc_5_205"
+            }
+          ],
+          "source": "deterministic relationship/constraint rule"
+        },
+        {
+          "field": "alignment",
+          "record_count": 6,
+          "source": "deterministic centroid-angle rebuild rule"
+        },
+        {
+          "field": "slippage",
+          "record_count": 7,
+          "source": "deterministic centroid-projection rebuild rule"
+        },
+        {
+          "field": "curvature",
+          "global_curvature": 5.935369756515384,
+          "source": "deterministic centroid-angle curvature rebuild rule"
+        },
+        {
+          "field": "load_distribution",
+          "record_count": 14,
+          "source": "deterministic load proxy rule"
+        }
+      ],
+      "copied_sections": [
+        "disc_areas",
+        "canal_areas",
+        "foraminal_areas",
+        "degeneration_features",
+        {
+          "unchanged_disc_height_records": [
+            "disc_1_201",
+            "disc_2_202",
+            "disc_3_203",
+            "disc_4_204",
+            "disc_5_205",
+            "disc_6_206_207"
+          ]
+        }
+      ],
+      "assessment": "relationship_first_not_geometry_first",
+      "scientific_status": "RELATIONSHIP_CONSTRAINT_PROXY"
+    },
+    {
+      "surgery": "spacer",
+      "geometry_caused": [
+        {
+          "structure": "disc_5_205",
+          "field": "height",
+          "before": 10.00307835054343,
+          "after": 11.503540103124942,
+          "source": "geometry_modification"
+        },
+        {
+          "structure": "vertebra_5",
+          "field": "centroid",
+          "before": [
+            153.86433004746257,
+            55.52208835341366,
+            8.410806863818912
+          ],
+          "after": [
+            153.75773735672328,
+            56.26464176844816,
+            8.400867455307585
+          ],
+          "source": "geometry_modification"
+        },
+        {
+          "structure": "vertebra_6",
+          "field": "centroid",
+          "before": [
+            157.58698952482163,
+            29.58903901624412,
+            8.757932290875967
+          ],
+          "after": [
+            157.69358221556092,
+            28.84648560120962,
+            8.767871699387294
+          ],
+          "source": "geometry_modification"
+        },
+        {
+          "structure": "disc_5_205",
+          "field": "centroid",
+          "before": null,
+          "after": [
+            155.7256597861421,
+            42.55556368482889,
+            8.58436957734744
+          ],
+          "source": "geometry_modification"
+        },
+        {
+          "structure": "disc_5_205",
+          "field": "clinical_state.disc_heights",
+          "changes": {
+            "mean_height": {
+              "before": 10.00307835054343,
+              "after": 11.503540103124942,
+              "delta": 1.5004617525815132
+            },
+            "maximum_height": {
+              "before": 10.752192753395526,
+              "after": 12.365021666404854,
+              "delta": 1.6128289130093272
+            },
+            "minimum_height": {
+              "before": 8.6813597125468,
+              "after": 9.98356366942882,
+              "delta": 1.3022039568820194
+            },
+            "anterior_height": {
+              "before": 10.365591417763795,
+              "after": 11.920430130428363,
+              "delta": 1.5548387126645675
+            },
+            "posterior_height": {
+              "before": 9.464055115615501,
+              "after": 10.883663382957826,
+              "delta": 1.4196082673423245
+            },
+            "left_height": {
+              "before": 10.752192753395526,
+              "after": 12.365021666404854,
+              "delta": 1.6128289130093272
+            },
+            "right_height": {
+              "before": 8.6813597125468,
+              "after": 9.98356366942882,
+              "delta": 1.3022039568820194
+            }
+          },
+          "source": "rebuilt_from_modified_disc_geometry"
+        }
+      ],
+      "relationship_caused": [
+        {
+          "type": "local_spacing_rebuilt",
+          "disc": "disc_5_205",
+          "neighbors": [
+            "vertebra_5",
+            "vertebra_6"
+          ]
+        }
+      ],
+      "rule_caused": [
+        {
+          "field": "relationship_changes",
+          "changes": [
+            {
+              "type": "local_spacing_rebuilt",
+              "disc": "disc_5_205",
+              "neighbors": [
+                "vertebra_5",
+                "vertebra_6"
+              ]
+            }
+          ],
+          "source": "deterministic relationship/constraint rule"
+        },
+        {
+          "field": "alignment",
+          "record_count": 6,
+          "source": "deterministic centroid-angle rebuild rule"
+        },
+        {
+          "field": "slippage",
+          "record_count": 7,
+          "source": "deterministic centroid-projection rebuild rule"
+        },
+        {
+          "field": "curvature",
+          "global_curvature": 5.916277978485469,
+          "source": "deterministic centroid-angle curvature rebuild rule"
+        },
+        {
+          "field": "load_distribution",
+          "record_count": 14,
+          "source": "deterministic load proxy rule"
+        }
+      ],
+      "copied_sections": [
+        "disc_areas",
+        "canal_areas",
+        "foraminal_areas",
+        "degeneration_features",
+        {
+          "unchanged_disc_height_records": [
+            "disc_1_201",
+            "disc_2_202",
+            "disc_3_203",
+            "disc_4_204",
+            "disc_6_206_207"
+          ]
+        }
+      ],
+      "assessment": "partial_geometry_first",
+      "scientific_status": "PARTIAL_GEOMETRY_PROXY"
+    },
+    {
+      "surgery": "alignment_correction",
+      "geometry_caused": [
+        {
+          "structure": "vertebra_6",
+          "field": "centroid",
+          "before": [
+            157.58698952482163,
+            29.58903901624412,
+            8.757932290875967
+          ],
+          "after": [
+            156.08698952482163,
+            30.33903901624412,
+            8.757932290875967
+          ],
+          "source": "geometry_modification"
+        }
+      ],
+      "relationship_caused": [],
+      "rule_caused": [
+        {
+          "field": "alignment",
+          "record_count": 6,
+          "source": "deterministic centroid-angle rebuild rule"
+        },
+        {
+          "field": "slippage",
+          "record_count": 7,
+          "source": "deterministic centroid-projection rebuild rule"
+        },
+        {
+          "field": "curvature",
+          "global_curvature": 5.91443002871074,
+          "source": "deterministic centroid-angle curvature rebuild rule"
+        },
+        {
+          "field": "load_distribution",
+          "record_count": 14,
+          "source": "deterministic load proxy rule"
+        }
+      ],
+      "copied_sections": [
+        "disc_areas",
+        "canal_areas",
+        "foraminal_areas",
+        "degeneration_features",
+        {
+          "unchanged_disc_height_records": [
+            "disc_1_201",
+            "disc_2_202",
+            "disc_3_203",
+            "disc_4_204",
+            "disc_5_205",
+            "disc_6_206_207"
+          ]
+        }
+      ],
+      "assessment": "partial_geometry_first",
+      "scientific_status": "PARTIAL_GEOMETRY_PROXY"
+    }
+  ],
+  "global_findings": {
+    "is_engine_truly_geometry_first": "Partially. Implant, spacer, and alignment correction start with geometry changes. Fusion is relationship/constraint-first. Rebuilt metrics are generated after anatomy edits, but several major changes are caused by deterministic rebuild formulas and method changes rather than real anatomical geometry alone.",
+    "largest_structural_effect_by_changed_structure_count": "implant",
+    "smallest_structural_effect_by_changed_structure_count": "alignment_correction",
+    "largest_structural_effect_by_geometry_magnitude": "implant",
+    "smallest_structural_effect_by_geometry_magnitude": "fusion",
+    "structural_effect_counts": {
+      "implant": 4,
+      "fusion": 4,
+      "spacer": 4,
+      "alignment_correction": 2
+    },
+    "geometry_magnitude_proxy": {
+      "implant": 5.149325422310662,
+      "fusion": 0.75,
+      "spacer": 3.7509235051630254,
+      "alignment_correction": 2.1770509831248424
+    },
+    "major_audit_warning": "Surgical comparison curvature/alignment deltas are inflated because rebuilt metrics use centroid-based methods while baseline uses earlier Phase 4 methods. These are not clean surgery-only deltas.",
+    "copied_previous_state_warning": "Disc areas, canal areas, foraminal areas, degeneration features, and many non-target disc measurements remain copied or unchanged in rebuilt clinical states."
+  }
+}

@@ -1,0 +1,6 @@
+Can't find a usable init.tcl in the following directories: 
+    {C:\Users\win10\AppData\Local\Programs\Python\Python314\tcl\tcl8.6}
+
+
+
+This probably means that Tcl wasn't installed properly.

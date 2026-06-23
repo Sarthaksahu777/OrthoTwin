@@ -1,0 +1,4652 @@
+{
+  "generated_utc": "2026-06-21T09:20:58.107038+00:00",
+  "search_scope": "C:\\OrthoTwin\\OrthoTwin",
+  "audit_type": "full_inventory_plus_all_mha_nifti_and_dicom_sample",
+  "total_files_indexed": 148748,
+  "image_file_counts": {
+    ".mha": 894,
+    ".nii": 0,
+    ".nii.gz": 2,
+    ".dcm": 147218
+  },
+  "dicom_headers_examined": 20,
+  "unique_spacing_group_count": 237,
+  "spacing_groups_sample": [
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\100_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\100_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\100_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\100_t2.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\101_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\101_t1.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\101_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\101_t2.mha"
+      ]
+    },
+    {
+      "count": 14,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\104_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\122_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\226_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\47_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\64_t1.mha"
+      ]
+    },
+    {
+      "count": 10,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\104_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\122_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\226_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\47_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\71_t2.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\105_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\105_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\105_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\105_t2.mha"
+      ]
+    },
+    {
+      "count": 10,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\106_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\106_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\126_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\179_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\179_t2.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\107_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\107_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\107_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\107_t2.mha"
+      ]
+    },
+    {
+      "count": 55,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\107_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\110_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\127_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\129_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\136_t2_SPACE.mha"
+      ]
+    },
+    {
+      "count": 8,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\108_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\108_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\8_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\8_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\108_t1.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\109_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\109_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\109_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\109_t2.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\10_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\10_t1.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\10_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\10_t2.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\110_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\110_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\110_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\110_t2.mha"
+      ]
+    },
+    {
+      "count": 32,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\112_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\112_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\125_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\125_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\144_t1.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\113_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\113_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\113_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\113_t2.mha"
+      ]
+    },
+    {
+      "count": 28,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\115_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\115_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\117_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\117_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\30_t1.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\116_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\116_t1.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\116_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\116_t2.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\118_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\118_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\118_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\118_t2.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\118_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\118_t2_SPACE.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\11_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\11_t1.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\11_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\11_t2.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\11_t2_SPACE.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\11_t2_SPACE.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\120_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\120_t2.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\121_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\121_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\121_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\121_t2.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\123_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\123_t2.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\124_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\124_t2.mha"
+      ]
+    },
+    {
+      "count": 10,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\127_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\34_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\35_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\55_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\7_t2.mha"
+      ]
+    },
+    {
+      "count": 6,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\127_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\45_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\45_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\127_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\45_t1.mha"
+      ]
+    },
+    {
+      "count": 14,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\129_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\129_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\22_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\22_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\234_t2.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\12_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\173_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\12_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\173_t1.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\12_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\173_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\12_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\173_t2.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\130_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\130_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\130_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\130_t2.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\131_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\131_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\131_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\131_t2.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\132_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\132_t1.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\133_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\133_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\133_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\133_t2.mha"
+      ]
+    },
+    {
+      "count": 2,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\134_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\134_t2.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\136_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\136_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\136_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\136_t2.mha"
+      ]
+    },
+    {
+      "count": 4,
+      "examples": [
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\137_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\137_t2.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\137_t1.mha",
+        "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\spine_segmentation_dataset\\masks\\137_t2.mha"
+      ]
+    }
+  ],
+  "metadata_records_sample": [
+    {
+      "spacing": [
+        4.389695960744017,
+        0.6305175528662943,
+        0.38792314385787563
+      ],
+      "origin": [
+        -44.77723154001997,
+        -122.57786786661,
+        -106.77207503644567
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\100_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\100_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.389695960744017,
+        0.6305175528662943,
+        0.38792314385787563
+      ],
+      "origin": [
+        -44.77723154001997,
+        -122.57786786661,
+        -106.77207503644567
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\100_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\100_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.788765599257572,
+        0.812500000003979,
+        0.8762882583044416
+      ],
+      "origin": [
+        -67.28904018297013,
+        -124.77837801043,
+        -103.82282952743962
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\101_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\101_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.7905672101450465,
+        0.6770833134684295,
+        0.7408835567977405
+      ],
+      "origin": [
+        -67.28904013221916,
+        -124.77837419574,
+        -103.95823041458834
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\101_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\101_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.8000000544956425,
+        0.875,
+        0.875
+      ],
+      "origin": [
+        -1500.868783405839,
+        -123.65617370674,
+        -102.07899515766
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\104_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\104_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.8000000544956425,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1808.06878689356,
+        -123.65617752144,
+        -102.22483228582908
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\104_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\104_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2936790151942077,
+        0.625,
+        0.6574980457806419
+      ],
+      "origin": [
+        -40.68335528443655,
+        -91.359054565429,
+        -93.87355835355397
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\105_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\105_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2936790151942077,
+        0.625,
+        0.6574980457806419
+      ],
+      "origin": [
+        -40.68335528443655,
+        -91.359054565429,
+        -93.87355835355397
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\105_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\105_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.399999891008642,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1658.758311680382,
+        -138.91041538228,
+        -83.70182982405285
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\106_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\106_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.399999891008642,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1658.758311680382,
+        -138.91041538228,
+        -83.70182982405285
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\106_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\106_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.3000000119209374
+      ],
+      "origin": [
+        41.580722808838,
+        -142.40963840558,
+        158.45783132241
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.897e-12,
+        0.0,
+        4.897e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\107_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\107_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.3000000119209374
+      ],
+      "origin": [
+        41.580722808838,
+        -142.40963840558,
+        158.45783132241
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.897e-12,
+        0.0,
+        4.897e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\107_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\107_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.46875,
+        0.46875,
+        0.8999999761581421
+      ],
+      "origin": [
+        68.73072052001953,
+        -112.40963745117188,
+        158.45782470703125
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.896999906273125e-12,
+        0.0,
+        4.896999906273125e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\107_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\107_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.399999916638395,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1663.3074514262128,
+        -132.2668625833,
+        -157.26077557003512
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\108_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\108_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.399999916638395,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1663.3074514262128,
+        -132.2668625833,
+        -157.26077557003512
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\108_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\108_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.3617771719888054,
+        0.49282856934109986,
+        0.35612261842049975
+      ],
+      "origin": [
+        -52.0896193557039,
+        -97.3094310393122,
+        -107.29668971822551
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\109_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\109_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.3617771719888054,
+        0.49282856934109986,
+        0.35612261842049975
+      ],
+      "origin": [
+        -52.0896193557039,
+        -97.3094310393122,
+        -107.29668971822551
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\109_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\109_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.400000027247785,
+        0.3125000000015348,
+        0.3124999999984652
+      ],
+      "origin": [
+        -12.688619613646999,
+        -141.64648914406,
+        -70.53495763311
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\10_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\10_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.400000027247785,
+        0.36458334326923136,
+        0.36458334326565023
+      ],
+      "origin": [
+        -12.688619613646999,
+        -141.64649295875,
+        -70.48287810453652
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\10_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\10_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.2999998873054412
+      ],
+      "origin": [
+        11.545000999671,
+        -147.82082319333,
+        416.18192238735
+      ],
+      "orientation": "ASL",
+      "direction": [
+        -1.3700232370116104e-13,
+        1.0,
+        4.895083189939e-12,
+        0.02792158782825966,
+        4.89699999999994e-12,
+        -0.9996101164619878,
+        -0.9996101164619878,
+        -2.704135359613126e-16,
+        -0.02792158782825966
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\110_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\110_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.2999998873054412
+      ],
+      "origin": [
+        11.545000999671,
+        -147.82082319333,
+        416.18192238735
+      ],
+      "orientation": "ASL",
+      "direction": [
+        -1.3700232370116104e-13,
+        1.0,
+        4.895083189939e-12,
+        0.02792158782825966,
+        4.89699999999994e-12,
+        -0.9996101164619878,
+        -0.9996101164619878,
+        -2.704135359613126e-16,
+        -0.02792158782825966
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\110_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\110_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.46875,
+        0.46875,
+        0.8999999761581421
+      ],
+      "origin": [
+        38.684417724609375,
+        -117.8208236694336,
+        416.94000244140625
+      ],
+      "orientation": "ASL",
+      "direction": [
+        -1.3700000335570284e-13,
+        1.0,
+        4.895000203786193e-12,
+        0.027921587228775024,
+        4.896999906273125e-12,
+        -0.9996101260185242,
+        -0.9996101260185242,
+        -2.7041354787526127e-16,
+        -0.027921587228775024
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\110_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\110_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2999546741682835,
+        0.625,
+        0.6252388405846148
+      ],
+      "origin": [
+        -32.3489011059953,
+        -89.132373809814,
+        -109.22933976899307
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\112_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\112_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2999546741682835,
+        0.625,
+        0.6252388405846148
+      ],
+      "origin": [
+        -32.3489011059953,
+        -89.132373809814,
+        -109.22933976899307
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\112_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\112_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.314831076563138,
+        0.5594862277517052,
+        0.6083745397024245
+      ],
+      "origin": [
+        -42.916884776590116,
+        -88.26592562788827,
+        -128.12132016257016
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\113_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\113_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.314831076563138,
+        0.5594862277517052,
+        0.6083745397024245
+      ],
+      "origin": [
+        -42.916884776590116,
+        -88.26592562788827,
+        -128.12132016257016
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\113_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\113_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.299954757096522,
+        0.625,
+        0.6252388405906117
+      ],
+      "origin": [
+        -17.920043302651315,
+        -85.925971984863,
+        -122.85658090377413
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\115_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\115_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.299954757096522,
+        0.625,
+        0.6252388405906117
+      ],
+      "origin": [
+        -17.920043302651315,
+        -85.925971984863,
+        -122.85658090377413
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\115_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\115_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.799999918256501,
+        1.0625,
+        1.0625
+      ],
+      "origin": [
+        -1491.7994993754837,
+        -168.68538045966,
+        -466.0026564307672
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\116_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\116_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.799999918256501,
+        0.6640625,
+        0.6640625
+      ],
+      "origin": [
+        -2413.399483680732,
+        -168.68538045966,
+        -466.4010939307945
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\116_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\116_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.299954757096529,
+        0.625,
+        0.6252388405906117
+      ],
+      "origin": [
+        -27.539267850991315,
+        -96.346813201904,
+        -126.06298272872613
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\117_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\117_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.299954757096529,
+        0.625,
+        0.6252388405906117
+      ],
+      "origin": [
+        -27.539267850991315,
+        -96.346813201904,
+        -126.06298272872613
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\117_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\117_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.276312650294974,
+        0.5859375000028706,
+        0.7064682969085538
+      ],
+      "origin": [
+        -39.46918926295614,
+        -158.67469787597656,
+        -45.31725235430659
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\118_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\118_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.276312650294974,
+        0.5859375000028706,
+        0.7064682969085538
+      ],
+      "origin": [
+        -39.46918926295614,
+        -158.67469787597656,
+        -45.31725235430659
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\118_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\118_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.8908353145744314,
+        0.46875000000230216,
+        0.48594129412069265
+      ],
+      "origin": [
+        -65.09444193894566,
+        -111.32530212402344,
+        -58.36303934596196
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\118_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\118_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.312444001646348,
+        0.5859375000028706,
+        0.510918381957822
+      ],
+      "origin": [
+        -48.262890541576496,
+        -151.08433532714844,
+        -52.675929670222104
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\11_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\11_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.312444240003563,
+        0.5859375000028706,
+        0.510918376548716
+      ],
+      "origin": [
+        -44.96374357840432,
+        -151.08433532714844,
+        -52.601054792292416
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\11_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\11_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.9104030443881967,
+        0.46875000000230216,
+        0.4482107257268524
+      ],
+      "origin": [
+        -72.10940992770163,
+        -121.08433532714845,
+        -53.33417892828584
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\11_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\11_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.799999986376071,
+        0.6770833134684295,
+        0.6770833134618073
+      ],
+      "origin": [
+        -54.65242004394499,
+        -112.6561660773,
+        -136.39483412419094
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\120_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\120_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2807706928143006,
+        0.625,
+        0.7191436475109043
+      ],
+      "origin": [
+        -32.31110575112793,
+        -83.521186828613,
+        -177.58963677221516
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\121_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\121_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2807706928143006,
+        0.625,
+        0.7191436475109043
+      ],
+      "origin": [
+        -32.31110575112793,
+        -83.521186828613,
+        -177.58963677221516
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\121_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\121_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.8000000544956425,
+        0.875,
+        0.875
+      ],
+      "origin": [
+        -1506.316724232255,
+        -98.595642090529,
+        -72.66010895434
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\122_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\122_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.8000000544956425,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1813.516727719976,
+        -98.595645905226,
+        -72.80594608250908
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\122_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\122_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.344152629657369,
+        0.831202010669756,
+        0.5048838229941168
+      ],
+      "origin": [
+        -45.76391977705212,
+        -115.35859763946,
+        -140.10286736804906
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\123_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\123_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        5.119999758402514,
+        0.6770833134684437,
+        0.6770833134618073
+      ],
+      "origin": [
+        8.460959434509306,
+        -132.32516026561,
+        -134.73468270961092
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\124_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\124_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.299954674168305,
+        0.625,
+        0.6252388405846148
+      ],
+      "origin": [
+        -39.5633214245993,
+        -90.735584259033,
+        -127.66619413148109
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\125_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\125_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.299954674168305,
+        0.625,
+        0.6252388405846148
+      ],
+      "origin": [
+        -39.5633214245993,
+        -90.735584259033,
+        -127.66619413148109
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\125_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\125_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.399999891008714,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1654.3999590192766,
+        -146.53753420819,
+        -53.193355258012836
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\126_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\126_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.2999999523162753
+      ],
+      "origin": [
+        45.918071746826,
+        -151.08433735444,
+        302.67469879911
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.897e-12,
+        0.0,
+        4.897e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\127_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\127_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.2999999258253334
+      ],
+      "origin": [
+        49.218070983887,
+        -151.08433735444,
+        302.67469879911
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.897e-12,
+        0.0,
+        4.897e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\127_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\127_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.46875,
+        0.46875,
+        0.8999999761581421
+      ],
+      "origin": [
+        73.06806945800781,
+        -121.08433532714844,
+        302.6747131347656
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.896999906273125e-12,
+        0.0,
+        4.896999906273125e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\127_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\127_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.3000000847710664
+      ],
+      "origin": [
+        -6.2564163208008,
+        -150.00000000073,
+        143.41888618396
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.897e-12,
+        0.0,
+        4.897e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\129_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\129_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.3000000847710664
+      ],
+      "origin": [
+        -6.2564163208008,
+        -150.00000000073,
+        143.41888618396
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.897e-12,
+        0.0,
+        4.897e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\129_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\129_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.46875,
+        0.46875,
+        0.8999999761581421
+      ],
+      "origin": [
+        17.593582153320312,
+        -120.0,
+        143.41888427734375
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.896999906273125e-12,
+        0.0,
+        4.896999906273125e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\129_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\129_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.800000123092809,
+        0.875,
+        0.875
+      ],
+      "origin": [
+        -1512.6634184645181,
+        -60.460044861525,
+        -109.24127259665528
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\12_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\12_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.800000123092809,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1819.8232371700672,
+        -60.460048676222,
+        -114.2123772473292
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\12_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\12_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.271602655538082,
+        0.625,
+        0.7597631136401617
+      ],
+      "origin": [
+        -36.33328337082287,
+        -91.53717803955,
+        -58.02772963725997
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\130_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\130_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.271602655538082,
+        0.625,
+        0.7597631136401617
+      ],
+      "origin": [
+        -36.33328337082287,
+        -91.53717803955,
+        -58.02772963725997
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\130_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\130_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.3035340585580926,
+        0.625,
+        0.6060424852977349
+      ],
+      "origin": [
+        -43.5610115023671,
+        -105.16444396972,
+        -131.8870722390442
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\131_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\131_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.3035340585580926,
+        0.625,
+        0.6060424852977349
+      ],
+      "origin": [
+        -43.5610115023671,
+        -105.16444396972,
+        -131.8870722390442
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\131_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\131_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.799999898989256,
+        1.0625,
+        1.0625
+      ],
+      "origin": [
+        -1495.1192038646254,
+        -170.00000000083,
+        -129.26041813129532
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\132_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\132_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.369782700613925,
+        0.5263867430567188,
+        0.19680160856020734
+      ],
+      "origin": [
+        -70.73633981365977,
+        -97.0494719871944,
+        -129.3058924953704
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\133_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\133_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.369782700613925,
+        0.5263867430567188,
+        0.19680160856020734
+      ],
+      "origin": [
+        -70.73633981365977,
+        -97.0494719871944,
+        -129.3058924953704
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\133_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\133_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.373270962779042,
+        0.6032433904158694,
+        0.5727714402887614
+      ],
+      "origin": [
+        -40.20282029736232,
+        -123.84573924188,
+        -80.55665858813143
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\134_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\134_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.3000000715256252
+      ],
+      "origin": [
+        23.131235122681,
+        -176.15012168958,
+        164.12106537745
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.897e-12,
+        0.0,
+        4.897e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\136_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\136_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.3000000715256252
+      ],
+      "origin": [
+        23.131235122681,
+        -176.15012168958,
+        164.12106537745
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.897e-12,
+        0.0,
+        4.897e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\136_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\136_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.46875,
+        0.46875,
+        0.8999999761581421
+      ],
+      "origin": [
+        50.28123474121094,
+        -146.15011596679688,
+        164.12106323242188
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.896999906273125e-12,
+        0.0,
+        4.896999906273125e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\136_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\136_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.211788362709413,
+        0.8111251907040895,
+        0.8353093395804194
+      ],
+      "origin": [
+        -41.85845353611198,
+        -88.16455312272312,
+        -81.18011613621476
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\137_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\137_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.211788362709413,
+        0.8111251907040895,
+        0.8353093395804194
+      ],
+      "origin": [
+        -41.85845353611198,
+        -88.16455312272312,
+        -81.18011613621476
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\137_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\137_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.381601736271939,
+        0.6034292393148206,
+        0.5048838250480117
+      ],
+      "origin": [
+        -24.23544746539391,
+        -91.90492833721,
+        -124.87243697578214
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\138_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\138_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.381601686554738,
+        0.6034292379307971,
+        0.5048838247127492
+      ],
+      "origin": [
+        -24.23544755958497,
+        -91.78249562847,
+        -124.87243774525643
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\138_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\138_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.391225257597554,
+        0.6034292340218883,
+        0.41289259790212895
+      ],
+      "origin": [
+        -46.984267329618596,
+        -119.96105016338,
+        -104.20432468750965
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\13_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\13_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.391225325495306,
+        0.6034292359121594,
+        0.41289259693607505
+      ],
+      "origin": [
+        -46.9842673990501,
+        -119.83861745464,
+        -104.14174839356465
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\13_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\13_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.284560915943164,
+        0.6042897742371451,
+        0.7195430114335863
+      ],
+      "origin": [
+        -45.2579456634261,
+        -81.46352519853725,
+        -9.716141839863601
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\140_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\140_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.284560915943164,
+        0.6042897742371451,
+        0.7195430114335863
+      ],
+      "origin": [
+        -45.2579456634261,
+        -81.46352519853725,
+        -9.716141839863601
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\140_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\140_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.9356103708024932,
+        0.47224243738801874,
+        0.3886816306462322
+      ],
+      "origin": [
+        -76.9993200638979,
+        -79.52106475830078,
+        -154.5598633675031
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\141_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\141_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.3078593532528124,
+        0.5859375000028706,
+        0.5398050193784627
+      ],
+      "origin": [
+        -50.21699515413272,
+        -150.00000000000003,
+        -141.35634958790615
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\142_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\142_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.3078593532528124,
+        0.5859375000028706,
+        0.5398050193784627
+      ],
+      "origin": [
+        -50.21699515413272,
+        -150.00000000000003,
+        -141.35634958790615
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\142_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\142_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.906457066159895,
+        0.46875000000230216,
+        0.45613830634854935
+      ],
+      "origin": [
+        -74.06630646875419,
+        -120.00000000000004,
+        -141.80653348006308
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\142_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\142_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.409962460087428,
+        0.4682039892285985,
+        0.3879231390642417
+      ],
+      "origin": [
+        -32.197730891811325,
+        -111.00886676244266,
+        -49.98959288524733
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\143_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\143_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.409962436150515,
+        0.4682039892976064,
+        0.3879231395407601
+      ],
+      "origin": [
+        -29.998174619369266,
+        -111.00252423542771,
+        -49.94580779003235
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\143_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\143_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.299954674168305,
+        0.625,
+        0.6252388405846148
+      ],
+      "origin": [
+        -36.0562985669333,
+        -85.124355316162,
+        -98.17385881196208
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\144_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\144_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.299954674168305,
+        0.625,
+        0.6252388405846148
+      ],
+      "origin": [
+        -36.0562985669333,
+        -85.124355316162,
+        -98.17385881196208
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\144_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\144_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2847137177555084,
+        0.625,
+        0.7009144306179849
+      ],
+      "origin": [
+        -57.19241809812296,
+        -82.719570159912,
+        -139.7236843086584
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\145_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\145_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2847137177555084,
+        0.625,
+        0.7009144306179849
+      ],
+      "origin": [
+        -57.19241809812296,
+        -82.719570159912,
+        -139.7236843086584
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\145_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\145_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.3334476471001366,
+        0.5859375000028706,
+        0.34849657533465006
+      ],
+      "origin": [
+        -33.83922571199537,
+        -154.3373565673828,
+        -82.21038280799985
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\146_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\146_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.3334476471001366,
+        0.5859375000028706,
+        0.34849657533465006
+      ],
+      "origin": [
+        -33.83922571199537,
+        -154.3373565673828,
+        -82.21038280799985
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\146_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\146_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.9312111138974615,
+        0.46875000000230216,
+        0.40320272764924425
+      ],
+      "origin": [
+        -54.345013923846466,
+        -124.3373489379883,
+        -83.7965392023325
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\146_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\146_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.397627868796526,
+        0.4726834803413169,
+        0.504883825040082
+      ],
+      "origin": [
+        -26.686841404253798,
+        -95.09851078171641,
+        -138.49969223668882
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\147_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\147_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.313382213432355,
+        0.625,
+        0.5496581224588226
+      ],
+      "origin": [
+        -35.511245087198446,
+        -76.306747436523,
+        -57.950686968849595
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\149_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\149_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.313382213432355,
+        0.625,
+        0.5496581224588226
+      ],
+      "origin": [
+        -35.511245087198446,
+        -76.306747436523,
+        -57.950686968849595
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\149_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\149_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.360414543637376,
+        0.6034292341632863,
+        0.6634203679606117
+      ],
+      "origin": [
+        -45.74096553093335,
+        -98.317766319388,
+        -90.07626311611789
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\151_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\151_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.300000123404268
+      ],
+      "origin": [
+        19.358600964511,
+        -153.48677449721,
+        274.29935818883
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0037394722324865354,
+        0.9999930081492684,
+        1.9952383495391915e-11,
+        0.08533507989049026,
+        -0.000319110373000001,
+        -0.996352258144003,
+        -0.9963452917977312,
+        0.0037258316048073927,
+        -0.0853356765447284
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\152_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\152_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.300000123404268
+      ],
+      "origin": [
+        19.358600964511,
+        -153.48677449721,
+        274.29935818883
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0037394722324865354,
+        0.9999930081492684,
+        1.9952383495391915e-11,
+        0.08533507989049026,
+        -0.000319110373000001,
+        -0.996352258144003,
+        -0.9963452917977312,
+        0.0037258316048073927,
+        -0.0853356765447284
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\152_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\152_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.46875,
+        0.46875,
+        0.8999999761581421
+      ],
+      "origin": [
+        64.39337158203125,
+        -114.75504302978516,
+        251.2382049560547
+      ],
+      "orientation": "ASL",
+      "direction": [
+        0.0,
+        1.0,
+        4.896999906273125e-12,
+        0.0,
+        4.896999906273125e-12,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\152_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\152_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.3999999020090685,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1666.4915408200775,
+        -144.76471643635,
+        -47.02936616786612
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\154_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\154_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.3999999020090685,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1666.4915408200775,
+        -144.76471643635,
+        -47.02936616786612
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\154_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\154_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.39999998981971,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1648.346417688267,
+        -139.72092103118,
+        -136.27949898423847
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\155_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\155_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.39999998981971,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1648.346417688267,
+        -139.72092103118,
+        -136.27949898423847
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\155_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\155_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2638371630337524,
+        0.760260549706004,
+        0.6637931964345398
+      ],
+      "origin": [
+        -56.49269065360649,
+        -85.062316579607,
+        -130.0844338217772
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\156_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\156_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2638371630337524,
+        0.760260549706004,
+        0.6637931964345398
+      ],
+      "origin": [
+        -56.49269065360649,
+        -85.062316579607,
+        -130.0844338217772
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\156_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\156_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.739386692200235,
+        0.6770833134684295,
+        1.0181630224857372
+      ],
+      "origin": [
+        -54.4492723060253,
+        -100.18224334780002,
+        -78.96039346187978
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\159_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\159_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.34359947716311,
+        0.625,
+        0.31775367133731436
+      ],
+      "origin": [
+        -38.65665599953405,
+        -84.322761535644,
+        -155.41955725847455
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\15_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\15_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.34359947716311,
+        0.625,
+        0.31775367133731436
+      ],
+      "origin": [
+        -38.65665599953405,
+        -84.322761535644,
+        -155.41955725847455
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\15_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\15_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.1515837030364313,
+        0.8315847702016868,
+        1.0233465579291021
+      ],
+      "origin": [
+        -67.69632394162481,
+        -88.24681864632312,
+        -65.33449418766314
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\160_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\160_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.1515837030364313,
+        0.8315847702016868,
+        1.0233465579291021
+      ],
+      "origin": [
+        -67.69632394162481,
+        -88.24681864632312,
+        -65.33449418766314
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\160_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\160_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.288143278143364,
+        0.5859375000028706,
+        0.6491810204591673
+      ],
+      "origin": [
+        -43.41751332301653,
+        -161.92770385742188,
+        -67.76391782267731
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\161_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\161_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.2999998965078414
+      ],
+      "origin": [
+        15.971538423006,
+        -161.92771053388,
+        232.73529196487
+      ],
+      "orientation": "ASL",
+      "direction": [
+        -9.400187585479006e-14,
+        1.0,
+        4.896097695859336e-12,
+        0.019197426647010213,
+        4.897000000000054e-12,
+        -0.999815712424111,
+        -0.999815712424111,
+        7.923895895565896e-18,
+        -0.019197426647010213
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\161_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\161_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.4687500000000002,
+        0.46874999532084344,
+        0.8999999671741618
+      ],
+      "origin": [
+        39.817142486572266,
+        -131.92770385742188,
+        233.19314575195315
+      ],
+      "orientation": "ASL",
+      "direction": [
+        -9.399999999999999e-14,
+        1.0,
+        4.896000000000001e-12,
+        0.019197426927987402,
+        4.897000000000001e-12,
+        -0.999815712418716,
+        -0.9998157124187159,
+        -1.1093356368934371e-29,
+        -0.0191974269279874
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\161_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\161_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.300000056522164
+      ],
+      "origin": [
+        17.522447704701,
+        -161.92771053388,
+        274.55354267688
+      ],
+      "orientation": "ASL",
+      "direction": [
+        1.710004703969143e-13,
+        1.0,
+        4.894013470427475e-12,
+        -0.034899439013401465,
+        4.897000000000206e-12,
+        -0.999390829033642,
+        -0.999390829033642,
+        9.797723316600642e-17,
+        0.034899439013401465
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\162_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\162_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.300000056522164
+      ],
+      "origin": [
+        17.522447704701,
+        -161.92771053388,
+        274.55354267688
+      ],
+      "orientation": "ASL",
+      "direction": [
+        1.710004703969143e-13,
+        1.0,
+        4.894013470427475e-12,
+        -0.034899439013401465,
+        4.897000000000206e-12,
+        -0.999390829033642,
+        -0.999390829033642,
+        9.797723316600642e-17,
+        0.034899439013401465
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\162_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\162_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.46875,
+        0.46875,
+        0.8999999761581421
+      ],
+      "origin": [
+        44.65591049194336,
+        -131.92770385742188,
+        273.60601806640625
+      ],
+      "orientation": "ASL",
+      "direction": [
+        1.7100000072618055e-13,
+        1.0,
+        4.894000135702292e-12,
+        -0.03489943966269493,
+        4.896999906273125e-12,
+        -0.9993908405303955,
+        -0.9993908405303955,
+        9.797723406863588e-17,
+        0.03489943966269493
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\162_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\162_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.386697882137618,
+        0.6034292296782695,
+        0.45849945709124995
+      ],
+      "origin": [
+        -61.0174988809246,
+        -114.73803914653,
+        -90.65497986822402
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\163_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\163_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.3872445963786255,
+        0.5806927266970661,
+        0.43602863925184465
+      ],
+      "origin": [
+        -61.01962317566817,
+        -114.68339363865,
+        -90.70591708997034
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\163_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\163_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.400000249097365,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1709.9785581844708,
+        -107.01274218074,
+        105.47839198551691
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\165_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\165_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.400000249097365,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1709.9785581844708,
+        -107.01274218074,
+        105.47839198551691
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\165_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\165_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.2999999819989925
+      ],
+      "origin": [
+        20.1532481396,
+        -155.44794178082,
+        233.8203088919
+      ],
+      "orientation": "ASL",
+      "direction": [
+        1.880149575184831e-13,
+        1.0,
+        4.8933893546935775e-12,
+        -0.03838786011540101,
+        4.897000000000129e-12,
+        -0.9992629144503264,
+        -0.9992629144503264,
+        2.962837200422808e-17,
+        0.03838786011540101
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\166_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\166_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.2999999819989925
+      ],
+      "origin": [
+        20.1532481396,
+        -155.44794178082,
+        233.8203088919
+      ],
+      "orientation": "ASL",
+      "direction": [
+        1.880149575184831e-13,
+        1.0,
+        4.8933893546935775e-12,
+        -0.03838786011540101,
+        4.897000000000129e-12,
+        -0.9992629144503264,
+        -0.9992629144503264,
+        2.962837200422808e-17,
+        0.03838786011540101
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\166_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\166_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.46875,
+        0.46875,
+        0.8999999761581421
+      ],
+      "origin": [
+        47.28323745727539,
+        -125.44794464111328,
+        232.778076171875
+      ],
+      "orientation": "ASL",
+      "direction": [
+        1.8800000618768298e-13,
+        1.0,
+        4.8930000676183916e-12,
+        -0.03838786110281944,
+        4.896999906273125e-12,
+        -0.9992629289627075,
+        -0.9992629289627075,
+        2.962837207945307e-17,
+        0.03838786110281944
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\166_t2_SPACE.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\166_t2_SPACE.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.3069734102414543,
+        0.625,
+        0.58698455500911
+      ],
+      "origin": [
+        -21.02093900913227,
+        -86.727584838867,
+        -176.45566220207525
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\167_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\167_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.3069734102414543,
+        0.625,
+        0.58698455500911
+      ],
+      "origin": [
+        -21.02093900913227,
+        -86.727584838867,
+        -176.45566220207525
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\167_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\167_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.292679691527553,
+        0.625,
+        0.6624837747996821
+      ],
+      "origin": [
+        -37.131120531639546,
+        -83.521163940429,
+        -102.43465398684367
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\168_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\168_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.292679691527553,
+        0.625,
+        0.6624837747996821
+      ],
+      "origin": [
+        -37.131120531639546,
+        -83.521163940429,
+        -102.43465398684367
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\168_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\168_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2490678098713643,
+        0.625,
+        0.8509897231300414
+      ],
+      "origin": [
+        -71.53682857270546,
+        -90.735607147216,
+        -168.4241441031184
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\169_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\169_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2490678098713643,
+        0.625,
+        0.8509897231300414
+      ],
+      "origin": [
+        -71.53682857270546,
+        -90.735607147216,
+        -168.4241441031184
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\169_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\169_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2999546741688306,
+        0.625,
+        0.6252388405846148
+      ],
+      "origin": [
+        -41.968125654347624,
+        -79.513149261474,
+        -139.69024666666408
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\16_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\16_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2999546741688306,
+        0.625,
+        0.6252388405846148
+      ],
+      "origin": [
+        -41.968125654347624,
+        -79.513149261474,
+        -139.69024666666408
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\16_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\16_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2999546741682906,
+        0.625,
+        0.6252388405846148
+      ],
+      "origin": [
+        -37.15851338016532,
+        -81.91795349121,
+        -108.42770211945708
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\170_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\170_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2999546741682906,
+        0.625,
+        0.6252388405846148
+      ],
+      "origin": [
+        -37.15851338016532,
+        -81.91795349121,
+        -108.42770211945708
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\170_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\170_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.399999855318704,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1645.8698127764308,
+        -140.02769228191,
+        -141.24360417007924
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\171_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\171_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.399999855318704,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1645.8698127764308,
+        -140.02769228191,
+        -141.24360417007924
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\171_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\171_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.318418292621928,
+        0.6589155771717827,
+        0.4745323169264566
+      ],
+      "origin": [
+        -39.96842772120553,
+        -87.970236348539,
+        -148.74943246483772
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\172_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\172_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.318418292621928,
+        0.6589155771717827,
+        0.4745323169264566
+      ],
+      "origin": [
+        -39.96842772120553,
+        -87.970236348539,
+        -148.74943246483772
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\172_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\172_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.800000122615286,
+        0.875,
+        0.875
+      ],
+      "origin": [
+        -1520.4813949721251,
+        -109.49152565071,
+        -115.15405569102002
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\173_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\173_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        4.800000122615286,
+        0.72916668653488,
+        0.72916668653488
+      ],
+      "origin": [
+        -1827.6814028195033,
+        -109.49152946541,
+        -115.2998928191891
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\173_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\173_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.329977799363789,
+        0.5,
+        0.22637746600941
+      ],
+      "origin": [
+        -57.397267619005866,
+        -105.18685531616,
+        -151.11140011249688
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\174_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\174_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.329977799363789,
+        0.5,
+        0.22637746600941
+      ],
+      "origin": [
+        -57.397267619005866,
+        -105.18685531616,
+        -151.11140011249688
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\174_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\174_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2888271454057474,
+        0.625,
+        0.6813522282449185
+      ],
+      "origin": [
+        -31.51605293851773,
+        -85.925971984863,
+        -141.11776490496808
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\175_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\175_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        3.2888271454057474,
+        0.625,
+        0.6813522282449185
+      ],
+      "origin": [
+        -31.51605293851773,
+        -85.925971984863,
+        -141.11776490496808
+      ],
+      "orientation": "RAI",
+      "direction": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\175_t2.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\175_t2.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    },
+    {
+      "spacing": [
+        0.5859375,
+        0.5859375,
+        3.2999999153793937
+      ],
+      "origin": [
+        41.485368883641,
+        -144.55205822064,
+        275.99291323468
+      ],
+      "orientation": "ASL",
+      "direction": [
+        5.37050994053036e-13,
+        1.0,
+        4.8674618983699285e-12,
+        -0.1097343073692961,
+        4.896999999999825e-12,
+        -0.9939609558660647,
+        -0.9939609558660647,
+        -3.1984066628737965e-16,
+        0.1097343073692961
+      ],
+      "slice_thickness": null,
+      "parser": "mha_header",
+      "path": "C:\\OrthoTwin\\OrthoTwin\\data\\raw\\177_t1.mha",
+      "relative_path": "OrthoTwin\\data\\raw\\177_t1.mha",
+      "extension": ".mha",
+      "patient_alpha_path_hint": false
+    }
+  ],
+  "patient_alpha_image_records_with_spacing": [],
+  "patient_alpha_file_candidates_without_proven_spacing": [
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_clean_measurements.pkl",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_component_analysis.pkl",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_disc_ranking.pkl",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_findings.pkl",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_measurements.pkl",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_mesh_statistics(1).pkl",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\GLOBAL_patient_alpha_mesh_statistics.pkl",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_clean_measurements.json",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_clean_prediction.npy",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_component_analysis.json",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_10_Disc_2_(202).png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_11_Disc_3_(203).png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_12_Disc_4_(204).png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_13_Disc_5_(205).png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_14_Disc_6_(206-207).png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_9_Disc_1_(201).png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_pca_axes.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_disc_ranking.json",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_gt_mask_slice_8.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_mesh_statistics.pkl",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_mri_slice_8.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_overlay_slice_8.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_pred_mask_slice_8.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_reconstruction_matplotlib_angled.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_reconstruction_matplotlib_front.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_reconstruction_matplotlib_side.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_vertebra_pca_axes.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Disc_2_202.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Disc_4_204.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Disc_6_206-207.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_1.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_2.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_3.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_4.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_5.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_6.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Final_Archive\\patient_alpha_voxel_component_viz_Vertebra_7.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_clean_measurements.json",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_clean_prediction.npy",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_component_analysis.json",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_disc_10_Disc_2_(202).png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_disc_11_Disc_3_(203).png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_disc_12_Disc_4_(204).png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_disc_13_Disc_5_(205).png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_disc_14_Disc_6_(206-207).png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_disc_9_Disc_1_(201).png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_disc_pca_axes.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_disc_ranking.json",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_findings.json",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_gt_mask_slice_8.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_measurements.json",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_mesh_statistics.json",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_mri_slice_8.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_overlay_slice_8.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_pca_measurements.json",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_pred_mask_slice_8.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_angled.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_front.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_side.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_vertebra_pca_axes.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_analysis.json",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Disc_2_202.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Disc_4_204.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Disc_6_206-207.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_1.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_2.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_3.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_4.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_5.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_6.png",
+    "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin_Showcase\\patient_alpha_voxel_component_viz_Vertebra_7.png",
+    "C:\\OrthoTwin\\OrthoTwin\\measurements\\discs\\patient_alpha_disc_ranking.json",
+    "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\patient_alpha_clean_measurements.json",
+    "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\patient_alpha_component_analysis.json",
+    "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\patient_alpha_findings.json",
+    "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\patient_alpha_measurements.json",
+    "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\patient_alpha_mesh_statistics.json",
+    "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\patient_alpha_pca_measurements.json",
+    "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\patient_alpha_voxel_component_analysis.json",
+    "C:\\OrthoTwin\\OrthoTwin\\reports\\phase3\\patient_alpha_report.txt"
+  ],
+  "runtime_report_evidence": {
+    "path": "OrthoTwin\\reports\\phase3\\runtime_recovery_report.txt",
+    "states_spacing_missing": true
+  },
+  "spacing_found": false,
+  "orientation_found": false,
+  "slice_thickness_found": false,
+  "source_file": null,
+  "confidence": "NONE",
+  "status": "PHYSICAL CALIBRATION BLOCKED",
+  "conclusion": "No image header is provably linked to Patient Alpha reconstructed structures/state. Do not estimate physical units."
+}

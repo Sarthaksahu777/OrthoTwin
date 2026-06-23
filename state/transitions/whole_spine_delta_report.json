@@ -1,0 +1,1865 @@
+{
+  "collapse": {
+    "generated_utc": "2026-06-20T23:25:40.449267+00:00",
+    "affected_structure_count": 5,
+    "affected_structures": [
+      "disc_5_205",
+      "disc_6_206_207",
+      "vertebra_5",
+      "vertebra_6",
+      "vertebra_7"
+    ],
+    "disc_deltas": {
+      "disc_1_201": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_2_202": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_3_203": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_4_204": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_5_205": {
+        "height": {
+          "before": 15.0,
+          "after": 15.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 15.0,
+          "after": 15.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_6_206_207": {
+        "height": {
+          "before": 15.0,
+          "after": 12.0,
+          "delta": -3.0,
+          "percent_change": -20.0
+        },
+        "bounding_box_depth": {
+          "before": 15.0,
+          "after": 12.0,
+          "delta": -3.0,
+          "percent_change": -20.0
+        }
+      }
+    },
+    "load_deltas": {
+      "disc_1_201": {
+        "relative_load_index": {
+          "before": 1.053091979906461,
+          "after": 1.053091979906461,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.17245982267245583,
+          "after": 0.17245982267245583,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.18161605611245368,
+          "after": 0.18161605611245368,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_2_202": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.11686107354153695,
+          "after": 0.11686107354153695,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.11686107354153695,
+          "after": 0.11686107354153695,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_3_203": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.10396949965538715,
+          "after": 0.10396949965538715,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.10396949965538715,
+          "after": 0.10396949965538715,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_4_204": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.0936993350219281,
+          "after": 0.0936993350219281,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.0936993350219281,
+          "after": 0.0936993350219281,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_5_205": {
+        "relative_load_index": {
+          "before": 1.140009987800878,
+          "after": 1.190009987800878,
+          "delta": 0.050000000000000044,
+          "percent_change": 4.385926486175083
+        },
+        "stress_score": {
+          "before": 0.1892810301073428,
+          "after": 0.2192810301073428,
+          "delta": 0.03,
+          "percent_change": 15.849448823786915
+        },
+        "risk_score": {
+          "before": 0.2157822648236095,
+          "after": 0.26094661596300295,
+          "delta": 0.04516435113939346,
+          "percent_change": 20.93052048383722
+        }
+      },
+      "disc_6_206_207": {
+        "relative_load_index": {
+          "before": 1.2087350874024716,
+          "after": 1.3487350874024715,
+          "delta": 0.1399999999999999,
+          "percent_change": 11.582355923898502
+        },
+        "stress_score": {
+          "before": 0.2325110178794304,
+          "after": 0.31651101787943037,
+          "delta": 0.08399999999999996,
+          "percent_change": 36.12732023028626
+        },
+        "risk_score": {
+          "before": 0.2810442255185309,
+          "after": 0.42688951536345876,
+          "delta": 0.14584528984492784,
+          "percent_change": 51.89407096902312
+        }
+      },
+      "vertebra_1": {
+        "relative_load_index": {
+          "before": 1.053091979906461,
+          "after": 1.053091979906461,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.13185518794387666,
+          "after": 0.13185518794387666,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1388556409327556,
+          "after": 0.1388556409327556,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_2": {
+        "relative_load_index": {
+          "before": 1.0265459899532305,
+          "after": 1.0265459899532305,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.11592759397193833,
+          "after": 0.11592759397193833,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1190050067168196,
+          "after": 0.1190050067168196,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_3": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_4": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_5": {
+        "relative_load_index": {
+          "before": 1.070004993900439,
+          "after": 1.090004993900439,
+          "delta": 0.020000000000000018,
+          "percent_change": 1.8691501548132927
+        },
+        "stress_score": {
+          "before": 0.14200299634026342,
+          "after": 0.15400299634026343,
+          "delta": 0.01200000000000001,
+          "percent_change": 8.450525910908219
+        },
+        "risk_score": {
+          "before": 0.15194391523290762,
+          "after": 0.16786403508651818,
+          "delta": 0.015920119853610554,
+          "percent_change": 10.477629083867793
+        }
+      },
+      "vertebra_6": {
+        "relative_load_index": {
+          "before": 1.1743725376016747,
+          "after": 1.2843725376016748,
+          "delta": 0.1100000000000001,
+          "percent_change": 9.366704046455661
+        },
+        "stress_score": {
+          "before": 0.20462352256100483,
+          "after": 0.27062352256100486,
+          "delta": 0.06600000000000003,
+          "percent_change": 32.25435628023817
+        },
+        "risk_score": {
+          "before": 0.24030424544296078,
+          "after": 0.3475814204063819,
+          "delta": 0.10727717496342112,
+          "percent_change": 44.64223042155312
+        }
+      },
+      "vertebra_7": {
+        "relative_load_index": {
+          "before": 1.2087350874024716,
+          "after": 1.3187350874024717,
+          "delta": 0.1100000000000001,
+          "percent_change": 9.100422511634552
+        },
+        "stress_score": {
+          "before": 0.22524105244148296,
+          "after": 0.29124105244148296,
+          "delta": 0.066,
+          "percent_change": 29.301940869392197
+        },
+        "risk_score": {
+          "before": 0.2722567632094806,
+          "after": 0.38406979474660685,
+          "delta": 0.11181303153712624,
+          "percent_change": 41.06896380425074
+        }
+      },
+      "vertebra_8_100": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      }
+    },
+    "alignment_deltas": {
+      "disc_1_201": {
+        "disc_angle_degrees": {
+          "before": 125.79084702648754,
+          "after": 125.79084702648754,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 121.76589306413977,
+          "after": 121.76589306413977,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_2_202": {
+        "disc_angle_degrees": {
+          "before": 109.16573394393457,
+          "after": 109.16573394393457,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 105.17496618738325,
+          "after": 105.17496618738325,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_3_203": {
+        "disc_angle_degrees": {
+          "before": 97.5576686743756,
+          "after": 97.5576686743756,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 93.57254968984844,
+          "after": 93.57254968984844,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_4_204": {
+        "disc_angle_degrees": {
+          "before": 88.33466211871043,
+          "after": 88.33466211871043,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 84.32940151973528,
+          "after": 84.32940151973528,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_5_205": {
+        "disc_angle_degrees": {
+          "before": 90.36565241895813,
+          "after": 90.36565241895813,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 86.35940073950229,
+          "after": 86.35940073950229,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_6_206_207": {
+        "disc_angle_degrees": {
+          "before": 85.9992461272594,
+          "after": 87.59924612725939,
+          "delta": 1.5999999999999943,
+          "percent_change": 1.860481425188724
+        },
+        "disc_tilt_degrees": {
+          "before": 81.96957698537713,
+          "after": 83.56957698537713,
+          "delta": 1.5999999999999943,
+          "percent_change": 1.951943707462861
+        }
+      }
+    }
+  },
+  "restoration": {
+    "generated_utc": "2026-06-20T23:25:40.449368+00:00",
+    "affected_structure_count": 5,
+    "affected_structures": [
+      "disc_5_205",
+      "disc_6_206_207",
+      "vertebra_5",
+      "vertebra_6",
+      "vertebra_7"
+    ],
+    "disc_deltas": {
+      "disc_1_201": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_2_202": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_3_203": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_4_204": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_5_205": {
+        "height": {
+          "before": 15.0,
+          "after": 15.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 15.0,
+          "after": 15.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_6_206_207": {
+        "height": {
+          "before": 15.0,
+          "after": 18.0,
+          "delta": 3.0,
+          "percent_change": 20.0
+        },
+        "bounding_box_depth": {
+          "before": 15.0,
+          "after": 18.0,
+          "delta": 3.0,
+          "percent_change": 20.0
+        }
+      }
+    },
+    "load_deltas": {
+      "disc_1_201": {
+        "relative_load_index": {
+          "before": 1.053091979906461,
+          "after": 1.053091979906461,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.17245982267245583,
+          "after": 0.17245982267245583,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.18161605611245368,
+          "after": 0.18161605611245368,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_2_202": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.11686107354153695,
+          "after": 0.11686107354153695,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.11686107354153695,
+          "after": 0.11686107354153695,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_3_203": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.10396949965538715,
+          "after": 0.10396949965538715,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.10396949965538715,
+          "after": 0.10396949965538715,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_4_204": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.0936993350219281,
+          "after": 0.0936993350219281,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.0936993350219281,
+          "after": 0.0936993350219281,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_5_205": {
+        "relative_load_index": {
+          "before": 1.140009987800878,
+          "after": 1.107509987800878,
+          "delta": -0.03249999999999997,
+          "percent_change": -2.850852216013799
+        },
+        "stress_score": {
+          "before": 0.1892810301073428,
+          "after": 0.1779060301073428,
+          "delta": -0.011374999999999996,
+          "percent_change": -6.0095826790192035
+        },
+        "risk_score": {
+          "before": 0.2157822648236095,
+          "after": 0.19703270523388586,
+          "delta": -0.01874955958972363,
+          "percent_change": -8.689110574055007
+        }
+      },
+      "disc_6_206_207": {
+        "relative_load_index": {
+          "before": 1.2087350874024716,
+          "after": 1.1087350874024715,
+          "delta": -0.10000000000000009,
+          "percent_change": -8.273111374213228
+        },
+        "stress_score": {
+          "before": 0.2325110178794304,
+          "after": 0.1975110178794304,
+          "delta": -0.035,
+          "percent_change": -15.053050095952617
+        },
+        "risk_score": {
+          "before": 0.2810442255185309,
+          "after": 0.21898739567150138,
+          "delta": -0.06205682984702954,
+          "percent_change": -22.080805870511565
+        }
+      },
+      "vertebra_1": {
+        "relative_load_index": {
+          "before": 1.053091979906461,
+          "after": 1.053091979906461,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.13185518794387666,
+          "after": 0.13185518794387666,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1388556409327556,
+          "after": 0.1388556409327556,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_2": {
+        "relative_load_index": {
+          "before": 1.0265459899532305,
+          "after": 1.0265459899532305,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.11592759397193833,
+          "after": 0.11592759397193833,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1190050067168196,
+          "after": 0.1190050067168196,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_3": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_4": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_5": {
+        "relative_load_index": {
+          "before": 1.070004993900439,
+          "after": 1.0570049939004391,
+          "delta": -0.0129999999999999,
+          "percent_change": -1.2149476006286297
+        },
+        "stress_score": {
+          "before": 0.14200299634026342,
+          "after": 0.13745299634026342,
+          "delta": -0.0045499999999999985,
+          "percent_change": -3.2041577412193627
+        },
+        "risk_score": {
+          "before": 0.15194391523290762,
+          "after": 0.14528850355823722,
+          "delta": -0.006655411674670403,
+          "percent_change": -4.380176504250689
+        }
+      },
+      "vertebra_6": {
+        "relative_load_index": {
+          "before": 1.1743725376016747,
+          "after": 1.1028725376016748,
+          "delta": -0.0714999999999999,
+          "percent_change": -6.088357630196166
+        },
+        "stress_score": {
+          "before": 0.20462352256100483,
+          "after": 0.17959852256100484,
+          "delta": -0.02502499999999999,
+          "percent_change": -12.229776756256964
+        },
+        "risk_score": {
+          "before": 0.24030424544296078,
+          "after": 0.19807427832636704,
+          "delta": -0.04222996711659374,
+          "percent_change": -17.57354184015761
+        }
+      },
+      "vertebra_7": {
+        "relative_load_index": {
+          "before": 1.2087350874024716,
+          "after": 1.1372350874024715,
+          "delta": -0.07150000000000012,
+          "percent_change": -5.915274632562463
+        },
+        "stress_score": {
+          "before": 0.22524105244148296,
+          "after": 0.20021605244148297,
+          "delta": -0.02502499999999999,
+          "percent_change": -11.110319246311203
+        },
+        "risk_score": {
+          "before": 0.2722567632094806,
+          "after": 0.2276927198976677,
+          "delta": -0.044564043311812906,
+          "percent_change": -16.368387982899918
+        }
+      },
+      "vertebra_8_100": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      }
+    },
+    "alignment_deltas": {
+      "disc_1_201": {
+        "disc_angle_degrees": {
+          "before": 125.79084702648754,
+          "after": 125.79084702648754,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 121.76589306413977,
+          "after": 121.76589306413977,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_2_202": {
+        "disc_angle_degrees": {
+          "before": 109.16573394393457,
+          "after": 109.16573394393457,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 105.17496618738325,
+          "after": 105.17496618738325,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_3_203": {
+        "disc_angle_degrees": {
+          "before": 97.5576686743756,
+          "after": 97.5576686743756,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 93.57254968984844,
+          "after": 93.57254968984844,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_4_204": {
+        "disc_angle_degrees": {
+          "before": 88.33466211871043,
+          "after": 88.33466211871043,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 84.32940151973528,
+          "after": 84.32940151973528,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_5_205": {
+        "disc_angle_degrees": {
+          "before": 90.36565241895813,
+          "after": 90.36565241895813,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 86.35940073950229,
+          "after": 86.35940073950229,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_6_206_207": {
+        "disc_angle_degrees": {
+          "before": 85.9992461272594,
+          "after": 84.9992461272594,
+          "delta": -1.0,
+          "percent_change": -1.1628008907429568
+        },
+        "disc_tilt_degrees": {
+          "before": 81.96957698537713,
+          "after": 80.96957698537713,
+          "delta": -1.0,
+          "percent_change": -1.2199648171642925
+        }
+      }
+    }
+  },
+  "fusion": {
+    "generated_utc": "2026-06-20T23:25:40.449457+00:00",
+    "affected_structure_count": 8,
+    "affected_structures": [
+      "disc_3_203",
+      "disc_4_204",
+      "disc_5_205",
+      "disc_6_206_207",
+      "vertebra_4",
+      "vertebra_5",
+      "vertebra_6",
+      "vertebra_7"
+    ],
+    "disc_deltas": {
+      "disc_1_201": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_2_202": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_3_203": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_4_204": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_5_205": {
+        "height": {
+          "before": 15.0,
+          "after": 15.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 15.0,
+          "after": 15.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_6_206_207": {
+        "height": {
+          "before": 15.0,
+          "after": 15.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 15.0,
+          "after": 15.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      }
+    },
+    "load_deltas": {
+      "disc_1_201": {
+        "relative_load_index": {
+          "before": 1.053091979906461,
+          "after": 1.053091979906461,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.17245982267245583,
+          "after": 0.17245982267245583,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.18161605611245368,
+          "after": 0.18161605611245368,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_2_202": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.11686107354153695,
+          "after": 0.11686107354153695,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.11686107354153695,
+          "after": 0.11686107354153695,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_3_203": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.016,
+          "delta": 0.016000000000000014,
+          "percent_change": 1.6000000000000014
+        },
+        "stress_score": {
+          "before": 0.10396949965538715,
+          "after": 0.11356949965538715,
+          "delta": 0.009599999999999997,
+          "percent_change": 9.233477156108037
+        },
+        "risk_score": {
+          "before": 0.10396949965538715,
+          "after": 0.11538661164987335,
+          "delta": 0.011417111994486195,
+          "percent_change": 10.98121279060577
+        }
+      },
+      "disc_4_204": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.104,
+          "delta": 0.10400000000000009,
+          "percent_change": 10.40000000000001
+        },
+        "stress_score": {
+          "before": 0.0936993350219281,
+          "after": 0.1560993350219281,
+          "delta": 0.0624,
+          "percent_change": 66.59599023343843
+        },
+        "risk_score": {
+          "before": 0.0936993350219281,
+          "after": 0.17233366586420865,
+          "delta": 0.07863433084228054,
+          "percent_change": 83.92197321771604
+        }
+      },
+      "disc_5_205": {
+        "relative_load_index": {
+          "before": 1.140009987800878,
+          "after": 1.3160099878008782,
+          "delta": 0.17600000000000016,
+          "percent_change": 15.438461231336293
+        },
+        "stress_score": {
+          "before": 0.1892810301073428,
+          "after": 0.2948810301073428,
+          "delta": 0.1056,
+          "percent_change": 55.79005985972994
+        },
+        "risk_score": {
+          "before": 0.2157822648236095,
+          "after": 0.3880663808342746,
+          "delta": 0.1722841160106651,
+          "percent_change": 79.84164785344994
+        }
+      },
+      "disc_6_206_207": {
+        "relative_load_index": {
+          "before": 1.2087350874024716,
+          "after": 1.3127350874024717,
+          "delta": 0.10400000000000009,
+          "percent_change": 8.604035829181758
+        },
+        "stress_score": {
+          "before": 0.2325110178794304,
+          "after": 0.2949110178794304,
+          "delta": 0.06240000000000001,
+          "percent_change": 26.837437885355524
+        },
+        "risk_score": {
+          "before": 0.2810442255185309,
+          "after": 0.38714004083190595,
+          "delta": 0.10609581531337503,
+          "percent_change": 37.75057648582767
+        }
+      },
+      "vertebra_1": {
+        "relative_load_index": {
+          "before": 1.053091979906461,
+          "after": 1.053091979906461,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.13185518794387666,
+          "after": 0.13185518794387666,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1388556409327556,
+          "after": 0.1388556409327556,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_2": {
+        "relative_load_index": {
+          "before": 1.0265459899532305,
+          "after": 1.0265459899532305,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.11592759397193833,
+          "after": 0.11592759397193833,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1190050067168196,
+          "after": 0.1190050067168196,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_3": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_4": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.04,
+          "delta": 0.040000000000000036,
+          "percent_change": 4.0000000000000036
+        },
+        "stress_score": {
+          "before": 0.1,
+          "after": 0.124,
+          "delta": 0.023999999999999994,
+          "percent_change": 23.999999999999993
+        },
+        "risk_score": {
+          "before": 0.1,
+          "after": 0.12896,
+          "delta": 0.028959999999999986,
+          "percent_change": 28.959999999999987
+        }
+      },
+      "vertebra_5": {
+        "relative_load_index": {
+          "before": 1.070004993900439,
+          "after": 0.9495042448153732,
+          "delta": -0.1205007490850658,
+          "percent_change": -11.261699690373414
+        },
+        "stress_score": {
+          "before": 0.14200299634026342,
+          "after": 0.16600299634026341,
+          "delta": 0.023999999999999994,
+          "percent_change": 16.901051821816417
+        },
+        "risk_score": {
+          "before": 0.15194391523290762,
+          "after": 0.15762054967715097,
+          "delta": 0.00567663444424335,
+          "percent_change": 3.7360064307556553
+        }
+      },
+      "vertebra_6": {
+        "relative_load_index": {
+          "before": 1.1743725376016747,
+          "after": 1.0382166569614235,
+          "delta": -0.1361558806402512,
+          "percent_change": -11.593925801288853
+        },
+        "stress_score": {
+          "before": 0.20462352256100483,
+          "after": 0.22862352256100482,
+          "delta": 0.023999999999999994,
+          "percent_change": 11.72885682917751
+        },
+        "risk_score": {
+          "before": 0.24030424544296078,
+          "after": 0.23736074929603102,
+          "delta": -0.002943496146929764,
+          "percent_change": -1.2249039302255853
+        }
+      },
+      "vertebra_7": {
+        "relative_load_index": {
+          "before": 1.2087350874024716,
+          "after": 1.2487350874024716,
+          "delta": 0.040000000000000036,
+          "percent_change": 3.3092445496852916
+        },
+        "stress_score": {
+          "before": 0.22524105244148296,
+          "after": 0.24924105244148295,
+          "delta": 0.023999999999999994,
+          "percent_change": 10.655251225233522
+        },
+        "risk_score": {
+          "before": 0.2722567632094806,
+          "after": 0.3112360474047992,
+          "delta": 0.0389792841953186,
+          "percent_change": 14.317104095345115
+        }
+      },
+      "vertebra_8_100": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      }
+    },
+    "alignment_deltas": {
+      "disc_1_201": {
+        "disc_angle_degrees": {
+          "before": 125.79084702648754,
+          "after": 125.79084702648754,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 121.76589306413977,
+          "after": 121.76589306413977,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_2_202": {
+        "disc_angle_degrees": {
+          "before": 109.16573394393457,
+          "after": 109.16573394393457,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 105.17496618738325,
+          "after": 105.17496618738325,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_3_203": {
+        "disc_angle_degrees": {
+          "before": 97.5576686743756,
+          "after": 97.5576686743756,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 93.57254968984844,
+          "after": 93.57254968984844,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_4_204": {
+        "disc_angle_degrees": {
+          "before": 88.33466211871043,
+          "after": 88.33466211871043,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 84.32940151973528,
+          "after": 84.32940151973528,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_5_205": {
+        "disc_angle_degrees": {
+          "before": 90.36565241895813,
+          "after": 90.36565241895813,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 86.35940073950229,
+          "after": 86.35940073950229,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_6_206_207": {
+        "disc_angle_degrees": {
+          "before": 85.9992461272594,
+          "after": 85.9992461272594,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 81.96957698537713,
+          "after": 81.96957698537713,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      }
+    }
+  },
+  "implant": {
+    "generated_utc": "2026-06-20T23:25:40.449550+00:00",
+    "affected_structure_count": 5,
+    "affected_structures": [
+      "disc_5_205",
+      "disc_6_206_207",
+      "vertebra_5",
+      "vertebra_6",
+      "vertebra_7"
+    ],
+    "disc_deltas": {
+      "disc_1_201": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_2_202": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_3_203": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_4_204": {
+        "height": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 16.0,
+          "after": 16.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_5_205": {
+        "height": {
+          "before": 15.0,
+          "after": 15.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "bounding_box_depth": {
+          "before": 15.0,
+          "after": 15.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_6_206_207": {
+        "height": {
+          "before": 15.0,
+          "after": 18.0,
+          "delta": 3.0,
+          "percent_change": 20.0
+        },
+        "bounding_box_depth": {
+          "before": 15.0,
+          "after": 18.0,
+          "delta": 3.0,
+          "percent_change": 20.0
+        }
+      }
+    },
+    "load_deltas": {
+      "disc_1_201": {
+        "relative_load_index": {
+          "before": 1.053091979906461,
+          "after": 1.053091979906461,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.17245982267245583,
+          "after": 0.17245982267245583,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.18161605611245368,
+          "after": 0.18161605611245368,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_2_202": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.11686107354153695,
+          "after": 0.11686107354153695,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.11686107354153695,
+          "after": 0.11686107354153695,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_3_203": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.10396949965538715,
+          "after": 0.10396949965538715,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.10396949965538715,
+          "after": 0.10396949965538715,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_4_204": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.0936993350219281,
+          "after": 0.0936993350219281,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.0936993350219281,
+          "after": 0.0936993350219281,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_5_205": {
+        "relative_load_index": {
+          "before": 1.140009987800878,
+          "after": 1.0993849878008781,
+          "delta": -0.04062499999999991,
+          "percent_change": -3.5635652700172447
+        },
+        "stress_score": {
+          "before": 0.1892810301073428,
+          "after": 0.1750622801073428,
+          "delta": -0.014218750000000002,
+          "percent_change": -7.511978348774008
+        },
+        "risk_score": {
+          "before": 0.2157822648236095,
+          "after": 0.19246084268020497,
+          "delta": -0.02332142214340452,
+          "percent_change": -10.807849367263126
+        }
+      },
+      "disc_6_206_207": {
+        "relative_load_index": {
+          "before": 1.2087350874024716,
+          "after": 0.9587350874024716,
+          "delta": -0.25,
+          "percent_change": -20.682778435533052
+        },
+        "stress_score": {
+          "before": 0.2325110178794304,
+          "after": 0.1450110178794304,
+          "delta": -0.0875,
+          "percent_change": -37.632625239881534
+        },
+        "risk_score": {
+          "before": 0.2810442255185309,
+          "after": 0.13902715090095707,
+          "delta": -0.14201707461757385,
+          "percent_change": -50.531931177575395
+        }
+      },
+      "vertebra_1": {
+        "relative_load_index": {
+          "before": 1.053091979906461,
+          "after": 1.053091979906461,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.13185518794387666,
+          "after": 0.13185518794387666,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1388556409327556,
+          "after": 0.1388556409327556,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_2": {
+        "relative_load_index": {
+          "before": 1.0265459899532305,
+          "after": 1.0265459899532305,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.11592759397193833,
+          "after": 0.11592759397193833,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1190050067168196,
+          "after": 0.1190050067168196,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_3": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_4": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "vertebra_5": {
+        "relative_load_index": {
+          "before": 1.070004993900439,
+          "after": 1.053754993900439,
+          "delta": -0.016250000000000098,
+          "percent_change": -1.5186845007858079
+        },
+        "stress_score": {
+          "before": 0.14200299634026342,
+          "after": 0.1363154963402634,
+          "delta": -0.005687500000000012,
+          "percent_change": -4.005197176524213
+        },
+        "risk_score": {
+          "before": 0.15194391523290762,
+          "after": 0.14364313501456957,
+          "delta": -0.00830078021833805,
+          "percent_change": -5.463055368564235
+        }
+      },
+      "vertebra_6": {
+        "relative_load_index": {
+          "before": 1.1743725376016747,
+          "after": 1.0849975376016747,
+          "delta": -0.08937499999999998,
+          "percent_change": -7.610447037745216
+        },
+        "stress_score": {
+          "before": 0.20462352256100483,
+          "after": 0.17334227256100482,
+          "delta": -0.03128125000000001,
+          "percent_change": -15.287220945321215
+        },
+        "risk_score": {
+          "before": 0.24030424544296078,
+          "after": 0.18807593889096857,
+          "delta": -0.052228306551992204,
+          "percent_change": -21.734242129479668
+        }
+      },
+      "vertebra_7": {
+        "relative_load_index": {
+          "before": 1.2087350874024716,
+          "after": 1.1193600874024716,
+          "delta": -0.08937499999999998,
+          "percent_change": -7.394093290703065
+        },
+        "stress_score": {
+          "before": 0.22524105244148296,
+          "after": 0.19395980244148295,
+          "delta": -0.03128125000000001,
+          "percent_change": -13.887899057889014
+        },
+        "risk_score": {
+          "before": 0.2722567632094806,
+          "after": 0.21711086141346447,
+          "delta": -0.05514590179601614,
+          "percent_change": -20.255108136133103
+        }
+      },
+      "vertebra_8_100": {
+        "relative_load_index": {
+          "before": 1.0,
+          "after": 1.0,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "stress_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "risk_score": {
+          "before": 0.1,
+          "after": 0.1,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      }
+    },
+    "alignment_deltas": {
+      "disc_1_201": {
+        "disc_angle_degrees": {
+          "before": 125.79084702648754,
+          "after": 125.79084702648754,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 121.76589306413977,
+          "after": 121.76589306413977,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_2_202": {
+        "disc_angle_degrees": {
+          "before": 109.16573394393457,
+          "after": 109.16573394393457,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 105.17496618738325,
+          "after": 105.17496618738325,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_3_203": {
+        "disc_angle_degrees": {
+          "before": 97.5576686743756,
+          "after": 97.5576686743756,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 93.57254968984844,
+          "after": 93.57254968984844,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_4_204": {
+        "disc_angle_degrees": {
+          "before": 88.33466211871043,
+          "after": 88.33466211871043,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 84.32940151973528,
+          "after": 84.32940151973528,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_5_205": {
+        "disc_angle_degrees": {
+          "before": 90.36565241895813,
+          "after": 90.36565241895813,
+          "delta": 0.0,
+          "percent_change": 0.0
+        },
+        "disc_tilt_degrees": {
+          "before": 86.35940073950229,
+          "after": 86.35940073950229,
+          "delta": 0.0,
+          "percent_change": 0.0
+        }
+      },
+      "disc_6_206_207": {
+        "disc_angle_degrees": {
+          "before": 85.9992461272594,
+          "after": 84.4992461272594,
+          "delta": -1.5,
+          "percent_change": -1.744201336114435
+        },
+        "disc_tilt_degrees": {
+          "before": 81.96957698537713,
+          "after": 80.46957698537713,
+          "delta": -1.5,
+          "percent_change": -1.8299472257464386
+        }
+      }
+    }
+  }
+}

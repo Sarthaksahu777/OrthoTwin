@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2026-06-21T09:52:04.357888+00:00",
+  "classification": "Digital Twin Prototype",
+  "chosen_from": [
+    "Data Pipeline",
+    "Measurement Platform",
+    "Digital Twin Prototype",
+    "Research Platform"
+  ],
+  "why": "The system now connects anatomy-derived state, graph structure, deterministic scenarios, longitudinal projections, geometry-aware surgery, mesh-level transformations, and evidence auditing. It goes beyond a data pipeline or measurement platform, but it is not yet a validated research platform because physical calibration, clinical validation, and biomechanics remain blocked.",
+  "not_claimed": [
+    "clinical validity",
+    "diagnosis",
+    "treatment recommendation",
+    "biomechanical accuracy",
+    "regulatory readiness"
+  ]
+}

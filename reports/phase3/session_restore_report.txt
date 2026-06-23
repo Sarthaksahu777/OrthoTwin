@@ -1,0 +1,45 @@
+OrthoTwin Session Restore Report - 2026-06-19 16:32:44
+============================================================
+
+--- Loaded Files ---
+✗ reconstructed_structures: /content/drive/MyDrive/OrthoTwin_Showcase/reconstructed_structures.pkl
+✗ patient_alpha_measurements: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_measurements.json
+✗ patient_alpha_clean_measurements: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_clean_measurements.json
+✗ patient_alpha_mesh_statistics: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_mesh_statistics.json
+✗ patient_alpha_component_analysis: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_component_analysis.json
+✗ patient_alpha_disc_ranking: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_disc_ranking.json
+✗ patient_alpha_findings: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_findings.json
+✗ patient_alpha_clean_prediction: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_clean_prediction.npy
+✓ final_model_checkpoint: /content/drive/MyDrive/FINAL_SEGRESNET_WEIGHTED.pth
+✗ ram_backup_manifest: /content/drive/MyDrive/OrthoTwin_Final_Archive/ram_backup_manifest.json
+
+--- Missing Files (Expected) ---
+✗ reconstructed_structures: /content/drive/MyDrive/OrthoTwin_Showcase/reconstructed_structures.pkl
+✗ patient_alpha_measurements: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_measurements.json
+✗ patient_alpha_clean_measurements: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_clean_measurements.json
+✗ patient_alpha_mesh_statistics: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_mesh_statistics.json
+✗ patient_alpha_component_analysis: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_component_analysis.json
+✗ patient_alpha_disc_ranking: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_disc_ranking.json
+✗ patient_alpha_findings: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_findings.json
+✗ patient_alpha_clean_prediction: /content/drive/MyDrive/OrthoTwin_Showcase/patient_alpha_clean_prediction.npy
+✗ ram_backup_manifest: /content/drive/MyDrive/OrthoTwin_Final_Archive/ram_backup_manifest.json
+
+--- Variable Summary (in RAM) ---
+✗ reconstructed_structures: Not found in RAM.
+✗ best_mask_pred_cleaned: Not found in RAM.
+✗ patient_alpha_measurements: Not found in RAM.
+✗ patient_alpha_clean_measurements: Not found in RAM.
+✗ patient_alpha_mesh_statistics: Not found in RAM.
+✗ patient_alpha_component_analysis: Not found in RAM.
+✗ patient_alpha_disc_ranking: Not found in RAM.
+✗ patient_alpha_findings: Not found in RAM.
+
+--- Current Project Status ---
+Status: MISSING REQUIRED FILES. NOT READY FOR LABEL VERIFICATION.
+Missing items: Reconstructed structures, Patient alpha clean measurements, Patient alpha component analysis, Best mask pred cleaned
+
+--- Conclusion ---
+This report summarizes the state of the Colab environment after attempting to restore project artifacts.
+Please review the loaded files and variable summaries to ensure all necessary data is present.
+
+============================================================

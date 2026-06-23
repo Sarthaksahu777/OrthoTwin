@@ -1,0 +1,186 @@
+{
+  "patient_id": "patient_alpha",
+  "model_type": "rule_based_geometric_load_approximation_v1",
+  "physics_claim": "This is not physics; it is a deterministic geometric approximation layer.",
+  "structures": {
+    "disc_1_201": {
+      "structure_name": "Disc 1 (201)",
+      "structure_type": "disc",
+      "relative_load_index": 1.053091979906461,
+      "stress_score": 0.17245982267245583,
+      "risk_score": 0.18161605611245368,
+      "rule_basis": {
+        "height_ratio_to_average": 1.021276595744681,
+        "volume_ratio_to_average": 0.8938160401870778,
+        "tilt_degrees": 121.76589306413977
+      }
+    },
+    "disc_2_202": {
+      "structure_name": "Disc 2 (202)",
+      "structure_type": "disc",
+      "relative_load_index": 1.0,
+      "stress_score": 0.11686107354153695,
+      "risk_score": 0.11686107354153695,
+      "rule_basis": {
+        "height_ratio_to_average": 1.021276595744681,
+        "volume_ratio_to_average": 1.3781396154512386,
+        "tilt_degrees": 105.17496618738325
+      }
+    },
+    "disc_3_203": {
+      "structure_name": "Disc 3 (203)",
+      "structure_type": "disc",
+      "relative_load_index": 1.0,
+      "stress_score": 0.10396949965538715,
+      "risk_score": 0.10396949965538715,
+      "rule_basis": {
+        "height_ratio_to_average": 1.021276595744681,
+        "volume_ratio_to_average": 1.2100294474276807,
+        "tilt_degrees": 93.57254968984844
+      }
+    },
+    "disc_4_204": {
+      "structure_name": "Disc 4 (204)",
+      "structure_type": "disc",
+      "relative_load_index": 1.0,
+      "stress_score": 0.0936993350219281,
+      "risk_score": 0.0936993350219281,
+      "rule_basis": {
+        "height_ratio_to_average": 1.021276595744681,
+        "volume_ratio_to_average": 1.0793348345747444,
+        "tilt_degrees": 84.32940151973528
+      }
+    },
+    "disc_5_205": {
+      "structure_name": "Disc 5 (205)",
+      "structure_type": "disc",
+      "relative_load_index": 1.140009987800878,
+      "stress_score": 0.1892810301073428,
+      "risk_score": 0.2157822648236095,
+      "rule_basis": {
+        "height_ratio_to_average": 0.9574468085106383,
+        "volume_ratio_to_average": 0.788065130781223,
+        "tilt_degrees": 86.35940073950229
+      }
+    },
+    "disc_6_206_207": {
+      "structure_name": "Disc 6 (206/207)",
+      "structure_type": "disc",
+      "relative_load_index": 1.2087350874024716,
+      "stress_score": 0.2325110178794304,
+      "risk_score": 0.2810442255185309,
+      "rule_basis": {
+        "height_ratio_to_average": 0.9574468085106383,
+        "volume_ratio_to_average": 0.6506149315780357,
+        "tilt_degrees": 81.96957698537713
+      }
+    },
+    "vertebra_1": {
+      "structure_name": "Vertebra 1",
+      "structure_type": "vertebra",
+      "relative_load_index": 1.053091979906461,
+      "stress_score": 0.13185518794387666,
+      "risk_score": 0.1388556409327556,
+      "rule_basis": {
+        "neighbor_disc_loads": [
+          1.053091979906461
+        ],
+        "quality_flag_used_as_penalty": true
+      }
+    },
+    "vertebra_2": {
+      "structure_name": "Vertebra 2",
+      "structure_type": "vertebra",
+      "relative_load_index": 1.0265459899532305,
+      "stress_score": 0.11592759397193833,
+      "risk_score": 0.1190050067168196,
+      "rule_basis": {
+        "neighbor_disc_loads": [
+          1.053091979906461,
+          1.0
+        ],
+        "quality_flag_used_as_penalty": true
+      }
+    },
+    "vertebra_3": {
+      "structure_name": "Vertebra 3",
+      "structure_type": "vertebra",
+      "relative_load_index": 1.0,
+      "stress_score": 0.1,
+      "risk_score": 0.1,
+      "rule_basis": {
+        "neighbor_disc_loads": [
+          1.0,
+          1.0
+        ],
+        "quality_flag_used_as_penalty": true
+      }
+    },
+    "vertebra_4": {
+      "structure_name": "Vertebra 4",
+      "structure_type": "vertebra",
+      "relative_load_index": 1.0,
+      "stress_score": 0.1,
+      "risk_score": 0.1,
+      "rule_basis": {
+        "neighbor_disc_loads": [
+          1.0,
+          1.0
+        ],
+        "quality_flag_used_as_penalty": true
+      }
+    },
+    "vertebra_5": {
+      "structure_name": "Vertebra 5",
+      "structure_type": "vertebra",
+      "relative_load_index": 1.070004993900439,
+      "stress_score": 0.14200299634026342,
+      "risk_score": 0.15194391523290762,
+      "rule_basis": {
+        "neighbor_disc_loads": [
+          1.0,
+          1.140009987800878
+        ],
+        "quality_flag_used_as_penalty": true
+      }
+    },
+    "vertebra_6": {
+      "structure_name": "Vertebra 6",
+      "structure_type": "vertebra",
+      "relative_load_index": 1.1743725376016747,
+      "stress_score": 0.20462352256100483,
+      "risk_score": 0.24030424544296078,
+      "rule_basis": {
+        "neighbor_disc_loads": [
+          1.140009987800878,
+          1.2087350874024716
+        ],
+        "quality_flag_used_as_penalty": true
+      }
+    },
+    "vertebra_7": {
+      "structure_name": "Vertebra 7",
+      "structure_type": "vertebra",
+      "relative_load_index": 1.2087350874024716,
+      "stress_score": 0.22524105244148296,
+      "risk_score": 0.2722567632094806,
+      "rule_basis": {
+        "neighbor_disc_loads": [
+          1.2087350874024716
+        ],
+        "quality_flag_used_as_penalty": true
+      }
+    },
+    "vertebra_8_100": {
+      "structure_name": "Vertebra 8 (100)",
+      "structure_type": "vertebra",
+      "relative_load_index": 1.0,
+      "stress_score": 0.1,
+      "risk_score": 0.1,
+      "rule_basis": {
+        "neighbor_disc_loads": [],
+        "quality_flag_used_as_penalty": true
+      }
+    }
+  }
+}

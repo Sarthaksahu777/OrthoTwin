@@ -1,0 +1,27 @@
+ORTHOTWIN STAGE 3 BIOMECHANICAL PROPAGATION REPORT
+========================================================
+
+System Behavior
+  The spine is represented as a connected graph. Each intervention starts at one node and propagates through graph edges.
+
+Propagation Behavior
+  Direct effects apply to the target. Secondary and tertiary effects are deterministic attenuated changes on graph neighbors.
+
+Intervention Effects
+  collapse: affected 5 structures; target disc_6_206_207.
+  restoration: affected 5 structures; target disc_6_206_207.
+  fusion: affected 9 structures; target vertebra_5__vertebra_6.
+  implant: affected 5 structures; target disc_6_206_207.
+
+Intervention Ranking
+  1. fusion - score 1.931
+  2. collapse - score 1.753
+  3. implant - score 1.744
+  4. restoration - score 1.480
+
+Limitations
+  This is not a physics simulator. Loads, stresses, and alignment shifts are deterministic propagation proxies.
+  No retraining, inference, segmentation modification, or measurement recomputation was performed.
+
+Future Physics Engine Requirements
+  Material properties, boundary conditions, calibrated forces, ligament/facet modeling, implant catalogs, contact mechanics, and validation data.

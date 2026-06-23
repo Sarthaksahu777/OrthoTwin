@@ -1,0 +1,78 @@
+{
+    "description": "Global spine orientation axes derived from PCA of vertebral centroids (voxel units).",
+    "methodology": "PCA performed on the (X, Y, Z) centroids of all identified vertebral bodies.",
+    "axes": {
+        "superior_inferior_axis": [
+            -0.0702179956149157,
+            0.9975045500057906,
+            -0.007355665134362812
+        ],
+        "anterior_posterior_axis": [
+            0.9974827804664207,
+            0.07028564988212317,
+            0.009382435378197659
+        ],
+        "left_right_axis": [
+            -0.00987601968417143,
+            0.006678333504160611,
+            0.9999289295228961
+        ]
+    },
+    "explained_variance_ratios": {
+        "superior_inferior_pc_ratio": 0.9934423999610522,
+        "anterior_posterior_pc_ratio": 0.00653861804639657,
+        "left_right_pc_ratio": 1.8981992551195642e-05
+    },
+    "vertebral_centroids_used": [
+        [
+            151.51749921457744,
+            172.78071002199184,
+            7.4507697141061895
+        ],
+        [
+            146.32658424416175,
+            142.9962372334707,
+            7.632085050468852
+        ],
+        [
+            147.69211889828196,
+            112.69331878920099,
+            7.8317425688573765
+        ],
+        [
+            150.94194697017866,
+            83.30425383099129,
+            8.599097094169263
+        ],
+        [
+            153.86433004746257,
+            55.52208835341366,
+            8.410806863818912
+        ],
+        [
+            157.58698952482163,
+            29.58903901624412,
+            8.757932290875967
+        ],
+        [
+            162.2248881659211,
+            7.520536803578691,
+            8.441371831367764
+        ],
+        [
+            161.66617357001974,
+            101.61648038571116,
+            8.393710278325663
+        ]
+    ],
+    "vertebra_names_used": [
+        "Vertebra 1",
+        "Vertebra 2",
+        "Vertebra 3",
+        "Vertebra 4",
+        "Vertebra 5",
+        "Vertebra 6",
+        "Vertebra 7",
+        "Vertebra 8 (100)"
+    ]
+}

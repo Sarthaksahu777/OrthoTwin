@@ -1,0 +1,107 @@
+{
+  "generated_utc": "2026-06-21T09:24:01.745265+00:00",
+  "source": "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\reconstructed_structures.pkl",
+  "total_structures": 14,
+  "vertebra_meshes": 8,
+  "disc_meshes": 6,
+  "structures": [
+    {
+      "id": "vertebra_1",
+      "name": "Vertebra 1",
+      "type": "vertebra",
+      "vertex_count": 7693,
+      "face_count": 14976
+    },
+    {
+      "id": "vertebra_2",
+      "name": "Vertebra 2",
+      "type": "vertebra",
+      "vertex_count": 7897,
+      "face_count": 15372
+    },
+    {
+      "id": "vertebra_3",
+      "name": "Vertebra 3",
+      "type": "vertebra",
+      "vertex_count": 8046,
+      "face_count": 15710
+    },
+    {
+      "id": "vertebra_4",
+      "name": "Vertebra 4",
+      "type": "vertebra",
+      "vertex_count": 7967,
+      "face_count": 15712
+    },
+    {
+      "id": "vertebra_5",
+      "name": "Vertebra 5",
+      "type": "vertebra",
+      "vertex_count": 7789,
+      "face_count": 15416
+    },
+    {
+      "id": "vertebra_6",
+      "name": "Vertebra 6",
+      "type": "vertebra",
+      "vertex_count": 7838,
+      "face_count": 15412
+    },
+    {
+      "id": "vertebra_7",
+      "name": "Vertebra 7",
+      "type": "vertebra",
+      "vertex_count": 4595,
+      "face_count": 8886
+    },
+    {
+      "id": "vertebra_8_100",
+      "name": "Vertebra 8 (100)",
+      "type": "vertebra",
+      "vertex_count": 10743,
+      "face_count": 21458
+    },
+    {
+      "id": "disc_1_201",
+      "name": "Disc 1 (201)",
+      "type": "disc",
+      "vertex_count": 2333,
+      "face_count": 4562
+    },
+    {
+      "id": "disc_2_202",
+      "name": "Disc 2 (202)",
+      "type": "disc",
+      "vertex_count": 2167,
+      "face_count": 4168
+    },
+    {
+      "id": "disc_3_203",
+      "name": "Disc 3 (203)",
+      "type": "disc",
+      "vertex_count": 1842,
+      "face_count": 3528
+    },
+    {
+      "id": "disc_4_204",
+      "name": "Disc 4 (204)",
+      "type": "disc",
+      "vertex_count": 1956,
+      "face_count": 3774
+    },
+    {
+      "id": "disc_5_205",
+      "name": "Disc 5 (205)",
+      "type": "disc",
+      "vertex_count": 1779,
+      "face_count": 3470
+    },
+    {
+      "id": "disc_6_206_207",
+      "name": "Disc 6 (206/207)",
+      "type": "disc",
+      "vertex_count": 2667,
+      "face_count": 5192
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "generated_utc": "2026-06-21T09:20:58.119307+00:00",
+  "rows": [
+    {
+      "metric": "segmentation masks",
+      "source_file": "archive/data outputs",
+      "classification": "Direct pipeline output",
+      "real_estimated_unknown": "REAL_DATA_ARTIFACT",
+      "evidence": "Mask artifacts exist.",
+      "limitations": "No independent clinical QC."
+    },
+    {
+      "metric": "reconstructed meshes",
+      "source_file": "reconstructed_structures.pkl",
+      "classification": "Geometry Derived",
+      "real_estimated_unknown": "REAL_DERIVED_GEOMETRY",
+      "evidence": "Vertices/faces exist.",
+      "limitations": "Voxel-space, segmentation-dependent."
+    },
+    {
+      "metric": "disc heights",
+      "source_file": "radiology_disc_heights.json",
+      "classification": "Geometry Derived",
+      "real_estimated_unknown": "ESTIMATED_GEOMETRY",
+      "evidence": "Mesh PCA/projection method.",
+      "limitations": "Voxel units, no validation."
+    },
+    {
+      "metric": "disc areas",
+      "source_file": "disc_area_measurements.json",
+      "classification": "Geometry Derived",
+      "real_estimated_unknown": "ESTIMATED_GEOMETRY",
+      "evidence": "Mesh projection/surface band.",
+      "limitations": "Proxy, not physical mm2."
+    },
+    {
+      "metric": "canal measurements",
+      "source_file": "canal_measurements.json",
+      "classification": "Estimated",
+      "real_estimated_unknown": "ESTIMATED",
+      "evidence": "Marked GEOMETRIC ESTIMATE.",
+      "limitations": "No canal segmentation."
+    },
+    {
+      "metric": "foraminal measurements",
+      "source_file": "foraminal_measurements.json",
+      "classification": "Estimated",
+      "real_estimated_unknown": "ESTIMATED",
+      "evidence": "Spacing proxy.",
+      "limitations": "No foraminal segmentation."
+    },
+    {
+      "metric": "slippage",
+      "source_file": "vertebral_slippage.json",
+      "classification": "Geometry Derived",
+      "real_estimated_unknown": "ESTIMATED_GEOMETRY",
+      "evidence": "Centroid projection.",
+      "limitations": "Not radiographic landmark standard."
+    },
+    {
+      "metric": "curvature",
+      "source_file": "curvature_measurements.json",
+      "classification": "Geometry Derived",
+      "real_estimated_unknown": "ESTIMATED_GEOMETRY",
+      "evidence": "Centroid centerline angles.",
+      "limitations": "No calibrated clinical standard."
+    },
+    {
+      "metric": "degeneration features",
+      "source_file": "disc_degeneration_features.json",
+      "classification": "Rule Derived",
+      "real_estimated_unknown": "ESTIMATED",
+      "evidence": "Internal relative score.",
+      "limitations": "Not diagnosis."
+    },
+    {
+      "metric": "load metrics",
+      "source_file": "load_path_model.json",
+      "classification": "Rule Derived",
+      "real_estimated_unknown": "UNKNOWN_PHYSICS",
+      "evidence": "Geometric load approximation.",
+      "limitations": "Explicitly not physics."
+    },
+    {
+      "metric": "scenario rankings",
+      "source_file": "scenario_ranking.json",
+      "classification": "Rule Derived",
+      "real_estimated_unknown": "ESTIMATED",
+      "evidence": "Internal scoring.",
+      "limitations": "No outcome data."
+    },
+    {
+      "metric": "longitudinal states",
+      "source_file": "state/longitudinal",
+      "classification": "Rule Derived",
+      "real_estimated_unknown": "UNKNOWN",
+      "evidence": "Assumed progression coefficients.",
+      "limitations": "No follow-up."
+    },
+    {
+      "metric": "Phase 7 surgical load",
+      "source_file": "state/surgery rebuilt states",
+      "classification": "Rule Derived",
+      "real_estimated_unknown": "UNKNOWN_PHYSICS",
+      "evidence": "Load proxy after geometry edits.",
+      "limitations": "No FEM."
+    }
+  ],
+  "summary": {
+    "Direct pipeline output": 1,
+    "Geometry Derived": 5,
+    "Estimated": 2,
+    "Rule Derived": 5
+  }
+}

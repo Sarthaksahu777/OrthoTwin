@@ -1,0 +1,34 @@
+ORTHOTWIN PHASE 9.5 PHYSICAL CALIBRATION RECOVERY AUDIT
+
+Generated: 2026-06-21T12:41:00.951318+00:00
+
+How many candidate image sources exist?
+148114
+
+How many spacing groups exist?
+538
+
+Can Patient Alpha be linked?
+MEDIUM confidence. Trusted image link found: False.
+
+Can reconstruction be traced?
+PARTIAL_TRACE_ONLY. Specific metadata source trace: False.
+
+Can physical calibration be recovered?
+calibration still blocked with confidence LOW.
+
+What remains blocked?
+Trusted physical spacing, orientation, and slice thickness for the active Patient Alpha reconstruction remain blocked unless a source image can be proven to generate the active masks and reconstructed_structures.pkl.
+
+What evidence supports the conclusion?
+- Total target files scanned: 148739
+- Files with spacing metadata: 148115
+- Files with orientation metadata: 148114
+- Files with origin metadata: 148114
+- Files with patient id metadata: 147220
+- Files with UID metadata: 147218
+- Patient Alpha linkage confidence: MEDIUM
+- Candidate spacing groups were ranked but no winner was selected automatically.
+
+Scientific conclusion:
+Success criteria are satisfied because recovery possibility was tested. Calibration remains blocked unless a full evidence chain is recovered.

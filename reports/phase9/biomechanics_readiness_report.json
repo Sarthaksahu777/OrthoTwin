@@ -1,0 +1,44 @@
+{
+  "generated_utc": "2026-06-21T09:20:58.127256+00:00",
+  "fem_built": false,
+  "fake_physics_created": false,
+  "material_properties_needed": [
+    "cortical bone",
+    "trabecular bone",
+    "endplates",
+    "annulus",
+    "nucleus",
+    "ligaments",
+    "implant/spacer materials"
+  ],
+  "boundary_conditions_needed": [
+    "load cases",
+    "muscle forces",
+    "constraints",
+    "contact conditions"
+  ],
+  "mesh_requirements": [
+    "watertight meshes",
+    "element quality",
+    "separate domains",
+    "physical units"
+  ],
+  "solver_requirements": [
+    "nonlinear contact",
+    "material models",
+    "verification",
+    "validation data"
+  ],
+  "current_assets_ready": [
+    "mesh structures",
+    "spine graph",
+    "state vectors"
+  ],
+  "current_blockers": [
+    "no trusted spacing",
+    "no materials",
+    "no boundaries",
+    "no FEM mesh domains"
+  ],
+  "readiness": "CONCEPTUAL_PRE_FEM"
+}

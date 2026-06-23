@@ -1,0 +1,68 @@
+{
+  "generated_utc": "2026-06-20T23:33:47.075012+00:00",
+  "vertebral_slippage": {
+    "vertebra_1__vertebra_2": {
+      "from": "vertebra_1",
+      "to": "vertebra_2",
+      "relative_anterior_posterior_displacement": -7.269568144766133,
+      "percent_of_average_vertebral_width": -9.502703457210632,
+      "not_diagnosis": true,
+      "method": "centroid_projection_on_global_anterior_posterior_axis",
+      "units": "voxel units / percent"
+    },
+    "vertebra_2__vertebra_3": {
+      "from": "vertebra_2",
+      "to": "vertebra_3",
+      "relative_anterior_posterior_displacement": -0.7658897388013426,
+      "percent_of_average_vertebral_width": -0.951415824597941,
+      "not_diagnosis": true,
+      "method": "centroid_projection_on_global_anterior_posterior_axis",
+      "units": "voxel units / percent"
+    },
+    "vertebra_3__vertebra_4": {
+      "from": "vertebra_3",
+      "to": "vertebra_4",
+      "relative_anterior_posterior_displacement": 1.1832176654235527,
+      "percent_of_average_vertebral_width": 1.4698356092218046,
+      "not_diagnosis": true,
+      "method": "centroid_projection_on_global_anterior_posterior_axis",
+      "units": "voxel units / percent"
+    },
+    "vertebra_4__vertebra_5": {
+      "from": "vertebra_4",
+      "to": "vertebra_5",
+      "relative_anterior_posterior_displacement": 0.9605726208743316,
+      "percent_of_average_vertebral_width": 1.231503360095297,
+      "not_diagnosis": true,
+      "method": "centroid_projection_on_global_anterior_posterior_axis",
+      "units": "voxel units / percent"
+    },
+    "vertebra_5__vertebra_6": {
+      "from": "vertebra_5",
+      "to": "vertebra_6",
+      "relative_anterior_posterior_displacement": 1.893824382005154,
+      "percent_of_average_vertebral_width": 2.57663181225191,
+      "not_diagnosis": true,
+      "method": "centroid_projection_on_global_anterior_posterior_axis",
+      "units": "voxel units / percent"
+    },
+    "vertebra_6__vertebra_7": {
+      "from": "vertebra_6",
+      "to": "vertebra_7",
+      "relative_anterior_posterior_displacement": 3.0721549040484413,
+      "percent_of_average_vertebral_width": 4.388792720069202,
+      "not_diagnosis": true,
+      "method": "centroid_projection_on_global_anterior_posterior_axis",
+      "units": "voxel units / percent"
+    },
+    "vertebra_7__vertebra_8_100": {
+      "from": "vertebra_7",
+      "to": "vertebra_8_100",
+      "relative_anterior_posterior_displacement": 6.05583917589347,
+      "percent_of_average_vertebral_width": 11.111631515400862,
+      "not_diagnosis": true,
+      "method": "centroid_projection_on_global_anterior_posterior_axis",
+      "units": "voxel units / percent"
+    }
+  }
+}

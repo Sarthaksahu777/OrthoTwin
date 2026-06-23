@@ -1,0 +1,14 @@
+{
+  "generated_utc": "2026-06-21T11:59:35.280873+00:00",
+  "markdown": "C:\\OrthoTwin\\OrthoTwin\\reports\\master_audit\\orthotwin_master_audit.md",
+  "pdf": "C:\\OrthoTwin\\OrthoTwin\\reports\\master_audit\\orthotwin_master_audit.pdf",
+  "assets_directory": "C:\\OrthoTwin\\OrthoTwin\\reports\\master_audit\\orthotwin_master_audit_assets",
+  "page_count": 42,
+  "figure_count": 20,
+  "table_count": 6,
+  "referenced_outputs": 20,
+  "final_classification": "Digital Twin Prototype",
+  "no_new_science": true,
+  "no_new_measurements": true,
+  "no_new_simulations": true
+}

@@ -1,0 +1,78 @@
+{
+  "generated_utc": "2026-06-21T05:29:22.761113+00:00",
+  "registry_scope": "Internal deterministic OrthoTwin rules. External clinical validation not claimed.",
+  "rules": [
+    {
+      "rule_id": "R001",
+      "rule_name": "disc_height_loss_over_time",
+      "source_type": "assumption",
+      "confidence": "LOW",
+      "assumption": "Disc height decreases as a configurable fraction per simulated year.",
+      "supporting_reference": "natural_progression_rules.json",
+      "not_clinically_validated": true
+    },
+    {
+      "rule_id": "R002",
+      "rule_name": "disc_volume_loss_over_time",
+      "source_type": "assumption",
+      "confidence": "LOW",
+      "assumption": "Disc projected area/volume proxies decrease as a configurable fraction per simulated year.",
+      "supporting_reference": "natural_progression_rules.json",
+      "not_clinically_validated": true
+    },
+    {
+      "rule_id": "R003",
+      "rule_name": "disc_height_loss_to_foraminal_area_reduction",
+      "source_type": "geometric_proxy",
+      "confidence": "LOW",
+      "assumption": "Foraminal area scales with disc-height factor using a configurable coupling coefficient.",
+      "supporting_reference": "natural_progression_rules.json",
+      "not_clinically_validated": true
+    },
+    {
+      "rule_id": "R004",
+      "rule_name": "height_loss_to_load_increase",
+      "source_type": "geometric_proxy",
+      "confidence": "LOW",
+      "assumption": "Reduced disc height increases relative load index through a deterministic coefficient.",
+      "supporting_reference": "natural_progression_rules.json",
+      "not_clinically_validated": true
+    },
+    {
+      "rule_id": "R005",
+      "rule_name": "load_to_stress_risk_update",
+      "source_type": "geometric_proxy",
+      "confidence": "LOW",
+      "assumption": "Stress and risk are bounded scalar approximations, not physical stress tensors.",
+      "supporting_reference": "natural_progression_rules.json",
+      "not_clinically_validated": true
+    },
+    {
+      "rule_id": "R006",
+      "rule_name": "curvature_progression",
+      "source_type": "assumption",
+      "confidence": "LOW",
+      "assumption": "Curvature changes by configurable fraction per simulated year.",
+      "supporting_reference": "natural_progression_rules.json",
+      "not_clinically_validated": true
+    },
+    {
+      "rule_id": "R007",
+      "rule_name": "alignment_progression",
+      "source_type": "assumption",
+      "confidence": "LOW",
+      "assumption": "Disc angle and tilt receive deterministic yearly offsets.",
+      "supporting_reference": "natural_progression_rules.json",
+      "not_clinically_validated": true
+    },
+    {
+      "rule_id": "R008",
+      "rule_name": "scenario_graph_propagation",
+      "source_type": "internal_prior_phase",
+      "confidence": "MEDIUM",
+      "assumption": "Phase 5 scenarios use deterministic graph propagation from Stage 3.",
+      "supporting_reference": "propagation_rules.json",
+      "not_clinically_validated": true
+    }
+  ]
+}

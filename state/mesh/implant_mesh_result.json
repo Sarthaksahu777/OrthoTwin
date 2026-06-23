@@ -1,0 +1,63 @@
+{
+  "scenario_id": "implant_mesh_v3",
+  "operation": "implant",
+  "mesh_operations": [
+    {
+      "structure_name": "Disc 6 (206/207)",
+      "operation": "expand_disc_height",
+      "parameters": {
+        "percent": 20.0,
+        "scale_factor": 1.2,
+        "axis": [
+          0.9998901343228668,
+          0.012618292966482312,
+          0.007778043867933383
+        ]
+      },
+      "vertices_moved": 2667,
+      "average_displacement": 0.7338502297016836,
+      "max_displacement": 1.5870214703987866
+    },
+    {
+      "structure_name": "Vertebra 6",
+      "operation": "translate_mesh",
+      "parameters": {
+        "translation": [
+          -1.4854493664571844,
+          -0.01874589482326052,
+          -0.011555159851359284
+        ]
+      },
+      "vertices_moved": 7838,
+      "average_displacement": 1.485612584289715,
+      "max_displacement": 1.4856125842897154
+    },
+    {
+      "structure_name": "Vertebra 7",
+      "operation": "translate_mesh",
+      "parameters": {
+        "translation": [
+          1.4854493664571844,
+          0.01874589482326052,
+          0.011555159851359284
+        ]
+      },
+      "vertices_moved": 4595,
+      "average_displacement": 1.485612584289715,
+      "max_displacement": 1.485612584289716
+    }
+  ],
+  "created_objects": [
+    {
+      "id": "implant_mesh_disc_6_206_207",
+      "type": "implant_proxy",
+      "geometry_changed": true
+    }
+  ],
+  "geometry_changed": true,
+  "relationship_changed": false,
+  "constraint_changed": false,
+  "not_medical_advice": true,
+  "biomechanics_claim": "none",
+  "clinical_validity_claim": "none"
+}

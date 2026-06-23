@@ -1,0 +1,65 @@
+{
+  "generated_utc": "2026-06-20T23:33:47.084021+00:00",
+  "moves": [
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\2306.12217v3.pdf",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\docs\\2306.12217v3.pdf"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\data .txt",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin2\\data .txt"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\final_spine_model.pth",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\models\\checkpoints\\final_spine_model_orthtwin2.pth"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\final_project_status.json",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\final_project_status.json"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_gt_mask_slice_8.png",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\visualization\\segmentation\\patient_alpha_gt_mask_slice_8.png"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_mesh_statistics.json",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\patient_alpha_mesh_statistics_orthtwin2.json"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_mri_slice_8.png",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\visualization\\segmentation\\patient_alpha_mri_slice_8.png"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_overlay_slice_8.png",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\visualization\\segmentation\\patient_alpha_overlay_slice_8.png"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_pred_mask_slice_8.png",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\visualization\\segmentation\\patient_alpha_pred_mask_slice_8.png"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_angled.png",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_angled.png"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_front.png",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_front.png"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\patient_alpha_reconstruction_matplotlib_side.png",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\visualization\\reconstruction\\patient_alpha_reconstruction_matplotlib_side.png"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\reconstructed_structures.pkl",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\measurements\\geometry\\reconstructed_structures_orthtwin2.pkl"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\OrthoTwin_Showcase\\session_summary.txt",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\archive\\OrthoTwin2\\session_summary.txt"
+    },
+    {
+      "source": "C:\\OrthoTwin\\OrthoTwin2\\segresnet_256_best.pth",
+      "destination": "C:\\OrthoTwin\\OrthoTwin\\models\\checkpoints\\segresnet_256_best_orthtwin2.pth"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+ORTHOTWIN STATE CHANGE REPORT
+===============================
+Patient: patient_alpha
+
+Before
+  Interventions: 0
+After
+  Interventions: 1
+
+Predicted Changes
+  Disc 6 (206/207)
+    height: 15.0 -> 18.0 (20.00%)
+    severity_score: 1.0 -> 0.9 (-10.00%)
+    volume: 2504.0 -> 3004.7999999999997 (20.00%)
