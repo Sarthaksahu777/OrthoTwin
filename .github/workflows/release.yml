@@ -1,0 +1,39 @@
+name: Release Showcase Package
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build showcase package
+        run: |
+          mkdir -p dist/orthotwin-showcase
+          cp -r showcase dist/orthotwin-showcase/
+          cp README.md ORTHOTWIN_V1_RELEASE_NOTES.md ORTHOTWIN_V1_EXECUTIVE_SUMMARY.md dist/orthotwin-showcase/
+          cp -r docs/site dist/orthotwin-showcase/website
+          cd dist && zip -r orthotwin-showcase.zip orthotwin-showcase
+
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/orthotwin-showcase.zip
+          generate_release_notes: true
+
+      - name: Upload workflow artifact
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
+        with:
+          name: orthotwin-showcase
+          path: dist/orthotwin-showcase.zip

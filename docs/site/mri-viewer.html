@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OrthoTwin MRI Browser Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="subhero">
+    <nav class="nav">
+      <span class="logo">OrthoTwin</span>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="mri-viewer.html" class="active">MRI Browser</a>
+        <a href="https://github.com/Sarthaksahu777/OrthoTwin">GitHub</a>
+      </div>
+    </nav>
+    <div class="hero-content compact">
+      <p class="eyebrow">Phase 1 Prototype</p>
+      <h1>MRI Browser Demo</h1>
+      <p class="lead">
+        Early-phase browser viewer for lumbar spine MRI. This static demo uses curated
+        slice exports. The full Streamlit app loads DICOM volumes locally.
+      </p>
+    </div>
+  </header>
+
+  <main class="viewer-layout">
+    <aside class="sidebar">
+      <h2>View Mode</h2>
+      <label class="control">
+        <span>Display layer</span>
+        <select id="layerSelect">
+          <option value="mri">MRI slice</option>
+          <option value="overlay">MRI + segmentation overlay</option>
+          <option value="gt">Ground-truth mask</option>
+          <option value="pred">Predicted mask</option>
+          <option value="pipeline">Segmentation pipeline</option>
+        </select>
+      </label>
+
+      <h2>About</h2>
+      <p class="note">
+        The original Phase 1 app was built with Streamlit and pydicom. It browses RSNA
+        2024 lumbar spine DICOM series, shows degeneration labels, similar cases, and
+        supports L4–L5 annotation on sagittal series.
+      </p>
+      <p class="note">
+        Full DICOM volumes are not included in the public GitHub repository. To run the
+        interactive viewer locally, see
+        <a href="https://github.com/Sarthaksahu777/OrthoTwin/blob/main/docs/README.md">docs/README.md</a>.
+      </p>
+    </aside>
+
+    <section class="viewer-panel">
+      <div class="viewer-frame">
+        <img id="viewerImage" src="assets/mri/patient_alpha_mri_slice_8.png" alt="MRI slice viewer">
+      </div>
+      <p id="viewerCaption" class="caption">Patient Alpha · sagittal MRI slice 8</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Educational demo only · Not for diagnosis or clinical use</p>
+  </footer>
+
+  <script>
+    const layers = {
+      mri: {
+        src: "assets/mri/patient_alpha_mri_slice_8.png",
+        caption: "Patient Alpha · sagittal MRI slice 8"
+      },
+      overlay: {
+        src: "assets/mri/patient_alpha_overlay_slice_8.png",
+        caption: "Patient Alpha · MRI with segmentation overlay"
+      },
+      gt: {
+        src: "assets/mri/patient_alpha_gt_mask_slice_8.png",
+        caption: "Patient Alpha · ground-truth segmentation mask"
+      },
+      pred: {
+        src: "assets/mri/patient_alpha_pred_mask_slice_8.png",
+        caption: "Patient Alpha · predicted segmentation mask"
+      },
+      pipeline: {
+        src: "assets/showcase/segmentation_pipeline.png",
+        caption: "Segmentation pipeline overview"
+      }
+    };
+
+    const select = document.getElementById("layerSelect");
+    const image = document.getElementById("viewerImage");
+    const caption = document.getElementById("viewerCaption");
+
+    select.addEventListener("change", () => {
+      const layer = layers[select.value];
+      image.src = layer.src;
+      caption.textContent = layer.caption;
+    });
+  </script>
+</body>
+</html>

@@ -35,6 +35,52 @@ It is not a medical device, not a diagnostic system, and not a treatment recomme
 
 ---
 
+## Live Website and Release Package
+
+| Resource | URL / Location |
+|---|---|
+| GitHub Pages site | https://sarthaksahu777.github.io/OrthoTwin/ |
+| MRI browser demo (static) | https://sarthaksahu777.github.io/OrthoTwin/mri-viewer.html |
+| Deployment guide | [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) |
+| Showcase release zip | Created automatically when you push a tag like `v1.0.1` |
+
+After pushing to `main`, enable **GitHub Actions** as the Pages source in repository settings (see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for the exact steps you must complete).
+
+---
+
+## Phase 1 — MRI Browser (Starting Prototype)
+
+Before the digital-twin pipeline, OrthoTwin began as a **browser-based MRI viewer** for lumbar spine DICOM studies from the RSNA 2024 Lumbar Spine Degenerative Classification dataset.
+
+The Phase 1 app provides:
+
+- DICOM volume loading and slice browsing in the browser
+- Study and series selection from folder structure
+- Degeneration label dashboard from `train.csv`
+- Similar-case lookup across labeled studies
+- L4–L5 rectangle annotation on sagittal series
+
+![Segmentation Pipeline](showcase/segmentation/segmentation_pipeline.png)
+
+**Static demo:** the GitHub Pages site includes an MRI browser demo using exported slice images.
+
+**Full interactive viewer:** run locally with Streamlit after restoring `app.py` and obtaining DICOM data.
+
+```powershell
+pip install -r requirements-streamlit.txt
+streamlit run app.py
+```
+
+Documentation: [docs/README.md](docs/README.md)
+
+Notes:
+
+- The public GitHub repository includes CSV metadata under `data/raw/` but not the large DICOM image archive.
+- `app.py` is archived locally outside the public repo; copy it from your internal archive before running the full viewer.
+- This prototype is educational only and is separate from the V1 digital-twin showcase workflows.
+
+---
+
 ## Overview
 
 Most medical imaging projects stop at segmentation. OrthoTwin explores the next question:
@@ -243,18 +289,25 @@ OrthoTwin/
 ## Installation
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Sarthaksahu777/OrthoTwin.git
 cd OrthoTwin
 python -m venv .venv
 .venv\Scripts\activate
-pip install -r OrthoTwin/requirements.txt
+pip install -r requirements.txt
+```
+
+For the Phase 1 MRI browser:
+
+```bash
+pip install -r requirements-streamlit.txt
+streamlit run app.py
 ```
 
 Lightweight checks:
 
 ```bash
-python -m compileall -q OrthoTwin
-python OrthoTwin/tools/github_inclusion_audit.py
+python -m compileall -q .
+python tools/github_inclusion_audit.py
 ```
 
 The public showcase does not require the archived 33 GB raw DICOM dataset.
@@ -264,9 +317,9 @@ The public showcase does not require the archived 33 GB raw DICOM dataset.
 ## Example Workflow
 
 ```bash
-python OrthoTwin/tools/generate_showcase_edition.py
-python OrthoTwin/tools/generate_simulation_visualization_suite.py
-python OrthoTwin/tools/generate_master_technical_audit.py
+python tools/generate_showcase_edition.py
+python tools/generate_simulation_visualization_suite.py
+python tools/generate_master_technical_audit.py
 ```
 
 These commands regenerate showcase and audit layers from existing outputs. They do not train models, rerun segmentation, or create new scientific measurements.

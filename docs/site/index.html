@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OrthoTwin — Spine Digital Twin Prototype</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <span class="logo">OrthoTwin</span>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="mri-viewer.html">MRI Browser</a>
+        <a href="https://github.com/Sarthaksahu777/OrthoTwin">GitHub</a>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <p class="eyebrow">Research Prototype · V1.0</p>
+      <h1>Patient-Specific Spine Digital Twin</h1>
+      <p class="lead">
+        MRI → Segmentation → Reconstruction → State → Simulation
+      </p>
+      <div class="hero-actions">
+        <a class="btn primary" href="mri-viewer.html">Open MRI Browser Demo</a>
+        <a class="btn secondary" href="https://github.com/Sarthaksahu777/OrthoTwin">View Repository</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Project Phases</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Phase 1 — MRI Browser</h3>
+          <p>
+            Streamlit DICOM viewer for RSNA lumbar spine MRI studies with study/series
+            selection, slice browsing, degeneration labels, and L4–L5 annotation tools.
+          </p>
+          <a href="mri-viewer.html">Try the browser demo →</a>
+        </article>
+        <article class="card">
+          <h3>Phase 2–8 — Digital Twin</h3>
+          <p>
+            Reconstruction, measurements, patient state vectors, spine graph modeling,
+            intervention simulation, and mesh-level transformation outputs.
+          </p>
+          <img src="assets/showcase/digital_twin_story.png" alt="Digital twin workflow">
+        </article>
+        <article class="card">
+          <h3>V1 Showcase</h3>
+          <p>
+            Curated dashboards, architecture diagrams, and audit reports for open-source
+            presentation and research communication.
+          </p>
+          <img src="assets/showcase/patient_alpha_showcase.png" alt="Patient Alpha showcase">
+        </article>
+      </div>
+    </section>
+
+    <section class="panel muted">
+      <h2>Scientific Limitations</h2>
+      <ul class="limitations">
+        <li>Not a medical device and not for clinical use.</li>
+        <li>No diagnosis, treatment recommendation, or outcome prediction.</li>
+        <li>Physical calibration remains blocked for Patient Alpha.</li>
+        <li>Educational and research prototype only.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>OrthoTwin · MIT License · Research prototype only</p>
+  </footer>
+</body>
+</html>
